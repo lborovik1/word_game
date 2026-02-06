@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Learning Game</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: Georgia, serif;
+            background: #f0f0f0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        .container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+            padding: 15px;
+            max-width: 400px;
+            width: 100%;
+        }
+        header { text-align: center; margin-bottom: 15px; }
+        h1 { color: #333; font-size: 1.3em; margin-bottom: 8px; }
+        .restart-btn {
+            background: #2c3e50;
+            color: white;
+            border: none;
+            padding: 6px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.85em;
+        }
+        .file-selector {
+            text-align: center;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+        .file-selector h2 { margin-bottom: 12px; font-size: 1.1em; }
+        .file-select {
+            width: 100%;
+            padding: 10px;
+            font-size: 0.95em;
+            border: 2px solid #3498db;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .start-btn {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 30px;
+            border-radius: 8px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            background: #f8f9fa;
+            padding: 8px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .stat-item { text-align: center; }
+        .stat-label { font-size: 0.7em; color: #666; }
+        .stat-value { font-size: 1.1em; font-weight: bold; color: #3498db; }
+        .message {
+            text-align: center;
+            font-size: 1em;
+            font-weight: bold;
+            padding: 6px;
+            border-radius: 6px;
+            margin-bottom: 8px;
+            opacity: 0;
+            transition: opacity 0.3s;
+            min-height: 28px;
+        }
+        .message.show { opacity: 1; }
+        .message.success { background: #d4edda; color: #155724; }
+        .message.error { background: #f8d7da; color: #721c24; }
+        .game-board { display: flex; gap: 8px; }
+        .column { flex: 1; display: flex; flex-direction: column; gap: 6px; }
+        .word-btn {
+            padding: 10px 6px;
+            border-radius: 8px;
+            font-size: 0.8em;
+            cursor: pointer;
+            border: none;
+            color: white;
+            text-align: center;
+            line-height: 1.2;
+            min-height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        /* Word button row with speaker icon */
+        .word-btn-row {
+            display: flex;
+            align-items: stretch;
+            gap: 6px;
+        }
+        .word-btn-row .word-btn {
+            flex: 1;
+            min-width: 0;
+        }
+        .speak-btn {
+            background: rgba(0, 0, 0, 0.15);
+            border: none;
+            color: white;
+            font-size: 1.1em;
+            cursor: pointer;
+            padding: 0 10px;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+        .speak-btn:hover {
+            background: rgba(0, 0, 0, 0.25);
+            transform: scale(1.1);
+        }
+        .speak-btn.speaking {
+            animation: pulse-speak 0.8s ease-in-out infinite;
+        }
+        @keyframes pulse-speak {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+        }
+        .key-btn { background: #3498db; }
+        .value-btn { background: #2c3e50; }
+        .word-btn.selected {
+            border: 2px solid #ffd700;
+            box-shadow: 0 0 10px rgba(255,215,0,0.5);
+        }
+        .game-over { text-align: center; padding: 20px; }
+        .game-over h2 { color: #3498db; margin-bottom: 10px; font-size: 1.3em; }
+        .game-over p { margin-bottom: 15px; }
+        .play-again-btn {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 30px;
+            border-radius: 8px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        .hidden { display: none; }
+    </style>
+</head>
+<body>
+    <!-- Load games registry - contains list of available JSON files -->
+    <script src="games/games-registry.js"></script>
+
+    <div class="container">
+        <header>
+            <h1>Word Learning Game</h1>
+            <button id="restartBtn" class="restart-btn">🔄 Restart</button>
+        </header>
+
+        <div id="fileSelector" class="file-selector">
+            <h2>Select a Word Set</h2>
+            <select id="gameFileSelect" class="file-select">
+                <option value="">-- Choose a game --</option>
+            </select>
+            <button id="startGameBtn" class="start-btn">Start Game</button>
+        </div>
+
+        <div id="gameContainer" class="hidden">
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-label">Level</div>
+                    <div id="level" class="stat-value">1</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-label">Correct</div>
+                    <div id="correct" class="stat-value">0</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-label">Wrong</div>
+                    <div id="incorrect" class="stat-value">0</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-label">Accuracy</div>
+                    <div id="accuracy" class="stat-value">0%</div>
+                </div>
+            </div>
+
+            <div id="message" class="message"></div>
+
+            <div class="game-board">
+                <div id="keysColumn" class="column"></div>
+                <div id="valuesColumn" class="column"></div>
+            </div>
+
+            <div id="gameOver" class="game-over hidden">
+                <h2>🎉 Congratulations!</h2>
+                <p>You've completed all words!</p>
+                <button id="playAgainBtn" class="play-again-btn">Play Again</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Text-to-Speech using Web Speech API
+        function speak(text, lang) {
+            speechSynthesis.cancel(); // Stop any current speech
+            const utterance = new SpeechSynthesisUtterance(text);
+            utterance.lang = lang || 'en-US';
+            utterance.rate = 0.9; // Slightly slower for learning
+
+            // Find the speak button that triggered this and animate it
+            const speakBtns = document.querySelectorAll('.speak-btn');
+            utterance.onstart = () => {
+                speakBtns.forEach(btn => {
+                    if (btn.dataset.text === text) btn.classList.add('speaking');
+                });
+            };
+            utterance.onend = () => {
+                speakBtns.forEach(btn => btn.classList.remove('speaking'));
+            };
+            utterance.onerror = () => {
+                speakBtns.forEach(btn => btn.classList.remove('speaking'));
+            };
+
+            speechSynthesis.speak(utterance);
+        }
+
+        class WordGame {
+            constructor() {
+                this.allWords = {};
+                this.newPool = [];
+                this.correctPool = [];
+                this.incorrectPool = [];
+                this.currentPairs = [];
+                this.selectedKey = null;
+                this.selectedValue = null;
+                this.level = 1;
+                this.correctCount = 0;
+                this.incorrectCount = 0;
+                this.init();
+            }
+
+            init() {
+                document.getElementById('startGameBtn').addEventListener('click', () => this.startGame());
+                document.getElementById('restartBtn').addEventListener('click', () => this.restart());
+                document.getElementById('playAgainBtn').addEventListener('click', () => this.restart());
+                
+                // Populate dropdown from GAMES_LIST
+                this.populateDropdown();
+            }
+
+            populateDropdown() {
+                const select = document.getElementById('gameFileSelect');
+                select.innerHTML = '<option value="">-- Choose a game --</option>';
+                
+                // Sort games alphabetically by name
+                const sortedGames = [...GAMES_LIST].sort((a, b) => 
+                    a.name.localeCompare(b.name)
+                );
+                
+                sortedGames.forEach(game => {
+                    const option = document.createElement('option');
+                    option.value = game.file;
+                    option.textContent = game.name;
+                    select.appendChild(option);
+                });
+            }
+
+            async startGame() {
+                const selectedFile = document.getElementById('gameFileSelect').value;
+                if (!selectedFile) {
+                    alert('Please select a word set first!');
+                    return;
+                }
+
+                try {
+                    const response = await fetch(`games/${selectedFile}`);
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    this.allWords = await response.json();
+                } catch (error) {
+                    alert('Failed to load the word set. Make sure you are running this through a web server (use start-game.bat on Windows).');
+                    console.error('Error loading word set:', error);
+                    return;
+                }
+
+                this.newPool = Object.keys(this.allWords);
+                document.getElementById('fileSelector').classList.add('hidden');
+                document.getElementById('gameContainer').classList.remove('hidden');
+                this.startNewLevel();
+            }
+
+            selectKeysForLevel() {
+                const selected = [];
+                const numToSelect = 4;
+
+                if (this.incorrectPool.length > 0) {
+                    const idx = Math.floor(Math.random() * this.incorrectPool.length);
+                    selected.push(this.incorrectPool[idx]);
+                }
+
+                const remaining = numToSelect - selected.length;
+                for (let i = 0; i < remaining && this.newPool.length > 0; i++) {
+                    const idx = Math.floor(Math.random() * this.newPool.length);
+                    selected.push(this.newPool.splice(idx, 1)[0]);
+                }
+
+                while (selected.length < numToSelect && this.incorrectPool.length > 0) {
+                    const idx = Math.floor(Math.random() * this.incorrectPool.length);
+                    const word = this.incorrectPool[idx];
+                    if (!selected.includes(word)) selected.push(word);
+                }
+
+                return selected;
+            }
+
+            startNewLevel() {
+                if (this.newPool.length === 0 && this.incorrectPool.length === 0) {
+                    this.showGameOver();
+                    return;
+                }
+
+                const selectedKeys = this.selectKeysForLevel();
+                if (selectedKeys.length === 0) {
+                    this.showGameOver();
+                    return;
+                }
+
+                this.currentPairs = selectedKeys.map(key => ({
+                    key: key,
+                    value: this.allWords[key],
+                    matched: false
+                }));
+
+                this.renderBoard();
+                this.updateStats();
+            }
+
+            renderBoard() {
+                const keysCol = document.getElementById('keysColumn');
+                const valsCol = document.getElementById('valuesColumn');
+                keysCol.innerHTML = '';
+                valsCol.innerHTML = '';
+
+                const unmatched = this.currentPairs.filter(p => !p.matched);
+
+                if (unmatched.length === 0) {
+                    this.level++;
+                    setTimeout(() => this.startNewLevel(), 500);
+                    return;
+                }
+
+                const shuffledVals = [...unmatched].sort(() => Math.random() - 0.5);
+
+                unmatched.forEach(pair => {
+                    const row = document.createElement('div');
+                    row.className = 'word-btn-row';
+
+                    const speakBtn = document.createElement('button');
+                    speakBtn.className = 'speak-btn key-btn';
+                    speakBtn.textContent = '🔊';
+                    speakBtn.dataset.text = pair.key;
+                    speakBtn.title = 'Listen';
+                    speakBtn.addEventListener('click', (e) => {
+                        e.stopPropagation();
+                        speak(pair.key, 'en-US');
+                    });
+
+                    const btn = document.createElement('button');
+                    btn.className = 'word-btn key-btn';
+                    btn.textContent = pair.key;
+                    btn.addEventListener('click', () => this.selectKey(pair.key, btn));
+
+                    row.appendChild(speakBtn);
+                    row.appendChild(btn);
+                    keysCol.appendChild(row);
+                });
+
+                shuffledVals.forEach(pair => {
+                    const row = document.createElement('div');
+                    row.className = 'word-btn-row';
+
+                    const speakBtn = document.createElement('button');
+                    speakBtn.className = 'speak-btn value-btn';
+                    speakBtn.textContent = '🔊';
+                    speakBtn.dataset.text = pair.value;
+                    speakBtn.title = 'Listen';
+                    speakBtn.addEventListener('click', (e) => {
+                        e.stopPropagation();
+                        speak(pair.value, 'ru-RU');
+                    });
+
+                    const btn = document.createElement('button');
+                    btn.className = 'word-btn value-btn';
+                    btn.textContent = pair.value;
+                    btn.addEventListener('click', () => this.selectValue(pair.key, btn));
+
+                    row.appendChild(speakBtn);
+                    row.appendChild(btn);
+                    valsCol.appendChild(row);
+                });
+            }
+
+            selectKey(key, btn) {
+                document.querySelectorAll('.word-btn.key-btn').forEach(b => b.classList.remove('selected'));
+                this.selectedKey = key;
+                btn.classList.add('selected');
+                if (this.selectedValue !== null) this.checkMatch();
+            }
+
+            selectValue(key, btn) {
+                document.querySelectorAll('.word-btn.value-btn').forEach(b => b.classList.remove('selected'));
+                this.selectedValue = key;
+                btn.classList.add('selected');
+                if (this.selectedKey !== null) this.checkMatch();
+            }
+
+            checkMatch() {
+                if (this.selectedKey === this.selectedValue) {
+                    this.correctCount++;
+                    this.handleCorrectMatch();
+                } else {
+                    this.incorrectCount++;
+                    this.handleIncorrectMatch();
+                }
+            }
+
+            handleCorrectMatch() {
+                this.showMessage('🎉 Correct!', 'success');
+
+                const pair = this.currentPairs.find(p => p.key === this.selectedKey);
+                if (pair) pair.matched = true;
+
+                const idx = this.incorrectPool.indexOf(this.selectedKey);
+                if (idx > -1) this.incorrectPool.splice(idx, 1);
+                if (!this.correctPool.includes(this.selectedKey)) this.correctPool.push(this.selectedKey);
+
+                this.selectedKey = null;
+                this.selectedValue = null;
+
+                setTimeout(() => {
+                    this.renderBoard();
+                    this.updateStats();
+                }, 600);
+            }
+
+            handleIncorrectMatch() {
+                this.showMessage('❌ Try again!', 'error');
+
+                if (!this.incorrectPool.includes(this.selectedKey)) {
+                    this.incorrectPool.push(this.selectedKey);
+                }
+
+                setTimeout(() => {
+                    document.querySelectorAll('.word-btn').forEach(btn => btn.classList.remove('selected'));
+                    this.selectedKey = null;
+                    this.selectedValue = null;
+                }, 800);
+
+                this.updateStats();
+            }
+
+            showMessage(text, type) {
+                const msg = document.getElementById('message');
+                msg.textContent = text;
+                msg.className = `message ${type} show`;
+                setTimeout(() => msg.classList.remove('show'), 1000);
+            }
+
+            updateStats() {
+                document.getElementById('level').textContent = this.level;
+                document.getElementById('correct').textContent = this.correctCount;
+                document.getElementById('incorrect').textContent = this.incorrectCount;
+                const total = this.correctCount + this.incorrectCount;
+                const accuracy = total > 0 ? Math.round((this.correctCount / total) * 100) : 0;
+                document.getElementById('accuracy').textContent = accuracy + '%';
+            }
+
+            showGameOver() {
+                document.getElementById('gameOver').classList.remove('hidden');
+                document.querySelector('.game-board').style.display = 'none';
+            }
+
+            restart() {
+                this.newPool = [];
+                this.correctPool = [];
+                this.incorrectPool = [];
+                this.currentPairs = [];
+                this.selectedKey = null;
+                this.selectedValue = null;
+                this.level = 1;
+                this.correctCount = 0;
+                this.incorrectCount = 0;
+                this.allWords = {};
+
+                document.getElementById('gameOver').classList.add('hidden');
+                document.querySelector('.game-board').style.display = 'flex';
+                document.getElementById('gameFileSelect').value = '';
+                document.getElementById('fileSelector').classList.remove('hidden');
+                document.getElementById('gameContainer').classList.add('hidden');
+            }
+        }
+
+        window.addEventListener('DOMContentLoaded', () => new WordGame());
+    </script>
+</body>
+</html>

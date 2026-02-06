@@ -1,0 +1,17 @@
+#!/bin/bash
+echo "Starting Word Learning Game..."
+echo ""
+echo "The game will open in your browser at http://localhost:8000"
+echo ""
+echo "To stop the server, press Ctrl+C"
+echo ""
+
+# Open browser (works on Mac and Linux)
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    open http://localhost:8000
+else
+    xdg-open http://localhost:8000 2>/dev/null || sensible-browser http://localhost:8000 2>/dev/null &
+fi
+
+# Start Python HTTP server
+python3 -m http.server 8000 2>/dev/null || python -m http.server 8000
