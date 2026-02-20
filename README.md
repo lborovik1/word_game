@@ -1,17 +1,55 @@
-# Word Learning Game
+# Word Learning Game & English Level Test
 
-A simple word matching game for learning vocabulary, terms, and translations.
+A web app for learning vocabulary and testing your
+English proficiency level (CEFR A1–C2).
 
-## How to Play
+## Features
 
-1. **Start the game:**
+### 🎮 Word Matching Game
+Match words with their translations to build
+your vocabulary. Supports multiple word sets.
+
+### 📝 English Level Test (CEFR)
+A 20-question multiple-choice test that evaluates
+your English across three categories:
+- **Vocabulary** — word meanings and definitions
+- **Grammar** — sentence structure and verb forms
+- **Reading** — comprehension of short passages
+
+The test covers all 6 CEFR levels:
+- A1 (Beginner) — 600-1,000 words
+- A2 (Elementary) — 1,000-2,000 words
+- B1 (Intermediate) — 2,500-3,000 words
+- B2 (Upper Intermediate) — 3,000-5,000 words
+- C1 (Advanced) — 5,000-9,000 words
+- C2 (Mastery) — 8,000-16,000+ words
+
+**Randomized questions:** Each of the 20 question
+slots has 10 variants (200 total questions), so
+every test attempt is different — perfect for
+weekly retesting.
+
+**Detailed results include:**
+- Your CEFR level with visual scale
+- Within-level progress percentage (e.g. "70%
+  through B1 → B2")
+- Motivational feedback message
+- Score breakdown by Vocabulary, Grammar, Reading
+
+## How to Use
+
+1. **Start the app:**
    - **Windows:** Double-click `start-game.bat`
-   - **Mac/Linux:** Run `./start-game.sh` in terminal
+   - **Mac/Linux:** Run `./start-game.sh`
 
-2. Select a word set from the dropdown menu
-3. Click "Start Game"
-4. Match words on the left with their definitions/translations on the right
-5. Click a word on each side to make a match
+2. Choose "Word Matching Game" or "English Level
+   Test" from the landing page
+
+3. For the **game**: select a word set and match
+   words with translations
+
+4. For the **test**: answer 20 questions and get
+   your CEFR level result
 
 ## Requirements
 
@@ -20,53 +58,73 @@ A simple word matching game for learning vocabulary, terms, and translations.
 
 ### Installing Python on Windows
 
-1. Download Python from https://www.python.org/downloads/
-2. **Important:** Check "Add Python to PATH" during installation
+1. Download from https://www.python.org/downloads/
+2. Check "Add Python to PATH" during installation
 3. Restart your computer after installation
 
 ## Adding New Word Sets
 
-1. Create a new JSON file in the `games/` folder with this format:
+1. Create a JSON file in `games/` folder:
    ```json
    {
        "word1": "definition1",
-       "word2": "definition2",
-       "word3": "definition3"
+       "word2": "definition2"
    }
    ```
 
-2. Edit `games/games-registry.js` and add your new game to the list:
+2. Edit `games/games-registry.js` and add it:
    ```javascript
    var GAMES_LIST = [
-       { file: "ai-terms.json", name: "AI Terms" },
-       { file: "your-new-file.json", name: "Your Game Name" }
+       { file: "your-file.json", name: "Name" }
    ];
    ```
 
-3. Restart the game
+3. Restart the app
 
 ## File Structure
 
 ```
 word-game/
-├── index.html          # Main game file
-├── start-game.bat      # Windows launcher
-├── start-game.sh       # Mac/Linux launcher
-├── README.md           # This file
-└── games/
-    ├── games-registry.js       # List of available games
-    ├── ai-terms.json           # AI terminology
-    ├── statistics-terms.json   # Statistics terminology
-    └── English-Russian-200.json # English-Russian vocabulary
+├── index.html
+├── start-game.bat
+├── start-game.sh
+├── README.md
+├── website-project-description.md
+├── games/
+│   ├── games-registry.js
+│   └── English-Russian-200.json
+└── mytests/
+    ├── english-level-test.json
+    ├── tests-registry.js
+    ├── pool-A1-A2.json
+    ├── pool-B1.json
+    ├── pool-B2.json
+    ├── pool-C1.json
+    └── pool-C2.json
 ```
+
+### Test Data Files
+
+- `english-level-test.json` — test metadata,
+  level descriptions, and pool file references
+- `pool-A1-A2.json` — A1 & A2 questions
+  (slots 1-5, 10 variants each)
+- `pool-B1.json` — B1 questions
+  (slots 6-9, 10 variants each)
+- `pool-B2.json` — B2 questions
+  (slots 10-13, 10 variants each)
+- `pool-C1.json` — C1 questions
+  (slots 14-17, 10 variants each)
+- `pool-C2.json` — C2 questions
+  (slots 18-20, 10 variants each)
 
 ## Troubleshooting
 
-**"Failed to load the word set" error:**
-- Make sure you started the game using `start-game.bat` (Windows) or `./start-game.sh` (Mac/Linux)
-- Don't open `index.html` directly in the browser
+**"Failed to load" error:**
+- Start using `start-game.bat` or `start-game.sh`
+- Don't open `index.html` directly in browser
 
 **Python not found:**
-- Install Python from https://www.python.org/downloads/
-- Make sure "Add Python to PATH" was checked during installation
-- Restart your computer after installing Python
+- Install from https://www.python.org/downloads/
+- Check "Add Python to PATH" during installation
+- Restart your computer after installing

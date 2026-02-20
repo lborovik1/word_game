@@ -1,0 +1,64 @@
+{
+  "slots": [
+    {
+      "slot": 14, "level": "C1", "type": "vocabulary",
+      "variants": [
+        {"question": "\"The politician's speech was deliberately ___, avoiding any concrete commitments.\"", "options": ["eloquent","vague","persuasive","concise"], "correct": 1},
+        {"question": "\"The new policy had a ___ effect on employee morale, boosting productivity significantly.\"", "options": ["detrimental","beneficial","negligible","ambiguous"], "correct": 1},
+        {"question": "\"Her ___ knowledge of the subject impressed the entire panel.\"", "options": ["superficial","thorough","limited","vague"], "correct": 1},
+        {"question": "\"The evidence was ___, leaving no room for doubt about the verdict.\"", "options": ["ambiguous","compelling","irrelevant","trivial"], "correct": 1},
+        {"question": "\"The company's ___ approach to innovation kept them ahead of competitors.\"", "options": ["conservative","proactive","passive","indifferent"], "correct": 1},
+        {"question": "\"The report contained several ___ claims that could not be verified.\"", "options": ["accurate","dubious","transparent","obvious"], "correct": 1},
+        {"question": "\"His ___ remarks during the meeting offended several colleagues.\"", "options": ["polite","disparaging","thoughtful","neutral"], "correct": 1},
+        {"question": "\"The merger was ___ by regulatory authorities due to antitrust concerns.\"", "options": ["approved","thwarted","celebrated","ignored"], "correct": 1},
+        {"question": "\"She showed remarkable ___ in handling the crisis under pressure.\"", "options": ["incompetence","composure","indifference","confusion"], "correct": 1},
+        {"question": "\"The artist's work is known for its ___ use of color and light.\"", "options": ["mundane","evocative","careless","predictable"], "correct": 1}
+      ]
+    },
+    {
+      "slot": 15, "level": "C1", "type": "grammar",
+      "variants": [
+        {"question": "Not until the results were published ___ the extent of the problem.", "options": ["did they realize","they realized","they did realize","realized they"], "correct": 0},
+        {"question": "Hardly ___ the door when the phone rang.", "options": ["had I opened","I had opened","I opened","did I open"], "correct": 0},
+        {"question": "Only after reading the report ___ the seriousness of the situation.", "options": ["did she understand","she understood","she did understand","understood she"], "correct": 0},
+        {"question": "Never before ___ such a magnificent performance.", "options": ["had they seen","they had seen","they saw","did they saw"], "correct": 0},
+        {"question": "Seldom ___ such dedication in a young employee.", "options": ["do we see","we see","we do see","see we"], "correct": 0},
+        {"question": "No sooner ___ than it started to rain.", "options": ["had we left","we had left","we left","did we leave"], "correct": 0},
+        {"question": "Little ___ that the decision would change his life.", "options": ["did he know","he knew","he did know","knew he"], "correct": 0},
+        {"question": "Under no circumstances ___ leave the building during the drill.", "options": ["should you","you should","you do","do you"], "correct": 0},
+        {"question": "Not only ___ the exam, but she also got the highest score.", "options": ["did she pass","she passed","she did pass","passed she"], "correct": 0},
+        {"question": "Rarely ___ a book that captivated me so completely.", "options": ["have I read","I have read","I read","did I read"], "correct": 0}
+      ]
+    },
+    {
+      "slot": 16, "level": "C1", "type": "reading",
+      "variants": [
+        {"question": "Read: \"The notion that creativity is an innate gift rather than a skill that can be cultivated is a pervasive misconception that discourages many from pursuing artistic endeavors.\" The author believes that:", "options": ["creativity cannot be learned","only talented people should pursue art","creativity can be developed, contrary to popular belief","artistic endeavors are not worthwhile"], "correct": 2},
+        {"question": "Read: \"The commodification of higher education has shifted the focus from intellectual growth to credential acquisition, undermining the very purpose of academic institutions.\" The author argues that:", "options": ["universities are better than ever","education has become too focused on getting degrees rather than learning","credentials are more important than knowledge","all universities should be free"], "correct": 1},
+        {"question": "Read: \"While technological determinism suggests that innovation drives social change, a more nuanced view recognizes the reciprocal relationship between technology and society.\" The passage suggests:", "options": ["technology alone drives all change","society has no effect on technology","technology and society influence each other","social change is impossible"], "correct": 2},
+        {"question": "Read: \"The paradox of choice suggests that an abundance of options, rather than liberating consumers, can lead to decision paralysis and decreased satisfaction.\" Having many choices:", "options": ["always makes people happier","can actually make decisions harder and less satisfying","has no psychological effect","is always better than having few choices"], "correct": 1},
+        {"question": "Read: \"Critics of standardized testing argue that such assessments measure test-taking ability rather than genuine understanding, perpetuating educational inequities.\" The critics believe standardized tests:", "options": ["are perfectly fair","don't truly measure knowledge and may increase inequality","should be used more often","benefit all students equally"], "correct": 1},
+        {"question": "Read: \"The erosion of local journalism has created information deserts in many communities, leaving residents without reliable coverage of local government and civic affairs.\" The decline of local news:", "options": ["has no real impact","leaves communities less informed about local issues","only affects rural areas","has been exaggerated"], "correct": 1},
+        {"question": "Read: \"Cognitive biases operate below conscious awareness, systematically distorting our perception of reality in ways that feel entirely rational.\" Cognitive biases:", "options": ["are easy to detect in ourselves","affect our thinking without us realizing it","only affect unintelligent people","can be completely eliminated"], "correct": 1},
+        {"question": "Read: \"The precautionary principle holds that the burden of proof for potentially harmful actions falls on those proposing the action, not on those who might be affected.\" This principle means:", "options": ["anyone can do anything until proven harmful","those who want to act must prove it's safe first","victims must prove harm occurred","no new actions should ever be taken"], "correct": 1},
+        {"question": "Read: \"Gentrification simultaneously revitalizes neglected neighborhoods and displaces long-term residents who can no longer afford rising costs.\" Gentrification:", "options": ["only has positive effects","has both positive and negative consequences","only harms communities","doesn't affect housing costs"], "correct": 1},
+        {"question": "Read: \"The Dunning-Kruger effect demonstrates that individuals with limited competence in a domain tend to overestimate their abilities, while experts often underestimate theirs.\" This means:", "options": ["experts are always confident","less skilled people may think they're better than they are","everyone accurately judges their own skills","only experts make mistakes"], "correct": 1}
+      ]
+    },
+    {
+      "slot": 17, "level": "C1", "type": "vocabulary",
+      "variants": [
+        {"question": "\"Ubiquitous\" most closely means:", "options": ["rarely seen","found everywhere","extremely dangerous","highly controversial"], "correct": 1},
+        {"question": "\"Pragmatic\" most closely means:", "options": ["idealistic","practical and realistic","very emotional","extremely cautious"], "correct": 1},
+        {"question": "\"Ephemeral\" most closely means:", "options": ["lasting forever","short-lived or temporary","very important","extremely large"], "correct": 1},
+        {"question": "\"Exacerbate\" most closely means:", "options": ["to improve","to make worse","to explain clearly","to celebrate"], "correct": 1},
+        {"question": "\"Juxtapose\" most closely means:", "options": ["to separate","to place side by side for comparison","to destroy","to create"], "correct": 1},
+        {"question": "\"Mitigate\" most closely means:", "options": ["to increase","to make less severe","to completely remove","to ignore"], "correct": 1},
+        {"question": "\"Paradigm\" most closely means:", "options": ["a small detail","a typical pattern or model","a type of error","a rare event"], "correct": 1},
+        {"question": "\"Scrutinize\" most closely means:", "options": ["to glance at","to examine very carefully","to ignore completely","to approve quickly"], "correct": 1},
+        {"question": "\"Tenacious\" most closely means:", "options": ["giving up easily","holding firmly or persistent","very gentle","extremely quiet"], "correct": 1},
+        {"question": "\"Unprecedented\" most closely means:", "options": ["very common","never done or known before","slightly unusual","well documented"], "correct": 1}
+      ]
+    }
+  ]
+}

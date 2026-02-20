@@ -1,0 +1,259 @@
+{
+  "testInfo": {
+    "title": "English Level Test (CEFR)",
+    "description": "20-question adaptive test covering vocabulary, grammar, and reading comprehension to estimate your CEFR level (A1-C2). Each question is randomly selected from a pool of 10 variants.",
+    "totalQuestions": 20,
+    "variantsPerSlot": 10,
+    "source": "Questions based on CEFR level descriptors and standard English proficiency testing frameworks (Cambridge, Oxford, EF SET). Vocabulary aligned with Oxford 5000 and English Vocabulary Profile.",
+    "poolFiles": ["pool-A1-A2.json", "pool-B1.json", "pool-B2.json", "pool-C1.json", "pool-C2.json"]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "level": "A1",
+      "type": "vocabulary",
+      "question": "What is the opposite of \"big\"?",
+      "options": ["tall", "small", "fast", "old"],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "level": "A1",
+      "type": "grammar",
+      "question": "She ___ a student.",
+      "options": ["am", "is", "are", "be"],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "level": "A2",
+      "type": "vocabulary",
+      "question": "Which word means \"a place where you can buy medicine\"?",
+      "options": ["library", "pharmacy", "bakery", "gallery"],
+      "correct": 1
+    },
+    {
+      "id": 4,
+      "level": "A2",
+      "type": "grammar",
+      "question": "I ___ to the cinema last night.",
+      "options": ["go", "goes", "went", "going"],
+      "correct": 2
+    },
+    {
+      "id": 5,
+      "level": "A2",
+      "type": "reading",
+      "question": "Read: \"The shop closes at 6 PM on weekdays and 4 PM on Saturdays.\" When does the shop close on Saturday?",
+      "options": ["6 PM", "4 PM", "5 PM", "It doesn't open"],
+      "correct": 1
+    },
+    {
+      "id": 6,
+      "level": "B1",
+      "type": "vocabulary",
+      "question": "Choose the correct meaning of \"reliable\":",
+      "options": [
+        "easy to break",
+        "can be trusted or depended on",
+        "very expensive",
+        "difficult to find"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 7,
+      "level": "B1",
+      "type": "grammar",
+      "question": "If it rains tomorrow, we ___ stay at home.",
+      "options": ["will", "would", "are", "did"],
+      "correct": 0
+    },
+    {
+      "id": 8,
+      "level": "B1",
+      "type": "grammar",
+      "question": "She has been working here ___ 2015.",
+      "options": ["for", "since", "from", "during"],
+      "correct": 1
+    },
+    {
+      "id": 9,
+      "level": "B1",
+      "type": "reading",
+      "question": "Read: \"Although the restaurant was crowded, the service was surprisingly quick and the food was excellent.\" What is the main idea?",
+      "options": [
+        "The restaurant was empty",
+        "The food was bad",
+        "Despite being busy, the experience was good",
+        "The service was slow"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 10,
+      "level": "B2",
+      "type": "vocabulary",
+      "question": "The word \"ambiguous\" means:",
+      "options": [
+        "very clear",
+        "open to more than one interpretation",
+        "extremely loud",
+        "beautifully written"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 11,
+      "level": "B2",
+      "type": "grammar",
+      "question": "I wish I ___ more time to finish the project.",
+      "options": ["have", "had", "having", "will have"],
+      "correct": 1
+    },
+    {
+      "id": 12,
+      "level": "B2",
+      "type": "grammar",
+      "question": "The report ___ by the time the manager arrived.",
+      "options": [
+        "has been completed",
+        "had been completed",
+        "was completing",
+        "is completed"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 13,
+      "level": "B2",
+      "type": "reading",
+      "question": "Read: \"The proliferation of smartphones has fundamentally altered how people consume news, with many preferring brief updates over in-depth articles.\" What does this passage suggest?",
+      "options": [
+        "People no longer read news",
+        "Smartphones have changed news reading habits toward shorter content",
+        "In-depth articles are more popular than ever",
+        "Smartphones are too expensive for most people"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 14,
+      "level": "C1",
+      "type": "vocabulary",
+      "question": "Choose the word that best completes: \"The politician's speech was deliberately ___, avoiding any concrete commitments.\"",
+      "options": ["eloquent", "vague", "persuasive", "concise"],
+      "correct": 1
+    },
+    {
+      "id": 15,
+      "level": "C1",
+      "type": "grammar",
+      "question": "Not until the results were published ___ the extent of the problem.",
+      "options": [
+        "did they realize",
+        "they realized",
+        "they did realize",
+        "realized they"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 16,
+      "level": "C1",
+      "type": "reading",
+      "question": "Read: \"The notion that creativity is an innate gift rather than a skill that can be cultivated is a pervasive misconception that discourages many from pursuing artistic endeavors.\" The author believes that:",
+      "options": [
+        "creativity cannot be learned",
+        "only talented people should pursue art",
+        "creativity can be developed, contrary to popular belief",
+        "artistic endeavors are not worthwhile"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 17,
+      "level": "C1",
+      "type": "vocabulary",
+      "question": "\"Ubiquitous\" most closely means:",
+      "options": [
+        "rarely seen",
+        "found everywhere",
+        "extremely dangerous",
+        "highly controversial"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 18,
+      "level": "C2",
+      "type": "vocabulary",
+      "question": "\"The CEO's decision was met with opprobrium from shareholders.\" What does \"opprobrium\" mean?",
+      "options": [
+        "enthusiastic approval",
+        "mild curiosity",
+        "harsh criticism or public disgrace",
+        "quiet indifference"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 19,
+      "level": "C2",
+      "type": "grammar",
+      "question": "Choose the correct sentence:",
+      "options": [
+        "Were it not for his intervention, the project would have failed.",
+        "Was it not for his intervention, the project would have failed.",
+        "If it were not his intervention, the project would have failed.",
+        "Were not it for his intervention, the project would have failed."
+      ],
+      "correct": 0
+    },
+    {
+      "id": 20,
+      "level": "C2",
+      "type": "reading",
+      "question": "Read: \"The ostensible rationale for the policy shift—fiscal prudence—belied the administration's underlying motivation to consolidate executive authority under the guise of austerity measures.\" The passage implies that:",
+      "options": [
+        "The policy was genuinely about saving money",
+        "The stated reason for the policy was not the real reason",
+        "The administration was transparent about its goals",
+        "Austerity measures are always beneficial"
+      ],
+      "correct": 1
+    }
+  ],
+  "levelDescriptions": {
+    "A1": {
+      "name": "Beginner",
+      "description": "You can understand and use familiar everyday expressions and very basic phrases. You can introduce yourself and ask simple questions about personal details.",
+      "vocabularyRange": "600-1,000 words"
+    },
+    "A2": {
+      "name": "Elementary",
+      "description": "You can understand sentences and frequently used expressions related to areas of most immediate relevance (e.g., personal information, shopping, local geography).",
+      "vocabularyRange": "1,000-2,000 words"
+    },
+    "B1": {
+      "name": "Intermediate",
+      "description": "You can understand the main points of clear standard input on familiar matters. You can deal with most situations likely to arise while travelling.",
+      "vocabularyRange": "2,500-3,000 words"
+    },
+    "B2": {
+      "name": "Upper Intermediate",
+      "description": "You can understand the main ideas of complex text on both concrete and abstract topics. You can interact with a degree of fluency and spontaneity.",
+      "vocabularyRange": "3,000-5,000 words"
+    },
+    "C1": {
+      "name": "Advanced",
+      "description": "You can understand a wide range of demanding, longer texts and recognize implicit meaning. You can express ideas fluently and spontaneously without much obvious searching for expressions.",
+      "vocabularyRange": "5,000-9,000 words"
+    },
+    "C2": {
+      "name": "Mastery",
+      "description": "You can understand with ease virtually everything heard or read. You can summarize information from different sources, reconstructing arguments in a coherent presentation.",
+      "vocabularyRange": "8,000-16,000+ words"
+    }
+  }
+}

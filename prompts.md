@@ -80,4 +80,48 @@ I want to add the "audio" buttons to the game in current directory similar how i
 Please review the code in this repo and clean it up as necessary
 Please update the README file
 ======================================================
+I want to add an english level evaluation test.
+So when the user opens index.html, he should have
+option to start a game,
+or to start a test.
 
+There are standard levels of English proficiency:
+
+CEFR = Common European Framework of Reference for Languages
+
+CEFR defines 6 Levels:
+A1 (Beginner)
+A2 (Elementary)
+B1 (Intermediate)
+B2 (Upper Intermediate)
+C1 (Advanced)
+C2 (Mastery)
+
+Level Vocabulary Size
+A1  600-1,000 words
+A2  1,000-2,000 words
+B1  2,500-3,000 words
+B2  3,000-5,000 words
+C1  5,000-9,000 words
+C2  8,000-16,000+ words
+
+Ideally the test should evaluate not only the vocabulary,
+but also Grammar and Reading
+
+Please search online for test materials we can use.
+Put the resources under "mytests" subdirectory.
+
+The test should be relatively short (20 questions)
+Similar to this:  https://www.ef.edu/test/english/
+
+Please implement the test.
+
+======================================================
+You have implemented one test with 20 questions.
+As we are planning to run the test periodically (once per week),
+we need to add randomness into the test so that every time a student takes the test, it is different.
+
+Please make 10 variations of each of 20 questions.
+So that every time a student takes the test, 
+each question will be randomly picked out of 10 possible questions.
+======================================================

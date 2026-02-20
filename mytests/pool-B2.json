@@ -1,0 +1,64 @@
+{
+  "slots": [
+    {
+      "slot": 10, "level": "B2", "type": "vocabulary",
+      "variants": [
+        {"question": "The word \"ambiguous\" means:", "options": ["very clear","open to more than one interpretation","extremely loud","beautifully written"], "correct": 1},
+        {"question": "The word \"reluctant\" means:", "options": ["very eager","unwilling or hesitant","extremely happy","quite confused"], "correct": 1},
+        {"question": "The word \"inevitable\" means:", "options": ["easily avoided","certain to happen","very surprising","completely unknown"], "correct": 1},
+        {"question": "The word \"comprehensive\" means:", "options": ["very short","including all or nearly all elements","extremely difficult","poorly organized"], "correct": 1},
+        {"question": "The word \"subtle\" means:", "options": ["very obvious","delicate or not immediately noticeable","extremely loud","completely wrong"], "correct": 1},
+        {"question": "The word \"feasible\" means:", "options": ["impossible","possible and practical to do","very expensive","extremely rare"], "correct": 1},
+        {"question": "The word \"profound\" means:", "options": ["very shallow","very deep or intense","quite ordinary","slightly amusing"], "correct": 1},
+        {"question": "The word \"coherent\" means:", "options": ["confusing","logical and consistent","very loud","extremely fast"], "correct": 1},
+        {"question": "The word \"detrimental\" means:", "options": ["very helpful","causing harm or damage","extremely beautiful","quite ordinary"], "correct": 1},
+        {"question": "The word \"prevalent\" means:", "options": ["very rare","widespread or common","extremely expensive","quite dangerous"], "correct": 1}
+      ]
+    },
+    {
+      "slot": 11, "level": "B2", "type": "grammar",
+      "variants": [
+        {"question": "I wish I ___ more time to finish the project.", "options": ["have","had","having","will have"], "correct": 1},
+        {"question": "I wish I ___ speak French fluently.", "options": ["can","could","will","would"], "correct": 1},
+        {"question": "She wishes she ___ accepted the job offer.", "options": ["has","had","have","would"], "correct": 1},
+        {"question": "I wish it ___ raining so we could go outside.", "options": ["stops","stopped","will stop","would stop"], "correct": 1},
+        {"question": "He wishes he ___ taller.", "options": ["is","were","will be","has been"], "correct": 1},
+        {"question": "We wish we ___ about the meeting earlier.", "options": ["know","knew","will know","had known"], "correct": 1},
+        {"question": "I wish they ___ so much noise at night.", "options": ["don't make","didn't make","won't make","haven't made"], "correct": 1},
+        {"question": "She wishes she ___ harder at school.", "options": ["studies","had studied","will study","is studying"], "correct": 1},
+        {"question": "I wish I ___ to the party last night.", "options": ["go","went","had gone","will go"], "correct": 2},
+        {"question": "They wish they ___ more money to travel.", "options": ["have","had","will have","are having"], "correct": 1}
+      ]
+    },
+    {
+      "slot": 12, "level": "B2", "type": "grammar",
+      "variants": [
+        {"question": "The report ___ by the time the manager arrived.", "options": ["has been completed","had been completed","was completing","is completed"], "correct": 1},
+        {"question": "The house ___ before we moved in.", "options": ["has been painted","had been painted","was painting","is painted"], "correct": 1},
+        {"question": "All the tickets ___ by the time we got there.", "options": ["have been sold","had been sold","were selling","are sold"], "correct": 1},
+        {"question": "The letter ___ before she arrived at the office.", "options": ["has been sent","had been sent","was sending","is sent"], "correct": 1},
+        {"question": "The food ___ before the guests arrived.", "options": ["has been prepared","had been prepared","was preparing","is prepared"], "correct": 1},
+        {"question": "The bridge ___ before the storm hit.", "options": ["has been repaired","had been repaired","was repairing","is repaired"], "correct": 1},
+        {"question": "The decision ___ before I joined the team.", "options": ["has been made","had been made","was making","is made"], "correct": 1},
+        {"question": "The windows ___ before it started raining.", "options": ["have been closed","had been closed","were closing","are closed"], "correct": 1},
+        {"question": "The project ___ before the deadline.", "options": ["has been finished","had been finished","was finishing","is finished"], "correct": 1},
+        {"question": "The car ___ before the accident happened.", "options": ["has been serviced","had been serviced","was servicing","is serviced"], "correct": 1}
+      ]
+    },
+    {
+      "slot": 13, "level": "B2", "type": "reading",
+      "variants": [
+        {"question": "Read: \"The proliferation of smartphones has fundamentally altered how people consume news, with many preferring brief updates over in-depth articles.\" What does this passage suggest?", "options": ["People no longer read news","Smartphones have changed news reading habits toward shorter content","In-depth articles are more popular than ever","Smartphones are too expensive for most people"], "correct": 1},
+        {"question": "Read: \"Remote work has blurred the boundaries between professional and personal life, leading many employees to report higher levels of burnout.\" The passage suggests that remote work:", "options": ["Has only positive effects","Can cause work-life balance problems","Is preferred by all employees","Reduces stress levels"], "correct": 1},
+        {"question": "Read: \"While renewable energy sources are becoming more affordable, the transition away from fossil fuels faces significant political and economic obstacles.\" The main point is:", "options": ["Renewable energy is too expensive","The shift to clean energy is straightforward","Despite cheaper renewables, switching is still challenging","Fossil fuels are no longer used"], "correct": 2},
+        {"question": "Read: \"Studies show that bilingual children develop stronger problem-solving skills, though they may initially have smaller vocabularies in each language.\" Bilingual children:", "options": ["Have worse cognitive skills","Have better problem-solving but may know fewer words per language","Always have larger vocabularies","Learn languages more slowly"], "correct": 1},
+        {"question": "Read: \"The rise of artificial intelligence in healthcare promises faster diagnoses but raises concerns about data privacy and the doctor-patient relationship.\" AI in healthcare:", "options": ["Has no drawbacks","Offers benefits but also creates new concerns","Will replace all doctors","Is too expensive to implement"], "correct": 1},
+        {"question": "Read: \"Urban green spaces have been shown to reduce stress, improve air quality, and increase property values in surrounding areas.\" Parks in cities:", "options": ["Only benefit wealthy people","Have multiple positive effects","Decrease property values","Have no measurable impact"], "correct": 1},
+        {"question": "Read: \"The gig economy offers workers flexibility but often lacks the benefits and job security of traditional employment.\" Gig work:", "options": ["Is better than regular jobs in every way","Provides freedom but fewer protections","Always pays more than regular jobs","Is only for young people"], "correct": 1},
+        {"question": "Read: \"Social media algorithms tend to show users content that confirms their existing beliefs, creating echo chambers that limit exposure to diverse viewpoints.\" Social media:", "options": ["Shows all viewpoints equally","Can narrow people's perspectives","Always provides accurate information","Has no effect on opinions"], "correct": 1},
+        {"question": "Read: \"Despite advances in technology, face-to-face communication remains the most effective way to build trust and resolve conflicts.\" The author believes:", "options": ["Technology has replaced in-person meetings","In-person communication is still superior for some purposes","Video calls are just as good","Written communication is best"], "correct": 1},
+        {"question": "Read: \"The growing popularity of plant-based diets reflects both health concerns and environmental awareness among consumers.\" People choose plant-based diets because:", "options": ["They are cheaper","Of health and environmental reasons","They taste better","Doctors require it"], "correct": 1}
+      ]
+    }
+  ]
+}

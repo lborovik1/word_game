@@ -1,0 +1,64 @@
+{
+  "slots": [
+    {
+      "slot": 6, "level": "B1", "type": "vocabulary",
+      "variants": [
+        {"question": "Choose the correct meaning of \"reliable\":", "options": ["easy to break","can be trusted or depended on","very expensive","difficult to find"], "correct": 1},
+        {"question": "Choose the correct meaning of \"generous\":", "options": ["mean with money","willing to give more than expected","always tired","very intelligent"], "correct": 1},
+        {"question": "Choose the correct meaning of \"convenient\":", "options": ["very expensive","fitting well with needs or plans","extremely boring","hard to understand"], "correct": 1},
+        {"question": "Choose the correct meaning of \"essential\":", "options": ["not important","absolutely necessary","very beautiful","quite dangerous"], "correct": 1},
+        {"question": "Choose the correct meaning of \"gradually\":", "options": ["suddenly","slowly over time","very loudly","completely"], "correct": 1},
+        {"question": "Choose the correct meaning of \"anxious\":", "options": ["very happy","worried or nervous","extremely tired","quite bored"], "correct": 1},
+        {"question": "Choose the correct meaning of \"achieve\":", "options": ["to lose something","to succeed in reaching a goal","to forget easily","to sleep deeply"], "correct": 1},
+        {"question": "Choose the correct meaning of \"opportunity\":", "options": ["a big problem","a chance to do something","a type of food","a kind of weather"], "correct": 1},
+        {"question": "Choose the correct meaning of \"recommend\":", "options": ["to complain about","to suggest as good or suitable","to destroy completely","to forget quickly"], "correct": 1},
+        {"question": "Choose the correct meaning of \"improve\":", "options": ["to make worse","to make better","to stay the same","to disappear"], "correct": 1}
+      ]
+    },
+    {
+      "slot": 7, "level": "B1", "type": "grammar",
+      "variants": [
+        {"question": "If it rains tomorrow, we ___ stay at home.", "options": ["will","would","are","did"], "correct": 0},
+        {"question": "If you ___ hard, you will pass the exam.", "options": ["study","studied","will study","would study"], "correct": 0},
+        {"question": "If she calls, ___ her I'm busy.", "options": ["tell","told","telling","tells"], "correct": 0},
+        {"question": "If we leave now, we ___ catch the train.", "options": ["will","would","did","are"], "correct": 0},
+        {"question": "If he ___ the job, he will move to London.", "options": ["gets","got","will get","would get"], "correct": 0},
+        {"question": "I'll help you if you ___ me nicely.", "options": ["ask","asked","will ask","would ask"], "correct": 0},
+        {"question": "If they don't hurry, they ___ be late.", "options": ["will","would","are","were"], "correct": 0},
+        {"question": "If it ___ sunny, we'll go to the beach.", "options": ["is","was","will be","would be"], "correct": 0},
+        {"question": "She will be upset if you ___ her birthday.", "options": ["forget","forgot","will forget","forgetting"], "correct": 0},
+        {"question": "If I see Tom, I ___ give him your message.", "options": ["will","would","am","was"], "correct": 0}
+      ]
+    },
+    {
+      "slot": 8, "level": "B1", "type": "grammar",
+      "variants": [
+        {"question": "She has been working here ___ 2015.", "options": ["for","since","from","during"], "correct": 1},
+        {"question": "I have lived in this city ___ ten years.", "options": ["for","since","from","during"], "correct": 0},
+        {"question": "He has known her ___ they were children.", "options": ["for","since","from","during"], "correct": 1},
+        {"question": "We have been waiting ___ two hours.", "options": ["for","since","from","during"], "correct": 0},
+        {"question": "She has played piano ___ she was five.", "options": ["for","since","from","during"], "correct": 1},
+        {"question": "They have been married ___ 1998.", "options": ["for","since","from","during"], "correct": 1},
+        {"question": "I have studied English ___ three years.", "options": ["for","since","from","during"], "correct": 0},
+        {"question": "He has worked at the bank ___ last March.", "options": ["for","since","from","during"], "correct": 1},
+        {"question": "We have lived here ___ a long time.", "options": ["for","since","from","during"], "correct": 0},
+        {"question": "She has been ill ___ Monday.", "options": ["for","since","from","during"], "correct": 1}
+      ]
+    },
+    {
+      "slot": 9, "level": "B1", "type": "reading",
+      "variants": [
+        {"question": "Read: \"Although the restaurant was crowded, the service was surprisingly quick and the food was excellent.\" What is the main idea?", "options": ["The restaurant was empty","The food was bad","Despite being busy, the experience was good","The service was slow"], "correct": 2},
+        {"question": "Read: \"Even though it was raining heavily, the outdoor concert continued and the audience stayed until the end.\" What happened?", "options": ["The concert was cancelled","People left early","The concert went on despite the rain","It stopped raining"], "correct": 2},
+        {"question": "Read: \"The new employee was nervous on her first day, but her colleagues were very welcoming and helpful.\" How did the colleagues behave?", "options": ["They ignored her","They were unfriendly","They were kind and supportive","They were also nervous"], "correct": 2},
+        {"question": "Read: \"Despite the high price, the hotel had poor service and uncomfortable rooms.\" Was the hotel good value?", "options": ["Yes, it was excellent","No, it was expensive but poor quality","The price was low","The rooms were comfortable"], "correct": 1},
+        {"question": "Read: \"The flight was delayed by three hours, so many passengers missed their connecting flights.\" Why did passengers miss connections?", "options": ["The airport was closed","The flight was delayed","The weather was fine","They arrived early"], "correct": 1},
+        {"question": "Read: \"Learning a musical instrument requires patience and regular practice, but the rewards are worth the effort.\" The author thinks learning music is:", "options": ["Easy and quick","Not worth the time","Difficult but rewarding","Impossible for most people"], "correct": 2},
+        {"question": "Read: \"The local library has extended its opening hours to include evenings and weekends.\" What changed?", "options": ["The library closed","It now opens longer hours","Books became more expensive","The library moved"], "correct": 1},
+        {"question": "Read: \"While the movie received mixed reviews from critics, audiences loved it and it became a box office hit.\" Who liked the movie?", "options": ["Only critics","Nobody","Audiences more than critics","Everyone equally"], "correct": 2},
+        {"question": "Read: \"The company decided to offer free training to all employees to improve their computer skills.\" What is the company doing?", "options": ["Firing employees","Providing free computer training","Reducing salaries","Closing offices"], "correct": 1},
+        {"question": "Read: \"Public transport in the city is efficient and affordable, making it easy to get around without a car.\" The city's transport is:", "options": ["Expensive and slow","Good and reasonably priced","Only for tourists","Unreliable"], "correct": 1}
+      ]
+    }
+  ]
+}
