@@ -200,6 +200,10 @@
             border-color: #8e44ad;
             box-shadow: 0 6px 20px rgba(142,68,173,0.15);
         }
+        .landing-card.grammar-card:hover {
+            border-color: #27ae60;
+            box-shadow: 0 6px 20px rgba(39,174,96,0.15);
+        }
         .card-icon {
             font-size: 2em;
             flex-shrink: 0;
@@ -215,6 +219,9 @@
         }
         .test-card .card-icon {
             background: linear-gradient(135deg, #8e44ad, #6c3483);
+        }
+        .grammar-card .card-icon {
+            background: linear-gradient(135deg, #27ae60, #1e8449);
         }
         .card-text h3 {
             font-family: 'Source Sans 3', sans-serif;
@@ -607,6 +614,175 @@
             border-left: 3px solid #8e44ad;
             text-align: left;
         }
+
+        /* ===== GRAMMAR GAME STYLES ===== */
+        .grammar-header {
+            text-align: center;
+            margin-bottom: 12px;
+        }
+        .grammar-header h2 {
+            font-family: 'DM Serif Display', Georgia, serif;
+            font-size: 1.2em;
+            color: #1a1a2e;
+            margin-bottom: 4px;
+        }
+        .grammar-selector {
+            text-align: center;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+        .grammar-selector h3 {
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 1em;
+            margin-bottom: 12px;
+            color: #1a1a2e;
+        }
+        .grammar-select {
+            width: 100%;
+            padding: 10px;
+            font-size: 0.95em;
+            border: 2px solid #27ae60;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .grammar-start-btn {
+            background: linear-gradient(135deg, #27ae60, #1e8449);
+            color: white;
+            border: none;
+            padding: 10px 30px;
+            border-radius: 8px;
+            font-size: 1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .grammar-start-btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(39,174,96,0.3);
+        }
+        .grammar-progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #27ae60, #1abc9c);
+            border-radius: 4px;
+            transition: width 0.4s ease;
+            width: 0%;
+        }
+        .grammar-option:hover {
+            border-color: #27ae60;
+            background: #f0faf4;
+        }
+        .grammar-next-btn {
+            font-family: 'Source Sans 3', sans-serif;
+            background: linear-gradient(135deg, #27ae60, #1e8449);
+            color: white;
+            border: none;
+            padding: 10px 32px;
+            border-radius: 8px;
+            font-size: 0.9em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .grammar-next-btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(39,174,96,0.3);
+        }
+        .grammar-next-btn:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+        .badge-topic {
+            background: #e8f8f0;
+            color: #27ae60;
+        }
+        .grammar-results {
+            text-align: center;
+            padding: 10px 0;
+        }
+        .grammar-results h2 {
+            font-family: 'DM Serif Display', Georgia, serif;
+            font-size: 1.2em;
+            color: #1a1a2e;
+            margin-bottom: 10px;
+        }
+        .grammar-score-big {
+            font-family: 'DM Serif Display', Georgia, serif;
+            font-size: 2.8em;
+            font-weight: 700;
+            margin: 8px 0;
+            background: linear-gradient(135deg, #27ae60, #1abc9c);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .grammar-score-label {
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 0.9em;
+            color: #555;
+            margin-bottom: 14px;
+        }
+        .grammar-motivation {
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 0.8em;
+            color: #27ae60;
+            font-weight: 600;
+            margin-bottom: 14px;
+            padding: 8px 12px;
+            background: #f0faf4;
+            border-radius: 8px;
+            border-left: 3px solid #27ae60;
+            text-align: left;
+        }
+        .grammar-topic-breakdown {
+            text-align: left;
+            margin-bottom: 14px;
+        }
+        .grammar-topic-breakdown h4 {
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 0.8em;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 8px;
+        }
+        .grammar-retry-btn {
+            font-family: 'Source Sans 3', sans-serif;
+            background: linear-gradient(135deg, #27ae60, #1e8449);
+            color: white;
+            border: none;
+            padding: 10px 28px;
+            border-radius: 8px;
+            font-size: 0.9em;
+            font-weight: 600;
+            cursor: pointer;
+            margin-right: 8px;
+        }
+        .grammar-home-btn {
+            font-family: 'Source Sans 3', sans-serif;
+            background: #2c3e50;
+            color: white;
+            border: none;
+            padding: 10px 28px;
+            border-radius: 8px;
+            font-size: 0.9em;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .grammar-pick-btn {
+            font-family: 'Source Sans 3', sans-serif;
+            background: linear-gradient(135deg, #1abc9c, #16a085);
+            color: white;
+            border: none;
+            padding: 10px 28px;
+            border-radius: 8px;
+            font-size: 0.9em;
+            font-weight: 600;
+            cursor: pointer;
+            margin-right: 8px;
+        }
     </style>
 </head>
 <body>
@@ -616,6 +792,7 @@
         var cb = Date.now();
         document.write('<script src="games/games-registry.js?v=' + cb + '"><\/script>');
         document.write('<script src="mytests/tests-registry.js?v=' + cb + '"><\/script>');
+        document.write('<script src="grammar_games/grammar-registry.js?v=' + cb + '"><\/script>');
     </script>
 
     <div class="container">
@@ -636,6 +813,13 @@
                     <div class="card-text">
                         <h3>English Level Test</h3>
                         <p>20 questions · Vocabulary, Grammar &amp; Reading · Get your CEFR level (A1–C2)</p>
+                    </div>
+                </div>
+                <div class="landing-card grammar-card" id="goToGrammarBtn">
+                    <div class="card-icon">📖</div>
+                    <div class="card-text">
+                        <h3>Grammar Practice</h3>
+                        <p>Multiple choice grammar exercises · A1–C2 levels · Learn rules by practice</p>
                     </div>
                 </div>
             </div>
@@ -747,6 +931,67 @@
                 <div>
                     <button id="testRetakeBtn" class="test-retake-btn">🔄 Retake</button>
                     <button id="testHomeBtn" class="test-home-btn">🏠 Home</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- GRAMMAR SECTION -->
+        <div id="grammarSection" class="hidden">
+            <div class="grammar-header">
+                <h2>📖 Grammar Practice</h2>
+                <button id="grammarRestartBtn" class="restart-btn">🔄 Restart</button>
+            </div>
+
+            <div id="grammarSelector" class="grammar-selector">
+                <h3>Choose a Grammar Level</h3>
+                <select id="grammarFileSelect" class="grammar-select">
+                    <option value="">-- Select level --</option>
+                </select>
+                <button id="grammarStartBtn" class="grammar-start-btn">Start Practice</button>
+            </div>
+
+            <div id="grammarQuestionArea" class="hidden">
+                <div class="test-progress">
+                    <div class="test-progress-bar">
+                        <div id="grammarProgressFill" class="grammar-progress-fill"></div>
+                    </div>
+                    <span id="grammarProgressText" class="test-progress-text">1 / 30</span>
+                </div>
+
+                <div class="stats">
+                    <div class="stat-item">
+                        <div class="stat-label">Correct</div>
+                        <div id="grammarCorrect" class="stat-value" style="color:#27ae60">0</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Wrong</div>
+                        <div id="grammarWrong" class="stat-value" style="color:#e74c3c">0</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Accuracy</div>
+                        <div id="grammarAccuracy" class="stat-value" style="color:#27ae60">—</div>
+                    </div>
+                </div>
+
+                <div id="grammarQuestionMeta" class="test-question-meta"></div>
+                <div id="grammarQuestionText" class="test-question-text"></div>
+                <div id="grammarOptions" class="test-options"></div>
+
+                <div class="test-nav">
+                    <button id="grammarNextBtn" class="grammar-next-btn" disabled>Next →</button>
+                </div>
+            </div>
+
+            <div id="grammarResults" class="grammar-results hidden">
+                <h2>📖 Grammar Results</h2>
+                <div id="grammarScoreBig" class="grammar-score-big"></div>
+                <div id="grammarScoreLabel" class="grammar-score-label"></div>
+                <div id="grammarMotivation" class="grammar-motivation"></div>
+                <div id="grammarTopicBreakdown" class="grammar-topic-breakdown"></div>
+                <div>
+                    <button id="grammarRetryBtn" class="grammar-retry-btn">🔄 Retry</button>
+                    <button id="grammarPickBtn" class="grammar-pick-btn">📋 Pick Level</button>
+                    <button id="grammarHomeBtn" class="grammar-home-btn">🏠 Home</button>
                 </div>
             </div>
         </div>
@@ -1359,16 +1604,216 @@
             }
         }
 
+        // ===== GRAMMAR GAME =====
+        class GrammarGame {
+            constructor() {
+                this.gameData = null;
+                this.questions = [];
+                this.currentIndex = 0;
+                this.answers = [];
+                this.answered = false;
+                this.currentFile = '';
+                this.init();
+            }
+
+            init() {
+                document.getElementById('grammarStartBtn').addEventListener('click', () => this.startGame());
+                document.getElementById('grammarNextBtn').addEventListener('click', () => this.nextQuestion());
+                document.getElementById('grammarRetryBtn').addEventListener('click', () => this.startGame());
+                document.getElementById('grammarPickBtn').addEventListener('click', () => this.showSelector());
+                document.getElementById('grammarHomeBtn').addEventListener('click', () => goHome());
+                document.getElementById('grammarRestartBtn').addEventListener('click', () => {
+                    this.showSelector();
+                    document.getElementById('grammarFileSelect').value = '';
+                    goHome();
+                });
+                this.populateDropdown();
+            }
+
+            populateDropdown() {
+                const select = document.getElementById('grammarFileSelect');
+                select.innerHTML = '<option value="">-- Select level --</option>';
+                GRAMMAR_GAMES_LIST.forEach(g => {
+                    const opt = document.createElement('option');
+                    opt.value = g.file;
+                    opt.textContent = g.name;
+                    select.appendChild(opt);
+                });
+            }
+
+            showSelector() {
+                document.getElementById('grammarSelector').classList.remove('hidden');
+                document.getElementById('grammarQuestionArea').classList.add('hidden');
+                document.getElementById('grammarResults').classList.add('hidden');
+            }
+
+            async startGame() {
+                const file = document.getElementById('grammarFileSelect').value;
+                if (!file) { alert('Please select a grammar level!'); return; }
+                this.currentFile = file;
+                try {
+                    const resp = await fetch('grammar_games/' + file);
+                    this.gameData = await resp.json();
+                    // Shuffle questions
+                    this.questions = [...this.gameData.questions].sort(() => Math.random() - 0.5);
+                } catch (e) {
+                    alert('Failed to load grammar game. Use a web server.');
+                    console.error(e);
+                    return;
+                }
+                this.currentIndex = 0;
+                this.answers = [];
+                this.answered = false;
+                document.getElementById('grammarCorrect').textContent = '0';
+                document.getElementById('grammarWrong').textContent = '0';
+                document.getElementById('grammarAccuracy').textContent = '—';
+                document.getElementById('grammarSelector').classList.add('hidden');
+                document.getElementById('grammarQuestionArea').classList.remove('hidden');
+                document.getElementById('grammarResults').classList.add('hidden');
+                this.renderQuestion();
+            }
+
+            renderQuestion() {
+                const q = this.questions[this.currentIndex];
+                const total = this.questions.length;
+                const pct = (this.currentIndex / total) * 100;
+                document.getElementById('grammarProgressFill').style.width = pct + '%';
+                document.getElementById('grammarProgressText').textContent = (this.currentIndex + 1) + ' / ' + total;
+
+                const meta = document.getElementById('grammarQuestionMeta');
+                meta.innerHTML = '<span class="test-badge badge-level">' + q.level + '</span>' +
+                    '<span class="test-badge badge-topic">' + q.topic + '</span>';
+
+                const qDiv = document.getElementById('grammarQuestionText');
+                qDiv.innerHTML = '';
+                const qSpeak = document.createElement('button');
+                qSpeak.className = 'speak-btn-test';
+                qSpeak.textContent = '🔊';
+                qSpeak.dataset.text = q.question;
+                qSpeak.addEventListener('click', (e) => { e.stopPropagation(); speak(q.question, 'en-US'); });
+                const qText = document.createElement('span');
+                qText.textContent = q.question;
+                qDiv.appendChild(qSpeak);
+                qDiv.appendChild(qText);
+
+                const optDiv = document.getElementById('grammarOptions');
+                optDiv.innerHTML = '';
+                this.answered = false;
+                document.getElementById('grammarNextBtn').disabled = true;
+
+                q.options.forEach((opt, i) => {
+                    const btn = document.createElement('button');
+                    btn.className = 'test-option';
+                    const spk = document.createElement('button');
+                    spk.className = 'speak-btn-test';
+                    spk.textContent = '🔊';
+                    spk.dataset.text = opt;
+                    spk.addEventListener('click', (e) => { e.stopPropagation(); speak(opt, 'en-US'); });
+                    const optText = document.createElement('span');
+                    optText.className = 'opt-text';
+                    optText.textContent = opt;
+                    btn.appendChild(spk);
+                    btn.appendChild(optText);
+                    btn.addEventListener('click', () => this.selectAnswer(i, btn));
+                    optDiv.appendChild(btn);
+                });
+
+                const isLast = this.currentIndex === total - 1;
+                document.getElementById('grammarNextBtn').textContent = isLast ? 'See Results' : 'Next →';
+            }
+
+            selectAnswer(idx, btn) {
+                if (this.answered) return;
+                this.answered = true;
+                const q = this.questions[this.currentIndex];
+                this.answers.push({ selected: idx, correct: q.correct, level: q.level, topic: q.topic });
+
+                const allBtns = document.querySelectorAll('#grammarOptions .test-option');
+                allBtns.forEach(b => { b.style.pointerEvents = 'none'; });
+
+                if (idx === q.correct) {
+                    btn.classList.add('correct');
+                } else {
+                    btn.classList.add('wrong');
+                    allBtns[q.correct].classList.add('reveal-correct');
+                }
+                document.getElementById('grammarNextBtn').disabled = false;
+                this.updateStats();
+            }
+
+            updateStats() {
+                const correct = this.answers.filter(a => a.selected === a.correct).length;
+                const wrong = this.answers.length - correct;
+                const total = this.answers.length;
+                const acc = total > 0 ? Math.round((correct / total) * 100) : 0;
+                document.getElementById('grammarCorrect').textContent = correct;
+                document.getElementById('grammarWrong').textContent = wrong;
+                document.getElementById('grammarAccuracy').textContent = total > 0 ? acc + '%' : '—';
+            }
+
+            nextQuestion() {
+                if (this.currentIndex < this.questions.length - 1) {
+                    this.currentIndex++;
+                    this.renderQuestion();
+                } else {
+                    this.showResults();
+                }
+            }
+
+            showResults() {
+                document.getElementById('grammarQuestionArea').classList.add('hidden');
+                document.getElementById('grammarResults').classList.remove('hidden');
+
+                const correct = this.answers.filter(a => a.selected === a.correct).length;
+                const total = this.answers.length;
+                const pct = Math.round((correct / total) * 100);
+
+                document.getElementById('grammarScoreBig').textContent = pct + '%';
+                document.getElementById('grammarScoreLabel').textContent = correct + ' / ' + total + ' correct';
+
+                let motivation = '';
+                if (pct >= 90) motivation = '🏆 Outstanding! You have excellent grammar skills!';
+                else if (pct >= 75) motivation = '🚀 Great job! Your grammar is strong. Keep refining!';
+                else if (pct >= 60) motivation = '📈 Good progress! Practice more to master these topics.';
+                else if (pct >= 40) motivation = '🌱 You\'re building your skills. Keep practicing!';
+                else motivation = '✨ Every expert was once a beginner. Keep going!';
+                document.getElementById('grammarMotivation').textContent = motivation;
+
+                // Topic breakdown
+                const topics = {};
+                this.answers.forEach(a => {
+                    if (!topics[a.topic]) topics[a.topic] = { correct: 0, total: 0 };
+                    topics[a.topic].total++;
+                    if (a.selected === a.correct) topics[a.topic].correct++;
+                });
+
+                const bdDiv = document.getElementById('grammarTopicBreakdown');
+                bdDiv.innerHTML = '<h4>Score by Topic</h4>';
+                Object.keys(topics).sort().forEach(topic => {
+                    const t = topics[topic];
+                    const tPct = Math.round((t.correct / t.total) * 100);
+                    const row = document.createElement('div');
+                    row.className = 'breakdown-bar';
+                    row.innerHTML = '<div class="breakdown-label" style="width:100px;text-transform:capitalize">' + topic + '</div>' +
+                        '<div class="breakdown-track"><div class="breakdown-fill" style="width:' + tPct + '%;background:linear-gradient(90deg,#27ae60,#1abc9c)"></div></div>' +
+                        '<div class="breakdown-pct">' + tPct + '%</div>';
+                    bdDiv.appendChild(row);
+                });
+            }
+        }
+
         // ===== NAVIGATION =====
         function goHome() {
             document.getElementById('landingPage').classList.remove('hidden');
             document.getElementById('gameSection').classList.add('hidden');
             document.getElementById('testSection').classList.add('hidden');
+            document.getElementById('grammarSection').classList.add('hidden');
         }
 
         window.addEventListener('DOMContentLoaded', () => {
             const game = new WordGame();
             const test = new EnglishTest();
+            const grammar = new GrammarGame();
 
             // Landing page navigation
             document.getElementById('goToGameBtn').addEventListener('click', () => {
@@ -1380,6 +1825,11 @@
                 document.getElementById('landingPage').classList.add('hidden');
                 document.getElementById('testSection').classList.remove('hidden');
                 test.startTest();
+            });
+
+            document.getElementById('goToGrammarBtn').addEventListener('click', () => {
+                document.getElementById('landingPage').classList.add('hidden');
+                document.getElementById('grammarSection').classList.remove('hidden');
             });
 
             // Override game restart to go home

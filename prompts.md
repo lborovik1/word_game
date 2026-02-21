@@ -208,3 +208,16 @@ Please update the README.md file
 Also please add a short scripts/README.md file 
 do describe the purpose and function of each script
 
+======================================================
+We have a word game and tests.
+on the home page we either go into word game or into test
+
+Please create one more option - a game to study grammar.
+Please put resources for this game in subdirectory "grammar_games".
+We can do it similar to how grammar is presented in "mytests".
+Questions with multiple choice answers
+
+Please implement the grammar games.
+======================================================
+Please add a restart button to the grammar practice instead of the "Home" button. So that we could return to the home screen - and choose a different game or test
+======================================================

@@ -1,0 +1,250 @@
+{
+  "gameInfo": {
+    "title": "Grammar C1–C2",
+    "description": "Advanced grammar: inversion, mixed conditionals, subjunctive, cleft sentences, advanced passive, formal structures.",
+    "totalQuestions": 30,
+    "levels": ["C1", "C2"]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "level": "C1",
+      "topic": "inversion",
+      "question": "Not until the results were published ___ the extent of the problem.",
+      "options": ["did they realize", "they realized", "they did realize", "realized they"],
+      "correct": 0
+    },
+    {
+      "id": 2,
+      "level": "C1",
+      "topic": "inversion",
+      "question": "Rarely ___ such a beautiful sunset.",
+      "options": ["I have seen", "have I seen", "I saw", "did I saw"],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "level": "C1",
+      "topic": "inversion",
+      "question": "Never before ___ so many people at the concert.",
+      "options": ["there were", "were there", "there was", "was there"],
+      "correct": 1
+    },
+    {
+      "id": 4,
+      "level": "C1",
+      "topic": "mixed conditionals",
+      "question": "If I had taken that job, I ___ in London now.",
+      "options": ["will be living", "would be living", "am living", "had been living"],
+      "correct": 1
+    },
+    {
+      "id": 5,
+      "level": "C1",
+      "topic": "mixed conditionals",
+      "question": "If she were more careful, she ___ the mistake yesterday.",
+      "options": ["wouldn't make", "wouldn't have made", "didn't make", "won't make"],
+      "correct": 1
+    },
+    {
+      "id": 6,
+      "level": "C1",
+      "topic": "cleft sentences",
+      "question": "It ___ John who broke the window.",
+      "options": ["is", "was", "has been", "were"],
+      "correct": 1
+    },
+    {
+      "id": 7,
+      "level": "C1",
+      "topic": "cleft sentences",
+      "question": "What I ___ is a good night's sleep.",
+      "options": ["need", "needs", "am needing", "needed"],
+      "correct": 0
+    },
+    {
+      "id": 8,
+      "level": "C1",
+      "topic": "advanced passive",
+      "question": "The suspect is believed ___ left the country.",
+      "options": ["to have", "having", "that he", "he has"],
+      "correct": 0
+    },
+    {
+      "id": 9,
+      "level": "C1",
+      "topic": "advanced passive",
+      "question": "She is said ___ the best doctor in the city.",
+      "options": ["being", "to be", "that is", "she is"],
+      "correct": 1
+    },
+    {
+      "id": 10,
+      "level": "C1",
+      "topic": "participle clauses",
+      "question": "___ the door, she noticed a strange smell.",
+      "options": ["Opened", "Opening", "Having open", "To open"],
+      "correct": 1
+    },
+    {
+      "id": 11,
+      "level": "C1",
+      "topic": "participle clauses",
+      "question": "___ finished the report, he went home.",
+      "options": ["Have", "Having", "Had", "Has"],
+      "correct": 1
+    },
+    {
+      "id": 12,
+      "level": "C1",
+      "topic": "wish/regret",
+      "question": "I wish I ___ accepted that offer last year.",
+      "options": ["have", "had", "would have", "could"],
+      "correct": 1
+    },
+    {
+      "id": 13,
+      "level": "C1",
+      "topic": "advanced modals",
+      "question": "She ___ have left already. Her coat is gone.",
+      "options": ["can", "must", "should", "would"],
+      "correct": 1
+    },
+    {
+      "id": 14,
+      "level": "C1",
+      "topic": "advanced modals",
+      "question": "He ___ have told you. It was a secret.",
+      "options": ["mustn't", "shouldn't", "couldn't", "wouldn't"],
+      "correct": 1
+    },
+    {
+      "id": 15,
+      "level": "C1",
+      "topic": "emphasis",
+      "question": "It was only when she left ___ I realized my mistake.",
+      "options": ["that", "when", "which", "what"],
+      "correct": 0
+    },
+    {
+      "id": 16,
+      "level": "C2",
+      "topic": "subjunctive",
+      "question": "The committee recommended that he ___ the position.",
+      "options": ["accepts", "accept", "accepted", "accepting"],
+      "correct": 1
+    },
+    {
+      "id": 17,
+      "level": "C2",
+      "topic": "subjunctive",
+      "question": "It is essential that every student ___ the exam.",
+      "options": ["takes", "take", "took", "taking"],
+      "correct": 1
+    },
+    {
+      "id": 18,
+      "level": "C2",
+      "topic": "advanced inversion",
+      "question": "Were it not for his help, we ___ have succeeded.",
+      "options": ["will not", "would not", "did not", "could"],
+      "correct": 1
+    },
+    {
+      "id": 19,
+      "level": "C2",
+      "topic": "advanced inversion",
+      "question": "Had I known about the problem, I ___ acted differently.",
+      "options": ["will have", "would have", "could", "had"],
+      "correct": 1
+    },
+    {
+      "id": 20,
+      "level": "C2",
+      "topic": "advanced inversion",
+      "question": "So impressive ___ her performance that the audience gave a standing ovation.",
+      "options": ["is", "was", "has been", "were"],
+      "correct": 1
+    },
+    {
+      "id": 21,
+      "level": "C2",
+      "topic": "formal structures",
+      "question": "The extent ___ which the policy affected citizens was unprecedented.",
+      "options": ["to", "in", "at", "by"],
+      "correct": 0
+    },
+    {
+      "id": 22,
+      "level": "C2",
+      "topic": "formal structures",
+      "question": "___ notwithstanding, the project was completed on time.",
+      "options": ["Difficulties", "Difficult", "Difficultly", "Being difficult"],
+      "correct": 0
+    },
+    {
+      "id": 23,
+      "level": "C2",
+      "topic": "advanced tenses",
+      "question": "By this time next year, she ___ her PhD.",
+      "options": ["will complete", "will have completed", "completes", "has completed"],
+      "correct": 1
+    },
+    {
+      "id": 24,
+      "level": "C2",
+      "topic": "advanced tenses",
+      "question": "By the time he retires, he ___ for the company for 40 years.",
+      "options": ["will work", "will have been working", "is working", "has worked"],
+      "correct": 1
+    },
+    {
+      "id": 25,
+      "level": "C2",
+      "topic": "ellipsis",
+      "question": "She could have helped, but she chose not ___.",
+      "options": ["to", "to do", "doing", "for"],
+      "correct": 0
+    },
+    {
+      "id": 26,
+      "level": "C2",
+      "topic": "concession",
+      "question": "___ as it may seem, the story is entirely true.",
+      "options": ["Strange", "Strangely", "Stranger", "Strangest"],
+      "correct": 0
+    },
+    {
+      "id": 27,
+      "level": "C2",
+      "topic": "nominal clauses",
+      "question": "___ he said was completely untrue.",
+      "options": ["That", "What", "Which", "How"],
+      "correct": 1
+    },
+    {
+      "id": 28,
+      "level": "C2",
+      "topic": "advanced connectors",
+      "question": "The results were disappointing, ___ the team had worked extremely hard.",
+      "options": ["despite", "although", "notwithstanding that", "in spite"],
+      "correct": 2
+    },
+    {
+      "id": 29,
+      "level": "C2",
+      "topic": "advanced passive",
+      "question": "The building is ___ to have been designed by a famous architect.",
+      "options": ["told", "thought", "spoken", "talked"],
+      "correct": 1
+    },
+    {
+      "id": 30,
+      "level": "C2",
+      "topic": "subjunctive",
+      "question": "If need ___, we can extend the deadline.",
+      "options": ["is", "be", "was", "were"],
+      "correct": 1
+    }
+  ]
+}

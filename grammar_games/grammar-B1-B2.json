@@ -1,0 +1,250 @@
+{
+  "gameInfo": {
+    "title": "Grammar B1–B2",
+    "description": "Intermediate grammar: conditionals, present perfect, passive voice, relative clauses, reported speech, modals.",
+    "totalQuestions": 30,
+    "levels": ["B1", "B2"]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "level": "B1",
+      "topic": "present perfect",
+      "question": "She has lived here ___ 2015.",
+      "options": ["for", "since", "from", "during"],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "level": "B1",
+      "topic": "present perfect",
+      "question": "I have worked here ___ ten years.",
+      "options": ["since", "for", "from", "during"],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "level": "B1",
+      "topic": "present perfect",
+      "question": "Have you ever ___ to Japan?",
+      "options": ["be", "been", "being", "was"],
+      "correct": 1
+    },
+    {
+      "id": 4,
+      "level": "B1",
+      "topic": "first conditional",
+      "question": "If it rains tomorrow, we ___ stay at home.",
+      "options": ["will", "would", "are", "did"],
+      "correct": 0
+    },
+    {
+      "id": 5,
+      "level": "B1",
+      "topic": "first conditional",
+      "question": "If you ___ hard, you will pass the exam.",
+      "options": ["study", "studied", "will study", "would study"],
+      "correct": 0
+    },
+    {
+      "id": 6,
+      "level": "B1",
+      "topic": "modals",
+      "question": "You ___ see a doctor. You look very ill.",
+      "options": ["should", "can", "might", "would"],
+      "correct": 0
+    },
+    {
+      "id": 7,
+      "level": "B1",
+      "topic": "modals",
+      "question": "You ___ smoke in the hospital.",
+      "options": ["mustn't", "don't have to", "shouldn't", "can't"],
+      "correct": 0
+    },
+    {
+      "id": 8,
+      "level": "B1",
+      "topic": "relative clauses",
+      "question": "The woman ___ lives next door is a doctor.",
+      "options": ["which", "who", "whom", "whose"],
+      "correct": 1
+    },
+    {
+      "id": 9,
+      "level": "B1",
+      "topic": "relative clauses",
+      "question": "The book ___ I bought yesterday is very good.",
+      "options": ["who", "which", "whose", "whom"],
+      "correct": 1
+    },
+    {
+      "id": 10,
+      "level": "B1",
+      "topic": "past continuous",
+      "question": "I ___ watching TV when the phone rang.",
+      "options": ["am", "was", "were", "is"],
+      "correct": 1
+    },
+    {
+      "id": 11,
+      "level": "B1",
+      "topic": "past continuous",
+      "question": "They ___ sleeping when the alarm went off.",
+      "options": ["was", "were", "are", "is"],
+      "correct": 1
+    },
+    {
+      "id": 12,
+      "level": "B1",
+      "topic": "used to",
+      "question": "I ___ play tennis when I was young.",
+      "options": ["use to", "used to", "was used to", "am used to"],
+      "correct": 1
+    },
+    {
+      "id": 13,
+      "level": "B1",
+      "topic": "connectors",
+      "question": "___ it was raining, we went for a walk.",
+      "options": ["Although", "Because", "So", "Therefore"],
+      "correct": 0
+    },
+    {
+      "id": 14,
+      "level": "B1",
+      "topic": "present perfect continuous",
+      "question": "She has been ___ for two hours.",
+      "options": ["study", "studied", "studying", "studies"],
+      "correct": 2
+    },
+    {
+      "id": 15,
+      "level": "B1",
+      "topic": "too/enough",
+      "question": "This coffee is too hot ___.",
+      "options": ["to drink", "for drink", "drinking", "to drinking"],
+      "correct": 0
+    },
+    {
+      "id": 16,
+      "level": "B2",
+      "topic": "second conditional",
+      "question": "If I ___ rich, I would travel the world.",
+      "options": ["am", "was", "were", "will be"],
+      "correct": 2
+    },
+    {
+      "id": 17,
+      "level": "B2",
+      "topic": "second conditional",
+      "question": "If she had more time, she ___ learn French.",
+      "options": ["will", "would", "can", "is going to"],
+      "correct": 1
+    },
+    {
+      "id": 18,
+      "level": "B2",
+      "topic": "passive voice",
+      "question": "The cake ___ by my grandmother.",
+      "options": ["baked", "was baked", "is baking", "has baking"],
+      "correct": 1
+    },
+    {
+      "id": 19,
+      "level": "B2",
+      "topic": "passive voice",
+      "question": "English ___ in many countries.",
+      "options": ["speaks", "is spoken", "is speaking", "has spoken"],
+      "correct": 1
+    },
+    {
+      "id": 20,
+      "level": "B2",
+      "topic": "reported speech",
+      "question": "She said she ___ tired.",
+      "options": ["is", "was", "will be", "has been"],
+      "correct": 1
+    },
+    {
+      "id": 21,
+      "level": "B2",
+      "topic": "reported speech",
+      "question": "He told me he ___ call me later.",
+      "options": ["will", "would", "can", "shall"],
+      "correct": 1
+    },
+    {
+      "id": 22,
+      "level": "B2",
+      "topic": "wish",
+      "question": "I wish I ___ more time to study.",
+      "options": ["have", "had", "having", "will have"],
+      "correct": 1
+    },
+    {
+      "id": 23,
+      "level": "B2",
+      "topic": "past perfect",
+      "question": "By the time we arrived, the movie ___.",
+      "options": ["started", "has started", "had started", "starts"],
+      "correct": 2
+    },
+    {
+      "id": 24,
+      "level": "B2",
+      "topic": "past perfect",
+      "question": "She ___ never seen snow before that trip.",
+      "options": ["has", "had", "have", "was"],
+      "correct": 1
+    },
+    {
+      "id": 25,
+      "level": "B2",
+      "topic": "causative",
+      "question": "I had my car ___ last week.",
+      "options": ["repair", "repaired", "repairing", "repairs"],
+      "correct": 1
+    },
+    {
+      "id": 26,
+      "level": "B2",
+      "topic": "gerund vs infinitive",
+      "question": "She enjoys ___ in the park.",
+      "options": ["run", "to run", "running", "ran"],
+      "correct": 2
+    },
+    {
+      "id": 27,
+      "level": "B2",
+      "topic": "gerund vs infinitive",
+      "question": "He decided ___ a new job.",
+      "options": ["finding", "to find", "find", "found"],
+      "correct": 1
+    },
+    {
+      "id": 28,
+      "level": "B2",
+      "topic": "third conditional",
+      "question": "If I had studied harder, I ___ passed the exam.",
+      "options": ["will have", "would have", "could", "had"],
+      "correct": 1
+    },
+    {
+      "id": 29,
+      "level": "B2",
+      "topic": "modals of deduction",
+      "question": "She ___ be at home. Her car is in the driveway.",
+      "options": ["can", "must", "should", "would"],
+      "correct": 1
+    },
+    {
+      "id": 30,
+      "level": "B2",
+      "topic": "relative clauses",
+      "question": "The man ___ car was stolen called the police.",
+      "options": ["who", "which", "whose", "whom"],
+      "correct": 2
+    }
+  ]
+}

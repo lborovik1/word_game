@@ -3,7 +3,8 @@
 ## Overview
 
 A single-page web application for learning
-vocabulary and testing English proficiency.
+vocabulary, testing English proficiency, and
+practicing grammar.
 Built with vanilla HTML, CSS, and JavaScript.
 No frameworks or build tools required.
 
@@ -11,8 +12,8 @@ No frameworks or build tools required.
 
 ### 1. Landing Page
 - Clean card-based interface
-- Two options: Word Matching Game or
-  English Level Test
+- Three options: Word Matching Game,
+  English Level Test, or Grammar Practice
 - Responsive design for mobile and desktop
 
 ### 2. Word Matching Game
@@ -43,6 +44,29 @@ No frameworks or build tools required.
   - Score breakdown by category
   - Level description and vocabulary range
 
+### 4. Grammar Practice
+- Multiple-choice grammar exercises
+- 3 difficulty levels:
+  - A1–A2: Basic grammar (articles, to be,
+    simple present/past, pronouns,
+    prepositions, comparatives)
+  - B1–B2: Intermediate grammar (conditionals,
+    present perfect, passive voice, relative
+    clauses, reported speech, modals)
+  - C1–C2: Advanced grammar (inversion, mixed
+    conditionals, subjunctive, cleft sentences,
+    advanced passive, formal structures)
+- 30 questions per level
+- Shuffled question order each session
+- Instant feedback (correct/wrong)
+- Score tracking with accuracy percentage
+- Results page with:
+  - Overall score percentage
+  - Motivational message
+  - Per-topic score breakdown bars
+- Options to retry, pick another level,
+  or return home
+
 ## File Structure
 
 ```
@@ -61,6 +85,11 @@ word_game/
 │   ├── English-Russian-B2-5K.json
 │   ├── English-Russian-C1-9K.json
 │   └── English-Russian-C2-16K.json
+├── grammar_games/
+│   ├── grammar-registry.js
+│   ├── grammar-A1-A2.json
+│   ├── grammar-B1-B2.json
+│   └── grammar-C1-C2.json
 ├── mytests/
 │   ├── tests-registry.js
 │   ├── english-level-test.json
@@ -95,6 +124,37 @@ words from lower levels):
 | English-Russian-C1-9K.json  | 9,000  |
 | English-Russian-C2-16K.json | 16,000 |
 
+## Grammar Game Files
+
+Grammar questions organized by CEFR level
+pairs with multiple-choice format:
+
+| File                  | Questions | Levels |
+|-----------------------|-----------|--------|
+| grammar-A1-A2.json    | 30        | A1, A2 |
+| grammar-B1-B2.json    | 30        | B1, B2 |
+| grammar-C1-C2.json    | 30        | C1, C2 |
+
+Grammar topics covered:
+- A1: to be, articles, simple present,
+  pronouns, prepositions, questions
+- A2: simple past, comparatives, superlatives,
+  present continuous, countable/uncountable,
+  future (going to), modals, conjunctions
+- B1: present perfect (for/since), first
+  conditional, modals, relative clauses,
+  past continuous, used to, connectors
+- B2: second conditional, passive voice,
+  reported speech, wish, past perfect,
+  causative, gerund vs infinitive,
+  third conditional, modals of deduction
+- C1: inversion, mixed conditionals, cleft
+  sentences, advanced passive, participle
+  clauses, wish/regret, advanced modals
+- C2: subjunctive, advanced inversion,
+  formal structures, advanced tenses,
+  ellipsis, concession, nominal clauses
+
 ## Scripts
 
 - `build_dictionary.py` - Downloads English
@@ -123,7 +183,8 @@ words from lower levels):
 - Works via local web server (Python)
 - Google Fonts: DM Serif Display, Source Sans 3
 - Web Speech API for text-to-speech
-- JSON-based data files for games and tests
+- JSON-based data files for games, tests,
+  and grammar exercises
 - Registry JS files for discoverability
 - Cache-busting on registry script loads
 - Launcher scripts auto-cd to project dir

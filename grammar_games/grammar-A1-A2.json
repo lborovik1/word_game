@@ -1,0 +1,250 @@
+{
+  "gameInfo": {
+    "title": "Grammar A1–A2",
+    "description": "Basic English grammar: articles, to be, simple present, simple past, pronouns, prepositions, comparatives.",
+    "totalQuestions": 30,
+    "levels": ["A1", "A2"]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "level": "A1",
+      "topic": "to be",
+      "question": "She ___ a teacher.",
+      "options": ["am", "is", "are", "be"],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "level": "A1",
+      "topic": "to be",
+      "question": "They ___ from Spain.",
+      "options": ["is", "am", "are", "be"],
+      "correct": 2
+    },
+    {
+      "id": 3,
+      "level": "A1",
+      "topic": "to be",
+      "question": "I ___ happy today.",
+      "options": ["is", "am", "are", "be"],
+      "correct": 1
+    },
+    {
+      "id": 4,
+      "level": "A1",
+      "topic": "articles",
+      "question": "She is ___ doctor.",
+      "options": ["a", "an", "the", "—"],
+      "correct": 0
+    },
+    {
+      "id": 5,
+      "level": "A1",
+      "topic": "articles",
+      "question": "He eats ___ apple every day.",
+      "options": ["a", "an", "the", "—"],
+      "correct": 1
+    },
+    {
+      "id": 6,
+      "level": "A1",
+      "topic": "pronouns",
+      "question": "This is my book. It belongs to ___.",
+      "options": ["I", "my", "me", "mine"],
+      "correct": 2
+    },
+    {
+      "id": 7,
+      "level": "A1",
+      "topic": "pronouns",
+      "question": "___ name is John.",
+      "options": ["He", "Him", "His", "Her"],
+      "correct": 2
+    },
+    {
+      "id": 8,
+      "level": "A1",
+      "topic": "simple present",
+      "question": "She ___ coffee every morning.",
+      "options": ["drink", "drinks", "drinking", "drank"],
+      "correct": 1
+    },
+    {
+      "id": 9,
+      "level": "A1",
+      "topic": "simple present",
+      "question": "They ___ to school by bus.",
+      "options": ["goes", "go", "going", "gone"],
+      "correct": 1
+    },
+    {
+      "id": 10,
+      "level": "A1",
+      "topic": "simple present",
+      "question": "He ___ not like vegetables.",
+      "options": ["do", "does", "is", "has"],
+      "correct": 1
+    },
+    {
+      "id": 11,
+      "level": "A1",
+      "topic": "prepositions",
+      "question": "The cat is ___ the table.",
+      "options": ["in", "on", "at", "to"],
+      "correct": 1
+    },
+    {
+      "id": 12,
+      "level": "A1",
+      "topic": "prepositions",
+      "question": "I live ___ London.",
+      "options": ["on", "at", "in", "to"],
+      "correct": 2
+    },
+    {
+      "id": 13,
+      "level": "A1",
+      "topic": "questions",
+      "question": "___ you like pizza?",
+      "options": ["Does", "Do", "Is", "Are"],
+      "correct": 1
+    },
+    {
+      "id": 14,
+      "level": "A1",
+      "topic": "negation",
+      "question": "I ___ have any money.",
+      "options": ["doesn't", "don't", "isn't", "aren't"],
+      "correct": 1
+    },
+    {
+      "id": 15,
+      "level": "A1",
+      "topic": "there is/are",
+      "question": "There ___ a book on the desk.",
+      "options": ["is", "are", "am", "be"],
+      "correct": 0
+    },
+    {
+      "id": 16,
+      "level": "A2",
+      "topic": "simple past",
+      "question": "I ___ to the cinema last night.",
+      "options": ["go", "goes", "went", "going"],
+      "correct": 2
+    },
+    {
+      "id": 17,
+      "level": "A2",
+      "topic": "simple past",
+      "question": "She ___ a letter yesterday.",
+      "options": ["write", "writes", "wrote", "written"],
+      "correct": 2
+    },
+    {
+      "id": 18,
+      "level": "A2",
+      "topic": "simple past",
+      "question": "They ___ not come to the party.",
+      "options": ["do", "did", "was", "were"],
+      "correct": 1
+    },
+    {
+      "id": 19,
+      "level": "A2",
+      "topic": "comparatives",
+      "question": "This book is ___ than that one.",
+      "options": ["interesting", "more interesting", "most interesting", "interestinger"],
+      "correct": 1
+    },
+    {
+      "id": 20,
+      "level": "A2",
+      "topic": "comparatives",
+      "question": "She is ___ than her sister.",
+      "options": ["tall", "taller", "tallest", "more tall"],
+      "correct": 1
+    },
+    {
+      "id": 21,
+      "level": "A2",
+      "topic": "superlatives",
+      "question": "He is the ___ student in the class.",
+      "options": ["smart", "smarter", "smartest", "more smart"],
+      "correct": 2
+    },
+    {
+      "id": 22,
+      "level": "A2",
+      "topic": "present continuous",
+      "question": "She ___ reading a book right now.",
+      "options": ["is", "are", "am", "be"],
+      "correct": 0
+    },
+    {
+      "id": 23,
+      "level": "A2",
+      "topic": "present continuous",
+      "question": "They ___ playing football at the moment.",
+      "options": ["is", "am", "are", "was"],
+      "correct": 2
+    },
+    {
+      "id": 24,
+      "level": "A2",
+      "topic": "countable/uncountable",
+      "question": "How ___ water do you drink?",
+      "options": ["many", "much", "few", "some"],
+      "correct": 1
+    },
+    {
+      "id": 25,
+      "level": "A2",
+      "topic": "countable/uncountable",
+      "question": "There are ___ apples in the basket.",
+      "options": ["much", "a", "some", "any"],
+      "correct": 2
+    },
+    {
+      "id": 26,
+      "level": "A2",
+      "topic": "future (going to)",
+      "question": "I ___ going to visit my grandma.",
+      "options": ["is", "am", "are", "be"],
+      "correct": 1
+    },
+    {
+      "id": 27,
+      "level": "A2",
+      "topic": "modals",
+      "question": "___ I open the window?",
+      "options": ["Do", "Am", "Can", "Have"],
+      "correct": 2
+    },
+    {
+      "id": 28,
+      "level": "A2",
+      "topic": "adverbs of frequency",
+      "question": "She ___ goes to the gym on Mondays.",
+      "options": ["always", "every", "all", "each"],
+      "correct": 0
+    },
+    {
+      "id": 29,
+      "level": "A2",
+      "topic": "past simple (irregular)",
+      "question": "We ___ a great time at the party.",
+      "options": ["have", "has", "had", "having"],
+      "correct": 2
+    },
+    {
+      "id": 30,
+      "level": "A2",
+      "topic": "conjunctions",
+      "question": "I like tea ___ I don't like coffee.",
+      "options": ["and", "but", "or", "so"],
+      "correct": 1
+    }
+  ]
+}
