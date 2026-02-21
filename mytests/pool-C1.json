@@ -1,63 +1,4031 @@
 {
   "slots": [
     {
-      "slot": 14, "level": "C1", "type": "vocabulary",
+      "slot": 14,
+      "level": "C1",
+      "type": "vocabulary",
       "variants": [
-        {"question": "\"The politician's speech was deliberately ___, avoiding any concrete commitments.\"", "options": ["eloquent","vague","persuasive","concise"], "correct": 1},
-        {"question": "\"The new policy had a ___ effect on employee morale, boosting productivity significantly.\"", "options": ["detrimental","beneficial","negligible","ambiguous"], "correct": 1},
-        {"question": "\"Her ___ knowledge of the subject impressed the entire panel.\"", "options": ["superficial","thorough","limited","vague"], "correct": 1},
-        {"question": "\"The evidence was ___, leaving no room for doubt about the verdict.\"", "options": ["ambiguous","compelling","irrelevant","trivial"], "correct": 1},
-        {"question": "\"The company's ___ approach to innovation kept them ahead of competitors.\"", "options": ["conservative","proactive","passive","indifferent"], "correct": 1},
-        {"question": "\"The report contained several ___ claims that could not be verified.\"", "options": ["accurate","dubious","transparent","obvious"], "correct": 1},
-        {"question": "\"His ___ remarks during the meeting offended several colleagues.\"", "options": ["polite","disparaging","thoughtful","neutral"], "correct": 1},
-        {"question": "\"The merger was ___ by regulatory authorities due to antitrust concerns.\"", "options": ["approved","thwarted","celebrated","ignored"], "correct": 1},
-        {"question": "\"She showed remarkable ___ in handling the crisis under pressure.\"", "options": ["incompetence","composure","indifference","confusion"], "correct": 1},
-        {"question": "\"The artist's work is known for its ___ use of color and light.\"", "options": ["mundane","evocative","careless","predictable"], "correct": 1}
+        {
+          "question": "\"The politician's speech was deliberately ___, avoiding any concrete commitments.\"",
+          "options": [
+            "eloquent",
+            "vague",
+            "persuasive",
+            "concise"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The new policy had a ___ effect on employee morale, boosting productivity significantly.\"",
+          "options": [
+            "detrimental",
+            "beneficial",
+            "negligible",
+            "ambiguous"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Her ___ knowledge of the subject impressed the entire panel.\"",
+          "options": [
+            "superficial",
+            "thorough",
+            "limited",
+            "vague"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The evidence was ___, leaving no room for doubt about the verdict.\"",
+          "options": [
+            "ambiguous",
+            "compelling",
+            "irrelevant",
+            "trivial"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The company's ___ approach to innovation kept them ahead of competitors.\"",
+          "options": [
+            "conservative",
+            "proactive",
+            "passive",
+            "indifferent"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The report contained several ___ claims that could not be verified.\"",
+          "options": [
+            "accurate",
+            "dubious",
+            "transparent",
+            "obvious"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"His ___ remarks during the meeting offended several colleagues.\"",
+          "options": [
+            "polite",
+            "disparaging",
+            "thoughtful",
+            "neutral"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The merger was ___ by regulatory authorities due to antitrust concerns.\"",
+          "options": [
+            "approved",
+            "thwarted",
+            "celebrated",
+            "ignored"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"She showed remarkable ___ in handling the crisis under pressure.\"",
+          "options": [
+            "incompetence",
+            "composure",
+            "indifference",
+            "confusion"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The artist's work is known for its ___ use of color and light.\"",
+          "options": [
+            "mundane",
+            "evocative",
+            "careless",
+            "predictable"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The CEO's ___ remarks about the merger caused stock prices to fluctuate wildly.\"",
+          "options": [
+            "cryptic",
+            "transparent",
+            "straightforward",
+            "explicit"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The documentary provided a ___ analysis of the environmental crisis.\"",
+          "options": [
+            "superficial",
+            "comprehensive",
+            "biased",
+            "outdated"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"His ___ attitude toward criticism made him unpopular among colleagues.\"",
+          "options": [
+            "receptive",
+            "tolerant",
+            "defensive",
+            "appreciative"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The research findings were ___, challenging established theories in the field.\"",
+          "options": [
+            "conventional",
+            "predictable",
+            "mundane",
+            "groundbreaking"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"Her ___ grasp of multiple languages made her an invaluable translator.\"",
+          "options": [
+            "fluent",
+            "basic",
+            "rudimentary",
+            "elementary"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The novel's ___ plot kept readers engaged until the final chapter.\"",
+          "options": [
+            "predictable",
+            "intricate",
+            "simplistic",
+            "linear"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The committee's ___ decision disappointed many stakeholders.\"",
+          "options": [
+            "popular",
+            "welcomed",
+            "controversial",
+            "celebrated"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The architect's design was both ___ and environmentally sustainable.\"",
+          "options": [
+            "conventional",
+            "ordinary",
+            "traditional",
+            "innovative"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"The journalist's ___ investigation exposed widespread corruption.\"",
+          "options": [
+            "meticulous",
+            "careless",
+            "hasty",
+            "superficial"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The team's ___ performance exceeded all expectations this quarter.\"",
+          "options": [
+            "mediocre",
+            "exceptional",
+            "disappointing",
+            "adequate"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The patient's ___ condition required immediate medical intervention.\"",
+          "options": [
+            "stable",
+            "improving",
+            "critical",
+            "minor"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The professor's lecture was ___, covering centuries of historical development.\"",
+          "options": [
+            "narrow",
+            "focused",
+            "limited",
+            "expansive"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"The company's ___ expansion into new markets proved highly profitable.\"",
+          "options": [
+            "strategic",
+            "reckless",
+            "random",
+            "impulsive"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The artwork received ___ reviews from critics worldwide.\"",
+          "options": [
+            "harsh",
+            "glowing",
+            "mixed",
+            "negative"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"His ___ behavior at the meeting undermined team morale.\"",
+          "options": [
+            "supportive",
+            "encouraging",
+            "disruptive",
+            "cooperative"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The scientist's discovery was ___, revolutionizing our understanding of genetics.\"",
+          "options": [
+            "insignificant",
+            "routine",
+            "ordinary",
+            "monumental"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"The diplomat's ___ negotiations prevented the conflict from escalating.\"",
+          "options": [
+            "skillful",
+            "clumsy",
+            "aggressive",
+            "confrontational"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The software update provided ___ improvements to system security.\"",
+          "options": [
+            "minimal",
+            "substantial",
+            "negligible",
+            "questionable"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The defendant's testimony was ___, contradicting previous statements.\"",
+          "options": [
+            "consistent",
+            "reliable",
+            "inconsistent",
+            "truthful"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The restaurant's ___ cuisine attracted food enthusiasts from across the city.\"",
+          "options": [
+            "ordinary",
+            "standard",
+            "typical",
+            "exquisite"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"The manager's ___ leadership style fostered creativity and innovation.\"",
+          "options": [
+            "collaborative",
+            "authoritarian",
+            "rigid",
+            "micromanaging"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The economic forecast painted a ___ picture of future growth prospects.\"",
+          "options": [
+            "pessimistic",
+            "optimistic",
+            "gloomy",
+            "dire"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The student's ___ attitude toward homework affected his academic performance.\"",
+          "options": [
+            "diligent",
+            "conscientious",
+            "negligent",
+            "responsible"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The museum's ___ collection spans over three millennia of human history.\"",
+          "options": [
+            "limited",
+            "modest",
+            "small",
+            "vast"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"The therapy proved ___ in treating patients with chronic anxiety disorders.\"",
+          "options": [
+            "efficacious",
+            "ineffective",
+            "harmful",
+            "pointless"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The author's ___ writing style made the complex topic accessible to general readers.\"",
+          "options": [
+            "convoluted",
+            "lucid",
+            "obscure",
+            "confusing"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The politician's ___ comments sparked outrage among minority communities.\"",
+          "options": [
+            "respectful",
+            "inclusive",
+            "inflammatory",
+            "diplomatic"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The company's ___ commitment to sustainability earned industry recognition.\"",
+          "options": [
+            "half-hearted",
+            "minimal",
+            "token",
+            "unwavering"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"The witness provided a ___ account of the events that transpired.\"",
+          "options": [
+            "coherent",
+            "fragmented",
+            "confused",
+            "distorted"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The medication had ___ side effects, improving the patient's quality of life.\"",
+          "options": [
+            "severe",
+            "minimal",
+            "dangerous",
+            "intolerable"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The board's decision was ___, lacking proper consultation with stakeholders.\"",
+          "options": [
+            "well-considered",
+            "thoughtful",
+            "precipitous",
+            "deliberate"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The athlete's ___ dedication to training resulted in Olympic qualification.\"",
+          "options": [
+            "sporadic",
+            "inconsistent",
+            "casual",
+            "relentless"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"The surgeon's ___ technique minimized patient recovery time.\"",
+          "options": [
+            "precise",
+            "careless",
+            "sloppy",
+            "rushed"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The investment strategy yielded ___ returns despite market volatility.\"",
+          "options": [
+            "disappointing",
+            "impressive",
+            "negligible",
+            "catastrophic"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The employee's ___ conduct violated several company policies.\"",
+          "options": [
+            "exemplary",
+            "professional",
+            "inappropriate",
+            "commendable"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The conference featured ___ speakers from various academic disciplines.\"",
+          "options": [
+            "unknown",
+            "amateur",
+            "inexperienced",
+            "distinguished"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"The detective's ___ observation skills helped solve the complex case.\"",
+          "options": [
+            "acute",
+            "poor",
+            "limited",
+            "inadequate"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The treatment showed ___ promise in early clinical trials.\"",
+          "options": [
+            "little",
+            "tremendous",
+            "minimal",
+            "disappointing"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The student's ___ explanation revealed a fundamental misunderstanding.\"",
+          "options": [
+            "clear",
+            "accurate",
+            "convoluted",
+            "precise"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The charity's ___ impact on local communities cannot be overstated.\"",
+          "options": [
+            "negligible",
+            "minimal",
+            "limited",
+            "profound"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"The lawyer's ___ argument convinced the jury of his client's innocence.\"",
+          "options": [
+            "persuasive",
+            "weak",
+            "flawed",
+            "unconvincing"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The product launch generated ___ interest among potential customers.\"",
+          "options": [
+            "little",
+            "considerable",
+            "negligible",
+            "minimal"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The researcher's ___ methodology cast doubt on the study's conclusions.\"",
+          "options": [
+            "rigorous",
+            "sound",
+            "questionable",
+            "reliable"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The orchestra's performance was ___, earning a standing ovation.\"",
+          "options": [
+            "mediocre",
+            "adequate",
+            "disappointing",
+            "sublime"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"The engineer's ___ solution resolved the technical problem efficiently.\"",
+          "options": [
+            "ingenious",
+            "complicated",
+            "impractical",
+            "flawed"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The market response to the product was ___, exceeding sales projections.\"",
+          "options": [
+            "lukewarm",
+            "enthusiastic",
+            "disappointing",
+            "indifferent"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The advisor's ___ guidance led to poor investment decisions.\"",
+          "options": [
+            "sound",
+            "wise",
+            "misguided",
+            "prudent"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The artist's ___ talent was recognized by galleries worldwide.\"",
+          "options": [
+            "limited",
+            "modest",
+            "questionable",
+            "extraordinary"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"The consultant's ___ analysis identified key areas for improvement.\"",
+          "options": [
+            "thorough",
+            "superficial",
+            "incomplete",
+            "cursory"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The new regulations had a ___ effect on industry practices.\"",
+          "options": [
+            "minor",
+            "transformative",
+            "negligible",
+            "insignificant"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The architect's design was praised for its ___ blend of modern and traditional elements.\"",
+          "options": [
+            "ingenious",
+            "awkward",
+            "jarring",
+            "simplistic"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The professor's lecture was so ___ that half the students fell asleep.\"",
+          "options": [
+            "captivating",
+            "tedious",
+            "enlightening",
+            "stimulating"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Despite the controversy, she remained ___ in her support of the project.\"",
+          "options": [
+            "wavering",
+            "hesitant",
+            "steadfast",
+            "uncertain"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The witness gave a ___ account of the incident, contradicting his earlier statement.\"",
+          "options": [
+            "consistent",
+            "reliable",
+            "accurate",
+            "conflicting"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"Her ___ criticism of the proposal was difficult to ignore.\"",
+          "options": [
+            "scathing",
+            "mild",
+            "supportive",
+            "favorable"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The company's financial situation became ___ after the market crash.\"",
+          "options": [
+            "stable",
+            "precarious",
+            "robust",
+            "flourishing"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The detective's ___ investigation uncovered several crucial pieces of evidence.\"",
+          "options": [
+            "careless",
+            "superficial",
+            "meticulous",
+            "hasty"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The artist's work was considered ___ by contemporary critics.\"",
+          "options": [
+            "conventional",
+            "traditional",
+            "orthodox",
+            "avant-garde"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"His ___ behavior at the dinner party shocked the other guests.\"",
+          "options": [
+            "boorish",
+            "refined",
+            "courteous",
+            "diplomatic"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The medication proved ___ in treating the rare condition.\"",
+          "options": [
+            "harmful",
+            "efficacious",
+            "useless",
+            "counterproductive"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The novel's plot was criticized for being overly ___ and difficult to follow.\"",
+          "options": [
+            "straightforward",
+            "simple",
+            "convoluted",
+            "linear"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The CEO's ___ leadership style alienated many employees.\"",
+          "options": [
+            "collaborative",
+            "inclusive",
+            "democratic",
+            "autocratic"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"The lawyer's ___ questioning revealed inconsistencies in the testimony.\"",
+          "options": [
+            "incisive",
+            "gentle",
+            "superficial",
+            "lenient"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The restaurant's atmosphere was ___, making it perfect for a romantic dinner.\"",
+          "options": [
+            "boisterous",
+            "intimate",
+            "chaotic",
+            "clinical"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Her explanation was so ___ that everyone understood the complex theory.\"",
+          "options": [
+            "obscure",
+            "confusing",
+            "lucid",
+            "ambiguous"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The documentary presented a ___ view of the historical events.\"",
+          "options": [
+            "biased",
+            "prejudiced",
+            "partisan",
+            "objective"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"The singer's ___ performance brought the audience to tears.\"",
+          "options": [
+            "poignant",
+            "superficial",
+            "mechanical",
+            "detached"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The negotiations reached a ___ when neither side would compromise.\"",
+          "options": [
+            "breakthrough",
+            "stalemate",
+            "resolution",
+            "agreement"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The journalist's ___ reporting style made her articles very engaging.\"",
+          "options": [
+            "dry",
+            "monotonous",
+            "vivid",
+            "bland"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The committee's decision was ___, causing widespread disagreement.\"",
+          "options": [
+            "unanimous",
+            "popular",
+            "welcomed",
+            "contentious"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"His ___ approach to problem-solving often yielded creative solutions.\"",
+          "options": [
+            "unconventional",
+            "traditional",
+            "standard",
+            "routine"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The professor's research was ___ for advancing medical knowledge.\"",
+          "options": [
+            "irrelevant",
+            "instrumental",
+            "detrimental",
+            "insignificant"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The manager's ___ feedback helped employees improve their performance.\"",
+          "options": [
+            "vague",
+            "harsh",
+            "constructive",
+            "destructive"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The ancient artifact was in ___ condition despite its age.\"",
+          "options": [
+            "deteriorated",
+            "damaged",
+            "ruined",
+            "pristine"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"The economist's predictions proved to be remarkably ___.\"",
+          "options": [
+            "prescient",
+            "inaccurate",
+            "misguided",
+            "wrong"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The team's ___ effort was essential for completing the project on time.\"",
+          "options": [
+            "individual",
+            "collaborative",
+            "competitive",
+            "isolated"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The critic's review was ___ in its praise of the young author's debut novel.\"",
+          "options": [
+            "restrained",
+            "critical",
+            "effusive",
+            "negative"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The company's marketing strategy was ___, failing to reach the target audience.\"",
+          "options": [
+            "successful",
+            "effective",
+            "brilliant",
+            "misguided"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"Her ___ memory allowed her to recall events from decades ago.\"",
+          "options": [
+            "eidetic",
+            "poor",
+            "faulty",
+            "unreliable"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The scientist's theory was ___ by extensive experimental data.\"",
+          "options": [
+            "contradicted",
+            "corroborated",
+            "disproven",
+            "undermined"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The ambassador's ___ handling of the crisis prevented a diplomatic incident.\"",
+          "options": [
+            "clumsy",
+            "inappropriate",
+            "adroit",
+            "reckless"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The patient's recovery was ___ given the severity of the initial diagnosis.\"",
+          "options": [
+            "expected",
+            "predictable",
+            "typical",
+            "remarkable"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"The politician's ___ promises during the campaign were quickly forgotten.\"",
+          "options": [
+            "grandiose",
+            "modest",
+            "realistic",
+            "humble"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The lawyer's argument was ___, lacking substantial evidence to support his claims.\"",
+          "options": [
+            "compelling",
+            "tenuous",
+            "convincing",
+            "solid"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The designer's ___ use of color created a striking visual impact.\"",
+          "options": [
+            "conservative",
+            "traditional",
+            "bold",
+            "restrained"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The outcome of the experiment was ___, defying all expectations.\"",
+          "options": [
+            "predictable",
+            "expected",
+            "typical",
+            "unprecedented"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"His ___ knowledge of wine impressed the sommelier.\"",
+          "options": [
+            "encyclopedic",
+            "limited",
+            "basic",
+            "elementary"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The mountain path was ___, requiring experienced climbers.\"",
+          "options": [
+            "easy",
+            "treacherous",
+            "safe",
+            "comfortable"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The orchestra's performance was ___, earning a standing ovation.\"",
+          "options": [
+            "mediocre",
+            "disappointing",
+            "sublime",
+            "adequate"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The witness remained ___ despite intensive questioning.\"",
+          "options": [
+            "cooperative",
+            "helpful",
+            "forthcoming",
+            "reticent"
+          ],
+          "correct": 3
+        }
       ]
     },
     {
-      "slot": 15, "level": "C1", "type": "grammar",
+      "slot": 15,
+      "level": "C1",
+      "type": "grammar",
       "variants": [
-        {"question": "Not until the results were published ___ the extent of the problem.", "options": ["did they realize","they realized","they did realize","realized they"], "correct": 0},
-        {"question": "Hardly ___ the door when the phone rang.", "options": ["had I opened","I had opened","I opened","did I open"], "correct": 0},
-        {"question": "Only after reading the report ___ the seriousness of the situation.", "options": ["did she understand","she understood","she did understand","understood she"], "correct": 0},
-        {"question": "Never before ___ such a magnificent performance.", "options": ["had they seen","they had seen","they saw","did they saw"], "correct": 0},
-        {"question": "Seldom ___ such dedication in a young employee.", "options": ["do we see","we see","we do see","see we"], "correct": 0},
-        {"question": "No sooner ___ than it started to rain.", "options": ["had we left","we had left","we left","did we leave"], "correct": 0},
-        {"question": "Little ___ that the decision would change his life.", "options": ["did he know","he knew","he did know","knew he"], "correct": 0},
-        {"question": "Under no circumstances ___ leave the building during the drill.", "options": ["should you","you should","you do","do you"], "correct": 0},
-        {"question": "Not only ___ the exam, but she also got the highest score.", "options": ["did she pass","she passed","she did pass","passed she"], "correct": 0},
-        {"question": "Rarely ___ a book that captivated me so completely.", "options": ["have I read","I have read","I read","did I read"], "correct": 0}
+        {
+          "question": "Not until the results were published ___ the extent of the problem.",
+          "options": [
+            "did they realize",
+            "they realized",
+            "they did realize",
+            "realized they"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Hardly ___ the door when the phone rang.",
+          "options": [
+            "had I opened",
+            "I had opened",
+            "I opened",
+            "did I open"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Only after reading the report ___ the seriousness of the situation.",
+          "options": [
+            "did she understand",
+            "she understood",
+            "she did understand",
+            "understood she"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Never before ___ such a magnificent performance.",
+          "options": [
+            "had they seen",
+            "they had seen",
+            "they saw",
+            "did they saw"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Seldom ___ such dedication in a young employee.",
+          "options": [
+            "do we see",
+            "we see",
+            "we do see",
+            "see we"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "No sooner ___ than it started to rain.",
+          "options": [
+            "had we left",
+            "we had left",
+            "we left",
+            "did we leave"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Little ___ that the decision would change his life.",
+          "options": [
+            "did he know",
+            "he knew",
+            "he did know",
+            "knew he"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Under no circumstances ___ leave the building during the drill.",
+          "options": [
+            "should you",
+            "you should",
+            "you do",
+            "do you"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Not only ___ the exam, but she also got the highest score.",
+          "options": [
+            "did she pass",
+            "she passed",
+            "she did pass",
+            "passed she"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Rarely ___ a book that captivated me so completely.",
+          "options": [
+            "have I read",
+            "I have read",
+            "I read",
+            "did I read"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Scarcely ___ the meeting when the fire alarm sounded.",
+          "options": [
+            "we had started",
+            "had we started",
+            "we started",
+            "did we start"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Little ___ that this decision would change everything.",
+          "options": [
+            "did he know",
+            "he knew",
+            "he did know",
+            "knew he"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Not only ___ the project on time, but they also exceeded expectations.",
+          "options": [
+            "they completed",
+            "did they complete",
+            "they did complete",
+            "completed they"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Rarely ___ such innovative solutions to complex problems.",
+          "options": [
+            "we encounter",
+            "do we encounter",
+            "we do encounter",
+            "encounter we"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Under no circumstances ___ this information to unauthorized personnel.",
+          "options": [
+            "should you disclose",
+            "you should disclose",
+            "you disclose",
+            "disclose you"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "No sooner ___ home than it started raining heavily.",
+          "options": [
+            "I had arrived",
+            "had I arrived",
+            "I arrived",
+            "did I arrive"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "At no point ___ the gravity of the economic crisis.",
+          "options": [
+            "they understood",
+            "they did understand",
+            "did they understand",
+            "understood they"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Should you encounter any problems, ___ immediately.",
+          "options": [
+            "contact us",
+            "you contact us",
+            "you should contact us",
+            "do contact us"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Only when the evidence was presented ___ his mistake.",
+          "options": [
+            "he acknowledged",
+            "he did acknowledge",
+            "acknowledged he",
+            "did he acknowledge"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Neither ___ the instructions nor followed the safety protocols.",
+          "options": [
+            "they read",
+            "did they read",
+            "they did read",
+            "read they"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Had I known about the traffic, ___ an earlier train.",
+          "options": [
+            "I would have taken",
+            "I had taken",
+            "would I have taken",
+            "I would take"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "So impressive ___ that the audience gave a standing ovation.",
+          "options": [
+            "the performance was",
+            "was the performance",
+            "the performance had been",
+            "had the performance been"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "In vain ___ to convince them of the proposal's merits.",
+          "options": [
+            "he tried",
+            "did he try",
+            "he did try",
+            "tried he"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Nowhere ___ a more comprehensive analysis of the data.",
+          "options": [
+            "you will find",
+            "will you find",
+            "you find",
+            "find you"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Not once ___ during the entire presentation.",
+          "options": [
+            "she hesitated",
+            "she did hesitate",
+            "hesitated she",
+            "did she hesitate"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Were the circumstances different, ___ a different approach.",
+          "options": [
+            "we would adopt",
+            "would we adopt",
+            "we adopted",
+            "we had adopted"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Only by working together ___ this ambitious goal.",
+          "options": [
+            "we can achieve",
+            "can we achieve",
+            "we achieve",
+            "achieve we"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Down the hill ___ without any concern for safety.",
+          "options": [
+            "the children ran",
+            "ran the children",
+            "the children did run",
+            "did the children run"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Not until midnight ___ working on the urgent report.",
+          "options": [
+            "did they finish",
+            "they finished",
+            "they did finish",
+            "finished they"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Such ___ that it made international headlines.",
+          "options": [
+            "the discovery was significant",
+            "was the significance of the discovery",
+            "significant was the discovery",
+            "the significant discovery was"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Only in exceptional cases ___ this policy be waived.",
+          "options": [
+            "will",
+            "would",
+            "can",
+            "should"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Little ___ how much effort went into organizing the event.",
+          "options": [
+            "people realized",
+            "did people realize",
+            "people did realize",
+            "realized people"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Hardly ___ when the storm intensified dramatically.",
+          "options": [
+            "had the warning been issued",
+            "the warning had been issued",
+            "was the warning issued",
+            "the warning was issued"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Not only ___ excellent grades, but she also participated in numerous activities.",
+          "options": [
+            "she maintained",
+            "maintained she",
+            "did she maintain",
+            "she did maintain"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Seldom ___ such determination in facing adversity.",
+          "options": [
+            "have we witnessed",
+            "we have witnessed",
+            "we witnessed",
+            "did we witness"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Should the weather improve, ___ our outdoor plans.",
+          "options": [
+            "we will proceed with",
+            "will we proceed with",
+            "we proceed with",
+            "do we proceed with"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Never again ___ such a foolish mistake.",
+          "options": [
+            "I will make",
+            "will I make",
+            "I make",
+            "do I make"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Only after extensive research ___ the true cause of the problem.",
+          "options": [
+            "they discovered",
+            "they did discover",
+            "discovered they",
+            "did they discover"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "So rapidly ___ that many investors were caught off guard.",
+          "options": [
+            "the market declined",
+            "declined the market",
+            "did the market decline",
+            "the market did decline"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Under no conditions ___ compromise on safety standards.",
+          "options": [
+            "we will",
+            "will we",
+            "we should",
+            "should we"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Not until the final moment ___ the outcome of the negotiations.",
+          "options": [
+            "was revealed",
+            "revealed was",
+            "did reveal",
+            "was it revealed"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Rarely ___ the opportunity to work with such talented individuals.",
+          "options": [
+            "do we get",
+            "we get",
+            "we do get",
+            "get we"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Had she followed the advice, ___ in this difficult situation.",
+          "options": [
+            "she wouldn't be",
+            "wouldn't she be",
+            "she wasn't",
+            "wasn't she"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Not once during the trial ___ his composure.",
+          "options": [
+            "he lost",
+            "lost he",
+            "did he lose",
+            "he did lose"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Only through persistence ___ achieve lasting success.",
+          "options": [
+            "one can",
+            "can one",
+            "one does",
+            "does one"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Nowhere else ___ such pristine natural beauty.",
+          "options": [
+            "you can find",
+            "can you find",
+            "you find",
+            "find you"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Should anyone inquire about the matter, ___ them to contact me directly.",
+          "options": [
+            "tell",
+            "you tell",
+            "you should tell",
+            "do tell"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Little ___ that their conversation was being recorded.",
+          "options": [
+            "they suspected",
+            "did they suspect",
+            "they did suspect",
+            "suspected they"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "No sooner ___ the announcement than applications started pouring in.",
+          "options": [
+            "they made",
+            "had they made",
+            "they had made",
+            "did they make"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Only when faced with real challenges ___ our true character.",
+          "options": [
+            "we reveal",
+            "do we reveal",
+            "we do reveal",
+            "reveal we"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Not until the investigation concluded ___ the full extent of the scandal.",
+          "options": [
+            "did we understand",
+            "we understood",
+            "we did understand",
+            "understood we"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Such ___ that it required immediate medical attention.",
+          "options": [
+            "the injury was severe",
+            "severe the injury was",
+            "was the severity of the injury",
+            "severe was the injury"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Were I in your position, ___ the same decision.",
+          "options": [
+            "I would make",
+            "would I make",
+            "I made",
+            "I had made"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "At no time ___ the confidentiality of our clients' information.",
+          "options": [
+            "we compromise",
+            "do we compromise",
+            "we do compromise",
+            "compromise we"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Scarcely ___ the new system when problems began to emerge.",
+          "options": [
+            "they had implemented",
+            "had they implemented",
+            "they implemented",
+            "did they implement"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Only by unanimous agreement ___ proceed with the proposal.",
+          "options": [
+            "we can",
+            "can we",
+            "we will",
+            "will we"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Never before ___ technology advance at such a rapid pace.",
+          "options": [
+            "have we seen",
+            "we have seen",
+            "we saw",
+            "did we see"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "So convincing ___ that even the skeptics were persuaded.",
+          "options": [
+            "his argument was",
+            "was his argument",
+            "his argument had been",
+            "had his argument been"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Under no circumstances ___ reveal the location of the safe house.",
+          "options": [
+            "must you",
+            "you must",
+            "you should",
+            "should you"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Not only ___ the deadline, but they also delivered exceptional quality.",
+          "options": [
+            "they met",
+            "met they",
+            "did they meet",
+            "they did meet"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Rarely ___ such innovative approaches to problem-solving.",
+          "options": [
+            "have we encountered",
+            "we have encountered",
+            "we encountered",
+            "encountered we"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Little ___ that their decision would have such far-reaching consequences.",
+          "options": [
+            "they knew",
+            "did they know",
+            "they did know",
+            "knew they"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "No sooner ___ the meeting than the fire alarm went off.",
+          "options": [
+            "they had started",
+            "had they started",
+            "they started",
+            "did they start"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Under no circumstances ___ this information to unauthorized personnel.",
+          "options": [
+            "we should reveal",
+            "we reveal",
+            "should we reveal",
+            "reveal we"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Scarcely ___ the presentation when questions started pouring in.",
+          "options": [
+            "she finished",
+            "did she finish",
+            "had she finished",
+            "she had finished"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "On no account ___ the safety protocols be ignored.",
+          "options": [
+            "should",
+            "would",
+            "could",
+            "might"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Not only ___ the project on time, but they also came in under budget.",
+          "options": [
+            "they completed",
+            "did they complete",
+            "they did complete",
+            "completed they"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "At no time ___ the gravity of the situation.",
+          "options": [
+            "he understood",
+            "understood he",
+            "did he understand",
+            "he did understand"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Only when the evidence was presented ___ their mistake.",
+          "options": [
+            "they acknowledged",
+            "acknowledged they",
+            "they did acknowledge",
+            "did they acknowledge"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Never again ___ such a rookie error.",
+          "options": [
+            "I made",
+            "made I",
+            "did I make",
+            "will I make"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "So impressed ___ by the proposal that they approved it immediately.",
+          "options": [
+            "were they",
+            "they were",
+            "they did",
+            "did they"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Only by working together ___ overcome these challenges.",
+          "options": [
+            "can we",
+            "we can",
+            "we could",
+            "could we"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Not once ___ during the entire negotiation process.",
+          "options": [
+            "he complained",
+            "complained he",
+            "did he complain",
+            "he did complain"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Should ___ any problems arise, please contact us immediately.",
+          "options": [
+            "there",
+            "it",
+            "they",
+            "these"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Only in exceptional circumstances ___ this rule be waived.",
+          "options": [
+            "will",
+            "would",
+            "should",
+            "might"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Nowhere ___ a more comprehensive analysis of the market trends.",
+          "options": [
+            "you will find",
+            "will you find",
+            "you find",
+            "find you"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Had ___ arrived earlier, we could have discussed the matter in detail.",
+          "options": [
+            "you",
+            "they",
+            "she",
+            "he"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "So complex ___ the algorithm that only a few specialists understood it.",
+          "options": [
+            "it was",
+            "was it",
+            "it is",
+            "is it"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Only after extensive research ___ the correlation between the variables.",
+          "options": [
+            "they discovered",
+            "discovered they",
+            "did they discover",
+            "they did discover"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Were ___ to reconsider their position, negotiations could resume.",
+          "options": [
+            "they",
+            "we",
+            "it",
+            "there"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Not until the audit was complete ___ the financial irregularities.",
+          "options": [
+            "we discovered",
+            "discovered we",
+            "did we discover",
+            "we did discover"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Hardly ___ when the storm intensified dramatically.",
+          "options": [
+            "had we left",
+            "we had left",
+            "we left",
+            "did we leave"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "In no way ___ this be considered a viable solution.",
+          "options": [
+            "should",
+            "would",
+            "could",
+            "can"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Only through persistent effort ___ achieve lasting success.",
+          "options": [
+            "can one",
+            "one can",
+            "one could",
+            "could one"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Not even once ___ to question the validity of the data.",
+          "options": [
+            "they stopped",
+            "stopped they",
+            "did they stop",
+            "they did stop"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "So eloquent ___ his speech that the audience gave him a standing ovation.",
+          "options": [
+            "was",
+            "were",
+            "is",
+            "are"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Only in retrospect ___ how significant that moment had been.",
+          "options": [
+            "I realized",
+            "realized I",
+            "did I realize",
+            "I did realize"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Should the need arise, ___ alternative arrangements be made.",
+          "options": [
+            "will",
+            "would",
+            "can",
+            "could"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Little ___ that their casual conversation would lead to a breakthrough.",
+          "options": [
+            "they suspected",
+            "suspected they",
+            "did they suspect",
+            "they did suspect"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "No sooner ___ the contract than they began implementing changes.",
+          "options": [
+            "they had signed",
+            "had they signed",
+            "they signed",
+            "did they sign"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Seldom ___ such unanimous agreement among the board members.",
+          "options": [
+            "is there",
+            "there is",
+            "there was",
+            "was there"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Only when all options were exhausted ___ to seek external help.",
+          "options": [
+            "they decided",
+            "decided they",
+            "did they decide",
+            "they did decide"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Never before ___ such sophisticated technology in manufacturing.",
+          "options": [
+            "we have used",
+            "have we used",
+            "we used",
+            "did we use"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Under these circumstances, ___ the deadline be extended.",
+          "options": [
+            "should",
+            "would",
+            "could",
+            "might"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "So determined ___ to succeed that failure was never an option.",
+          "options": [
+            "she was",
+            "was she",
+            "she is",
+            "is she"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Only by embracing innovation ___ remain competitive in this market.",
+          "options": [
+            "can companies",
+            "companies can",
+            "companies could",
+            "could companies"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Not until the final results were announced ___ the winner.",
+          "options": [
+            "we knew",
+            "knew we",
+            "did we know",
+            "we did know"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Rarely ___ such attention to detail in student work.",
+          "options": [
+            "do professors see",
+            "professors see",
+            "professors do see",
+            "see professors"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Had ___ been more thorough in their preparation, the outcome might have been different.",
+          "options": [
+            "they",
+            "we",
+            "she",
+            "he"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Only after careful consideration ___ their final recommendation.",
+          "options": [
+            "they made",
+            "made they",
+            "did they make",
+            "they did make"
+          ],
+          "correct": 2
+        }
       ]
     },
     {
-      "slot": 16, "level": "C1", "type": "reading",
+      "slot": 16,
+      "level": "C1",
+      "type": "reading",
       "variants": [
-        {"question": "Read: \"The notion that creativity is an innate gift rather than a skill that can be cultivated is a pervasive misconception that discourages many from pursuing artistic endeavors.\" The author believes that:", "options": ["creativity cannot be learned","only talented people should pursue art","creativity can be developed, contrary to popular belief","artistic endeavors are not worthwhile"], "correct": 2},
-        {"question": "Read: \"The commodification of higher education has shifted the focus from intellectual growth to credential acquisition, undermining the very purpose of academic institutions.\" The author argues that:", "options": ["universities are better than ever","education has become too focused on getting degrees rather than learning","credentials are more important than knowledge","all universities should be free"], "correct": 1},
-        {"question": "Read: \"While technological determinism suggests that innovation drives social change, a more nuanced view recognizes the reciprocal relationship between technology and society.\" The passage suggests:", "options": ["technology alone drives all change","society has no effect on technology","technology and society influence each other","social change is impossible"], "correct": 2},
-        {"question": "Read: \"The paradox of choice suggests that an abundance of options, rather than liberating consumers, can lead to decision paralysis and decreased satisfaction.\" Having many choices:", "options": ["always makes people happier","can actually make decisions harder and less satisfying","has no psychological effect","is always better than having few choices"], "correct": 1},
-        {"question": "Read: \"Critics of standardized testing argue that such assessments measure test-taking ability rather than genuine understanding, perpetuating educational inequities.\" The critics believe standardized tests:", "options": ["are perfectly fair","don't truly measure knowledge and may increase inequality","should be used more often","benefit all students equally"], "correct": 1},
-        {"question": "Read: \"The erosion of local journalism has created information deserts in many communities, leaving residents without reliable coverage of local government and civic affairs.\" The decline of local news:", "options": ["has no real impact","leaves communities less informed about local issues","only affects rural areas","has been exaggerated"], "correct": 1},
-        {"question": "Read: \"Cognitive biases operate below conscious awareness, systematically distorting our perception of reality in ways that feel entirely rational.\" Cognitive biases:", "options": ["are easy to detect in ourselves","affect our thinking without us realizing it","only affect unintelligent people","can be completely eliminated"], "correct": 1},
-        {"question": "Read: \"The precautionary principle holds that the burden of proof for potentially harmful actions falls on those proposing the action, not on those who might be affected.\" This principle means:", "options": ["anyone can do anything until proven harmful","those who want to act must prove it's safe first","victims must prove harm occurred","no new actions should ever be taken"], "correct": 1},
-        {"question": "Read: \"Gentrification simultaneously revitalizes neglected neighborhoods and displaces long-term residents who can no longer afford rising costs.\" Gentrification:", "options": ["only has positive effects","has both positive and negative consequences","only harms communities","doesn't affect housing costs"], "correct": 1},
-        {"question": "Read: \"The Dunning-Kruger effect demonstrates that individuals with limited competence in a domain tend to overestimate their abilities, while experts often underestimate theirs.\" This means:", "options": ["experts are always confident","less skilled people may think they're better than they are","everyone accurately judges their own skills","only experts make mistakes"], "correct": 1}
+        {
+          "question": "Read: \"The notion that creativity is an innate gift rather than a skill that can be cultivated is a pervasive misconception that discourages many from pursuing artistic endeavors.\" The author believes that:",
+          "options": [
+            "creativity cannot be learned",
+            "only talented people should pursue art",
+            "creativity can be developed, contrary to popular belief",
+            "artistic endeavors are not worthwhile"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The commodification of higher education has shifted the focus from intellectual growth to credential acquisition, undermining the very purpose of academic institutions.\" The author argues that:",
+          "options": [
+            "universities are better than ever",
+            "education has become too focused on getting degrees rather than learning",
+            "credentials are more important than knowledge",
+            "all universities should be free"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"While technological determinism suggests that innovation drives social change, a more nuanced view recognizes the reciprocal relationship between technology and society.\" The passage suggests:",
+          "options": [
+            "technology alone drives all change",
+            "society has no effect on technology",
+            "technology and society influence each other",
+            "social change is impossible"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The paradox of choice suggests that an abundance of options, rather than liberating consumers, can lead to decision paralysis and decreased satisfaction.\" Having many choices:",
+          "options": [
+            "always makes people happier",
+            "can actually make decisions harder and less satisfying",
+            "has no psychological effect",
+            "is always better than having few choices"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Critics of standardized testing argue that such assessments measure test-taking ability rather than genuine understanding, perpetuating educational inequities.\" The critics believe standardized tests:",
+          "options": [
+            "are perfectly fair",
+            "don't truly measure knowledge and may increase inequality",
+            "should be used more often",
+            "benefit all students equally"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The erosion of local journalism has created information deserts in many communities, leaving residents without reliable coverage of local government and civic affairs.\" The decline of local news:",
+          "options": [
+            "has no real impact",
+            "leaves communities less informed about local issues",
+            "only affects rural areas",
+            "has been exaggerated"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Cognitive biases operate below conscious awareness, systematically distorting our perception of reality in ways that feel entirely rational.\" Cognitive biases:",
+          "options": [
+            "are easy to detect in ourselves",
+            "affect our thinking without us realizing it",
+            "only affect unintelligent people",
+            "can be completely eliminated"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The precautionary principle holds that the burden of proof for potentially harmful actions falls on those proposing the action, not on those who might be affected.\" This principle means:",
+          "options": [
+            "anyone can do anything until proven harmful",
+            "those who want to act must prove it's safe first",
+            "victims must prove harm occurred",
+            "no new actions should ever be taken"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Gentrification simultaneously revitalizes neglected neighborhoods and displaces long-term residents who can no longer afford rising costs.\" Gentrification:",
+          "options": [
+            "only has positive effects",
+            "has both positive and negative consequences",
+            "only harms communities",
+            "doesn't affect housing costs"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The Dunning-Kruger effect demonstrates that individuals with limited competence in a domain tend to overestimate their abilities, while experts often underestimate theirs.\" This means:",
+          "options": [
+            "experts are always confident",
+            "less skilled people may think they're better than they are",
+            "everyone accurately judges their own skills",
+            "only experts make mistakes"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The proliferation of social media has paradoxically created both unprecedented connectivity and profound isolation, as digital interactions often lack the depth of face-to-face encounters.\" The author suggests that social media:",
+          "options": [
+            "has solved all communication problems",
+            "creates connection but may also increase loneliness",
+            "should be completely avoided",
+            "only benefits young people"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Contemporary urban planning increasingly emphasizes sustainability over mere functionality, recognizing that environmental considerations must be integral rather than incidental to city development.\" Modern city planning:",
+          "options": [
+            "ignores environmental concerns completely",
+            "focuses only on appearance",
+            "now prioritizes environmental factors as essential, not optional",
+            "remains unchanged from previous decades"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The democratization of information through digital platforms has empowered individuals while simultaneously challenging traditional gatekeepers of knowledge and expertise.\" Digital platforms have:",
+          "options": [
+            "given people more access to information but threatened established authorities",
+            "had no impact on how knowledge is shared",
+            "only benefited traditional media",
+            "made information less accessible"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"While globalization has facilitated unprecedented economic integration, it has also exacerbated cultural homogenization, threatening the diversity of local traditions and practices.\" According to the passage, globalization:",
+          "options": [
+            "has only positive effects",
+            "promotes economic unity but may reduce cultural variety",
+            "strengthens all local cultures",
+            "has no cultural impact"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The medicalization of everyday experiences transforms normal human conditions into pathological states requiring professional intervention, potentially undermining individual resilience.\" This process:",
+          "options": [
+            "always improves people's health",
+            "has no psychological effects",
+            "may weaken people's ability to cope independently",
+            "should be expanded further"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Neuroscientific research increasingly demonstrates that the adolescent brain's ongoing development affects decision-making capabilities, challenging traditional notions of teenage responsibility and autonomy.\" This research:",
+          "options": [
+            "questions conventional ideas about teen accountability",
+            "proves teenagers are fully mature",
+            "supports all traditional parenting methods",
+            "shows brain development is complete by age 12"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"The rise of algorithmic decision-making in hiring, lending, and law enforcement raises profound questions about bias, transparency, and human agency in supposedly objective systems.\" Algorithmic systems:",
+          "options": [
+            "are always completely fair",
+            "create concerns about fairness and human control despite appearing neutral",
+            "should replace all human judgment",
+            "have no impact on society"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Environmental economists argue that traditional GDP measurements fail to account for natural resource depletion and ecological damage, necessitating alternative metrics of societal progress.\" These economists believe:",
+          "options": [
+            "GDP perfectly measures all progress",
+            "economic growth is impossible",
+            "we need new ways to measure progress that include environmental costs",
+            "environmental factors are irrelevant to economics"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The concept of emotional labor recognizes that managing one's feelings and expressions in professional contexts constitutes genuine work that often goes uncompensated and unacknowledged.\" Emotional labor is:",
+          "options": [
+            "real work involving feeling management that's often unrecognized",
+            "not actually work",
+            "only relevant in therapy",
+            "automatically well-paid"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Digital surveillance capitalism leverages personal data as a commodity, transforming private experiences into predictive products for behavioral modification rather than mere targeted advertising.\" This system:",
+          "options": [
+            "only affects shopping habits",
+            "uses personal data to try to change behavior, not just sell products",
+            "has no impact on privacy",
+            "benefits consumers primarily"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The phenomenon of cultural appropriation highlights the complex dynamics of power and privilege inherent in cross-cultural exchange, distinguishing between appreciation and exploitation.\" Cultural appropriation involves:",
+          "options": [
+            "all cultural sharing is positive",
+            "issues of power imbalance in how cultures are borrowed from",
+            "only affects fashion",
+            "is a completely new concept"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Microfinance initiatives, despite their altruistic intentions, have faced criticism for perpetuating cycles of debt rather than alleviating poverty in developing communities.\" Critics argue that microfinance:",
+          "options": [
+            "always successfully reduces poverty",
+            "has no economic impact",
+            "may create more debt problems instead of solving poverty",
+            "should only operate in wealthy countries"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The resurgence of authoritarianism in established democracies demonstrates that democratic institutions require active civic engagement rather than passive acceptance to maintain their legitimacy.\" Democratic institutions:",
+          "options": [
+            "need citizen participation to stay strong, not just acceptance",
+            "maintain themselves automatically",
+            "are immune to authoritarian threats",
+            "work best without public involvement"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Precision medicine promises personalized treatments based on individual genetic profiles, yet raises ethical concerns about privacy, accessibility, and the potential for genetic discrimination.\" Precision medicine:",
+          "options": [
+            "has no ethical implications",
+            "offers personalized care but creates privacy and fairness concerns",
+            "is available to everyone equally",
+            "eliminates all medical problems"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The gig economy's flexibility comes at the cost of traditional employment protections, creating a precarious labor landscape that shifts economic risk from employers to individual workers.\" The gig economy:",
+          "options": [
+            "provides the same security as traditional jobs",
+            "benefits only employers",
+            "trades job flexibility for worker security and transfers risk to individuals",
+            "eliminates all economic uncertainty"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Behavioral economics reveals that human decision-making consistently deviates from rational choice models, influenced by cognitive biases and emotional factors rather than pure logic.\" Human decisions are:",
+          "options": [
+            "affected by psychological factors, not just rational thinking",
+            "always completely logical",
+            "uninfluenced by emotions",
+            "perfectly predictable"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"The anthropocene concept positions humanity as a geological force reshaping Earth's systems, fundamentally altering how we understand our relationship with the natural world.\" The anthropocene suggests humans:",
+          "options": [
+            "have no environmental impact",
+            "are now a major force changing Earth's natural systems",
+            "should avoid all technology",
+            "cannot affect geological processes"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Posthuman theory challenges anthropocentric worldviews by questioning the boundaries between human, animal, and machine, proposing more fluid conceptions of identity and agency.\" This theory:",
+          "options": [
+            "reinforces human superiority",
+            "has no practical applications",
+            "questions rigid distinctions between humans, animals, and machines",
+            "focuses only on technology"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The commodification of attention in digital environments transforms human focus into a scarce resource to be captured, monetized, and manipulated by competing platforms.\" Digital platforms treat attention as:",
+          "options": [
+            "a valuable resource to be captured and sold",
+            "unlimited and free",
+            "irrelevant to their business",
+            "something that cannot be influenced"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Intersectionality theory emphasizes that individuals experience multiple, overlapping forms of discrimination that cannot be understood through single-axis analyses of oppression.\" This theory focuses on:",
+          "options": [
+            "only one type of discrimination at a time",
+            "how different forms of discrimination combine and overlap",
+            "eliminating all categories of identity",
+            "separating all social issues"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The placebo effect demonstrates the profound influence of expectation and belief on physiological outcomes, challenging purely biomedical approaches to healing and wellness.\" The placebo effect shows:",
+          "options": [
+            "medicine is completely ineffective",
+            "only physical treatments work",
+            "psychological factors can influence physical health outcomes",
+            "belief has no medical relevance"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Biophilic design integrates natural elements into built environments, recognizing humans' innate affinity for nature as essential for psychological well-being and productivity.\" This design approach:",
+          "options": [
+            "incorporates nature into buildings based on human psychological needs",
+            "rejects all modern materials",
+            "focuses only on outdoor spaces",
+            "ignores human comfort"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"The concept of toxic masculinity distinguishes between harmful masculine stereotypes and masculinity itself, advocating for more expansive definitions of male identity and emotional expression.\" Toxic masculinity refers to:",
+          "options": [
+            "all masculine traits",
+            "harmful male stereotypes, not masculinity in general",
+            "only affects women",
+            "cannot be changed"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Circular economy principles challenge the linear 'take-make-dispose' model by emphasizing regeneration, reuse, and the elimination of waste through design innovation.\" A circular economy:",
+          "options": [
+            "increases waste production",
+            "maintains traditional disposal methods",
+            "aims to eliminate waste through reuse and regeneration",
+            "applies only to manufacturing"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The digital divide extends beyond mere access to technology, encompassing disparities in digital literacy, quality of connectivity, and meaningful use of digital resources.\" The digital divide involves:",
+          "options": [
+            "more than just having access to technology",
+            "only internet speed differences",
+            "no significant social impact",
+            "purely economic factors"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Epigenetics reveals that environmental factors can influence gene expression without altering DNA sequences, suggesting that lifestyle choices may affect future generations through heritable modifications.\" Epigenetics shows that:",
+          "options": [
+            "DNA cannot be influenced by environment",
+            "environmental factors can affect gene activity and potentially be passed down",
+            "genetics plays no role in health",
+            "lifestyle choices are irrelevant"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The concept of cultural capital explains how non-financial assets like education, skills, and cultural knowledge contribute to social mobility and class reproduction.\" Cultural capital:",
+          "options": [
+            "only refers to money",
+            "has no impact on social status",
+            "includes education and cultural knowledge that affect social position",
+            "prevents all social change"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Neuroplasticity research demonstrates the brain's remarkable capacity for reorganization throughout life, contradicting earlier assumptions about fixed neural pathways after childhood development.\" This research shows the brain:",
+          "options": [
+            "can continue changing and reorganizing throughout life",
+            "stops developing in childhood",
+            "cannot recover from injury",
+            "functions identically in all people"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"The tragedy of the commons illustrates how individual rational behavior can lead to collective irrationality, resulting in the depletion of shared resources despite everyone's interest in their preservation.\" This concept explains how:",
+          "options": [
+            "shared resources are always well-managed",
+            "individual self-interest can harm collective resources",
+            "private ownership is always harmful",
+            "cooperation is impossible"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Synthetic biology represents a paradigm shift from studying natural biological systems to engineering novel organisms and biological functions for specific applications.\" Synthetic biology involves:",
+          "options": [
+            "only observing existing life forms",
+            "destroying all biological systems",
+            "creating new biological systems and organisms for particular purposes",
+            "preventing all genetic research"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The phenomenon of linguistic relativity suggests that language shapes thought processes and perceptions of reality, though the extent of this influence remains subject to ongoing scholarly debate.\" Linguistic relativity proposes:",
+          "options": [
+            "language may influence how we think and perceive reality",
+            "all languages are identical",
+            "thought is completely independent of language",
+            "only English affects thinking"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Restorative justice emphasizes healing and rehabilitation over punishment, focusing on repairing harm to victims, communities, and offenders through collaborative processes rather than retributive measures.\" This approach:",
+          "options": [
+            "increases punishment severity",
+            "prioritizes healing and repairing harm over punishment",
+            "ignores victims' needs",
+            "eliminates all accountability"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The uncanny valley effect describes the psychological discomfort experienced when encountering humanoid robots or computer animations that appear almost, but not quite, human.\" This effect occurs when:",
+          "options": [
+            "robots look completely mechanical",
+            "technology is obviously artificial",
+            "artificial beings appear almost human but not quite, creating discomfort",
+            "humans interact with other humans"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Metamodernism proposes a cultural sensibility that oscillates between postmodern irony and pre-modern sincerity, embracing both skepticism and hope in contemporary discourse.\" Metamodernism:",
+          "options": [
+            "combines ironic skepticism with genuine hope and sincerity",
+            "rejects all previous cultural movements",
+            "focuses only on traditional values",
+            "promotes pure cynicism"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"The concept of emotional contagion explains how emotions spread between individuals through automatic mimicry and synchronization, influencing group dynamics and collective behavior patterns.\" Emotional contagion describes:",
+          "options": [
+            "emotions cannot be shared",
+            "how emotions spread between people and affect group behavior",
+            "only negative emotions",
+            "conscious emotional manipulation"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Biomimicry harnesses evolutionary solutions found in nature to inspire innovative technologies and designs, demonstrating how biological systems can inform human engineering challenges.\" Biomimicry uses:",
+          "options": [
+            "only artificial materials",
+            "random design principles",
+            "natural systems as inspiration for human technology and design",
+            "outdated engineering methods"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The attention economy monetizes human focus and cognitive resources, creating business models that profit from capturing and retaining user engagement rather than providing genuine value.\" The attention economy:",
+          "options": [
+            "makes money by capturing people's focus rather than offering real value",
+            "always provides valuable services",
+            "ignores user engagement",
+            "focuses on product quality only"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Social constructivism posits that knowledge and reality are actively constructed through social interactions and cultural contexts rather than passively discovered or objectively determined.\" This theory suggests knowledge is:",
+          "options": [
+            "completely objective and universal",
+            "built through social interaction and culture, not just discovered",
+            "impossible to obtain",
+            "identical across all societies"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The precautionary principle advocates for preventive action in the face of scientific uncertainty, arguing that lack of complete evidence should not postpone measures to prevent potential environmental harm.\" This principle supports:",
+          "options": [
+            "waiting for complete scientific proof before acting",
+            "ignoring all environmental concerns",
+            "taking preventive action even when scientific evidence is incomplete",
+            "only acting after damage occurs"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Algorithmic bias occurs when artificial intelligence systems perpetuate or amplify existing social prejudices, often through training data that reflects historical discrimination patterns.\" This bias happens when:",
+          "options": [
+            "AI systems reflect and strengthen existing social prejudices",
+            "algorithms are completely neutral",
+            "technology eliminates all bias",
+            "computers cannot process social data"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"The concept of surveillance capitalism describes how tech companies extract behavioral data to predict and modify human actions, transforming privacy into a luxury commodity rather than a fundamental right.\" Surveillance capitalism:",
+          "options": [
+            "protects user privacy completely",
+            "turns personal data into predictions and control tools, making privacy expensive",
+            "has no impact on personal information",
+            "only affects business transactions"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Ecological modernization theory suggests that environmental protection and economic growth can be mutually reinforcing through technological innovation and policy reform rather than inherently contradictory.\" This theory proposes:",
+          "options": [
+            "economic growth always harms the environment",
+            "environmental protection is impossible",
+            "environmental protection and economic growth can support each other",
+            "technology cannot solve environmental problems"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The digital panopticon extends Bentham's prison design metaphor to contemporary surveillance technologies, where the possibility of constant observation modifies behavior even when actual monitoring is uncertain.\" This concept suggests:",
+          "options": [
+            "modern surveillance changes behavior through potential observation",
+            "digital monitoring is always visible",
+            "surveillance has no psychological effects",
+            "privacy technology is perfect"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Cognitive load theory explains how information processing limitations affect learning efficiency, emphasizing the importance of managing mental resources to optimize educational outcomes and skill acquisition.\" This theory focuses on:",
+          "options": [
+            "unlimited learning capacity",
+            "managing mental resources to improve learning efficiency",
+            "only memorization techniques",
+            "eliminating all educational structure"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The sharing economy disrupts traditional ownership models by emphasizing access over possession, though critics argue it often masks exploitative labor practices beneath rhetoric of collaborative consumption.\" The sharing economy:",
+          "options": [
+            "always improves working conditions",
+            "has no impact on traditional business",
+            "promotes access over ownership but may hide labor exploitation",
+            "only benefits large corporations"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Phenomenology investigates the structures of experience and consciousness, examining how phenomena appear to human awareness rather than their objective existence independent of perception.\" Phenomenology studies:",
+          "options": [
+            "how things appear to human consciousness rather than objective reality",
+            "only physical objects",
+            "mathematical relationships",
+            "unconscious mental processes"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"The network society transforms social organization from hierarchical institutions to flexible, interconnected nodes, fundamentally altering power dynamics and information flows in contemporary culture.\" The network society:",
+          "options": [
+            "maintains traditional hierarchies",
+            "changes social organization to flexible connections, altering power structures",
+            "eliminates all social connections",
+            "only affects technology companies"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Affective computing aims to develop systems that recognize, interpret, and respond to human emotions, potentially revolutionizing human-computer interaction while raising privacy and manipulation concerns.\" Affective computing:",
+          "options": [
+            "ignores human emotions completely",
+            "focuses only on logical processing",
+            "creates emotion-aware systems but raises privacy and control issues",
+            "eliminates all computer-human interaction"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The concept of slow violence describes environmental and social harms that occur gradually and invisibly, challenging conventional notions of violence that emphasize immediate, spectacular events.\" Slow violence refers to:",
+          "options": [
+            "gradual, often invisible environmental and social harm",
+            "only immediate physical attacks",
+            "exclusively interpersonal conflicts",
+            "rapidly occurring damage"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Degrowth economics questions the sustainability of perpetual economic expansion, advocating for reduced material consumption and alternative measures of societal well-being beyond GDP growth.\" Degrowth economics:",
+          "options": [
+            "supports unlimited economic expansion",
+            "challenges endless growth and promotes alternative well-being measures",
+            "focuses only on increasing production",
+            "ignores environmental considerations"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The proliferation of surveillance technology has created an Orwellian dystopia where privacy is an anachronism, eroding the fundamental tenets of democratic society.\" The author suggests that surveillance technology:",
+          "options": [
+            "enhances democratic values",
+            "has created a society resembling Orwell's predictions where privacy no longer exists",
+            "is necessary for modern security",
+            "has no impact on democracy"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The ubiquity of social media has engendered a culture of performative authenticity, where individuals curate idealized versions of themselves for public consumption.\" According to the passage:",
+          "options": [
+            "social media encourages genuine self-expression",
+            "people present fake versions of themselves online",
+            "social media has no effect on behavior",
+            "authenticity is more important than ever"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Environmental degradation is not merely a byproduct of industrialization but a manifestation of humanity's hubris in believing it can transcend natural limitations.\" The author views environmental problems as:",
+          "options": [
+            "unavoidable consequences of progress",
+            "easily solvable technical issues",
+            "results of human arrogance toward nature",
+            "temporary setbacks"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The dichotomy between work and leisure is becoming increasingly obsolete as the gig economy blurs traditional boundaries of employment.\" The passage indicates that:",
+          "options": [
+            "work and leisure remain completely separate",
+            "the gig economy strengthens traditional employment",
+            "the distinction between work and leisure is disappearing",
+            "leisure time is becoming more important"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Algorithmic bias in artificial intelligence systems perpetuates systemic inequalities by encoding human prejudices into ostensibly objective technological processes.\" The author argues that AI:",
+          "options": [
+            "eliminates human bias completely",
+            "is always objective and fair",
+            "reinforces existing prejudices despite appearing neutral",
+            "has no connection to human values"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The gentrification of urban neighborhoods epitomizes the contradictions of progressive urban planning, displacing vulnerable communities in the name of revitalization.\" According to the passage, gentrification:",
+          "options": [
+            "successfully helps all community members",
+            "represents the contradictions of trying to improve cities while harming residents",
+            "only benefits property developers",
+            "has no negative consequences"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The commodification of personal data has transformed citizens into unwitting participants in a surveillance capitalism that extracts value from their digital footprints.\" The author suggests that people:",
+          "options": [
+            "willingly participate in data collection",
+            "are unknowingly exploited through their digital activities",
+            "benefit equally from data sharing",
+            "have complete control over their data"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Cultural homogenization through globalization represents a form of epistemic violence that eradicates indigenous knowledge systems in favor of Western paradigms.\" The passage argues that globalization:",
+          "options": [
+            "preserves all cultural traditions equally",
+            "benefits indigenous communities",
+            "destroys local knowledge by imposing Western ways of thinking",
+            "has no effect on traditional cultures"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The fetishization of entrepreneurship in contemporary society masks the precarity and exploitation inherent in neoliberal economic structures.\" The author believes that celebrating entrepreneurship:",
+          "options": [
+            "accurately reflects economic reality",
+            "hides the instability and unfairness of modern economics",
+            "benefits all workers equally",
+            "creates genuine opportunities for everyone"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The anthropocentric worldview that underpins modern civilization is fundamentally incompatible with ecological sustainability and species survival.\" According to the passage:",
+          "options": [
+            "human-centered thinking supports environmental protection",
+            "our focus on humans is compatible with nature",
+            "modern civilization's human focus conflicts with environmental survival",
+            "anthropocentrism has no environmental implications"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The democratization of information through digital platforms has paradoxically led to the fragmentation of truth and the proliferation of echo chambers.\" The author suggests that easier access to information:",
+          "options": [
+            "has created a more informed society",
+            "has unexpectedly caused division and isolated thinking",
+            "has eliminated misinformation",
+            "has no effect on public discourse"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The medicalization of normal human experiences transforms existential challenges into pathological conditions requiring pharmaceutical intervention.\" The passage criticizes:",
+          "options": [
+            "the tendency to treat normal life problems as medical diseases",
+            "the lack of medical treatment for mental health",
+            "people who refuse medical help",
+            "traditional approaches to wellness"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Neoliberalism's emphasis on individual responsibility obscures the structural inequalities that predetermine life outcomes for marginalized populations.\" The author argues that focusing on individual responsibility:",
+          "options": [
+            "accurately explains social problems",
+            "helps marginalized communities",
+            "ignores systemic factors that affect people's chances in life",
+            "creates equal opportunities for all"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The aestheticization of poverty through social media activism transforms genuine suffering into consumable content for privileged audiences.\" According to the passage, social media activism:",
+          "options": [
+            "effectively addresses poverty",
+            "turns real hardship into entertainment for the wealthy",
+            "accurately represents social issues",
+            "empowers marginalized communities"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The institutionalization of mental health discourse has supplanted traditional community-based support systems, creating dependency on professional interventions.\" The author suggests that formal mental health systems:",
+          "options": [
+            "complement traditional community support",
+            "have replaced natural support networks and created reliance on experts",
+            "are unnecessary additions to community care",
+            "work perfectly with existing social structures"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Corporate social responsibility initiatives function as palliative measures that ameliorate public criticism without addressing fundamental business practices.\" The passage argues that CSR programs:",
+          "options": [
+            "genuinely transform corporate behavior",
+            "are unnecessary for business success",
+            "serve as superficial fixes that avoid real change",
+            "completely solve ethical business issues"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The gamification of education reduces learning to a series of extrinsic motivators, undermining intrinsic curiosity and deep engagement with knowledge.\" According to the author, making education game-like:",
+          "options": [
+            "enhances natural love of learning",
+            "has no effect on student motivation",
+            "damages students' internal desire to learn by focusing on external rewards",
+            "is the best way to engage modern students"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The rhetoric of disruption in Silicon Valley perpetuates a mythology of progress that justifies the destruction of established social institutions.\" The passage suggests that 'disruption' language:",
+          "options": [
+            "accurately describes technological benefits",
+            "creates a false narrative that excuses dismantling social structures",
+            "has no influence on public opinion",
+            "protects traditional institutions"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Posthumanism challenges anthropocentric assumptions by recognizing the agency and subjectivity of non-human entities in shaping reality.\" The passage indicates that posthumanism:",
+          "options": [
+            "reinforces human superiority",
+            "questions human-centered views by acknowledging non-human influences",
+            "ignores non-human perspectives",
+            "has no philosophical implications"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The quantified self movement exemplifies the colonization of subjective experience by data-driven rationality, reducing human complexity to algorithmic interpretations.\" The author views self-tracking technology as:",
+          "options": [
+            "enhancing human self-understanding",
+            "having no impact on personal experience",
+            "oversimplifying human complexity through data measurement",
+            "perfectly capturing human nature"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The precaritization of academic labor transforms intellectual work into contingent employment, compromising scholarly independence and institutional knowledge.\" According to the passage, unstable academic jobs:",
+          "options": [
+            "improve university education quality",
+            "threaten academic freedom and institutional memory",
+            "benefit both scholars and students",
+            "have no effect on research quality"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Digital nomadism represents a privileged form of mobility that exploits global economic disparities while masquerading as lifestyle liberation.\" The author argues that digital nomads:",
+          "options": [
+            "genuinely achieve work-life balance",
+            "take advantage of global inequality while claiming freedom",
+            "contribute equally to all communities they visit",
+            "face the same challenges as local populations"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The spectacularization of social movements through mass media transforms genuine political action into performative gestures divorced from material change.\" The passage suggests that media coverage:",
+          "options": [
+            "strengthens political movements",
+            "accurately represents activist goals",
+            "turns real political action into empty performance without substance",
+            "has no influence on social change"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Biopolitics operates through the optimization of life processes, subjecting bodies to governmental control disguised as health promotion and welfare enhancement.\" According to the author, biopolitics:",
+          "options": [
+            "genuinely improves public health",
+            "controls people through apparent care for their wellbeing",
+            "respects individual autonomy completely",
+            "has no connection to government power"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The financialization of everyday life extends market logic into intimate relationships, commodifying emotions and personal connections.\" The passage argues that financial thinking:",
+          "options": [
+            "improves personal relationships",
+            "has no effect on emotional life",
+            "turns feelings and relationships into market transactions",
+            "strengthens human bonds"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Technological solutionism perpetuates the fallacy that complex social problems can be resolved through algorithmic interventions rather than systemic reform.\" The author criticizes the belief that:",
+          "options": [
+            "technology should never address social issues",
+            "social problems require only political solutions",
+            "technology alone can fix complex social problems without deeper changes",
+            "algorithms are completely ineffective"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The pathologization of grief in contemporary psychology reflects society's intolerance for emotional processes that cannot be optimized or expedited.\" According to the passage, treating grief as illness shows:",
+          "options": [
+            "advanced psychological understanding",
+            "society's discomfort with natural emotions that take time",
+            "appropriate medical intervention",
+            "respect for individual healing processes"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Microaggressions function as subtle mechanisms of exclusion that maintain hierarchical power structures while maintaining plausible deniability.\" The author suggests that microaggressions:",
+          "options": [
+            "are harmless misunderstandings",
+            "openly challenge power structures",
+            "subtly preserve inequality while appearing innocent",
+            "have no connection to broader social patterns"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The curation of cultural memory through digital archives privileges certain narratives while rendering others invisible, shaping collective understanding of history.\" The passage indicates that digital preservation:",
+          "options": [
+            "objectively preserves all historical perspectives",
+            "selectively shapes how we remember the past by choosing what to keep",
+            "has no influence on historical understanding",
+            "eliminates bias from cultural memory"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Emotional labor in service economies extracts affective resources from workers, commodifying interpersonal skills and psychological well-being for corporate profit.\" According to the author, emotional labor:",
+          "options": [
+            "benefits workers and customers equally",
+            "has no economic value",
+            "exploits workers' feelings and social abilities for company gain",
+            "improves workplace relationships naturally"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The paradox of tolerance suggests that unlimited tolerance of intolerant ideologies ultimately undermines the tolerant society it seeks to protect.\" This paradox implies that:",
+          "options": [
+            "all viewpoints should be accepted equally",
+            "tolerance requires limits to preserve itself",
+            "intolerance is never a real threat",
+            "tolerant societies are naturally stable"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Intersectionality reveals how multiple systems of oppression compound to create unique experiences that cannot be understood through single-axis analyses.\" The concept of intersectionality shows that:",
+          "options": [
+            "discrimination affects everyone equally",
+            "different forms of oppression combine to create distinct experiences",
+            "single categories explain all discrimination",
+            "identity categories are meaningless"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The valorization of authenticity in consumer culture creates a marketplace for manufactured genuineness, commodifying the very concept it claims to celebrate.\" The passage argues that commercial authenticity:",
+          "options": [
+            "genuinely promotes real self-expression",
+            "has no connection to consumer behavior",
+            "turns authenticity itself into a product for sale",
+            "protects genuine cultural expressions"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Algorithmic governance displaces democratic deliberation with automated decision-making, eroding civic participation and political accountability.\" According to the author, algorithmic governance:",
+          "options": [
+            "enhances democratic participation",
+            "replaces democratic discussion with automated decisions, weakening civic engagement",
+            "improves government transparency",
+            "has no effect on political processes"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The therapeutic discourse pervading contemporary culture transforms political grievances into psychological problems requiring individual healing rather than collective action.\" The passage suggests that therapeutic language:",
+          "options": [
+            "appropriately addresses mental health needs",
+            "strengthens political movements",
+            "turns social problems into personal issues, discouraging group solutions",
+            "has no impact on political engagement"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Neocolonialism operates through economic dependency and cultural hegemony rather than direct political control, perpetuating exploitative relationships between nations.\" Modern neocolonialism:",
+          "options": [
+            "uses economic and cultural influence instead of military force to exploit countries",
+            "has completely replaced traditional colonialism",
+            "only affects former colonies",
+            "promotes genuine international equality"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"The fetishization of innovation in capitalist discourse obscures how technological development serves existing power structures rather than promoting universal progress.\" The author argues that celebrating innovation:",
+          "options": [
+            "accurately reflects technological benefits",
+            "hides how technology mainly serves those already in power",
+            "promotes equal access to progress",
+            "has no connection to political power"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Epistemic injustice occurs when marginalized voices are systematically discredited or rendered inaudible within dominant knowledge systems.\" This concept describes:",
+          "options": [
+            "equal representation in academic discourse",
+            "the systematic silencing or dismissal of marginalized perspectives in knowledge creation",
+            "fair treatment of all viewpoints",
+            "natural differences in expertise"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The atomization of society through individualistic ideology undermines collective solidarity necessary for addressing systemic challenges like climate change.\" According to the passage, extreme individualism:",
+          "options": [
+            "strengthens community bonds",
+            "effectively addresses global problems",
+            "weakens the group cooperation needed to solve major challenges",
+            "has no effect on social cooperation"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Greenwashing represents a form of environmental theater that performs ecological consciousness while perpetuating unsustainable practices behind corporate facades.\" The author views greenwashing as:",
+          "options": [
+            "genuine environmental commitment",
+            "performative environmentalism that masks continued harmful practices",
+            "an effective solution to climate change",
+            "unnecessary corporate expense"
+          ],
+          "correct": 1
+        }
       ]
     },
     {
-      "slot": 17, "level": "C1", "type": "vocabulary",
+      "slot": 17,
+      "level": "C1",
+      "type": "vocabulary",
       "variants": [
-        {"question": "\"Ubiquitous\" most closely means:", "options": ["rarely seen","found everywhere","extremely dangerous","highly controversial"], "correct": 1},
-        {"question": "\"Pragmatic\" most closely means:", "options": ["idealistic","practical and realistic","very emotional","extremely cautious"], "correct": 1},
-        {"question": "\"Ephemeral\" most closely means:", "options": ["lasting forever","short-lived or temporary","very important","extremely large"], "correct": 1},
-        {"question": "\"Exacerbate\" most closely means:", "options": ["to improve","to make worse","to explain clearly","to celebrate"], "correct": 1},
-        {"question": "\"Juxtapose\" most closely means:", "options": ["to separate","to place side by side for comparison","to destroy","to create"], "correct": 1},
-        {"question": "\"Mitigate\" most closely means:", "options": ["to increase","to make less severe","to completely remove","to ignore"], "correct": 1},
-        {"question": "\"Paradigm\" most closely means:", "options": ["a small detail","a typical pattern or model","a type of error","a rare event"], "correct": 1},
-        {"question": "\"Scrutinize\" most closely means:", "options": ["to glance at","to examine very carefully","to ignore completely","to approve quickly"], "correct": 1},
-        {"question": "\"Tenacious\" most closely means:", "options": ["giving up easily","holding firmly or persistent","very gentle","extremely quiet"], "correct": 1},
-        {"question": "\"Unprecedented\" most closely means:", "options": ["very common","never done or known before","slightly unusual","well documented"], "correct": 1}
+        {
+          "question": "\"Ubiquitous\" most closely means:",
+          "options": [
+            "rarely seen",
+            "found everywhere",
+            "extremely dangerous",
+            "highly controversial"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Pragmatic\" most closely means:",
+          "options": [
+            "idealistic",
+            "practical and realistic",
+            "very emotional",
+            "extremely cautious"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Ephemeral\" most closely means:",
+          "options": [
+            "lasting forever",
+            "short-lived or temporary",
+            "very important",
+            "extremely large"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Exacerbate\" most closely means:",
+          "options": [
+            "to improve",
+            "to make worse",
+            "to explain clearly",
+            "to celebrate"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Juxtapose\" most closely means:",
+          "options": [
+            "to separate",
+            "to place side by side for comparison",
+            "to destroy",
+            "to create"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Mitigate\" most closely means:",
+          "options": [
+            "to increase",
+            "to make less severe",
+            "to completely remove",
+            "to ignore"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Paradigm\" most closely means:",
+          "options": [
+            "a small detail",
+            "a typical pattern or model",
+            "a type of error",
+            "a rare event"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Scrutinize\" most closely means:",
+          "options": [
+            "to glance at",
+            "to examine very carefully",
+            "to ignore completely",
+            "to approve quickly"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Tenacious\" most closely means:",
+          "options": [
+            "giving up easily",
+            "holding firmly or persistent",
+            "very gentle",
+            "extremely quiet"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Unprecedented\" most closely means:",
+          "options": [
+            "very common",
+            "never done or known before",
+            "slightly unusual",
+            "well documented"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Convoluted\" most closely means:",
+          "options": [
+            "extremely simple",
+            "very colorful",
+            "complicated and difficult to follow",
+            "perfectly organized"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"Ameliorate\" most closely means:",
+          "options": [
+            "to make better or improve",
+            "to worsen significantly",
+            "to ignore completely",
+            "to question repeatedly"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"Ostensible\" most closely means:",
+          "options": [
+            "genuinely authentic",
+            "completely hidden",
+            "apparently true but possibly false",
+            "extremely obvious"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"Pernicious\" most closely means:",
+          "options": [
+            "beneficial and helpful",
+            "having a harmful effect",
+            "completely neutral",
+            "easily forgotten"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Sanguine\" most closely means:",
+          "options": [
+            "pessimistic and gloomy",
+            "confused and uncertain",
+            "angry and hostile",
+            "optimistic and confident"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"Disparate\" most closely means:",
+          "options": [
+            "essentially different in kind",
+            "exactly the same",
+            "slightly similar",
+            "perfectly matched"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"Ineffable\" most closely means:",
+          "options": [
+            "easily explained",
+            "completely boring",
+            "too great to be expressed in words",
+            "highly controversial"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"Perspicacious\" most closely means:",
+          "options": [
+            "slow to understand",
+            "having keen insight",
+            "easily confused",
+            "lacking intelligence"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Vitiate\" most closely means:",
+          "options": [
+            "to strengthen greatly",
+            "to examine carefully",
+            "to celebrate joyfully",
+            "to spoil or impair"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"Fortuitous\" most closely means:",
+          "options": [
+            "happening by chance",
+            "carefully planned",
+            "extremely difficult",
+            "completely predictable"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"Obfuscate\" most closely means:",
+          "options": [
+            "to clarify completely",
+            "to make unclear or confusing",
+            "to organize systematically",
+            "to celebrate enthusiastically"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Insidious\" most closely means:",
+          "options": [
+            "obviously harmful",
+            "completely harmless",
+            "proceeding in a subtle way but with harmful effects",
+            "extremely beneficial"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"Cogent\" most closely means:",
+          "options": [
+            "weak and unconvincing",
+            "confusing and unclear",
+            "boring and repetitive",
+            "clear and convincing"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"Acquiesce\" most closely means:",
+          "options": [
+            "to accept reluctantly but without protest",
+            "to resist strongly",
+            "to celebrate enthusiastically",
+            "to question repeatedly"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"Pejorative\" most closely means:",
+          "options": [
+            "highly complimentary",
+            "expressing disapproval",
+            "completely neutral",
+            "extremely positive"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Recalcitrant\" most closely means:",
+          "options": [
+            "extremely cooperative",
+            "easily persuaded",
+            "stubbornly defiant",
+            "perfectly obedient"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"Salubrious\" most closely means:",
+          "options": [
+            "extremely harmful",
+            "completely neutral",
+            "somewhat dangerous",
+            "health-giving or beneficial"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"Vacillate\" most closely means:",
+          "options": [
+            "to waver between different opinions",
+            "to remain firmly decided",
+            "to move very quickly",
+            "to speak very loudly"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"Penultimate\" most closely means:",
+          "options": [
+            "the very first",
+            "second to last",
+            "exactly in the middle",
+            "completely final"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Magnanimous\" most closely means:",
+          "options": [
+            "petty and spiteful",
+            "confused and uncertain",
+            "generous in forgiving",
+            "extremely wealthy"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"Circumscribe\" most closely means:",
+          "options": [
+            "to expand greatly",
+            "to ignore completely",
+            "to celebrate publicly",
+            "to restrict within limits"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"Garrulous\" most closely means:",
+          "options": [
+            "excessively talkative",
+            "extremely quiet",
+            "highly intelligent",
+            "completely honest"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"Truculent\" most closely means:",
+          "options": [
+            "peaceful and calm",
+            "eager to fight or argue",
+            "extremely generous",
+            "highly cooperative"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Equivocal\" most closely means:",
+          "options": [
+            "perfectly clear",
+            "extremely honest",
+            "open to more than one interpretation",
+            "completely factual"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"Indefatigable\" most closely means:",
+          "options": [
+            "easily tired",
+            "extremely lazy",
+            "somewhat energetic",
+            "persisting tirelessly"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"Quixotic\" most closely means:",
+          "options": [
+            "extremely practical and realistic",
+            "idealistic and unrealistic",
+            "perfectly organized",
+            "highly successful"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Laconic\" most closely means:",
+          "options": [
+            "using few words",
+            "extremely talkative",
+            "highly emotional",
+            "completely confused"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"Predilection\" most closely means:",
+          "options": [
+            "strong dislike",
+            "complete neutrality",
+            "a preference or special liking",
+            "total confusion"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"Soporific\" most closely means:",
+          "options": [
+            "highly energizing",
+            "extremely exciting",
+            "completely shocking",
+            "tending to induce sleep"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"Impecunious\" most closely means:",
+          "options": [
+            "having little or no money",
+            "extremely wealthy",
+            "moderately successful",
+            "highly generous"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"Mendacious\" most closely means:",
+          "options": [
+            "completely truthful",
+            "given to lying",
+            "highly intelligent",
+            "extremely generous"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Surreptitious\" most closely means:",
+          "options": [
+            "completely open",
+            "perfectly legal",
+            "kept secret or done secretly",
+            "highly publicized"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"Fastidious\" most closely means:",
+          "options": [
+            "extremely careless",
+            "completely disorganized",
+            "somewhat lazy",
+            "very attentive to detail"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"Assuage\" most closely means:",
+          "options": [
+            "to make less intense",
+            "to make much worse",
+            "to ignore completely",
+            "to celebrate loudly"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"Perfunctory\" most closely means:",
+          "options": [
+            "extremely thorough",
+            "carried out without real interest",
+            "perfectly organized",
+            "highly creative"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Supercilious\" most closely means:",
+          "options": [
+            "extremely humble",
+            "perfectly kind",
+            "behaving as if superior to others",
+            "completely honest"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"Vicarious\" most closely means:",
+          "options": [
+            "directly personal",
+            "completely real",
+            "perfectly normal",
+            "experienced through someone else"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"Pellucid\" most closest means:",
+          "options": [
+            "transparently clear",
+            "extremely confusing",
+            "somewhat cloudy",
+            "completely opaque"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"Pugnacious\" most closely means:",
+          "options": [
+            "extremely peaceful",
+            "eager to fight",
+            "perfectly calm",
+            "highly cooperative"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Vicissitude\" most closely means:",
+          "options": [
+            "perfect stability",
+            "complete predictability",
+            "a change of circumstances",
+            "total permanence"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"Sagacious\" most closely means:",
+          "options": [
+            "extremely foolish",
+            "completely confused",
+            "somewhat uncertain",
+            "having keen judgment"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"Phlegmatic\" most closely means:",
+          "options": [
+            "having a calm temperament",
+            "extremely excitable",
+            "highly emotional",
+            "completely unstable"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"Scintillating\" most closely means:",
+          "options": [
+            "extremely dull",
+            "brilliantly clever",
+            "completely boring",
+            "perfectly ordinary"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Propitious\" most closely means:",
+          "options": [
+            "extremely unfavorable",
+            "completely neutral",
+            "giving a good chance of success",
+            "totally impossible"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"Idiosyncratic\" most closely means:",
+          "options": [
+            "perfectly normal",
+            "extremely common",
+            "completely typical",
+            "peculiar to an individual"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"Abstemious\" most closely means:",
+          "options": [
+            "practicing restraint in consumption",
+            "extremely indulgent",
+            "completely excessive",
+            "highly wasteful"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"Duplicitous\" most closely means:",
+          "options": [
+            "completely honest",
+            "deceitful and two-faced",
+            "perfectly sincere",
+            "extremely trustworthy"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Grandiloquent\" most closely means:",
+          "options": [
+            "speaking simply",
+            "extremely quiet",
+            "using pompous language",
+            "perfectly modest"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"Intransigent\" most closely means:",
+          "options": [
+            "extremely flexible",
+            "perfectly cooperative",
+            "highly adaptable",
+            "refusing to compromise"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"Gregarious\" most closely means:",
+          "options": [
+            "fond of company",
+            "preferring solitude",
+            "extremely antisocial",
+            "completely isolated"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"Acrimonious\" most closely means:",
+          "options": [
+            "bitter and harsh",
+            "sweet and pleasant",
+            "neutral and balanced",
+            "mysterious and vague"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"Perspicacious\" most closely means:",
+          "options": [
+            "easily confused",
+            "having keen insight",
+            "overly stubborn",
+            "extremely wealthy"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Surreptitious\" most closely means:",
+          "options": [
+            "openly displayed",
+            "legally required",
+            "done in secret",
+            "widely celebrated"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"Mellifluous\" most closely means:",
+          "options": [
+            "harsh and grating",
+            "completely silent",
+            "extremely loud",
+            "smooth and flowing"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"Vicarious\" most closely means:",
+          "options": [
+            "experienced through others",
+            "done independently",
+            "completely ignored",
+            "physically painful"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"Obfuscate\" most closely means:",
+          "options": [
+            "to clarify thoroughly",
+            "to make unclear",
+            "to strengthen completely",
+            "to celebrate publicly"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Perfunctory\" most closely means:",
+          "options": [
+            "done with great care",
+            "completed enthusiastically",
+            "carried out mechanically",
+            "abandoned immediately"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"Insidious\" most closely means:",
+          "options": [
+            "openly hostile",
+            "completely harmless",
+            "very obvious",
+            "subtly harmful"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"Enervate\" most closely means:",
+          "options": [
+            "to weaken or drain",
+            "to strengthen significantly",
+            "to celebrate loudly",
+            "to organize carefully"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"Grandiloquent\" most closely means:",
+          "options": [
+            "speaking simply",
+            "using pompous language",
+            "remaining completely silent",
+            "whispering quietly"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Pejorative\" most closely means:",
+          "options": [
+            "highly complimentary",
+            "completely neutral",
+            "expressing disapproval",
+            "showing great admiration"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"Sanguine\" most closely means:",
+          "options": [
+            "deeply pessimistic",
+            "extremely angry",
+            "completely indifferent",
+            "optimistic and confident"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"Pernicious\" most closely means:",
+          "options": [
+            "having harmful effects",
+            "being completely beneficial",
+            "remaining perfectly neutral",
+            "showing great kindness"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"Recondite\" most closely means:",
+          "options": [
+            "easily understood",
+            "obscure and difficult",
+            "widely popular",
+            "recently discovered"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Truculent\" most closely means:",
+          "options": [
+            "extremely peaceful",
+            "very cooperative",
+            "aggressively hostile",
+            "completely withdrawn"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"Magnanimous\" most closely means:",
+          "options": [
+            "petty and vengeful",
+            "completely selfish",
+            "extremely cautious",
+            "generous and forgiving"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"Supercilious\" most closely means:",
+          "options": [
+            "showing arrogant superiority",
+            "demonstrating deep humility",
+            "expressing genuine concern",
+            "displaying total confusion"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"Caveat\" most closely means:",
+          "options": [
+            "strong encouragement",
+            "warning or caution",
+            "celebration ceremony",
+            "detailed explanation"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Multifarious\" most closely means:",
+          "options": [
+            "extremely simple",
+            "completely uniform",
+            "having great diversity",
+            "totally predictable"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"Garrulous\" most closely means:",
+          "options": [
+            "extremely quiet",
+            "deeply thoughtful",
+            "completely absent",
+            "excessively talkative"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"Vituperative\" most closely means:",
+          "options": [
+            "harshly critical",
+            "highly complimentary",
+            "completely supportive",
+            "totally indifferent"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"Parsimonious\" most closely means:",
+          "options": [
+            "extremely generous",
+            "excessively frugal",
+            "completely reckless",
+            "very thoughtful"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Disingenuous\" most closely means:",
+          "options": [
+            "completely honest",
+            "extremely naive",
+            "not candid or sincere",
+            "perfectly straightforward"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"Laconic\" most closely means:",
+          "options": [
+            "extremely verbose",
+            "overly emotional",
+            "completely confused",
+            "using few words"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"Inexorable\" most closely means:",
+          "options": [
+            "impossible to stop",
+            "easily changed",
+            "completely flexible",
+            "highly negotiable"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"Mendacious\" most closely means:",
+          "options": [
+            "completely truthful",
+            "given to lying",
+            "extremely honest",
+            "totally reliable"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Propensity\" most closely means:",
+          "options": [
+            "strong resistance",
+            "complete inability",
+            "natural tendency",
+            "total avoidance"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"Sagacious\" most closely means:",
+          "options": [
+            "extremely foolish",
+            "completely ignorant",
+            "totally confused",
+            "having good judgment"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"Obsequious\" most closely means:",
+          "options": [
+            "excessively submissive",
+            "completely independent",
+            "extremely rebellious",
+            "totally indifferent"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"Conundrum\" most closely means:",
+          "options": [
+            "simple solution",
+            "confusing problem",
+            "clear answer",
+            "obvious choice"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Fastidious\" most closely means:",
+          "options": [
+            "extremely careless",
+            "completely sloppy",
+            "very meticulous",
+            "totally disorganized"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"Vitiate\" most closely means:",
+          "options": [
+            "to strengthen greatly",
+            "to improve significantly",
+            "to celebrate thoroughly",
+            "to spoil or impair"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"Diffident\" most closely means:",
+          "options": [
+            "lacking confidence",
+            "extremely arrogant",
+            "overly aggressive",
+            "completely assured"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"Castigate\" most closely means:",
+          "options": [
+            "to praise highly",
+            "to criticize severely",
+            "to ignore completely",
+            "to support fully"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Concatenation\" most closely means:",
+          "options": [
+            "complete separation",
+            "total isolation",
+            "series of connections",
+            "single occurrence"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"Pertinacious\" most closely means:",
+          "options": [
+            "easily discouraged",
+            "completely flexible",
+            "totally indifferent",
+            "stubbornly persistent"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "\"Vitriolic\" most closely means:",
+          "options": [
+            "filled with bitter criticism",
+            "expressing warm praise",
+            "showing complete indifference",
+            "demonstrating mild concern"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"Circumlocution\" most closely means:",
+          "options": [
+            "direct communication",
+            "indirect way of speaking",
+            "complete silence",
+            "clear explanation"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Pusillanimous\" most closely means:",
+          "options": [
+            "extremely brave",
+            "completely fearless",
+            "showing cowardice",
+            "totally confident"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"Jejune\" most closely means:",
+          "options": [
+            "extremely sophisticated",
+            "highly complex",
+            "very mature",
+            "naive and simplistic"
+          ],
+          "correct": 3
+        }
       ]
     }
   ]

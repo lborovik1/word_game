@@ -125,3 +125,86 @@ Please make 10 variations of each of 20 questions.
 So that every time a student takes the test, 
 each question will be randomly picked out of 10 possible questions.
 ======================================================
+when I start start-game.sh from terminal - it works.
+But when i try to start it by double-clicking on the file in the finder,
+it doesn't work. It ends up showing files in the directory
+How to make it work?
+======================================================
+It worked. Please also check the start-game.bat file. Is it OK ?
+======================================================
+Currently we have a game file for 200 words.
+Please create 6 more games for
+six standard levels:
+A1  1,000 words
+A2  2,000 words
+B1  3,000 words
+B2  5,000 words
+C1  9,000 words
+C2  16,000+ words
+
+Note, as the task of creating large lists may take
+a lot of tokens, please handle the words using 
+automatic scripts to avoid overloading the context length of the model.
+
+Step1:
+Please find on the web and download the list of most 
+common 16,000 English words
+and their Russian translations
+This will be our master dictionary.
+
+Step2: 
+Write a python script to generate the 6 json dictionaries
+in "games" directory:
+   "English-Russian-A1-1K.json" with 1 thousand words
+   "English-Russian-A2-2K.json" with 2 thousand words
+   "English-Russian-B1-3K.json" with 3 thousand words
+   "English-Russian-B2-5K.json" with 5 thousand words
+   "English-Russian-C1-9K.json" with 9 thousand words
+   "English-Russian-C2-16K.json" with 16 thousand words
+
+Step3:
+Register those files in games-registry.js file
+Please create a game "English-Russian-A2-2K.json
+containing 2 thousand words
+
+======================================================
+For tests we have 20 question slots, 10 variants per slot, 
+200 total unique questions across all pools
+
+Let's increase the number of variant for each slot to 100.
+
+So it should be:
+
+20 question slots, 100 variants per slot, 
+2000 total unique questions across all pools
+======================================================
+For tests please add the "speak" buttons next to the question and answers
+(similar how we have it in the game).
+======================================================
+For the tests please add progress indicators
+similar how we have it in the games 
+(number of correct and wrong answers, ...)
+So that as the person does the test, he can see approximately
+how he is doing
+======================================================
+we currently have scripts to start the game (python server)
+
+start-game.bat
+start-game.sh
+
+Please also create scripts to stop running server
+
+kill-game.bat
+kill-game.sh
+
+The "sh" should run on Mac and Linux.
+the "bat" on Windows.
+
+Both scripts can be invoked from terminal - or by double-clicking
+on them in Finder or Windows Explorer
+======================================================
+Please update the README.md file
+
+Also please add a short scripts/README.md file 
+do describe the purpose and function of each script
+

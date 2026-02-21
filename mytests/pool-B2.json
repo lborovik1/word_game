@@ -1,63 +1,4031 @@
 {
   "slots": [
     {
-      "slot": 10, "level": "B2", "type": "vocabulary",
+      "slot": 10,
+      "level": "B2",
+      "type": "vocabulary",
       "variants": [
-        {"question": "The word \"ambiguous\" means:", "options": ["very clear","open to more than one interpretation","extremely loud","beautifully written"], "correct": 1},
-        {"question": "The word \"reluctant\" means:", "options": ["very eager","unwilling or hesitant","extremely happy","quite confused"], "correct": 1},
-        {"question": "The word \"inevitable\" means:", "options": ["easily avoided","certain to happen","very surprising","completely unknown"], "correct": 1},
-        {"question": "The word \"comprehensive\" means:", "options": ["very short","including all or nearly all elements","extremely difficult","poorly organized"], "correct": 1},
-        {"question": "The word \"subtle\" means:", "options": ["very obvious","delicate or not immediately noticeable","extremely loud","completely wrong"], "correct": 1},
-        {"question": "The word \"feasible\" means:", "options": ["impossible","possible and practical to do","very expensive","extremely rare"], "correct": 1},
-        {"question": "The word \"profound\" means:", "options": ["very shallow","very deep or intense","quite ordinary","slightly amusing"], "correct": 1},
-        {"question": "The word \"coherent\" means:", "options": ["confusing","logical and consistent","very loud","extremely fast"], "correct": 1},
-        {"question": "The word \"detrimental\" means:", "options": ["very helpful","causing harm or damage","extremely beautiful","quite ordinary"], "correct": 1},
-        {"question": "The word \"prevalent\" means:", "options": ["very rare","widespread or common","extremely expensive","quite dangerous"], "correct": 1}
+        {
+          "question": "The word \"ambiguous\" means:",
+          "options": [
+            "very clear",
+            "open to more than one interpretation",
+            "extremely loud",
+            "beautifully written"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"reluctant\" means:",
+          "options": [
+            "very eager",
+            "unwilling or hesitant",
+            "extremely happy",
+            "quite confused"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"inevitable\" means:",
+          "options": [
+            "easily avoided",
+            "certain to happen",
+            "very surprising",
+            "completely unknown"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"comprehensive\" means:",
+          "options": [
+            "very short",
+            "including all or nearly all elements",
+            "extremely difficult",
+            "poorly organized"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"subtle\" means:",
+          "options": [
+            "very obvious",
+            "delicate or not immediately noticeable",
+            "extremely loud",
+            "completely wrong"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"feasible\" means:",
+          "options": [
+            "impossible",
+            "possible and practical to do",
+            "very expensive",
+            "extremely rare"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"profound\" means:",
+          "options": [
+            "very shallow",
+            "very deep or intense",
+            "quite ordinary",
+            "slightly amusing"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"coherent\" means:",
+          "options": [
+            "confusing",
+            "logical and consistent",
+            "very loud",
+            "extremely fast"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"detrimental\" means:",
+          "options": [
+            "very helpful",
+            "causing harm or damage",
+            "extremely beautiful",
+            "quite ordinary"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"prevalent\" means:",
+          "options": [
+            "very rare",
+            "widespread or common",
+            "extremely expensive",
+            "quite dangerous"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"persistent\" means:",
+          "options": [
+            "giving up easily",
+            "continuing firmly despite difficulties",
+            "extremely quiet",
+            "poorly prepared"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"deteriorate\" means:",
+          "options": [
+            "to become progressively worse",
+            "to improve significantly",
+            "to remain unchanged",
+            "to appear suddenly"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The word \"resilient\" means:",
+          "options": [
+            "very fragile",
+            "completely rigid",
+            "able to recover quickly from difficulties",
+            "extremely heavy"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The word \"vigorous\" means:",
+          "options": [
+            "very weak",
+            "extremely slow",
+            "quite boring",
+            "strong and energetic"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The word \"eloquent\" means:",
+          "options": [
+            "fluent and persuasive in speaking",
+            "unable to communicate",
+            "very confusing",
+            "extremely quiet"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The word \"tedious\" means:",
+          "options": [
+            "very exciting",
+            "long and boring",
+            "extremely short",
+            "quite amusing"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"spontaneous\" means:",
+          "options": [
+            "carefully planned",
+            "extremely delayed",
+            "happening naturally without planning",
+            "completely impossible"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The word \"meticulous\" means:",
+          "options": [
+            "very careless",
+            "extremely fast",
+            "quite lazy",
+            "showing great attention to detail"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The word \"contemplate\" means:",
+          "options": [
+            "to think deeply about something",
+            "to avoid completely",
+            "to forget immediately",
+            "to dismiss quickly"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The word \"fluctuate\" means:",
+          "options": [
+            "to remain constant",
+            "to vary irregularly",
+            "to increase steadily",
+            "to disappear completely"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"superficial\" means:",
+          "options": [
+            "very deep",
+            "extremely thorough",
+            "existing only on the surface",
+            "completely hidden"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The word \"prominent\" means:",
+          "options": [
+            "completely hidden",
+            "very small",
+            "extremely weak",
+            "important and well-known"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The word \"contagious\" means:",
+          "options": [
+            "able to spread from person to person",
+            "completely harmless",
+            "very beneficial",
+            "extremely rare"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The word \"indifferent\" means:",
+          "options": [
+            "very passionate",
+            "having no interest or concern",
+            "extremely curious",
+            "quite enthusiastic"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"coherent\" means:",
+          "options": [
+            "very confusing",
+            "extremely scattered",
+            "logical and consistent",
+            "completely irrelevant"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The word \"versatile\" means:",
+          "options": [
+            "very limited",
+            "extremely specialized",
+            "quite inflexible",
+            "able to adapt to many different uses"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The word \"adjacent\" means:",
+          "options": [
+            "next to and joined with",
+            "very far away",
+            "completely separate",
+            "exactly opposite"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The word \"arbitrary\" means:",
+          "options": [
+            "very logical",
+            "based on random choice rather than reason",
+            "extremely systematic",
+            "carefully planned"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"imminent\" means:",
+          "options": [
+            "very distant",
+            "completely unlikely",
+            "about to happen very soon",
+            "already finished"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The word \"mundane\" means:",
+          "options": [
+            "very exciting",
+            "extremely unusual",
+            "quite mysterious",
+            "ordinary and uninteresting"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The word \"tangible\" means:",
+          "options": [
+            "able to be touched or felt",
+            "completely invisible",
+            "very abstract",
+            "extremely complicated"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The word \"elaborate\" means:",
+          "options": [
+            "very simple",
+            "involving many details",
+            "extremely brief",
+            "quite basic"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"defiant\" means:",
+          "options": [
+            "very obedient",
+            "extremely cooperative",
+            "openly resistant or challenging",
+            "completely submissive"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The word \"obsolete\" means:",
+          "options": [
+            "very modern",
+            "extremely useful",
+            "quite popular",
+            "no longer in use"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The word \"enhance\" means:",
+          "options": [
+            "to improve or increase",
+            "to reduce significantly",
+            "to remove completely",
+            "to ignore entirely"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The word \"gregarious\" means:",
+          "options": [
+            "very antisocial",
+            "fond of company",
+            "extremely shy",
+            "quite aggressive"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"explicit\" means:",
+          "options": [
+            "very vague",
+            "extremely hidden",
+            "stated clearly and directly",
+            "completely implied"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The word \"precarious\" means:",
+          "options": [
+            "very secure",
+            "extremely stable",
+            "quite permanent",
+            "uncertain and dependent on chance"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The word \"alleviate\" means:",
+          "options": [
+            "to make less severe",
+            "to make worse",
+            "to ignore completely",
+            "to create problems"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The word \"deter\" means:",
+          "options": [
+            "to encourage strongly",
+            "to discourage or prevent",
+            "to support completely",
+            "to ignore entirely"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"cynical\" means:",
+          "options": [
+            "very trusting",
+            "extremely optimistic",
+            "believing people are motivated by self-interest",
+            "completely naive"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The word \"abundant\" means:",
+          "options": [
+            "very scarce",
+            "extremely limited",
+            "quite rare",
+            "existing in large quantities"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The word \"diminish\" means:",
+          "options": [
+            "to make or become smaller",
+            "to increase rapidly",
+            "to remain constant",
+            "to multiply quickly"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The word \"candid\" means:",
+          "options": [
+            "very dishonest",
+            "truthful and straightforward",
+            "extremely deceptive",
+            "quite secretive"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"paramount\" means:",
+          "options": [
+            "completely unimportant",
+            "slightly relevant",
+            "of the highest importance",
+            "moderately significant"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The word \"intricate\" means:",
+          "options": [
+            "very simple",
+            "extremely basic",
+            "quite straightforward",
+            "very complicated in design"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The word \"skeptical\" means:",
+          "options": [
+            "having doubts about something",
+            "completely convinced",
+            "very trusting",
+            "extremely gullible"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The word \"prohibit\" means:",
+          "options": [
+            "to allow freely",
+            "to forbid or ban",
+            "to encourage strongly",
+            "to ignore completely"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"lenient\" means:",
+          "options": [
+            "very strict",
+            "extremely harsh",
+            "merciful and tolerant",
+            "quite demanding"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The word \"pragmatic\" means:",
+          "options": [
+            "very idealistic",
+            "extremely impractical",
+            "quite theoretical",
+            "dealing with things realistically"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The word \"foster\" means:",
+          "options": [
+            "to encourage the development of",
+            "to prevent growth",
+            "to ignore completely",
+            "to destroy quickly"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The word \"complacent\" means:",
+          "options": [
+            "very worried",
+            "showing smug satisfaction",
+            "extremely concerned",
+            "quite anxious"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"perishable\" means:",
+          "options": [
+            "lasting forever",
+            "extremely durable",
+            "likely to decay quickly",
+            "completely indestructible"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The word \"unanimous\" means:",
+          "options": [
+            "completely divided",
+            "partially agreed",
+            "mostly disputed",
+            "fully agreed by everyone"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The word \"evoke\" means:",
+          "options": [
+            "to bring a memory or feeling to mind",
+            "to forget completely",
+            "to ignore entirely",
+            "to suppress strongly"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The word \"volatile\" means:",
+          "options": [
+            "very stable",
+            "liable to change rapidly",
+            "extremely predictable",
+            "quite consistent"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"lucrative\" means:",
+          "options": [
+            "causing financial loss",
+            "completely worthless",
+            "producing a good profit",
+            "extremely expensive"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The word \"conspicuous\" means:",
+          "options": [
+            "completely hidden",
+            "very subtle",
+            "extremely secretive",
+            "clearly visible or noticeable"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The word \"replenish\" means:",
+          "options": [
+            "to fill up again",
+            "to empty completely",
+            "to reduce significantly",
+            "to waste carelessly"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The word \"frivolous\" means:",
+          "options": [
+            "very serious",
+            "lacking serious purpose",
+            "extremely important",
+            "quite meaningful"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"articulate\" means:",
+          "options": [
+            "to express thoughts clearly and effectively",
+            "to speak very quietly",
+            "to write in a foreign language",
+            "to refuse to communicate"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The word \"deteriorate\" means:",
+          "options": [
+            "to improve significantly",
+            "to remain the same",
+            "to become progressively worse",
+            "to develop quickly"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The word \"meticulous\" means:",
+          "options": [
+            "very careless",
+            "showing great attention to detail",
+            "extremely fast",
+            "completely disorganized"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"persistent\" means:",
+          "options": [
+            "giving up easily",
+            "being very confused",
+            "continuing firmly despite difficulties",
+            "changing direction frequently"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The word \"spontaneous\" means:",
+          "options": [
+            "carefully planned in advance",
+            "happening naturally without planning",
+            "extremely expensive",
+            "very predictable"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"preliminary\" means:",
+          "options": [
+            "serving as preparation for something more important",
+            "completely finished",
+            "very expensive",
+            "extremely complicated"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The word \"mundane\" means:",
+          "options": [
+            "very exciting",
+            "extremely dangerous",
+            "ordinary and uninteresting",
+            "highly sophisticated"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The word \"conspicuous\" means:",
+          "options": [
+            "hidden from view",
+            "easily seen or noticed",
+            "very quiet",
+            "extremely small"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"vulnerable\" means:",
+          "options": [
+            "completely protected",
+            "very strong",
+            "exposed to harm or damage",
+            "perfectly safe"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The word \"redundant\" means:",
+          "options": [
+            "absolutely necessary",
+            "no longer needed or useful",
+            "very creative",
+            "extremely valuable"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"plausible\" means:",
+          "options": [
+            "seeming reasonable or probable",
+            "completely impossible",
+            "very expensive",
+            "extremely confusing"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The word \"prevalent\" means:",
+          "options": [
+            "very rare",
+            "completely absent",
+            "widespread or common",
+            "extremely expensive"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The word \"tangible\" means:",
+          "options": [
+            "completely imaginary",
+            "perceptible by touch or clear and definite",
+            "very confusing",
+            "extremely small"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"contemplate\" means:",
+          "options": [
+            "to refuse completely",
+            "to think about carefully",
+            "to forget immediately",
+            "to explain quickly"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"inhibit\" means:",
+          "options": [
+            "to encourage strongly",
+            "to support completely",
+            "to prevent or restrict",
+            "to develop rapidly"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The word \"lucrative\" means:",
+          "options": [
+            "producing a great deal of profit",
+            "causing financial loss",
+            "very time-consuming",
+            "extremely difficult"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The word \"rigorous\" means:",
+          "options": [
+            "very flexible",
+            "extremely easy",
+            "thoroughly accurate and demanding",
+            "completely optional"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The word \"arbitrary\" means:",
+          "options": [
+            "carefully planned",
+            "based on random choice rather than reason",
+            "extremely logical",
+            "very predictable"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"coherent\" means:",
+          "options": [
+            "logical and consistent",
+            "completely confused",
+            "very brief",
+            "extremely loud"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The word \"vicinity\" means:",
+          "options": [
+            "a very distant place",
+            "the area near or surrounding a place",
+            "a completely unknown location",
+            "an extremely dangerous area"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"elaborate\" means:",
+          "options": [
+            "very simple",
+            "extremely quick",
+            "involving many carefully arranged parts",
+            "completely basic"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The word \"fluctuate\" means:",
+          "options": [
+            "to remain completely stable",
+            "to rise and fall irregularly",
+            "to disappear entirely",
+            "to grow steadily"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"adequate\" means:",
+          "options": [
+            "satisfactory or acceptable in quantity",
+            "completely insufficient",
+            "extremely excessive",
+            "totally inappropriate"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The word \"unanimous\" means:",
+          "options": [
+            "completely divided",
+            "mostly disagreeing",
+            "fully in agreement",
+            "partially supportive"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The word \"adverse\" means:",
+          "options": [
+            "very beneficial",
+            "preventing success or development",
+            "extremely helpful",
+            "completely neutral"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"endorse\" means:",
+          "options": [
+            "to declare support for",
+            "to criticize strongly",
+            "to ignore completely",
+            "to question seriously"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The word \"concurrent\" means:",
+          "options": [
+            "happening at different times",
+            "occurring before something else",
+            "existing or happening at the same time",
+            "taking place much later"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The word \"paramount\" means:",
+          "options": [
+            "completely unimportant",
+            "of the utmost importance",
+            "somewhat relevant",
+            "totally irrelevant"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"alleviate\" means:",
+          "options": [
+            "to make worse",
+            "to make less intense",
+            "to ignore completely",
+            "to create problems"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"discrepancy\" means:",
+          "options": [
+            "a lack of compatibility or similarity",
+            "perfect agreement",
+            "complete understanding",
+            "total harmony"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The word \"conducive\" means:",
+          "options": [
+            "creating obstacles",
+            "making achievement difficult",
+            "helping to bring about",
+            "preventing progress"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The word \"imperative\" means:",
+          "options": [
+            "completely optional",
+            "of vital importance or urgent",
+            "somewhat useful",
+            "totally unnecessary"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"obsolete\" means:",
+          "options": [
+            "very modern",
+            "extremely useful",
+            "no longer in use",
+            "highly advanced"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The word \"substantiate\" means:",
+          "options": [
+            "to provide evidence to support",
+            "to question seriously",
+            "to reject completely",
+            "to ignore totally"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The word \"perpetual\" means:",
+          "options": [
+            "temporary and brief",
+            "occurring occasionally",
+            "never ending or changing",
+            "happening rarely"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The word \"feasible\" means:",
+          "options": [
+            "completely impossible",
+            "possible to do easily",
+            "very difficult",
+            "extremely expensive"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"intricate\" means:",
+          "options": [
+            "very simple",
+            "having many complex details",
+            "extremely basic",
+            "completely straightforward"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The word \"compatible\" means:",
+          "options": [
+            "able to exist together harmoniously",
+            "completely opposing",
+            "totally different",
+            "absolutely conflicting"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The word \"imminent\" means:",
+          "options": [
+            "very distant",
+            "completely uncertain",
+            "about to happen",
+            "extremely unlikely"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The word \"negligible\" means:",
+          "options": [
+            "extremely important",
+            "so small as to be not worth considering",
+            "very significant",
+            "absolutely essential"
+          ],
+          "correct": 1
+        }
       ]
     },
     {
-      "slot": 11, "level": "B2", "type": "grammar",
+      "slot": 11,
+      "level": "B2",
+      "type": "grammar",
       "variants": [
-        {"question": "I wish I ___ more time to finish the project.", "options": ["have","had","having","will have"], "correct": 1},
-        {"question": "I wish I ___ speak French fluently.", "options": ["can","could","will","would"], "correct": 1},
-        {"question": "She wishes she ___ accepted the job offer.", "options": ["has","had","have","would"], "correct": 1},
-        {"question": "I wish it ___ raining so we could go outside.", "options": ["stops","stopped","will stop","would stop"], "correct": 1},
-        {"question": "He wishes he ___ taller.", "options": ["is","were","will be","has been"], "correct": 1},
-        {"question": "We wish we ___ about the meeting earlier.", "options": ["know","knew","will know","had known"], "correct": 1},
-        {"question": "I wish they ___ so much noise at night.", "options": ["don't make","didn't make","won't make","haven't made"], "correct": 1},
-        {"question": "She wishes she ___ harder at school.", "options": ["studies","had studied","will study","is studying"], "correct": 1},
-        {"question": "I wish I ___ to the party last night.", "options": ["go","went","had gone","will go"], "correct": 2},
-        {"question": "They wish they ___ more money to travel.", "options": ["have","had","will have","are having"], "correct": 1}
+        {
+          "question": "I wish I ___ more time to finish the project.",
+          "options": [
+            "have",
+            "had",
+            "having",
+            "will have"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "I wish I ___ speak French fluently.",
+          "options": [
+            "can",
+            "could",
+            "will",
+            "would"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "She wishes she ___ accepted the job offer.",
+          "options": [
+            "has",
+            "had",
+            "have",
+            "would"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "I wish it ___ raining so we could go outside.",
+          "options": [
+            "stops",
+            "stopped",
+            "will stop",
+            "would stop"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "He wishes he ___ taller.",
+          "options": [
+            "is",
+            "were",
+            "will be",
+            "has been"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "We wish we ___ about the meeting earlier.",
+          "options": [
+            "know",
+            "knew",
+            "will know",
+            "had known"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "I wish they ___ so much noise at night.",
+          "options": [
+            "don't make",
+            "didn't make",
+            "won't make",
+            "haven't made"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "She wishes she ___ harder at school.",
+          "options": [
+            "studies",
+            "had studied",
+            "will study",
+            "is studying"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "I wish I ___ to the party last night.",
+          "options": [
+            "go",
+            "went",
+            "had gone",
+            "will go"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "They wish they ___ more money to travel.",
+          "options": [
+            "have",
+            "had",
+            "will have",
+            "are having"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "I wish you ___ here to help me with this problem.",
+          "options": [
+            "are",
+            "were",
+            "will be",
+            "have been"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "They wish they ___ bought that house when it was cheaper.",
+          "options": [
+            "had",
+            "have",
+            "would",
+            "could"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "I wish I ___ drive a car.",
+          "options": [
+            "can",
+            "will",
+            "could",
+            "would"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "She wishes her boss ___ so demanding.",
+          "options": [
+            "isn't",
+            "weren't",
+            "won't be",
+            "wouldn't be"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "We wish we ___ studied harder for the exam.",
+          "options": [
+            "have",
+            "had",
+            "would",
+            "could"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "I wish the weather ___ better tomorrow.",
+          "options": [
+            "will be",
+            "is",
+            "would be",
+            "was"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "He wishes he ___ never met her.",
+          "options": [
+            "had",
+            "has",
+            "would",
+            "could"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "I wish I ___ swim when I was younger.",
+          "options": [
+            "can",
+            "could",
+            "would",
+            "will"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "They wish their neighbors ___ so noisy at night.",
+          "options": [
+            "aren't",
+            "won't be",
+            "wouldn't be",
+            "weren't"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "She wishes she ___ chosen a different career.",
+          "options": [
+            "has",
+            "have",
+            "had",
+            "would"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "I wish my computer ___ faster.",
+          "options": [
+            "were",
+            "is",
+            "will be",
+            "would be"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "We wish we ___ afford a bigger apartment.",
+          "options": [
+            "can",
+            "will",
+            "would",
+            "could"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "He wishes he ___ told the truth from the beginning.",
+          "options": [
+            "had",
+            "has",
+            "would",
+            "could"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "I wish the train ___ on time more often.",
+          "options": [
+            "comes",
+            "came",
+            "will come",
+            "would come"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "She wishes she ___ play the piano.",
+          "options": [
+            "can",
+            "will",
+            "could",
+            "would"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "They wish they ___ saved more money for retirement.",
+          "options": [
+            "have",
+            "had",
+            "would",
+            "could"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "I wish my phone battery ___ longer.",
+          "options": [
+            "lasted",
+            "lasts",
+            "will last",
+            "would last"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "He wishes he ___ remember where he put his keys.",
+          "options": [
+            "can",
+            "could",
+            "will",
+            "would"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "We wish our vacation ___ longer next year.",
+          "options": [
+            "is",
+            "was",
+            "would be",
+            "will be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "She wishes she ___ listened to her mother's advice.",
+          "options": [
+            "has",
+            "have",
+            "had",
+            "would"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "I wish I ___ born in a different country.",
+          "options": [
+            "were",
+            "am",
+            "will be",
+            "would be"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "They wish their teacher ___ give less homework.",
+          "options": [
+            "will",
+            "would",
+            "can",
+            "could"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "He wishes he ___ started learning English earlier.",
+          "options": [
+            "had",
+            "has",
+            "would",
+            "could"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "I wish the meeting ___ shorter tomorrow.",
+          "options": [
+            "is",
+            "was",
+            "would be",
+            "will be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "She wishes she ___ cook like her grandmother.",
+          "options": [
+            "can",
+            "will",
+            "could",
+            "would"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "We wish we ___ taken more photos during our trip.",
+          "options": [
+            "have",
+            "had",
+            "would",
+            "could"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "I wish my roommate ___ his dishes more often.",
+          "options": [
+            "washes",
+            "washed",
+            "will wash",
+            "would wash"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "He wishes he ___ dance better.",
+          "options": [
+            "could",
+            "can",
+            "will",
+            "would"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "They wish they ___ invested in that company years ago.",
+          "options": [
+            "have",
+            "had",
+            "would",
+            "could"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "I wish the coffee shop ___ open earlier.",
+          "options": [
+            "opens",
+            "opened",
+            "would open",
+            "will open"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "She wishes she ___ more patient with her children.",
+          "options": [
+            "were",
+            "is",
+            "will be",
+            "would be"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "We wish we ___ speak Spanish fluently.",
+          "options": [
+            "can",
+            "could",
+            "will",
+            "would"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "He wishes he ___ bought that antique when he had the chance.",
+          "options": [
+            "had",
+            "has",
+            "would",
+            "could"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "I wish my schedule ___ more flexible.",
+          "options": [
+            "is",
+            "were",
+            "will be",
+            "would be"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "They wish their flight ___ delayed so often.",
+          "options": [
+            "isn't",
+            "weren't",
+            "won't be",
+            "wouldn't be"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "She wishes she ___ sing like a professional.",
+          "options": [
+            "can",
+            "will",
+            "could",
+            "would"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "We wish we ___ moved to this neighborhood sooner.",
+          "options": [
+            "have",
+            "had",
+            "would",
+            "could"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "I wish the library ___ open on Sundays.",
+          "options": [
+            "were",
+            "is",
+            "will be",
+            "would be"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "He wishes his car ___ break down so frequently.",
+          "options": [
+            "doesn't",
+            "didn't",
+            "won't",
+            "wouldn't"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "They wish they ___ understand advanced mathematics.",
+          "options": [
+            "can",
+            "could",
+            "will",
+            "would"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "She wishes she ___ applied for that scholarship.",
+          "options": [
+            "had",
+            "has",
+            "would",
+            "could"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "I wish the internet connection ___ more reliable.",
+          "options": [
+            "is",
+            "were",
+            "will be",
+            "would be"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "We wish our dog ___ bark at every stranger.",
+          "options": [
+            "doesn't",
+            "didn't",
+            "won't",
+            "wouldn't"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "He wishes he ___ play chess at a professional level.",
+          "options": [
+            "can",
+            "will",
+            "could",
+            "would"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "They wish they ___ attended their friend's wedding.",
+          "options": [
+            "have",
+            "had",
+            "would",
+            "could"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "I wish the store ___ closer to my house.",
+          "options": [
+            "were",
+            "is",
+            "will be",
+            "would be"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "She wishes her presentation ___ go more smoothly tomorrow.",
+          "options": [
+            "will",
+            "would",
+            "can",
+            "could"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "We wish we ___ draw and paint professionally.",
+          "options": [
+            "can",
+            "could",
+            "will",
+            "would"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "He wishes he ___ kept in touch with his old friends.",
+          "options": [
+            "had",
+            "has",
+            "would",
+            "could"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "I wish public transport ___ more efficient in this city.",
+          "options": [
+            "is",
+            "were",
+            "will be",
+            "would be"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "I wish you ___ me earlier about the meeting.",
+          "options": [
+            "told",
+            "tell",
+            "will tell",
+            "are telling"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "They wish they ___ bought a bigger house.",
+          "options": [
+            "have",
+            "had",
+            "will have",
+            "would have"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "I wish the weather ___ better tomorrow.",
+          "options": [
+            "is",
+            "will be",
+            "would be",
+            "has been"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "She wishes her brother ___ calling her so late.",
+          "options": [
+            "stops",
+            "stopped",
+            "will stop",
+            "would stop"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "I wish I ___ born in a different century.",
+          "options": [
+            "had been",
+            "was",
+            "would be",
+            "have been"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "He wishes he ___ how to play the piano.",
+          "options": [
+            "knows",
+            "knew",
+            "will know",
+            "has known"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "We wish our neighbors ___ so noisy at night.",
+          "options": [
+            "are not",
+            "will not be",
+            "weren't",
+            "haven't been"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "I wish I ___ to bed earlier last night.",
+          "options": [
+            "go",
+            "went",
+            "will go",
+            "had gone"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "She wishes she ___ more confident in social situations.",
+          "options": [
+            "were",
+            "is",
+            "will be",
+            "has been"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "I wish my car ___ breaking down so often.",
+          "options": [
+            "stops",
+            "would stop",
+            "will stop",
+            "has stopped"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "They wish they ___ saved more money for retirement.",
+          "options": [
+            "have",
+            "will have",
+            "had",
+            "would have"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "I wish you ___ stop interrupting me when I'm speaking.",
+          "options": [
+            "will",
+            "can",
+            "have",
+            "would"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "He wishes he ___ studied harder for the exam.",
+          "options": [
+            "had",
+            "has",
+            "would",
+            "will"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "I wish I ___ remember where I put my keys.",
+          "options": [
+            "can",
+            "could",
+            "will",
+            "would"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "She wishes her job ___ more challenging.",
+          "options": [
+            "is",
+            "will be",
+            "were",
+            "has been"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "I wish it ___ snow this winter so we can go skiing.",
+          "options": [
+            "will",
+            "can",
+            "has",
+            "would"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "We wish we ___ taken more photos during our vacation.",
+          "options": [
+            "had",
+            "have",
+            "would",
+            "will"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "I wish my boss ___ more understanding about flexible hours.",
+          "options": [
+            "is",
+            "were",
+            "will be",
+            "has been"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "He wishes he ___ live closer to his family.",
+          "options": [
+            "can",
+            "will",
+            "could",
+            "would"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "I wish you ___ told me about the party invitation.",
+          "options": [
+            "will",
+            "can",
+            "would",
+            "had"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "She wishes she ___ more artistic talent.",
+          "options": [
+            "had",
+            "has",
+            "will have",
+            "would have"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "I wish I ___ afford to travel more often.",
+          "options": [
+            "can",
+            "could",
+            "will",
+            "would"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "They wish their children ___ more interested in reading.",
+          "options": [
+            "are",
+            "will be",
+            "were",
+            "have been"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "I wish the train ___ arrive on time for once.",
+          "options": [
+            "will",
+            "can",
+            "has",
+            "would"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "He wishes he ___ never started smoking.",
+          "options": [
+            "had",
+            "has",
+            "would",
+            "will"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "I wish I ___ cook as well as my grandmother.",
+          "options": [
+            "can",
+            "could",
+            "will",
+            "would"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "She wishes her apartment ___ bigger and brighter.",
+          "options": [
+            "is",
+            "will be",
+            "were",
+            "has been"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "I wish people ___ be more considerate of others.",
+          "options": [
+            "will",
+            "can",
+            "have",
+            "would"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "We wish we ___ invested in that company years ago.",
+          "options": [
+            "had",
+            "have",
+            "would",
+            "will"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "I wish I ___ speak multiple languages fluently.",
+          "options": [
+            "can",
+            "could",
+            "will",
+            "would"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "He wishes his commute to work ___ shorter.",
+          "options": [
+            "is",
+            "will be",
+            "were",
+            "has been"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "I wish you ___ stop leaving dirty dishes in the sink.",
+          "options": [
+            "will",
+            "can",
+            "have",
+            "would"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "She wishes she ___ listened to her parents' advice.",
+          "options": [
+            "had",
+            "has",
+            "would",
+            "will"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "I wish I ___ understand modern technology better.",
+          "options": [
+            "can",
+            "could",
+            "will",
+            "would"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "They wish their team ___ more successful this season.",
+          "options": [
+            "is",
+            "will be",
+            "were",
+            "has been"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "I wish the government ___ do more about climate change.",
+          "options": [
+            "will",
+            "can",
+            "has",
+            "would"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "He wishes he ___ kept in touch with his old friends.",
+          "options": [
+            "had",
+            "has",
+            "would",
+            "will"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "I wish I ___ dance like a professional.",
+          "options": [
+            "can",
+            "could",
+            "will",
+            "would"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "She wishes her schedule ___ more flexible.",
+          "options": [
+            "is",
+            "will be",
+            "were",
+            "has been"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "I wish my phone battery ___ last longer throughout the day.",
+          "options": [
+            "will",
+            "can",
+            "has",
+            "would"
+          ],
+          "correct": 3
+        }
       ]
     },
     {
-      "slot": 12, "level": "B2", "type": "grammar",
+      "slot": 12,
+      "level": "B2",
+      "type": "grammar",
       "variants": [
-        {"question": "The report ___ by the time the manager arrived.", "options": ["has been completed","had been completed","was completing","is completed"], "correct": 1},
-        {"question": "The house ___ before we moved in.", "options": ["has been painted","had been painted","was painting","is painted"], "correct": 1},
-        {"question": "All the tickets ___ by the time we got there.", "options": ["have been sold","had been sold","were selling","are sold"], "correct": 1},
-        {"question": "The letter ___ before she arrived at the office.", "options": ["has been sent","had been sent","was sending","is sent"], "correct": 1},
-        {"question": "The food ___ before the guests arrived.", "options": ["has been prepared","had been prepared","was preparing","is prepared"], "correct": 1},
-        {"question": "The bridge ___ before the storm hit.", "options": ["has been repaired","had been repaired","was repairing","is repaired"], "correct": 1},
-        {"question": "The decision ___ before I joined the team.", "options": ["has been made","had been made","was making","is made"], "correct": 1},
-        {"question": "The windows ___ before it started raining.", "options": ["have been closed","had been closed","were closing","are closed"], "correct": 1},
-        {"question": "The project ___ before the deadline.", "options": ["has been finished","had been finished","was finishing","is finished"], "correct": 1},
-        {"question": "The car ___ before the accident happened.", "options": ["has been serviced","had been serviced","was servicing","is serviced"], "correct": 1}
+        {
+          "question": "The report ___ by the time the manager arrived.",
+          "options": [
+            "has been completed",
+            "had been completed",
+            "was completing",
+            "is completed"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The house ___ before we moved in.",
+          "options": [
+            "has been painted",
+            "had been painted",
+            "was painting",
+            "is painted"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "All the tickets ___ by the time we got there.",
+          "options": [
+            "have been sold",
+            "had been sold",
+            "were selling",
+            "are sold"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The letter ___ before she arrived at the office.",
+          "options": [
+            "has been sent",
+            "had been sent",
+            "was sending",
+            "is sent"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The food ___ before the guests arrived.",
+          "options": [
+            "has been prepared",
+            "had been prepared",
+            "was preparing",
+            "is prepared"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The bridge ___ before the storm hit.",
+          "options": [
+            "has been repaired",
+            "had been repaired",
+            "was repairing",
+            "is repaired"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The decision ___ before I joined the team.",
+          "options": [
+            "has been made",
+            "had been made",
+            "was making",
+            "is made"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The windows ___ before it started raining.",
+          "options": [
+            "have been closed",
+            "had been closed",
+            "were closing",
+            "are closed"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The project ___ before the deadline.",
+          "options": [
+            "has been finished",
+            "had been finished",
+            "was finishing",
+            "is finished"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The car ___ before the accident happened.",
+          "options": [
+            "has been serviced",
+            "had been serviced",
+            "was servicing",
+            "is serviced"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The documents ___ by the secretary before the meeting started.",
+          "options": [
+            "were organizing",
+            "have been organized",
+            "had been organized",
+            "are organized"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The contract ___ before the deadline.",
+          "options": [
+            "had been signed",
+            "has been signed",
+            "was signing",
+            "is signed"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The bridge ___ by the time the ceremony began.",
+          "options": [
+            "was constructing",
+            "is constructed",
+            "has been constructed",
+            "had been constructed"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The equipment ___ before the technicians arrived.",
+          "options": [
+            "had been installed",
+            "has been installed",
+            "was installing",
+            "is installed"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "All the arrangements ___ by the wedding planner before the couple met her.",
+          "options": [
+            "were making",
+            "had been made",
+            "have been made",
+            "are made"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The presentation ___ before the clients walked into the room.",
+          "options": [
+            "is prepared",
+            "was preparing",
+            "had been prepared",
+            "has been prepared"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The announcement ___ by the time the staff arrived.",
+          "options": [
+            "had been made",
+            "has been made",
+            "was making",
+            "is made"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The garden ___ before the party guests arrived.",
+          "options": [
+            "were decorating",
+            "is decorated",
+            "has been decorated",
+            "had been decorated"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The software ___ before the training session started.",
+          "options": [
+            "had been updated",
+            "has been updated",
+            "was updating",
+            "is updated"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The invitations ___ by the time we decided on the guest list.",
+          "options": [
+            "were printing",
+            "had been printed",
+            "have been printed",
+            "are printed"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The room ___ before the interview took place.",
+          "options": [
+            "is cleaned",
+            "was cleaning",
+            "had been cleaned",
+            "has been cleaned"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The merchandise ___ by the time the store opened.",
+          "options": [
+            "had been delivered",
+            "has been delivered",
+            "was delivering",
+            "is delivered"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The proposal ___ before the board meeting began.",
+          "options": [
+            "were reviewing",
+            "is reviewed",
+            "has been reviewed",
+            "had been reviewed"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The car ___ before we took it for a test drive.",
+          "options": [
+            "had been repaired",
+            "has been repaired",
+            "was repairing",
+            "is repaired"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The reservations ___ by the time the restaurant opened.",
+          "options": [
+            "were confirming",
+            "had been confirmed",
+            "have been confirmed",
+            "are confirmed"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The manuscript ___ before the editor reviewed it.",
+          "options": [
+            "is revised",
+            "was revising",
+            "had been revised",
+            "has been revised"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The website ___ by the time the marketing campaign launched.",
+          "options": [
+            "had been redesigned",
+            "has been redesigned",
+            "was redesigning",
+            "is redesigned"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The samples ___ before the quality control team arrived.",
+          "options": [
+            "were testing",
+            "is tested",
+            "has been tested",
+            "had been tested"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The venue ___ before the event coordinator visited it.",
+          "options": [
+            "had been booked",
+            "has been booked",
+            "was booking",
+            "is booked"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The budget ___ by the time the project started.",
+          "options": [
+            "were approving",
+            "had been approved",
+            "have been approved",
+            "are approved"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The application ___ before the deadline passed.",
+          "options": [
+            "is submitted",
+            "was submitting",
+            "had been submitted",
+            "has been submitted"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The samples ___ by the time the laboratory closed.",
+          "options": [
+            "had been analyzed",
+            "has been analyzed",
+            "was analyzing",
+            "is analyzed"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The costumes ___ before the dress rehearsal began.",
+          "options": [
+            "were altering",
+            "is altered",
+            "has been altered",
+            "had been altered"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The invoice ___ before the accounting department processed it.",
+          "options": [
+            "had been checked",
+            "has been checked",
+            "was checking",
+            "is checked"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The equipment ___ by the time the inspection took place.",
+          "options": [
+            "were calibrating",
+            "had been calibrated",
+            "have been calibrated",
+            "are calibrated"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The translation ___ before the conference started.",
+          "options": [
+            "is completed",
+            "was completing",
+            "had been completed",
+            "has been completed"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The furniture ___ by the time the office opened.",
+          "options": [
+            "had been arranged",
+            "has been arranged",
+            "was arranging",
+            "is arranged"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The documents ___ before the audit began.",
+          "options": [
+            "were filing",
+            "is filed",
+            "has been filed",
+            "had been filed"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The schedule ___ before the team meeting started.",
+          "options": [
+            "had been finalized",
+            "has been finalized",
+            "was finalizing",
+            "is finalized"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The orders ___ by the time the delivery truck arrived.",
+          "options": [
+            "were packing",
+            "had been packed",
+            "have been packed",
+            "are packed"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The product ___ before the launch event took place.",
+          "options": [
+            "is tested",
+            "was testing",
+            "had been tested",
+            "has been tested"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The accounts ___ by the time the fiscal year ended.",
+          "options": [
+            "had been reconciled",
+            "has been reconciled",
+            "was reconciling",
+            "is reconciled"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The data ___ before the presentation began.",
+          "options": [
+            "were analyzing",
+            "is analyzed",
+            "has been analyzed",
+            "had been analyzed"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The prototype ___ before the investors saw it.",
+          "options": [
+            "had been developed",
+            "has been developed",
+            "was developing",
+            "is developed"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The security system ___ by the time the building opened.",
+          "options": [
+            "were installing",
+            "had been installed",
+            "have been installed",
+            "are installed"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The medication ___ before the patient arrived.",
+          "options": [
+            "is prepared",
+            "was preparing",
+            "had been prepared",
+            "has been prepared"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The curriculum ___ by the time the semester started.",
+          "options": [
+            "had been designed",
+            "has been designed",
+            "was designing",
+            "is designed"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The shipment ___ before the warehouse closed.",
+          "options": [
+            "were processing",
+            "is processed",
+            "has been processed",
+            "had been processed"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The artwork ___ before the gallery opening.",
+          "options": [
+            "had been hung",
+            "has been hung",
+            "was hanging",
+            "is hung"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The certificates ___ by the time the ceremony began.",
+          "options": [
+            "were printing",
+            "had been printed",
+            "have been printed",
+            "are printed"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The conference room ___ before the important meeting.",
+          "options": [
+            "is set up",
+            "was setting up",
+            "had been set up",
+            "has been set up"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The research ___ by the time the grant application was due.",
+          "options": [
+            "had been conducted",
+            "has been conducted",
+            "was conducting",
+            "is conducted"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The ingredients ___ before the cooking demonstration started.",
+          "options": [
+            "were measuring",
+            "is measured",
+            "has been measured",
+            "had been measured"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The itinerary ___ before the travel agent met with us.",
+          "options": [
+            "had been planned",
+            "has been planned",
+            "was planning",
+            "is planned"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The advertisements ___ by the time the campaign launched.",
+          "options": [
+            "were creating",
+            "had been created",
+            "have been created",
+            "are created"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The building permits ___ before construction began.",
+          "options": [
+            "is obtained",
+            "was obtaining",
+            "had been obtained",
+            "has been obtained"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The interview questions ___ by the time the candidates arrived.",
+          "options": [
+            "had been prepared",
+            "has been prepared",
+            "was preparing",
+            "is prepared"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The patient records ___ before the doctor's appointment.",
+          "options": [
+            "were updating",
+            "is updated",
+            "has been updated",
+            "had been updated"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The event tickets ___ before the box office opened.",
+          "options": [
+            "had been distributed",
+            "has been distributed",
+            "was distributing",
+            "is distributed"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The final draft ___ by the time the editor requested it.",
+          "options": [
+            "were completing",
+            "had been completed",
+            "have been completed",
+            "are completed"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The project ___ by the time the deadline arrived.",
+          "options": [
+            "was finishing",
+            "has been finished",
+            "had been finished",
+            "is finished"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The documents ___ before the meeting started.",
+          "options": [
+            "had been reviewed",
+            "have been reviewed",
+            "were reviewing",
+            "are reviewed"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The cake ___ by the time the party began.",
+          "options": [
+            "is baked",
+            "was baking",
+            "has been baked",
+            "had been baked"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The windows ___ before the storm hit.",
+          "options": [
+            "had been closed",
+            "have been closed",
+            "were closing",
+            "are closed"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The book ___ by the time she went to bed.",
+          "options": [
+            "was reading",
+            "had been read",
+            "has been read",
+            "is read"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The car ___ before we left for vacation.",
+          "options": [
+            "is repaired",
+            "was repairing",
+            "had been repaired",
+            "has been repaired"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The emails ___ by the time the office opened.",
+          "options": [
+            "had been answered",
+            "have been answered",
+            "were answering",
+            "are answered"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The garden ___ before the visitors came.",
+          "options": [
+            "is watered",
+            "was watering",
+            "has been watered",
+            "had been watered"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The contract ___ by the time the lawyer arrived.",
+          "options": [
+            "had been signed",
+            "have been signed",
+            "were signing",
+            "are signed"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The dishes ___ before the guests left.",
+          "options": [
+            "was washing",
+            "had been washed",
+            "has been washed",
+            "is washed"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The presentation ___ by the time the CEO walked in.",
+          "options": [
+            "are prepared",
+            "were preparing",
+            "had been prepared",
+            "has been prepared"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The clothes ___ before it started raining.",
+          "options": [
+            "had been hung",
+            "have been hung",
+            "were hanging",
+            "are hung"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The medicine ___ by the time the patient woke up.",
+          "options": [
+            "is administered",
+            "had been administered",
+            "has been administered",
+            "was administering"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The floor ___ before the furniture was moved back.",
+          "options": [
+            "are cleaned",
+            "was cleaning",
+            "had been cleaned",
+            "has been cleaned"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The invitations ___ before the venue was booked.",
+          "options": [
+            "had been sent",
+            "have been sent",
+            "were sending",
+            "are sent"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The luggage ___ by the time we reached the hotel.",
+          "options": [
+            "is delivered",
+            "had been delivered",
+            "has been delivered",
+            "was delivering"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The equipment ___ before the technicians left.",
+          "options": [
+            "are installed",
+            "was installing",
+            "had been installed",
+            "has been installed"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The homework ___ before the teacher collected it.",
+          "options": [
+            "had been completed",
+            "have been completed",
+            "were completing",
+            "are completed"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The room ___ by the time the guests checked in.",
+          "options": [
+            "is prepared",
+            "had been prepared",
+            "has been prepared",
+            "was preparing"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The software ___ before the system went live.",
+          "options": [
+            "are tested",
+            "was testing",
+            "had been tested",
+            "has been tested"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The plants ___ before the gardener arrived.",
+          "options": [
+            "had been planted",
+            "have been planted",
+            "were planting",
+            "are planted"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The repairs ___ by the time the inspector came.",
+          "options": [
+            "is completed",
+            "had been completed",
+            "has been completed",
+            "was completing"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The agenda ___ before the conference started.",
+          "options": [
+            "are finalized",
+            "was finalizing",
+            "had been finalized",
+            "has been finalized"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The data ___ before the presentation began.",
+          "options": [
+            "had been analyzed",
+            "have been analyzed",
+            "were analyzing",
+            "are analyzed"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The patient ___ by the time the doctor returned.",
+          "options": [
+            "is examined",
+            "had been examined",
+            "has been examined",
+            "was examining"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The application ___ before the deadline passed.",
+          "options": [
+            "are submitted",
+            "was submitting",
+            "had been submitted",
+            "has been submitted"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The samples ___ before the lab closed.",
+          "options": [
+            "had been collected",
+            "have been collected",
+            "were collecting",
+            "are collected"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The building ___ by the time we moved our offices.",
+          "options": [
+            "is renovated",
+            "had been renovated",
+            "has been renovated",
+            "was renovating"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The interview ___ before the HR manager left.",
+          "options": [
+            "are scheduled",
+            "was scheduling",
+            "had been scheduled",
+            "has been scheduled"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The shipment ___ before the warehouse opened.",
+          "options": [
+            "had been delivered",
+            "have been delivered",
+            "were delivering",
+            "are delivered"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The budget ___ by the time the board met.",
+          "options": [
+            "is approved",
+            "had been approved",
+            "has been approved",
+            "was approving"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The results ___ before the meeting ended.",
+          "options": [
+            "are announced",
+            "was announcing",
+            "had been announced",
+            "has been announced"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The order ___ before the restaurant closed.",
+          "options": [
+            "had been placed",
+            "have been placed",
+            "were placing",
+            "are placed"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The article ___ by the time the editor arrived.",
+          "options": [
+            "is written",
+            "had been written",
+            "has been written",
+            "was writing"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The backup ___ before the system crashed.",
+          "options": [
+            "are created",
+            "was creating",
+            "had been created",
+            "has been created"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The meeting ___ before the client called.",
+          "options": [
+            "had been arranged",
+            "have been arranged",
+            "were arranging",
+            "are arranged"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The proposal ___ by the time the committee convened.",
+          "options": [
+            "is drafted",
+            "had been drafted",
+            "has been drafted",
+            "was drafting"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The survey ___ before the deadline expired.",
+          "options": [
+            "are conducted",
+            "was conducting",
+            "had been conducted",
+            "has been conducted"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The inventory ___ before the audit began.",
+          "options": [
+            "had been counted",
+            "have been counted",
+            "were counting",
+            "are counted"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The appointment ___ by the time she called back.",
+          "options": [
+            "is confirmed",
+            "had been confirmed",
+            "has been confirmed",
+            "was confirming"
+          ],
+          "correct": 1
+        }
       ]
     },
     {
-      "slot": 13, "level": "B2", "type": "reading",
+      "slot": 13,
+      "level": "B2",
+      "type": "reading",
       "variants": [
-        {"question": "Read: \"The proliferation of smartphones has fundamentally altered how people consume news, with many preferring brief updates over in-depth articles.\" What does this passage suggest?", "options": ["People no longer read news","Smartphones have changed news reading habits toward shorter content","In-depth articles are more popular than ever","Smartphones are too expensive for most people"], "correct": 1},
-        {"question": "Read: \"Remote work has blurred the boundaries between professional and personal life, leading many employees to report higher levels of burnout.\" The passage suggests that remote work:", "options": ["Has only positive effects","Can cause work-life balance problems","Is preferred by all employees","Reduces stress levels"], "correct": 1},
-        {"question": "Read: \"While renewable energy sources are becoming more affordable, the transition away from fossil fuels faces significant political and economic obstacles.\" The main point is:", "options": ["Renewable energy is too expensive","The shift to clean energy is straightforward","Despite cheaper renewables, switching is still challenging","Fossil fuels are no longer used"], "correct": 2},
-        {"question": "Read: \"Studies show that bilingual children develop stronger problem-solving skills, though they may initially have smaller vocabularies in each language.\" Bilingual children:", "options": ["Have worse cognitive skills","Have better problem-solving but may know fewer words per language","Always have larger vocabularies","Learn languages more slowly"], "correct": 1},
-        {"question": "Read: \"The rise of artificial intelligence in healthcare promises faster diagnoses but raises concerns about data privacy and the doctor-patient relationship.\" AI in healthcare:", "options": ["Has no drawbacks","Offers benefits but also creates new concerns","Will replace all doctors","Is too expensive to implement"], "correct": 1},
-        {"question": "Read: \"Urban green spaces have been shown to reduce stress, improve air quality, and increase property values in surrounding areas.\" Parks in cities:", "options": ["Only benefit wealthy people","Have multiple positive effects","Decrease property values","Have no measurable impact"], "correct": 1},
-        {"question": "Read: \"The gig economy offers workers flexibility but often lacks the benefits and job security of traditional employment.\" Gig work:", "options": ["Is better than regular jobs in every way","Provides freedom but fewer protections","Always pays more than regular jobs","Is only for young people"], "correct": 1},
-        {"question": "Read: \"Social media algorithms tend to show users content that confirms their existing beliefs, creating echo chambers that limit exposure to diverse viewpoints.\" Social media:", "options": ["Shows all viewpoints equally","Can narrow people's perspectives","Always provides accurate information","Has no effect on opinions"], "correct": 1},
-        {"question": "Read: \"Despite advances in technology, face-to-face communication remains the most effective way to build trust and resolve conflicts.\" The author believes:", "options": ["Technology has replaced in-person meetings","In-person communication is still superior for some purposes","Video calls are just as good","Written communication is best"], "correct": 1},
-        {"question": "Read: \"The growing popularity of plant-based diets reflects both health concerns and environmental awareness among consumers.\" People choose plant-based diets because:", "options": ["They are cheaper","Of health and environmental reasons","They taste better","Doctors require it"], "correct": 1}
+        {
+          "question": "Read: \"The proliferation of smartphones has fundamentally altered how people consume news, with many preferring brief updates over in-depth articles.\" What does this passage suggest?",
+          "options": [
+            "People no longer read news",
+            "Smartphones have changed news reading habits toward shorter content",
+            "In-depth articles are more popular than ever",
+            "Smartphones are too expensive for most people"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Remote work has blurred the boundaries between professional and personal life, leading many employees to report higher levels of burnout.\" The passage suggests that remote work:",
+          "options": [
+            "Has only positive effects",
+            "Can cause work-life balance problems",
+            "Is preferred by all employees",
+            "Reduces stress levels"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"While renewable energy sources are becoming more affordable, the transition away from fossil fuels faces significant political and economic obstacles.\" The main point is:",
+          "options": [
+            "Renewable energy is too expensive",
+            "The shift to clean energy is straightforward",
+            "Despite cheaper renewables, switching is still challenging",
+            "Fossil fuels are no longer used"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Studies show that bilingual children develop stronger problem-solving skills, though they may initially have smaller vocabularies in each language.\" Bilingual children:",
+          "options": [
+            "Have worse cognitive skills",
+            "Have better problem-solving but may know fewer words per language",
+            "Always have larger vocabularies",
+            "Learn languages more slowly"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The rise of artificial intelligence in healthcare promises faster diagnoses but raises concerns about data privacy and the doctor-patient relationship.\" AI in healthcare:",
+          "options": [
+            "Has no drawbacks",
+            "Offers benefits but also creates new concerns",
+            "Will replace all doctors",
+            "Is too expensive to implement"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Urban green spaces have been shown to reduce stress, improve air quality, and increase property values in surrounding areas.\" Parks in cities:",
+          "options": [
+            "Only benefit wealthy people",
+            "Have multiple positive effects",
+            "Decrease property values",
+            "Have no measurable impact"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The gig economy offers workers flexibility but often lacks the benefits and job security of traditional employment.\" Gig work:",
+          "options": [
+            "Is better than regular jobs in every way",
+            "Provides freedom but fewer protections",
+            "Always pays more than regular jobs",
+            "Is only for young people"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Social media algorithms tend to show users content that confirms their existing beliefs, creating echo chambers that limit exposure to diverse viewpoints.\" Social media:",
+          "options": [
+            "Shows all viewpoints equally",
+            "Can narrow people's perspectives",
+            "Always provides accurate information",
+            "Has no effect on opinions"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Despite advances in technology, face-to-face communication remains the most effective way to build trust and resolve conflicts.\" The author believes:",
+          "options": [
+            "Technology has replaced in-person meetings",
+            "In-person communication is still superior for some purposes",
+            "Video calls are just as good",
+            "Written communication is best"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The growing popularity of plant-based diets reflects both health concerns and environmental awareness among consumers.\" People choose plant-based diets because:",
+          "options": [
+            "They are cheaper",
+            "Of health and environmental reasons",
+            "They taste better",
+            "Doctors require it"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Urban gardening initiatives have gained momentum as cities seek sustainable food solutions, though space limitations remain a significant challenge.\" What does this passage indicate?",
+          "options": [
+            "Urban gardening has solved all food problems",
+            "Cities have unlimited space for gardens",
+            "Urban gardening is growing but faces space constraints",
+            "Sustainable food solutions are impossible in cities"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The gig economy offers workers flexibility and autonomy, yet it often lacks the security and benefits of traditional employment.\" The passage suggests the gig economy:",
+          "options": [
+            "Provides both advantages and disadvantages",
+            "Is superior to traditional jobs in every way",
+            "Offers no benefits to workers",
+            "Will disappear soon"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Social media algorithms are designed to maximize user engagement, which can inadvertently promote sensational content over factual reporting.\" This suggests that algorithms:",
+          "options": [
+            "Always promote accurate information",
+            "Have no impact on content visibility",
+            "May prioritize engaging content over truthful content",
+            "Were created to spread misinformation"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Electric vehicles are becoming mainstream, but charging infrastructure development has struggled to keep pace with growing demand.\" The main issue highlighted is:",
+          "options": [
+            "Electric vehicles are unpopular",
+            "Charging stations are developing faster than car sales",
+            "Infrastructure growth is lagging behind vehicle adoption",
+            "Electric vehicles don't need charging stations"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Mindfulness meditation has shown promising results in reducing anxiety, though researchers emphasize the need for consistent practice to see benefits.\" According to the passage:",
+          "options": [
+            "Meditation works immediately for everyone",
+            "Meditation can help anxiety but requires regular practice",
+            "Researchers discourage meditation",
+            "Anxiety cannot be reduced through any means"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Online learning platforms have democratized education access, enabling millions to acquire new skills regardless of geographic location.\" The passage emphasizes that online learning:",
+          "options": [
+            "Is only available in certain countries",
+            "Has made education more widely accessible",
+            "Is inferior to traditional classroom learning",
+            "Requires expensive technology"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Fast fashion's environmental impact has prompted consumers to embrace sustainable alternatives, though these options often come with higher price tags.\" The text indicates:",
+          "options": [
+            "Sustainable fashion is always cheaper",
+            "Consumers ignore environmental concerns",
+            "People are choosing eco-friendly options despite higher costs",
+            "Fast fashion has no environmental impact"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Cryptocurrency adoption continues to grow among institutional investors, despite ongoing regulatory uncertainty in many jurisdictions.\" This suggests:",
+          "options": [
+            "All regulations are clear and settled",
+            "Institutions avoid cryptocurrency completely",
+            "Investment is increasing even with unclear regulations",
+            "Only individual investors use cryptocurrency"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Telemedicine has revolutionized healthcare delivery, particularly benefiting rural communities with limited access to specialists.\" The passage highlights telemedicine's:",
+          "options": [
+            "Negative impact on healthcare",
+            "Special value for underserved areas",
+            "Use only in urban centers",
+            "Complete replacement of in-person care"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Vertical farming techniques promise year-round crop production with minimal water usage, but high initial setup costs remain prohibitive for many farmers.\" The main challenge mentioned is:",
+          "options": [
+            "Crops cannot grow year-round",
+            "Vertical farming uses too much water",
+            "The expensive startup investment",
+            "Farmers are not interested in new techniques"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Artificial intelligence has enhanced translation services significantly, yet nuanced cultural expressions still pose challenges for automated systems.\" This indicates that AI translation:",
+          "options": [
+            "Has improved but struggles with cultural subtleties",
+            "Perfectly translates all languages",
+            "Cannot translate anything accurately",
+            "Only works for simple words"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"The sharing economy has transformed urban transportation, reducing car ownership while raising questions about worker rights and fair compensation.\" According to the passage:",
+          "options": [
+            "Car ownership has increased dramatically",
+            "Worker rights are no longer important",
+            "Transportation changes have created new labor concerns",
+            "The sharing economy has failed completely"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Biodegradable packaging materials are gaining popularity as companies respond to consumer environmental concerns, though production costs remain higher than conventional alternatives.\" The text suggests:",
+          "options": [
+            "Consumers don't care about environmental issues",
+            "Biodegradable packaging is cheaper to produce",
+            "Companies are adopting eco-packaging despite higher costs",
+            "Conventional packaging is being banned everywhere"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Digital detox retreats are increasingly popular as people seek relief from constant connectivity, recognizing its impact on mental wellbeing.\" This passage suggests people:",
+          "options": [
+            "Are acknowledging technology's effects on mental health",
+            "Want to be connected all the time",
+            "Don't understand digital technology",
+            "Prefer working more hours"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Gene therapy represents a breakthrough in treating genetic disorders, but ethical considerations and long-term effects require careful examination.\" The passage indicates gene therapy:",
+          "options": [
+            "Has no potential risks",
+            "Should not be researched further",
+            "Offers promise but needs thorough evaluation",
+            "Only treats common illnesses"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Microplastics have been detected in drinking water worldwide, prompting scientists to investigate potential health implications and filtration solutions.\" This suggests:",
+          "options": [
+            "Drinking water is completely safe everywhere",
+            "Scientists are unconcerned about microplastics",
+            "The discovery has triggered research into health effects and solutions",
+            "Filtration technology doesn't exist"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Flexible work arrangements have improved employee satisfaction and productivity, though some managers struggle to adapt their leadership styles.\" The passage indicates:",
+          "options": [
+            "All managers have adapted successfully",
+            "Flexible work harms productivity",
+            "Benefits exist but management adaptation is challenging",
+            "Employees dislike flexible arrangements"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"3D printing technology has revolutionized prototyping across industries, enabling rapid product development while reducing material waste.\" According to the text, 3D printing:",
+          "options": [
+            "Slows down product development",
+            "Increases material waste significantly",
+            "Has transformed prototyping with multiple benefits",
+            "Is only used in one industry"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Community-supported agriculture connects consumers directly with local farmers, fostering food security while supporting regional economies.\" This arrangement:",
+          "options": [
+            "Benefits both consumers and local economies",
+            "Only helps large corporations",
+            "Reduces food security",
+            "Isolates farmers from their communities"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Voice-activated assistants have simplified many daily tasks, yet privacy concerns about data collection continue to trouble users.\" The passage suggests these devices:",
+          "options": [
+            "Create no privacy issues",
+            "Make daily tasks more complicated",
+            "Offer convenience but raise privacy questions",
+            "Are universally trusted by all users"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Precision agriculture uses sensors and data analytics to optimize crop yields, but requires significant technological investment from farmers.\" This farming approach:",
+          "options": [
+            "Requires no investment from farmers",
+            "Decreases crop yields",
+            "Improves yields but demands substantial investment",
+            "Uses no technology"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Mental health awareness campaigns have reduced stigma significantly, encouraging more people to seek professional help when needed.\" These campaigns have:",
+          "options": [
+            "Increased mental health stigma",
+            "Had no impact on help-seeking behavior",
+            "Successfully promoted treatment-seeking",
+            "Discouraged people from getting help"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Autonomous vehicles promise safer roads and reduced traffic congestion, but regulatory frameworks and public acceptance lag behind technological capabilities.\" The main challenge is:",
+          "options": [
+            "Technology is not advanced enough",
+            "Rules and public opinion haven't caught up with technology",
+            "Roads are becoming more dangerous",
+            "Traffic congestion is increasing"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Renewable energy storage solutions are crucial for grid reliability, as solar and wind power generation fluctuates with weather conditions.\" Storage is important because:",
+          "options": [
+            "Solar and wind provide constant energy",
+            "Weather doesn't affect renewable energy",
+            "Renewable sources produce variable amounts of power",
+            "Grid reliability is not important"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Influencer marketing has transformed brand promotion strategies, though authenticity concerns challenge the effectiveness of sponsored content.\" This marketing approach:",
+          "options": [
+            "Has changed promotion methods but faces credibility issues",
+            "Is completely ineffective",
+            "Has no authenticity problems",
+            "Only works for small businesses"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Coral reef restoration projects show promising results in some areas, but rising ocean temperatures continue to threaten marine ecosystems globally.\" The situation described is:",
+          "options": [
+            "Entirely hopeful with no ongoing threats",
+            "Completely hopeless for coral reefs",
+            "Mixed, with some success but persistent challenges",
+            "Only affecting small reef areas"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Personalized medicine tailors treatments to individual genetic profiles, offering more effective therapies while raising questions about healthcare equity.\" This approach:",
+          "options": [
+            "Provides better treatments but may create fairness concerns",
+            "Is less effective than standard treatments",
+            "Eliminates all healthcare inequalities",
+            "Ignores genetic differences"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Smart cities integrate technology to improve urban services and sustainability, though implementation requires substantial infrastructure upgrades.\" Smart city development:",
+          "options": [
+            "Needs no infrastructure changes",
+            "Worsens urban services",
+            "Enhances city functions but demands major upgrades",
+            "Is impossible to implement"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Plant-based meat alternatives have gained market share rapidly, appealing to environmentally conscious consumers while facing taste and texture challenges.\" These products:",
+          "options": [
+            "Have perfect taste and texture",
+            "Appeal to eco-minded buyers despite some limitations",
+            "Are losing market share",
+            "Only attract vegetarian consumers"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Blockchain technology promises increased transparency in supply chains, but energy consumption and scalability issues limit widespread adoption.\" Blockchain faces:",
+          "options": [
+            "No technical limitations",
+            "Universal adoption already",
+            "Environmental and scale-related obstacles",
+            "Only transparency problems"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Virtual reality training programs enhance learning outcomes in medical education, providing immersive experiences impossible in traditional classrooms.\" VR in medical training:",
+          "options": [
+            "Offers unique educational advantages",
+            "Is identical to classroom learning",
+            "Reduces learning effectiveness",
+            "Cannot simulate medical procedures"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Circular economy principles aim to minimize waste through reuse and recycling, but require fundamental changes in consumer behavior and business models.\" Implementation requires:",
+          "options": [
+            "No changes to current practices",
+            "Only government regulation",
+            "Shifts in both consumer habits and business approaches",
+            "Elimination of all recycling"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Quantum computing could revolutionize data processing and security, though practical applications remain years away from commercial viability.\" Quantum computing:",
+          "options": [
+            "Is already commercially available everywhere",
+            "Has transformative potential but isn't ready for market",
+            "Will never have practical uses",
+            "Only affects data processing"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Urban air pollution has decreased in many cities due to electric vehicle adoption, yet industrial emissions continue to pose significant challenges.\" The pollution situation:",
+          "options": [
+            "Has improved in some areas but problems remain",
+            "Is completely solved in all cities",
+            "Has worsened everywhere",
+            "Is only affected by vehicles"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Citizen science projects engage the public in research activities, democratizing scientific participation while maintaining data quality standards.\" These projects:",
+          "options": [
+            "Exclude the general public from science",
+            "Compromise all research quality",
+            "Broaden scientific involvement while preserving standards",
+            "Are only for professional scientists"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Augmented reality applications are transforming retail experiences by allowing customers to virtually try products before purchasing.\" AR in retail:",
+          "options": [
+            "Makes shopping more difficult",
+            "Has no impact on customer experience",
+            "Is changing how customers interact with products",
+            "Only works for expensive items"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Sustainable aviation fuels offer promising alternatives to traditional jet fuel, but production scaling and cost reduction remain significant hurdles.\" These fuels face:",
+          "options": [
+            "No production challenges",
+            "Manufacturing and economic obstacles",
+            "Complete market rejection",
+            "Only environmental problems"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Digital currencies issued by central banks could modernize payment systems while preserving monetary policy control, unlike decentralized cryptocurrencies.\" Central bank digital currencies:",
+          "options": [
+            "Are identical to existing cryptocurrencies",
+            "Would eliminate all monetary policy",
+            "Could update payments while maintaining government control",
+            "Are impossible to implement"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Elderly care robots are being developed to address staffing shortages in healthcare, but concerns about human connection and emotional support persist.\" Care robots:",
+          "options": [
+            "Perfectly replace human caregivers",
+            "Address staffing issues but raise emotional care questions",
+            "Are universally rejected by elderly patients",
+            "Only perform medical procedures"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Ocean cleanup technologies show potential for removing plastic waste, yet prevention of new pollution remains the more critical long-term solution.\" The passage emphasizes:",
+          "options": [
+            "Cleanup technology is the only solution needed",
+            "Prevention is more important than cleanup",
+            "Ocean plastic is not a real problem",
+            "New pollution has stopped completely"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Peer-to-peer energy trading allows households with solar panels to sell excess electricity directly to neighbors, bypassing traditional utility companies.\" This system:",
+          "options": [
+            "Requires traditional utility involvement",
+            "Prevents solar panel installation",
+            "Enables direct energy sales between households",
+            "Only works without solar panels"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Biometric security systems enhance access control and fraud prevention, but raise privacy concerns about biological data collection and storage.\" These systems:",
+          "options": [
+            "Improve security while creating privacy issues",
+            "Have no security benefits",
+            "Eliminate all privacy concerns",
+            "Are completely unreliable"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Vertical transportation innovations like hyperloop systems promise faster intercity travel, but require extensive infrastructure development and safety testing.\" These systems need:",
+          "options": [
+            "No additional infrastructure",
+            "Extensive development and safety verification",
+            "Only faster vehicles",
+            "Elimination of existing transport"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Precision nutrition uses genetic and metabolic data to create personalized dietary recommendations, moving beyond one-size-fits-all nutritional guidance.\" This approach:",
+          "options": [
+            "Uses the same advice for everyone",
+            "Ignores genetic factors completely",
+            "Tailors nutrition advice to individual characteristics",
+            "Only considers metabolic data"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Robotic process automation streamlines repetitive business tasks, improving efficiency while raising concerns about job displacement in certain sectors.\" Automation:",
+          "options": [
+            "Only creates new jobs",
+            "Has no effect on efficiency",
+            "Boosts efficiency but may eliminate some jobs",
+            "Makes all business tasks more complex"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Smart textiles embedded with sensors can monitor health metrics continuously, offering medical insights while requiring careful consideration of data privacy.\" Smart textiles:",
+          "options": [
+            "Provide health monitoring but need privacy safeguards",
+            "Cannot collect any health data",
+            "Have no medical applications",
+            "Eliminate all privacy concerns"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Cultured meat production could address environmental and ethical concerns about traditional livestock farming, but consumer acceptance and regulatory approval remain uncertain.\" Lab-grown meat:",
+          "options": [
+            "Is already fully approved and accepted",
+            "Addresses farming concerns but faces acceptance challenges",
+            "Has no environmental benefits",
+            "Is rejected by all consumers"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Edge computing brings data processing closer to source locations, reducing latency and bandwidth usage while complicating network security management.\" Edge computing:",
+          "options": [
+            "Increases latency significantly",
+            "Simplifies all security management",
+            "Improves performance but creates security complexity",
+            "Has no effect on data processing"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Green building certification programs promote sustainable construction practices, encouraging energy efficiency while sometimes increasing initial project costs.\" These programs:",
+          "options": [
+            "Always reduce construction costs",
+            "Discourage sustainable practices",
+            "Promote sustainability but may raise upfront expenses",
+            "Have no impact on energy use"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Brain-computer interfaces enable direct communication between minds and machines, offering hope for paralyzed patients while raising ethical questions about mental privacy.\" These interfaces:",
+          "options": [
+            "Provide medical benefits but raise ethical concerns",
+            "Only work for healthy individuals",
+            "Have no therapeutic applications",
+            "Completely solve privacy issues"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"The gig economy offers workers flexibility and autonomy, yet it often lacks the job security and benefits that traditional employment provides.\" What does this passage indicate?",
+          "options": [
+            "The gig economy has replaced traditional jobs completely",
+            "Traditional employment offers no advantages",
+            "Gig work has both advantages and disadvantages",
+            "Job security is unimportant to modern workers"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Urban gardens are gaining popularity as city dwellers seek sustainable food sources, though limited space remains a significant challenge.\" The passage suggests that urban gardens:",
+          "options": [
+            "Are impossible to maintain in cities",
+            "Are becoming more common despite space constraints",
+            "Require no maintenance",
+            "Are only popular in rural areas"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Social media platforms have revolutionized marketing strategies, enabling businesses to target specific demographics with unprecedented precision.\" This means social media has:",
+          "options": [
+            "Made marketing less effective",
+            "Eliminated the need for advertising",
+            "Made it harder to reach customers",
+            "Transformed how companies approach marketing"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Read: \"E-learning platforms experienced exponential growth during the pandemic, but educators question whether they can replicate the interactive nature of classroom learning.\" According to the passage:",
+          "options": [
+            "E-learning grew rapidly but may lack classroom interaction",
+            "Traditional classrooms are obsolete",
+            "Online learning is identical to in-person education",
+            "The pandemic had no effect on education"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Sustainable fashion brands are emerging to address environmental concerns, though consumers often struggle with higher prices and limited availability.\" The passage indicates that sustainable fashion:",
+          "options": [
+            "Is cheaper than regular clothing",
+            "Is widely available everywhere",
+            "Addresses environmental issues but faces practical barriers",
+            "Has no environmental benefits"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Cryptocurrency adoption is increasing among younger generations, despite regulatory uncertainty and volatile market conditions.\" What does this suggest about cryptocurrency?",
+          "options": [
+            "It's becoming more popular with young people regardless of risks",
+            "It has stable market conditions",
+            "Regulations are completely clear",
+            "Older generations prefer it more"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Mental health awareness campaigns have reduced stigma significantly, yet many individuals still hesitate to seek professional help.\" The passage suggests that:",
+          "options": [
+            "Stigma has been completely eliminated",
+            "No progress has been made in mental health awareness",
+            "People always seek help when needed",
+            "Progress has been made but barriers still exist"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Read: \"Autonomous vehicles promise to reduce traffic accidents caused by human error, but technical challenges and ethical dilemmas persist.\" This passage indicates that self-driving cars:",
+          "options": [
+            "Have solved all traffic problems",
+            "Have potential benefits but unresolved issues",
+            "Are completely unsafe",
+            "Will never be developed"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Telemedicine has expanded healthcare access to rural communities, although concerns about diagnosis accuracy and patient-doctor rapport remain.\" Telemedicine:",
+          "options": [
+            "Improves access but raises quality concerns",
+            "Is only used in urban areas",
+            "Provides perfect diagnoses",
+            "Has no benefits for rural areas"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Vertical farming maximizes crop yield in minimal space, yet the high energy costs make it economically challenging for many farmers.\" The passage suggests vertical farming:",
+          "options": [
+            "Is always profitable",
+            "Uses too much space",
+            "Reduces crop production",
+            "Is space-efficient but expensive to operate"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Read: \"Microlearning breaks complex topics into bite-sized modules, making education more accessible, though critics argue it may oversimplify important concepts.\" What does this indicate about microlearning?",
+          "options": [
+            "It always oversimplifies everything",
+            "It makes learning more accessible but may have drawbacks",
+            "It makes education more complex",
+            "Critics fully support this approach"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Digital detox retreats are increasingly popular as people seek relief from constant connectivity, despite the irony of booking such experiences online.\" This passage suggests:",
+          "options": [
+            "People don't want to escape technology",
+            "Digital detox has no benefits",
+            "There's growing demand for tech breaks, though booking methods are contradictory",
+            "Online booking is unnecessary"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Coworking spaces foster collaboration and networking opportunities, but they can also create distractions that reduce individual productivity.\" According to the passage, coworking spaces:",
+          "options": [
+            "Always improve productivity",
+            "Offer networking benefits but may cause distractions",
+            "Prevent all collaboration",
+            "Have no social advantages"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Plant-based meat alternatives are gaining market share as environmental consciousness grows, though taste and texture improvements are still needed.\" The passage indicates these alternatives:",
+          "options": [
+            "Have perfect taste and texture",
+            "Are losing market share",
+            "Are becoming more popular but need improvement",
+            "Have no environmental benefits"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Influencer marketing has proven effective for brand awareness, yet measuring its direct impact on sales remains difficult for many companies.\" This suggests influencer marketing:",
+          "options": [
+            "Has no effect on brand awareness",
+            "Always guarantees increased sales",
+            "Is impossible to measure",
+            "Builds awareness but sales impact is hard to quantify"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Read: \"Open-plan offices were designed to encourage collaboration, but research shows they often increase stress levels and reduce focus among employees.\" What does this passage suggest?",
+          "options": [
+            "Open offices achieve their intended goals perfectly",
+            "The design intention differs from the actual results",
+            "All employees prefer open offices",
+            "Collaboration is impossible in open spaces"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Subscription-based business models provide predictable revenue streams, though customer acquisition costs continue to rise across most industries.\" The passage indicates subscription models:",
+          "options": [
+            "Offer revenue stability despite higher acquisition costs",
+            "Have unpredictable income",
+            "Reduce customer acquisition costs",
+            "Are failing in all industries"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Mindfulness apps have made meditation more accessible to busy professionals, although experts debate whether guided digital sessions match traditional practice benefits.\" This suggests mindfulness apps:",
+          "options": [
+            "Are completely identical to traditional meditation",
+            "Have no accessibility benefits",
+            "Improve accessibility but their effectiveness is questioned",
+            "Are only for non-professionals"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Smart home technology enhances convenience and energy efficiency, but privacy concerns and high installation costs limit widespread adoption.\" According to the passage, smart homes:",
+          "options": [
+            "Are universally adopted",
+            "Have no benefits",
+            "Cost nothing to install",
+            "Offer advantages but face adoption barriers"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Read: \"Freelancing platforms connect talent with global opportunities, yet they often create intense competition that drives down compensation rates.\" The passage suggests these platforms:",
+          "options": [
+            "Always increase freelancer earnings",
+            "Provide global access but may reduce pay due to competition",
+            "Eliminate all competition",
+            "Offer no international opportunities"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Gamification in education increases student engagement significantly, though educators worry it might prioritize entertainment over learning depth.\" What does this indicate about gamification?",
+          "options": [
+            "It reduces student engagement",
+            "Educators fully support it without concerns",
+            "It boosts engagement but may compromise learning depth",
+            "It eliminates entertainment from education"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Biodegradable packaging offers an environmentally friendly alternative to plastic, but higher production costs challenge its commercial viability.\" The passage suggests biodegradable packaging:",
+          "options": [
+            "Is environmentally beneficial but economically challenging",
+            "Costs less than plastic packaging",
+            "Has no environmental advantages",
+            "Is widely used commercially"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Workplace wellness programs show measurable improvements in employee health, yet participation rates remain disappointingly low in most organizations.\" According to this passage:",
+          "options": [
+            "All employees participate in wellness programs",
+            "Wellness programs show no health benefits",
+            "Programs are effective but underutilized",
+            "Participation rates are extremely high"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Podcasts have democratized media creation, allowing anyone to broadcast their ideas, though the oversaturated market makes audience discovery increasingly difficult.\" This suggests podcasts:",
+          "options": [
+            "Are impossible to create",
+            "Guarantee large audiences",
+            "Have no market saturation issues",
+            "Enable easy creation but difficult audience building"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Read: \"Renewable energy storage technology is advancing rapidly, but grid integration challenges continue to slow the transition from fossil fuels.\" The passage indicates that energy storage:",
+          "options": [
+            "Is progressing quickly despite integration obstacles",
+            "Has made no technological advances",
+            "Eliminates all grid problems",
+            "Speeds up fossil fuel transition"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Online grocery shopping surged during lockdowns and maintained popularity afterward, though consumers miss the tactile experience of selecting fresh produce.\" This suggests online grocery shopping:",
+          "options": [
+            "Decreased after lockdowns ended",
+            "Provides identical tactile experiences",
+            "Remained popular but lacks sensory shopping benefits",
+            "Only sells non-fresh items"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Virtual reality training programs offer safe, repeatable practice scenarios for high-risk professions, but equipment costs and technical complexity hinder adoption.\" VR training:",
+          "options": [
+            "Is widely adopted everywhere",
+            "Offers no safety benefits",
+            "Is inexpensive and simple",
+            "Provides training advantages but faces practical barriers"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Read: \"Social entrepreneurship addresses societal problems through business solutions, yet measuring social impact remains more complex than tracking financial returns.\" The passage suggests social entrepreneurship:",
+          "options": [
+            "Tackles social issues but impact measurement is challenging",
+            "Ignores societal problems",
+            "Has simple impact measurement",
+            "Only focuses on financial returns"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Flexible work arrangements improve employee satisfaction and retention, though managers struggle with performance evaluation and team coordination.\" According to this passage:",
+          "options": [
+            "Managers have no coordination challenges",
+            "Employee satisfaction always decreases",
+            "Flexible work benefits employees but creates management challenges",
+            "Performance evaluation is simplified"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Artificial meat production could revolutionize food security and reduce environmental impact, but consumer acceptance and regulatory approval remain significant hurdles.\" This indicates artificial meat:",
+          "options": [
+            "Has universal consumer acceptance",
+            "Faces no regulatory challenges",
+            "Has no environmental benefits",
+            "Shows promise but encounters acceptance and regulatory obstacles"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Read: \"Digital currencies are gaining institutional acceptance as legitimate assets, despite ongoing volatility and regulatory uncertainty worldwide.\" The passage suggests digital currencies:",
+          "options": [
+            "Are becoming more accepted institutionally regardless of instability",
+            "Have completely stable values",
+            "Face no regulatory issues",
+            "Are rejected by all institutions"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Community-supported agriculture connects consumers directly with local farmers, promoting sustainable practices, though seasonal limitations affect year-round availability.\" This suggests CSA programs:",
+          "options": [
+            "Provide unlimited year-round produce",
+            "Support sustainability but have seasonal constraints",
+            "Disconnect consumers from farmers",
+            "Discourage sustainable farming"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Personalized learning algorithms adapt to individual student needs effectively, but concerns about data privacy and algorithmic bias persist among educators.\" According to the passage:",
+          "options": [
+            "Algorithms have no privacy concerns",
+            "Personalized learning shows no adaptation benefits",
+            "All educators support algorithmic learning",
+            "Adaptive learning is effective but raises privacy and bias concerns"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Read: \"Hybrid events combine physical and virtual attendance, expanding reach and reducing costs, yet technical difficulties often compromise the experience for remote participants.\" Hybrid events:",
+          "options": [
+            "Expand reach but may have technical issues for virtual attendees",
+            "Eliminate all technical problems",
+            "Increase costs significantly",
+            "Only benefit in-person participants"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Circular economy principles minimize waste through reuse and recycling, but implementation requires fundamental changes in manufacturing and consumer behavior.\" The passage indicates circular economy:",
+          "options": [
+            "Increases waste production",
+            "Requires no behavioral changes",
+            "Is easy to implement immediately",
+            "Reduces waste but needs significant systemic changes"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Read: \"Voice assistants have simplified daily tasks for many users, although privacy concerns about constant listening capabilities continue to deter potential adopters.\" This suggests voice assistants:",
+          "options": [
+            "Have no privacy implications",
+            "Complicate daily tasks",
+            "Help with tasks but raise privacy concerns that limit adoption",
+            "Are adopted by everyone"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Peer-to-peer lending platforms offer attractive returns to investors while providing credit access to underserved borrowers, but default risks remain higher than traditional banking.\" P2P lending:",
+          "options": [
+            "Has identical risks to traditional banking",
+            "Benefits both parties but carries increased default risks",
+            "Offers no returns to investors",
+            "Serves only wealthy borrowers"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Telecommuting reduces office overhead and employee commuting stress, but maintaining company culture and team cohesion becomes increasingly challenging.\" The passage suggests telecommuting:",
+          "options": [
+            "Strengthens company culture automatically",
+            "Increases office costs",
+            "Provides financial and personal benefits but affects organizational unity",
+            "Eliminates all workplace stress"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Gene therapy shows remarkable potential for treating previously incurable diseases, though ethical questions and long-term effects require extensive study.\" According to this passage, gene therapy:",
+          "options": [
+            "Has no treatment potential",
+            "Raises no ethical concerns",
+            "Has fully understood long-term effects",
+            "Offers promising treatment possibilities but needs more research"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Read: \"Carbon offset programs allow companies to compensate for emissions by funding environmental projects, but critics argue they may delay necessary operational changes.\" The passage indicates carbon offsets:",
+          "options": [
+            "Enable emission compensation but may postpone actual improvements",
+            "Require no environmental projects",
+            "Force immediate operational changes",
+            "Have no critics"
+          ],
+          "correct": 0
+        }
       ]
     }
   ]

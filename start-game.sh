@@ -1,4 +1,9 @@
 #!/bin/bash
+
+# Change to the directory where this script lives
+# (needed when double-clicking from Finder)
+cd "$(dirname "$0")"
+
 echo "Starting Word Learning Game..."
 echo ""
 echo "The game will open in your browser at http://localhost:8000"

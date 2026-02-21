@@ -1,63 +1,4031 @@
 {
   "slots": [
     {
-      "slot": 6, "level": "B1", "type": "vocabulary",
+      "slot": 6,
+      "level": "B1",
+      "type": "vocabulary",
       "variants": [
-        {"question": "Choose the correct meaning of \"reliable\":", "options": ["easy to break","can be trusted or depended on","very expensive","difficult to find"], "correct": 1},
-        {"question": "Choose the correct meaning of \"generous\":", "options": ["mean with money","willing to give more than expected","always tired","very intelligent"], "correct": 1},
-        {"question": "Choose the correct meaning of \"convenient\":", "options": ["very expensive","fitting well with needs or plans","extremely boring","hard to understand"], "correct": 1},
-        {"question": "Choose the correct meaning of \"essential\":", "options": ["not important","absolutely necessary","very beautiful","quite dangerous"], "correct": 1},
-        {"question": "Choose the correct meaning of \"gradually\":", "options": ["suddenly","slowly over time","very loudly","completely"], "correct": 1},
-        {"question": "Choose the correct meaning of \"anxious\":", "options": ["very happy","worried or nervous","extremely tired","quite bored"], "correct": 1},
-        {"question": "Choose the correct meaning of \"achieve\":", "options": ["to lose something","to succeed in reaching a goal","to forget easily","to sleep deeply"], "correct": 1},
-        {"question": "Choose the correct meaning of \"opportunity\":", "options": ["a big problem","a chance to do something","a type of food","a kind of weather"], "correct": 1},
-        {"question": "Choose the correct meaning of \"recommend\":", "options": ["to complain about","to suggest as good or suitable","to destroy completely","to forget quickly"], "correct": 1},
-        {"question": "Choose the correct meaning of \"improve\":", "options": ["to make worse","to make better","to stay the same","to disappear"], "correct": 1}
+        {
+          "question": "Choose the correct meaning of \"reliable\":",
+          "options": [
+            "easy to break",
+            "can be trusted or depended on",
+            "very expensive",
+            "difficult to find"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct meaning of \"generous\":",
+          "options": [
+            "mean with money",
+            "willing to give more than expected",
+            "always tired",
+            "very intelligent"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct meaning of \"convenient\":",
+          "options": [
+            "very expensive",
+            "fitting well with needs or plans",
+            "extremely boring",
+            "hard to understand"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct meaning of \"essential\":",
+          "options": [
+            "not important",
+            "absolutely necessary",
+            "very beautiful",
+            "quite dangerous"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct meaning of \"gradually\":",
+          "options": [
+            "suddenly",
+            "slowly over time",
+            "very loudly",
+            "completely"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct meaning of \"anxious\":",
+          "options": [
+            "very happy",
+            "worried or nervous",
+            "extremely tired",
+            "quite bored"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct meaning of \"achieve\":",
+          "options": [
+            "to lose something",
+            "to succeed in reaching a goal",
+            "to forget easily",
+            "to sleep deeply"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct meaning of \"opportunity\":",
+          "options": [
+            "a big problem",
+            "a chance to do something",
+            "a type of food",
+            "a kind of weather"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct meaning of \"recommend\":",
+          "options": [
+            "to complain about",
+            "to suggest as good or suitable",
+            "to destroy completely",
+            "to forget quickly"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct meaning of \"improve\":",
+          "options": [
+            "to make worse",
+            "to make better",
+            "to stay the same",
+            "to disappear"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct meaning of \"ordinary\":",
+          "options": [
+            "normal and not special",
+            "extremely expensive",
+            "very dangerous",
+            "impossible to find"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct meaning of \"enormous\":",
+          "options": [
+            "very small",
+            "extremely large",
+            "quite cheap",
+            "rather slow"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct meaning of \"exhausted\":",
+          "options": [
+            "very happy",
+            "quite angry",
+            "extremely tired",
+            "rather confused"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct meaning of \"ancient\":",
+          "options": [
+            "brand new",
+            "quite modern",
+            "rather expensive",
+            "very old"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct meaning of \"precisely\":",
+          "options": [
+            "exactly and accurately",
+            "very slowly",
+            "quite loudly",
+            "rather quietly"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct meaning of \"curious\":",
+          "options": [
+            "very tired",
+            "wanting to learn or know more",
+            "extremely angry",
+            "rather sad"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct meaning of \"obvious\":",
+          "options": [
+            "very difficult",
+            "quite expensive",
+            "easy to see or understand",
+            "impossible to do"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct meaning of \"fortunate\":",
+          "options": [
+            "very poor",
+            "quite tired",
+            "rather angry",
+            "having good luck"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct meaning of \"initially\":",
+          "options": [
+            "at the beginning",
+            "at the end",
+            "in the middle",
+            "never at all"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct meaning of \"spectacular\":",
+          "options": [
+            "very boring",
+            "impressive and dramatic",
+            "quite small",
+            "rather cheap"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct meaning of \"delicate\":",
+          "options": [
+            "very strong",
+            "quite heavy",
+            "easily damaged or broken",
+            "extremely loud"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct meaning of \"permanent\":",
+          "options": [
+            "very short",
+            "quite temporary",
+            "rather quick",
+            "lasting forever"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct meaning of \"frequently\":",
+          "options": [
+            "often and regularly",
+            "very rarely",
+            "just once",
+            "never again"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct meaning of \"artificial\":",
+          "options": [
+            "completely natural",
+            "made by humans, not natural",
+            "very expensive",
+            "quite beautiful"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct meaning of \"reasonable\":",
+          "options": [
+            "very expensive",
+            "quite impossible",
+            "fair and sensible",
+            "rather dangerous"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct meaning of \"confident\":",
+          "options": [
+            "very worried",
+            "quite sad",
+            "rather tired",
+            "sure of oneself"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct meaning of \"accidentally\":",
+          "options": [
+            "by mistake, not on purpose",
+            "very carefully",
+            "quite slowly",
+            "extremely well"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct meaning of \"flexible\":",
+          "options": [
+            "very rigid",
+            "able to bend or change easily",
+            "extremely heavy",
+            "quite expensive"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct meaning of \"grateful\":",
+          "options": [
+            "very angry",
+            "quite sad",
+            "feeling thankful",
+            "rather confused"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct meaning of \"domestic\":",
+          "options": [
+            "from other countries",
+            "very expensive",
+            "quite dangerous",
+            "relating to home or country"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct meaning of \"immediate\":",
+          "options": [
+            "happening right now",
+            "taking a long time",
+            "never happening",
+            "quite difficult"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct meaning of \"unique\":",
+          "options": [
+            "very common",
+            "being the only one of its kind",
+            "quite ordinary",
+            "rather boring"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct meaning of \"portable\":",
+          "options": [
+            "very heavy",
+            "quite expensive",
+            "easy to carry or move",
+            "impossible to lift"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct meaning of \"traditional\":",
+          "options": [
+            "very modern",
+            "quite new",
+            "rather strange",
+            "following old customs"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct meaning of \"approximately\":",
+          "options": [
+            "roughly or about",
+            "exactly right",
+            "completely wrong",
+            "never close"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct meaning of \"significant\":",
+          "options": [
+            "not important",
+            "important and meaningful",
+            "very small",
+            "quite boring"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct meaning of \"efficient\":",
+          "options": [
+            "very slow",
+            "quite wasteful",
+            "working well without waste",
+            "extremely expensive"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct meaning of \"previous\":",
+          "options": [
+            "happening next",
+            "very important",
+            "quite expensive",
+            "coming before in time"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct meaning of \"rarely\":",
+          "options": [
+            "not very often",
+            "all the time",
+            "very quickly",
+            "quite loudly"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct meaning of \"sensitive\":",
+          "options": [
+            "very strong",
+            "easily hurt or affected",
+            "quite heavy",
+            "rather cheap"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct meaning of \"vacant\":",
+          "options": [
+            "very full",
+            "quite busy",
+            "empty and available",
+            "extremely expensive"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct meaning of \"capable\":",
+          "options": [
+            "unable to do things",
+            "very tired",
+            "quite sad",
+            "having the ability to do something"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct meaning of \"definitely\":",
+          "options": [
+            "certainly and without doubt",
+            "maybe or perhaps",
+            "probably not",
+            "never at all"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct meaning of \"mature\":",
+          "options": [
+            "very young",
+            "fully grown or developed",
+            "quite small",
+            "rather new"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct meaning of \"temporary\":",
+          "options": [
+            "lasting forever",
+            "quite expensive",
+            "lasting for a short time only",
+            "very difficult"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct meaning of \"violent\":",
+          "options": [
+            "very peaceful",
+            "quite gentle",
+            "rather quiet",
+            "using physical force to hurt"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct meaning of \"originally\":",
+          "options": [
+            "at the first time or beginning",
+            "at the very end",
+            "in the middle",
+            "never before"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct meaning of \"genuine\":",
+          "options": [
+            "completely fake",
+            "real and authentic",
+            "very expensive",
+            "quite ordinary"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct meaning of \"comfortable\":",
+          "options": [
+            "very painful",
+            "quite difficult",
+            "giving a feeling of ease",
+            "extremely expensive"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct meaning of \"appropriate\":",
+          "options": [
+            "completely wrong",
+            "very expensive",
+            "quite difficult",
+            "suitable for the situation"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct meaning of \"generally\":",
+          "options": [
+            "usually or in most cases",
+            "never at all",
+            "very rarely",
+            "just once"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct meaning of \"independent\":",
+          "options": [
+            "needing others' help",
+            "able to do things alone",
+            "very expensive",
+            "quite dangerous"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct meaning of \"overcome\":",
+          "options": [
+            "give up easily",
+            "run away quickly",
+            "succeed in dealing with a problem",
+            "make things worse"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct meaning of \"worthwhile\":",
+          "options": [
+            "completely useless",
+            "very expensive",
+            "quite boring",
+            "worth the time or effort"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct meaning of \"apparently\":",
+          "options": [
+            "it seems that",
+            "definitely not",
+            "never ever",
+            "impossible to know"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct meaning of \"remarkable\":",
+          "options": [
+            "very ordinary",
+            "unusual and impressive",
+            "quite boring",
+            "rather cheap"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct meaning of \"suitable\":",
+          "options": [
+            "completely wrong",
+            "very expensive",
+            "right for a purpose or situation",
+            "quite dangerous"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct meaning of \"enormous\":",
+          "options": [
+            "very tiny",
+            "quite normal",
+            "rather slow",
+            "extremely large in size"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct meaning of \"constantly\":",
+          "options": [
+            "all the time without stopping",
+            "very rarely",
+            "just once",
+            "never again"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct meaning of \"numerous\":",
+          "options": [
+            "very few",
+            "many in number",
+            "quite expensive",
+            "rather difficult"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct meaning of \"permanent\":",
+          "options": [
+            "lasting for a very long time or forever",
+            "happening very quickly",
+            "costing a lot of money",
+            "changing all the time"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct meaning of \"annoying\":",
+          "options": [
+            "very helpful",
+            "extremely quiet",
+            "causing slight anger or irritation",
+            "completely free"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct meaning of \"obviously\":",
+          "options": [
+            "secretly",
+            "rarely",
+            "clearly and without doubt",
+            "accidentally"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct meaning of \"typical\":",
+          "options": [
+            "very unusual",
+            "extremely expensive",
+            "always late",
+            "normal or expected for a particular type"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct meaning of \"anxious\":",
+          "options": [
+            "worried or nervous",
+            "very sleepy",
+            "completely happy",
+            "extremely hungry"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct meaning of \"furthermore\":",
+          "options": [
+            "however",
+            "in addition to what has been said",
+            "on the contrary",
+            "for example"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct meaning of \"particular\":",
+          "options": [
+            "general",
+            "ordinary",
+            "special or specific",
+            "simple"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct meaning of \"demonstrate\":",
+          "options": [
+            "to hide something",
+            "to forget completely",
+            "to show clearly or prove",
+            "to buy expensive things"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct meaning of \"occasion\":",
+          "options": [
+            "a particular time when something happens",
+            "a type of food",
+            "a heavy object",
+            "a small animal"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct meaning of \"valuable\":",
+          "options": [
+            "completely worthless",
+            "very heavy",
+            "always broken",
+            "worth a lot of money or very useful"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct meaning of \"accidentally\":",
+          "options": [
+            "on purpose",
+            "by mistake or chance",
+            "very carefully",
+            "extremely slowly"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct meaning of \"consequences\":",
+          "options": [
+            "the results of an action",
+            "types of music",
+            "old buildings",
+            "kitchen equipment"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct meaning of \"evidence\":",
+          "options": [
+            "personal opinion",
+            "wild guess",
+            "facts that prove something is true",
+            "expensive jewelry"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct meaning of \"familiar\":",
+          "options": [
+            "completely unknown",
+            "very expensive",
+            "extremely dangerous",
+            "well-known or easily recognized"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct meaning of \"approximately\":",
+          "options": [
+            "exactly",
+            "about or roughly",
+            "never",
+            "always"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct meaning of \"colleague\":",
+          "options": [
+            "a person you work with",
+            "a type of building",
+            "a musical instrument",
+            "a piece of furniture"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct meaning of \"numerous\":",
+          "options": [
+            "very few",
+            "exactly one",
+            "many in number",
+            "completely zero"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct meaning of \"previous\":",
+          "options": [
+            "happening in the future",
+            "happening right now",
+            "never happening",
+            "happening before in time"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct meaning of \"achieve\":",
+          "options": [
+            "to successfully complete or reach a goal",
+            "to give up trying",
+            "to make a mistake",
+            "to forget something important"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct meaning of \"increase\":",
+          "options": [
+            "to stay the same",
+            "to become larger in amount or number",
+            "to disappear completely",
+            "to change color"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct meaning of \"suitable\":",
+          "options": [
+            "completely wrong",
+            "very expensive",
+            "right for a particular purpose",
+            "extremely heavy"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct meaning of \"throughout\":",
+          "options": [
+            "only at the beginning",
+            "never at any time",
+            "just at the end",
+            "during the whole period of time"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct meaning of \"opportunity\":",
+          "options": [
+            "a chance to do something",
+            "a type of weather",
+            "a kitchen tool",
+            "a wild animal"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct meaning of \"ancient\":",
+          "options": [
+            "brand new",
+            "very old from long ago",
+            "medium sized",
+            "bright colored"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct meaning of \"participate\":",
+          "options": [
+            "to watch from far away",
+            "to refuse completely",
+            "to take part in something",
+            "to arrive very late"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct meaning of \"various\":",
+          "options": [
+            "exactly the same",
+            "only one type",
+            "completely none",
+            "several different types"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct meaning of \"despite\":",
+          "options": [
+            "although something is true",
+            "because of something",
+            "before something happens",
+            "after everything ends"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct meaning of \"obtain\":",
+          "options": [
+            "to lose forever",
+            "to get or acquire something",
+            "to break into pieces",
+            "to paint with colors"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct meaning of \"frequently\":",
+          "options": [
+            "never at all",
+            "only once",
+            "happening often",
+            "very slowly"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct meaning of \"investigate\":",
+          "options": [
+            "to ignore completely",
+            "to celebrate loudly",
+            "to sleep peacefully",
+            "to examine something carefully"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct meaning of \"domestic\":",
+          "options": [
+            "relating to home or family",
+            "from another planet",
+            "extremely expensive",
+            "always broken"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct meaning of \"atmosphere\":",
+          "options": [
+            "underground water",
+            "the mood or feeling of a place",
+            "a type of food",
+            "heavy machinery"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct meaning of \"accompany\":",
+          "options": [
+            "to leave someone alone",
+            "to argue loudly",
+            "to go somewhere with someone",
+            "to forget someone's name"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct meaning of \"moreover\":",
+          "options": [
+            "on the other hand",
+            "for instance",
+            "in conclusion",
+            "in addition to that"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct meaning of \"influence\":",
+          "options": [
+            "the power to affect someone or something",
+            "a type of transportation",
+            "a piece of clothing",
+            "a mathematical equation"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct meaning of \"establish\":",
+          "options": [
+            "to destroy completely",
+            "to set up or create something",
+            "to move very quickly",
+            "to paint something red"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct meaning of \"significant\":",
+          "options": [
+            "completely unimportant",
+            "very small",
+            "important or meaningful",
+            "always invisible"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct meaning of \"initially\":",
+          "options": [
+            "at the very end",
+            "never in time",
+            "somewhere in the middle",
+            "at the beginning"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct meaning of \"recognize\":",
+          "options": [
+            "to know someone or something you have seen before",
+            "to forget completely",
+            "to paint with bright colors",
+            "to cook delicious food"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct meaning of \"require\":",
+          "options": [
+            "to give away freely",
+            "to need something",
+            "to break accidentally",
+            "to sing beautifully"
+          ],
+          "correct": 1
+        }
       ]
     },
     {
-      "slot": 7, "level": "B1", "type": "grammar",
+      "slot": 7,
+      "level": "B1",
+      "type": "grammar",
       "variants": [
-        {"question": "If it rains tomorrow, we ___ stay at home.", "options": ["will","would","are","did"], "correct": 0},
-        {"question": "If you ___ hard, you will pass the exam.", "options": ["study","studied","will study","would study"], "correct": 0},
-        {"question": "If she calls, ___ her I'm busy.", "options": ["tell","told","telling","tells"], "correct": 0},
-        {"question": "If we leave now, we ___ catch the train.", "options": ["will","would","did","are"], "correct": 0},
-        {"question": "If he ___ the job, he will move to London.", "options": ["gets","got","will get","would get"], "correct": 0},
-        {"question": "I'll help you if you ___ me nicely.", "options": ["ask","asked","will ask","would ask"], "correct": 0},
-        {"question": "If they don't hurry, they ___ be late.", "options": ["will","would","are","were"], "correct": 0},
-        {"question": "If it ___ sunny, we'll go to the beach.", "options": ["is","was","will be","would be"], "correct": 0},
-        {"question": "She will be upset if you ___ her birthday.", "options": ["forget","forgot","will forget","forgetting"], "correct": 0},
-        {"question": "If I see Tom, I ___ give him your message.", "options": ["will","would","am","was"], "correct": 0}
+        {
+          "question": "If it rains tomorrow, we ___ stay at home.",
+          "options": [
+            "will",
+            "would",
+            "are",
+            "did"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "If you ___ hard, you will pass the exam.",
+          "options": [
+            "study",
+            "studied",
+            "will study",
+            "would study"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "If she calls, ___ her I'm busy.",
+          "options": [
+            "tell",
+            "told",
+            "telling",
+            "tells"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "If we leave now, we ___ catch the train.",
+          "options": [
+            "will",
+            "would",
+            "did",
+            "are"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "If he ___ the job, he will move to London.",
+          "options": [
+            "gets",
+            "got",
+            "will get",
+            "would get"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "I'll help you if you ___ me nicely.",
+          "options": [
+            "ask",
+            "asked",
+            "will ask",
+            "would ask"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "If they don't hurry, they ___ be late.",
+          "options": [
+            "will",
+            "would",
+            "are",
+            "were"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "If it ___ sunny, we'll go to the beach.",
+          "options": [
+            "is",
+            "was",
+            "will be",
+            "would be"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "She will be upset if you ___ her birthday.",
+          "options": [
+            "forget",
+            "forgot",
+            "will forget",
+            "forgetting"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "If I see Tom, I ___ give him your message.",
+          "options": [
+            "will",
+            "would",
+            "am",
+            "was"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "If I have time tonight, I ___ cook dinner.",
+          "options": [
+            "would",
+            "will",
+            "am",
+            "did"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "If they ___ early, they won't miss the meeting.",
+          "options": [
+            "arrive",
+            "arrived",
+            "will arrive",
+            "would arrive"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "If the weather is nice, we ___ go to the beach.",
+          "options": [
+            "would",
+            "are",
+            "might",
+            "did"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "If you ___ hungry, there's food in the fridge.",
+          "options": [
+            "will be",
+            "would be",
+            "are",
+            "were"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "If he finishes his homework, he ___ watch TV.",
+          "options": [
+            "can",
+            "could",
+            "is",
+            "was"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "If the store is open, I ___ buy some milk.",
+          "options": [
+            "would",
+            "will",
+            "am",
+            "was"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "If she ___ tired, she should rest.",
+          "options": [
+            "will be",
+            "would be",
+            "is",
+            "was"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "If the bus comes on time, we ___ be late.",
+          "options": [
+            "will",
+            "would",
+            "are",
+            "won't"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "If you ___ me, I'll help you with the project.",
+          "options": [
+            "ask",
+            "asked",
+            "will ask",
+            "would ask"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "If it's sunny tomorrow, they ___ have a picnic.",
+          "options": [
+            "would",
+            "will",
+            "are",
+            "did"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "If the movie ___ good reviews, I'll watch it.",
+          "options": [
+            "gets",
+            "got",
+            "will get",
+            "would get"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "If you need help, ___ me know.",
+          "options": [
+            "told",
+            "telling",
+            "let",
+            "lets"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "If the price is reasonable, we ___ buy the car.",
+          "options": [
+            "would",
+            "are",
+            "did",
+            "will"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "If he ___ his keys, he can't drive.",
+          "options": [
+            "lose",
+            "loses",
+            "will lose",
+            "would lose"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "If the restaurant is full, we ___ wait for a table.",
+          "options": [
+            "will have to",
+            "would have to",
+            "are having to",
+            "had to"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "If she ___ her phone, call the office.",
+          "options": [
+            "answered",
+            "doesn't answer",
+            "will answer",
+            "would answer"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "If the test is difficult, I ___ study more.",
+          "options": [
+            "would",
+            "am",
+            "did",
+            "will"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "If they ___ the invitation, they'll come to the party.",
+          "options": [
+            "accept",
+            "accepted",
+            "will accept",
+            "would accept"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "If the traffic is heavy, we ___ take the subway.",
+          "options": [
+            "would",
+            "should",
+            "are",
+            "did"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "If you see John, ___ him about the meeting.",
+          "options": [
+            "told",
+            "telling",
+            "tells",
+            "tell"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "If the computer ___ working, restart it.",
+          "options": [
+            "isn't",
+            "wasn't",
+            "won't be",
+            "wouldn't be"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "If we save money, we ___ go on vacation.",
+          "options": [
+            "would",
+            "can",
+            "are",
+            "did"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "If she ___ the job interview well, she'll get hired.",
+          "options": [
+            "does",
+            "did",
+            "will do",
+            "would do"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "If the book is interesting, I ___ read it all night.",
+          "options": [
+            "would",
+            "am",
+            "might",
+            "was"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "If you ___ the recipe carefully, the cake will be perfect.",
+          "options": [
+            "follow",
+            "followed",
+            "will follow",
+            "would follow"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "If the meeting ends early, we ___ have lunch together.",
+          "options": [
+            "would",
+            "can",
+            "are",
+            "did"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "If it ___ cold tonight, wear a jacket.",
+          "options": [
+            "will be",
+            "would be",
+            "is",
+            "was"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "If the package arrives today, I ___ call you.",
+          "options": [
+            "would",
+            "am",
+            "did",
+            "will"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "If he ___ his medicine, he'll feel better.",
+          "options": [
+            "takes",
+            "took",
+            "will take",
+            "would take"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "If the concert is sold out, we ___ watch it online.",
+          "options": [
+            "would",
+            "can",
+            "are",
+            "did"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "If you find my wallet, please ___ me immediately.",
+          "options": [
+            "called",
+            "calling",
+            "call",
+            "calls"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "If the garden ___ water, the plants will die.",
+          "options": [
+            "doesn't get",
+            "didn't get",
+            "won't get",
+            "wouldn't get"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "If we hurry, we ___ catch the last bus.",
+          "options": [
+            "would",
+            "are",
+            "did",
+            "might"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "If she ___ her presentation well, she'll impress the boss.",
+          "options": [
+            "prepares",
+            "prepared",
+            "will prepare",
+            "would prepare"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "If the hotel has availability, we ___ book a room.",
+          "options": [
+            "would",
+            "will",
+            "are",
+            "did"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "If you ___ the instructions, you won't make mistakes.",
+          "options": [
+            "read",
+            "read",
+            "will read",
+            "would read"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "If the elevator is broken, we ___ use the stairs.",
+          "options": [
+            "would",
+            "are",
+            "will have to",
+            "had to"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "If it ___ too expensive, don't buy it.",
+          "options": [
+            "will be",
+            "would be",
+            "is",
+            "was"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "If the team wins tonight, they ___ advance to the finals.",
+          "options": [
+            "would",
+            "are",
+            "did",
+            "will"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "If he ___ his appointment, the doctor won't see him.",
+          "options": [
+            "misses",
+            "missed",
+            "will miss",
+            "would miss"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "If the party is boring, we ___ leave early.",
+          "options": [
+            "would",
+            "can",
+            "are",
+            "did"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "If you have any questions, ___ your hand.",
+          "options": [
+            "raised",
+            "raising",
+            "raise",
+            "raises"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "If the bank ___ closed, we'll go tomorrow.",
+          "options": [
+            "will be",
+            "would be",
+            "is",
+            "was"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "If we order pizza, everyone ___ be happy.",
+          "options": [
+            "would",
+            "are",
+            "did",
+            "will"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "If she ___ the exam, she'll graduate this year.",
+          "options": [
+            "passes",
+            "passed",
+            "will pass",
+            "would pass"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "If the flight is delayed, I ___ miss my connection.",
+          "options": [
+            "would",
+            "might",
+            "am",
+            "did"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "If you ___ the door, please lock it.",
+          "options": [
+            "closed",
+            "closing",
+            "closes",
+            "close"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "If the museum ___ free admission, more people will visit.",
+          "options": [
+            "offers",
+            "offered",
+            "will offer",
+            "would offer"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "If it snows heavily, the schools ___ close.",
+          "options": [
+            "would",
+            "will",
+            "are",
+            "did"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "If he ___ his promise, I'll be disappointed.",
+          "options": [
+            "breaks",
+            "broke",
+            "will break",
+            "would break"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "If the Wi-Fi doesn't work, we ___ use our mobile data.",
+          "options": [
+            "would",
+            "are",
+            "can",
+            "did"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "If you cook dinner, I ___ do the dishes.",
+          "options": [
+            "would",
+            "will",
+            "am",
+            "did"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "If they ___ the movie, they will enjoy it.",
+          "options": [
+            "watch",
+            "watched",
+            "will watch",
+            "would watch"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "If the weather is nice, we ___ go to the park.",
+          "options": [
+            "did",
+            "are",
+            "will",
+            "would"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "If you ___ me tomorrow, I'll give you the address.",
+          "options": [
+            "called",
+            "will call",
+            "would call",
+            "call"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "If she studies medicine, she ___ become a doctor.",
+          "options": [
+            "will",
+            "would",
+            "did",
+            "is"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "If he ___ hungry, he will make a sandwich.",
+          "options": [
+            "was",
+            "is",
+            "will be",
+            "would be"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "If the bus comes late, we ___ miss our appointment.",
+          "options": [
+            "would",
+            "did",
+            "will",
+            "are"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "If you ___ your homework, you can watch TV.",
+          "options": [
+            "finished",
+            "will finish",
+            "would finish",
+            "finish"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "If it snows tonight, the roads ___ be dangerous.",
+          "options": [
+            "will",
+            "would",
+            "are",
+            "did"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "If she ___ the test, she will graduate.",
+          "options": [
+            "passed",
+            "passes",
+            "will pass",
+            "would pass"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "If we buy the tickets now, we ___ get better seats.",
+          "options": [
+            "did",
+            "are",
+            "will",
+            "would"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "If you ___ tired, you should rest.",
+          "options": [
+            "were",
+            "will be",
+            "would be",
+            "are"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "If they win the game, they ___ celebrate tonight.",
+          "options": [
+            "will",
+            "would",
+            "did",
+            "are"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "If he ___ the invitation, he will come to the party.",
+          "options": [
+            "received",
+            "receives",
+            "will receive",
+            "would receive"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "If you drive carefully, you ___ avoid accidents.",
+          "options": [
+            "did",
+            "are",
+            "will",
+            "would"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "If she ___ sick, she won't come to work.",
+          "options": [
+            "was",
+            "will be",
+            "would be",
+            "is"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "If the store is open, I ___ buy some milk.",
+          "options": [
+            "will",
+            "would",
+            "am",
+            "did"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "If you ___ the door, please lock it.",
+          "options": [
+            "closed",
+            "close",
+            "will close",
+            "would close"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "If it gets dark, we ___ turn on the lights.",
+          "options": [
+            "did",
+            "are",
+            "will",
+            "would"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "If they ___ early, they will find parking.",
+          "options": [
+            "arrived",
+            "will arrive",
+            "would arrive",
+            "arrive"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "If the phone rings, I ___ answer it.",
+          "options": [
+            "will",
+            "would",
+            "did",
+            "am"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "If you ___ the recipe, the cake will taste better.",
+          "options": [
+            "followed",
+            "follow",
+            "will follow",
+            "would follow"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "If she saves money, she ___ buy a new car.",
+          "options": [
+            "did",
+            "is",
+            "will",
+            "would"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "If he ___ the meeting, he will miss important news.",
+          "options": [
+            "missed",
+            "will miss",
+            "would miss",
+            "misses"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "If you water the plants, they ___ grow better.",
+          "options": [
+            "will",
+            "would",
+            "did",
+            "are"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "If we ___ the map, we won't get lost.",
+          "options": [
+            "used",
+            "use",
+            "will use",
+            "would use"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "If the concert starts late, we ___ wait outside.",
+          "options": [
+            "did",
+            "are",
+            "will",
+            "would"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "If you ___ the window, the room will be cooler.",
+          "options": [
+            "opened",
+            "will open",
+            "would open",
+            "open"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "If she finds her keys, she ___ drive to work.",
+          "options": [
+            "will",
+            "would",
+            "did",
+            "is"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "If they ___ the project on time, they will get a bonus.",
+          "options": [
+            "completed",
+            "complete",
+            "will complete",
+            "would complete"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "If you bring an umbrella, you ___ stay dry.",
+          "options": [
+            "did",
+            "are",
+            "will",
+            "would"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "If he ___ the instructions, he will understand better.",
+          "options": [
+            "read",
+            "will read",
+            "would read",
+            "reads"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "If the traffic is heavy, we ___ be late.",
+          "options": [
+            "will",
+            "would",
+            "did",
+            "are"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "If you ___ more vegetables, you will be healthier.",
+          "options": [
+            "ate",
+            "eat",
+            "will eat",
+            "would eat"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "If she practices piano, she ___ improve quickly.",
+          "options": [
+            "did",
+            "is",
+            "will",
+            "would"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "If we ___ the train, we will walk home.",
+          "options": [
+            "missed",
+            "will miss",
+            "would miss",
+            "miss"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "If you charge your phone, it ___ work all day.",
+          "options": [
+            "will",
+            "would",
+            "did",
+            "is"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "If he ___ his medication, he will feel better.",
+          "options": [
+            "took",
+            "takes",
+            "will take",
+            "would take"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "If the weather improves, we ___ have a picnic.",
+          "options": [
+            "did",
+            "are",
+            "will",
+            "would"
+          ],
+          "correct": 2
+        }
       ]
     },
     {
-      "slot": 8, "level": "B1", "type": "grammar",
+      "slot": 8,
+      "level": "B1",
+      "type": "grammar",
       "variants": [
-        {"question": "She has been working here ___ 2015.", "options": ["for","since","from","during"], "correct": 1},
-        {"question": "I have lived in this city ___ ten years.", "options": ["for","since","from","during"], "correct": 0},
-        {"question": "He has known her ___ they were children.", "options": ["for","since","from","during"], "correct": 1},
-        {"question": "We have been waiting ___ two hours.", "options": ["for","since","from","during"], "correct": 0},
-        {"question": "She has played piano ___ she was five.", "options": ["for","since","from","during"], "correct": 1},
-        {"question": "They have been married ___ 1998.", "options": ["for","since","from","during"], "correct": 1},
-        {"question": "I have studied English ___ three years.", "options": ["for","since","from","during"], "correct": 0},
-        {"question": "He has worked at the bank ___ last March.", "options": ["for","since","from","during"], "correct": 1},
-        {"question": "We have lived here ___ a long time.", "options": ["for","since","from","during"], "correct": 0},
-        {"question": "She has been ill ___ Monday.", "options": ["for","since","from","during"], "correct": 1}
+        {
+          "question": "She has been working here ___ 2015.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "I have lived in this city ___ ten years.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "He has known her ___ they were children.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "We have been waiting ___ two hours.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "She has played piano ___ she was five.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "They have been married ___ 1998.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "I have studied English ___ three years.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "He has worked at the bank ___ last March.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "We have lived here ___ a long time.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "She has been ill ___ Monday.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "They have been married ___ 1998.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "I have studied English ___ five years.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "We have owned this house ___ we moved here.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "She has been sick ___ three days.",
+          "options": [
+            "since",
+            "from",
+            "for",
+            "during"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "He has worked at that company ___ last summer.",
+          "options": [
+            "for",
+            "from",
+            "during",
+            "since"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "I have been learning Spanish ___ six months.",
+          "options": [
+            "since",
+            "for",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "They have lived in London ___ 2010.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "We have been friends ___ many years.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "She has been a teacher ___ she graduated.",
+          "options": [
+            "for",
+            "from",
+            "during",
+            "since"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "I have had this car ___ two years.",
+          "options": [
+            "since",
+            "for",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "He has been playing guitar ___ he was a teenager.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "We have known each other ___ a long time.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "She has been manager ___ January.",
+          "options": [
+            "for",
+            "from",
+            "during",
+            "since"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "I have been waiting ___ an hour.",
+          "options": [
+            "since",
+            "for",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "They have been together ___ they met at university.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "He has lived here ___ his childhood.",
+          "options": [
+            "for",
+            "from",
+            "during",
+            "since"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "We have been running this business ___ fifteen years.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "She has been studying medicine ___ 2019.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "I have been cooking ___ three hours.",
+          "options": [
+            "since",
+            "from",
+            "for",
+            "during"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "They have owned that restaurant ___ the 1990s.",
+          "options": [
+            "for",
+            "from",
+            "during",
+            "since"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "He has been unemployed ___ several months.",
+          "options": [
+            "since",
+            "for",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "We have been neighbors ___ they moved in.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "She has been dancing ___ she was four years old.",
+          "options": [
+            "for",
+            "from",
+            "during",
+            "since"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "I have been reading this book ___ a week.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "They have been planning this trip ___ last month.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "He has been wearing glasses ___ he was twelve.",
+          "options": [
+            "for",
+            "from",
+            "during",
+            "since"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "We have been saving money ___ our vacation.",
+          "options": [
+            "since",
+            "for",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "She has been working from home ___ the pandemic started.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "I have been interested in art ___ many years.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "They have been dating ___ high school.",
+          "options": [
+            "for",
+            "from",
+            "during",
+            "since"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "He has been driving ___ twenty years.",
+          "options": [
+            "since",
+            "for",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "We have been members of this club ___ 2017.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "She has been vegetarian ___ she was eighteen.",
+          "options": [
+            "for",
+            "from",
+            "during",
+            "since"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "I have been feeling tired ___ this morning.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "They have been building this house ___ eight months.",
+          "options": [
+            "since",
+            "for",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "He has been single ___ his divorce.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "We have been using this computer ___ years.",
+          "options": [
+            "for",
+            "from",
+            "during",
+            "since"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "She has been absent ___ Monday.",
+          "options": [
+            "for",
+            "from",
+            "during",
+            "since"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "I have been playing tennis ___ I was young.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "They have been closed ___ renovation.",
+          "options": [
+            "since",
+            "for",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "He has been collecting stamps ___ his youth.",
+          "options": [
+            "for",
+            "from",
+            "during",
+            "since"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "We have been living apart ___ six months.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "She has been working nights ___ she started this job.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "I have been avoiding sugar ___ my doctor told me to.",
+          "options": [
+            "for",
+            "from",
+            "during",
+            "since"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "They have been renovating ___ three months.",
+          "options": [
+            "since",
+            "for",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "He has been retired ___ 2020.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "We have been exercising together ___ the beginning of the year.",
+          "options": [
+            "for",
+            "from",
+            "during",
+            "since"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "She has been taking French lessons ___ four months.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "I have been feeling better ___ I started taking vitamins.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "They have been traveling ___ their retirement began.",
+          "options": [
+            "for",
+            "from",
+            "during",
+            "since"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "They have been married ___ 1998.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "I have studied English ___ five years.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "We have owned this house ___ last summer.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "She has been sick ___ three days.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "He has worked as a teacher ___ he graduated.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "They have been friends ___ many years.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "I have been learning Spanish ___ January.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "We have lived here ___ a long time.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "She has been a doctor ___ 2010.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "He has played football ___ six months.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "They have known each other ___ childhood.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "I have been waiting ___ half an hour.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "She has worked here ___ she was twenty.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "We have been studying ___ four hours.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "He has owned this car ___ last year.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "They have been traveling ___ two weeks.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "I have lived alone ___ I moved to this city.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "She has been dancing ___ many years.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "We have been neighbors ___ 2020.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "He has been cooking ___ an hour.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "They have been together ___ high school.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "I have been working on this project ___ several months.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "She has been my best friend ___ we met in college.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "We have been running this business ___ fifteen years.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "He has been interested in art ___ he was a child.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "They have been saving money ___ their wedding ___ two years.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "I have been feeling better ___ I started exercising.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "She has been learning to drive ___ three months.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "We have been living in this apartment ___ we got married.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "He has been playing guitar ___ his teens.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "They have been planning this trip ___ months.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "I have been wearing glasses ___ I was twelve.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "She has been working part-time ___ a year.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "We have been members of this club ___ 2019.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "He has been collecting stamps ___ twenty years.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "They have been vegetarian ___ they moved to the city.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "I have been reading this book ___ a week.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "She has been my colleague ___ she joined the company.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "We have been renovating our house ___ six months.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "He has been afraid of dogs ___ he was bitten as a child.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "correct": 1
+        }
       ]
     },
     {
-      "slot": 9, "level": "B1", "type": "reading",
+      "slot": 9,
+      "level": "B1",
+      "type": "reading",
       "variants": [
-        {"question": "Read: \"Although the restaurant was crowded, the service was surprisingly quick and the food was excellent.\" What is the main idea?", "options": ["The restaurant was empty","The food was bad","Despite being busy, the experience was good","The service was slow"], "correct": 2},
-        {"question": "Read: \"Even though it was raining heavily, the outdoor concert continued and the audience stayed until the end.\" What happened?", "options": ["The concert was cancelled","People left early","The concert went on despite the rain","It stopped raining"], "correct": 2},
-        {"question": "Read: \"The new employee was nervous on her first day, but her colleagues were very welcoming and helpful.\" How did the colleagues behave?", "options": ["They ignored her","They were unfriendly","They were kind and supportive","They were also nervous"], "correct": 2},
-        {"question": "Read: \"Despite the high price, the hotel had poor service and uncomfortable rooms.\" Was the hotel good value?", "options": ["Yes, it was excellent","No, it was expensive but poor quality","The price was low","The rooms were comfortable"], "correct": 1},
-        {"question": "Read: \"The flight was delayed by three hours, so many passengers missed their connecting flights.\" Why did passengers miss connections?", "options": ["The airport was closed","The flight was delayed","The weather was fine","They arrived early"], "correct": 1},
-        {"question": "Read: \"Learning a musical instrument requires patience and regular practice, but the rewards are worth the effort.\" The author thinks learning music is:", "options": ["Easy and quick","Not worth the time","Difficult but rewarding","Impossible for most people"], "correct": 2},
-        {"question": "Read: \"The local library has extended its opening hours to include evenings and weekends.\" What changed?", "options": ["The library closed","It now opens longer hours","Books became more expensive","The library moved"], "correct": 1},
-        {"question": "Read: \"While the movie received mixed reviews from critics, audiences loved it and it became a box office hit.\" Who liked the movie?", "options": ["Only critics","Nobody","Audiences more than critics","Everyone equally"], "correct": 2},
-        {"question": "Read: \"The company decided to offer free training to all employees to improve their computer skills.\" What is the company doing?", "options": ["Firing employees","Providing free computer training","Reducing salaries","Closing offices"], "correct": 1},
-        {"question": "Read: \"Public transport in the city is efficient and affordable, making it easy to get around without a car.\" The city's transport is:", "options": ["Expensive and slow","Good and reasonably priced","Only for tourists","Unreliable"], "correct": 1}
+        {
+          "question": "Read: \"Although the restaurant was crowded, the service was surprisingly quick and the food was excellent.\" What is the main idea?",
+          "options": [
+            "The restaurant was empty",
+            "The food was bad",
+            "Despite being busy, the experience was good",
+            "The service was slow"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Even though it was raining heavily, the outdoor concert continued and the audience stayed until the end.\" What happened?",
+          "options": [
+            "The concert was cancelled",
+            "People left early",
+            "The concert went on despite the rain",
+            "It stopped raining"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The new employee was nervous on her first day, but her colleagues were very welcoming and helpful.\" How did the colleagues behave?",
+          "options": [
+            "They ignored her",
+            "They were unfriendly",
+            "They were kind and supportive",
+            "They were also nervous"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Despite the high price, the hotel had poor service and uncomfortable rooms.\" Was the hotel good value?",
+          "options": [
+            "Yes, it was excellent",
+            "No, it was expensive but poor quality",
+            "The price was low",
+            "The rooms were comfortable"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The flight was delayed by three hours, so many passengers missed their connecting flights.\" Why did passengers miss connections?",
+          "options": [
+            "The airport was closed",
+            "The flight was delayed",
+            "The weather was fine",
+            "They arrived early"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Learning a musical instrument requires patience and regular practice, but the rewards are worth the effort.\" The author thinks learning music is:",
+          "options": [
+            "Easy and quick",
+            "Not worth the time",
+            "Difficult but rewarding",
+            "Impossible for most people"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The local library has extended its opening hours to include evenings and weekends.\" What changed?",
+          "options": [
+            "The library closed",
+            "It now opens longer hours",
+            "Books became more expensive",
+            "The library moved"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"While the movie received mixed reviews from critics, audiences loved it and it became a box office hit.\" Who liked the movie?",
+          "options": [
+            "Only critics",
+            "Nobody",
+            "Audiences more than critics",
+            "Everyone equally"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The company decided to offer free training to all employees to improve their computer skills.\" What is the company doing?",
+          "options": [
+            "Firing employees",
+            "Providing free computer training",
+            "Reducing salaries",
+            "Closing offices"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Public transport in the city is efficient and affordable, making it easy to get around without a car.\" The city's transport is:",
+          "options": [
+            "Expensive and slow",
+            "Good and reasonably priced",
+            "Only for tourists",
+            "Unreliable"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Although the weather forecast predicted storms, the wedding ceremony took place outdoors as planned and was beautiful.\" What happened to the wedding?",
+          "options": [
+            "It was moved indoors",
+            "It proceeded outside despite weather concerns",
+            "It was cancelled due to storms",
+            "The forecast was wrong about sunshine"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The museum was closed for renovations, but visitors could still see the special exhibition in the temporary building.\" Could people visit the museum?",
+          "options": [
+            "No, everything was closed",
+            "Yes, they could see part of it",
+            "Only on weekends",
+            "Yes, the main building was open"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Even though the team lost the final match, they were proud of their performance throughout the tournament.\" How did the team feel?",
+          "options": [
+            "Disappointed about everything",
+            "Angry about the loss",
+            "Satisfied with their overall effort",
+            "Excited about winning"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The library was supposed to close at 6 PM, but the librarian allowed students to stay late to finish their research.\" What happened at closing time?",
+          "options": [
+            "Everyone had to leave at 6 PM",
+            "The library closed early",
+            "Students were permitted to stay longer",
+            "The librarian went home"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Despite having no experience with computers, the elderly man learned to use email to stay in touch with his grandchildren.\" What did the man achieve?",
+          "options": [
+            "He gave up trying to learn",
+            "He bought a new computer",
+            "He mastered email despite being a beginner",
+            "He asked his grandchildren for help"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The store was having a sale, so there were long queues and many items were sold out quickly.\" Why were there queues?",
+          "options": [
+            "Because of reduced prices",
+            "The store was closing permanently",
+            "There were not enough staff",
+            "The cash registers were broken"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Although she had studied French for only six months, Maria was able to have basic conversations with native speakers.\" What was impressive about Maria?",
+          "options": [
+            "She spoke French perfectly",
+            "She learned quickly for a beginner",
+            "She had studied for many years",
+            "She was a native speaker"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The train was running late due to signal problems, causing passengers to worry about missing important appointments.\" What concerned the passengers?",
+          "options": [
+            "The cost of tickets",
+            "Being late for their meetings",
+            "The train breaking down",
+            "Finding their seats"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Even though the recipe looked complicated, the chocolate cake turned out to be surprisingly easy to make.\" What was unexpected?",
+          "options": [
+            "The cake tasted terrible",
+            "The recipe was actually simple",
+            "It took a very long time",
+            "The ingredients were expensive"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The apartment was small and expensive, but it was located in the perfect neighborhood close to work and shops.\" What was the apartment's advantage?",
+          "options": [
+            "It was very large",
+            "It was cheap to rent",
+            "It had an excellent location",
+            "It was newly renovated"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Despite the heavy traffic, the ambulance reached the hospital in time thanks to other drivers moving aside.\" Why did the ambulance arrive on time?",
+          "options": [
+            "There was no traffic",
+            "Other vehicles helped by clearing the way",
+            "It took a different route",
+            "The hospital was very close"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The new shopping center was popular with teenagers but older residents complained it was too noisy and crowded.\" Who liked the shopping center?",
+          "options": [
+            "Everyone in the community",
+            "Only elderly people",
+            "Young people specifically",
+            "No one enjoyed it"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Although the hiking trail was marked as difficult, the beautiful views at the summit made the challenging climb worthwhile.\" What made the difficult hike worth it?",
+          "options": [
+            "The trail was actually easy",
+            "The weather was perfect",
+            "The scenery from the top was spectacular",
+            "It didn't take very long"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The power went out during the storm, so the family played board games by candlelight instead of watching television.\" How did the family spend their evening?",
+          "options": [
+            "They went to bed early",
+            "They played games in the dark",
+            "They visited neighbors",
+            "They fixed the electricity"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Even though the restaurant had no free tables, the manager found a spot for the couple celebrating their anniversary.\" What did the manager do?",
+          "options": [
+            "Asked them to leave",
+            "Made space for the special occasion",
+            "Put them on a waiting list",
+            "Suggested another restaurant"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The lecture was longer than expected, but students found the professor's stories about her research adventures fascinating.\" How did students react to the extended lecture?",
+          "options": [
+            "They were bored and left early",
+            "They complained about the time",
+            "They were engaged by the content",
+            "They fell asleep"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Despite being afraid of heights, Tom climbed the ladder to rescue the cat stuck in the tree.\" What did Tom overcome?",
+          "options": [
+            "His fear to help the animal",
+            "His dislike of cats",
+            "His lack of climbing experience",
+            "His busy schedule"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"The movie received terrible reviews from critics, yet it became very popular with audiences and made a lot of money.\" What was surprising about the movie?",
+          "options": [
+            "Critics loved it",
+            "It failed at the box office",
+            "Audiences enjoyed it despite bad reviews",
+            "It won many awards"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Although the guidebook recommended the restaurant, the food was disappointing and overpriced for the quality.\" Was the guidebook's recommendation good?",
+          "options": [
+            "Yes, the food was excellent",
+            "No, the restaurant didn't meet expectations",
+            "The prices were very reasonable",
+            "The guidebook was completely accurate"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The bus was running behind schedule due to heavy snow, making commuters late for work and school.\" What caused people to be late?",
+          "options": [
+            "Bad weather affecting transport",
+            "The bus broke down",
+            "There was a strike",
+            "The route was changed"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Even though she had never acted before, Jennifer performed confidently in the school play and impressed everyone.\" What was notable about Jennifer's performance?",
+          "options": [
+            "She was a professional actress",
+            "She was nervous and made mistakes",
+            "She did well despite being inexperienced",
+            "She had performed many times before"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The garden looked dead in winter, but spring brought colorful flowers and green leaves back to life.\" What happened to the garden?",
+          "options": [
+            "It stayed brown all year",
+            "It was beautiful in winter",
+            "It recovered and bloomed in spring",
+            "The flowers never grew back"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Despite the expensive renovation, the old building still had problems with heating and plumbing.\" Was the renovation successful?",
+          "options": [
+            "Yes, it solved all problems",
+            "No, issues remained despite the cost",
+            "It was very affordable",
+            "The building was torn down"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The internet connection was slow all morning, causing problems for people working from home and students attending online classes.\" Who was affected by the internet problems?",
+          "options": [
+            "Only office workers",
+            "Both remote workers and online learners",
+            "Just students",
+            "People in internet cafes"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Although the book was over 500 pages long, Maya finished reading it in just two days because the story was so exciting.\" Why did Maya read quickly?",
+          "options": [
+            "The book was very short",
+            "She was a slow reader",
+            "The story was captivating",
+            "She had to return it to the library"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The festival was cancelled due to rain, disappointing thousands of people who had bought tickets in advance.\" How did ticket holders feel?",
+          "options": [
+            "Happy about the cancellation",
+            "Upset because they couldn't attend",
+            "Relieved about the weather",
+            "Excited for next year"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Even though the instructions were in a foreign language, Peter managed to assemble the furniture correctly using the pictures.\" How did Peter succeed?",
+          "options": [
+            "He translated all the text",
+            "He asked for help from others",
+            "He used visual guides instead of words",
+            "He already knew how to build it"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The coffee shop was crowded and noisy, but the free WiFi and comfortable chairs made it a popular place to study.\" Why did students choose this coffee shop?",
+          "options": [
+            "It was quiet and empty",
+            "The coffee was very cheap",
+            "It offered internet and seating",
+            "It was close to the university"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Despite practicing for months, the band made several mistakes during their first live performance.\" How well did the band perform?",
+          "options": [
+            "Perfectly without any errors",
+            "Poorly despite their preparation",
+            "They didn't practice enough",
+            "Better than expected"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The meeting was supposed to last one hour, but important discussions kept everyone there until late evening.\" What happened to the meeting duration?",
+          "options": [
+            "It finished early",
+            "It lasted exactly one hour",
+            "It extended much longer than planned",
+            "It was cancelled"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Although the hotel was advertised as luxury, guests complained about dirty rooms and poor customer service.\" Did the hotel match its description?",
+          "options": [
+            "Yes, it was truly luxurious",
+            "No, it failed to meet advertised standards",
+            "The rooms were very clean",
+            "The service was excellent"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The new employee was overwhelmed by her responsibilities, but her supervisor provided extra training and support.\" How did the supervisor help?",
+          "options": [
+            "By reducing her workload",
+            "By giving her additional guidance",
+            "By ignoring her problems",
+            "By assigning her to a different department"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Even though the weather was perfect for the picnic, the family decided to eat indoors because of wasps in the garden.\" Why did they change their plans?",
+          "options": [
+            "The weather was terrible",
+            "They forgot to pack food",
+            "Insects were bothering them outside",
+            "They preferred eating inside"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The documentary was longer than most movies, yet viewers remained interested throughout because of the fascinating subject matter.\" What kept people watching?",
+          "options": [
+            "It was very short",
+            "The topic was boring",
+            "The content was engaging",
+            "There were many advertisements"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Despite arriving at the airport two hours early, Sarah nearly missed her flight due to long security lines.\" What almost caused Sarah to be late?",
+          "options": [
+            "She arrived too late",
+            "Her flight was cancelled",
+            "Security checks took too long",
+            "She went to the wrong gate"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The smartphone was expensive and had a beautiful design, but the battery life was disappointingly short.\" What was the phone's weakness?",
+          "options": [
+            "It looked unattractive",
+            "It was too cheap",
+            "The battery didn't last long",
+            "It was too complicated to use"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Although the gym was crowded during peak hours, early morning sessions were peaceful with plenty of available equipment.\" When was the best time to exercise?",
+          "options": [
+            "During busy evening hours",
+            "In the early morning",
+            "Late at night",
+            "On weekends only"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The online course was challenging and required dedication, but students appreciated the flexible schedule and quality content.\" What did students like about the course?",
+          "options": [
+            "It was very easy",
+            "The timing and material quality",
+            "It had no homework",
+            "It was completely free"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Even though the recipe called for exotic ingredients, Lisa substituted common items from her kitchen and the dish still tasted delicious.\" What did Lisa do differently?",
+          "options": [
+            "She followed the recipe exactly",
+            "She bought all the exotic ingredients",
+            "She used ordinary ingredients instead",
+            "She ordered the dish from a restaurant"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The neighborhood was quiet and safe, but residents complained about the lack of nearby shops and restaurants.\" What was the area missing?",
+          "options": [
+            "Security and peace",
+            "Commercial businesses",
+            "Good transportation",
+            "Friendly neighbors"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Despite the heavy workload, the project team completed everything on schedule thanks to excellent cooperation and planning.\" Why was the project successful?",
+          "options": [
+            "There wasn't much work to do",
+            "They had unlimited time",
+            "Good teamwork and organization",
+            "They hired additional staff"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The concert hall had perfect acoustics and comfortable seating, but tickets were extremely expensive for most music lovers.\" What prevented people from attending?",
+          "options": [
+            "Poor sound quality",
+            "Uncomfortable chairs",
+            "High ticket prices",
+            "Bad location"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Although Mark had no experience with gardening, his vegetable patch produced an impressive harvest after months of careful attention.\" What was surprising about Mark's results?",
+          "options": [
+            "He was an expert gardener",
+            "The vegetables grew poorly",
+            "He succeeded despite being a beginner",
+            "He gave up after a few weeks"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The hiking boots were waterproof and durable, making them perfect for the muddy mountain trails despite their heavy weight.\" What was the boots' disadvantage?",
+          "options": [
+            "They weren't waterproof",
+            "They broke easily",
+            "They were quite heavy",
+            "They were too expensive"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Even though the presentation software crashed twice, the speaker handled the technical problems calmly and delivered an excellent talk.\" How did the speaker respond to difficulties?",
+          "options": [
+            "She cancelled the presentation",
+            "She remained composed and continued",
+            "She became very frustrated",
+            "She asked someone else to speak"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The vacation resort was located in a beautiful setting with great facilities, but the staff were unfriendly and unhelpful to guests.\" What spoiled the resort experience?",
+          "options": [
+            "The ugly location",
+            "Poor facilities",
+            "Bad service from employees",
+            "Terrible weather"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Despite studying medicine for six years, Dr. Chen continued learning new techniques throughout her career to provide better patient care.\" What did Dr. Chen do after graduation?",
+          "options": [
+            "She stopped studying completely",
+            "She changed careers",
+            "She kept updating her knowledge",
+            "She retired immediately"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The library's new digital system was modern and efficient, helping both staff and visitors find books and resources much more quickly.\" What improvement did the system bring?",
+          "options": [
+            "Slower book searches",
+            "Faster access to materials",
+            "More complicated procedures",
+            "Reduced opening hours"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Although the cooking class was designed for beginners, some participants found the techniques too advanced and struggled to keep up.\" Who had difficulty in the class?",
+          "options": [
+            "The experienced cooks",
+            "All of the students",
+            "Some of the novice learners",
+            "Only the instructor"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The apartment building offered great amenities like a gym and pool, but thin walls meant residents could hear their neighbors constantly.\" What problem did residents face?",
+          "options": [
+            "No recreational facilities",
+            "Excessive noise from other units",
+            "Broken elevators",
+            "Expensive maintenance fees"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"While the movie was quite long, it kept the audience engaged throughout the entire show.\" What does this tell us about the movie?",
+          "options": [
+            "It was boring and too long",
+            "It was short but interesting",
+            "It was lengthy but entertaining",
+            "The audience left early"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The train arrived on time, but unfortunately the platform was under construction.\" What was the problem?",
+          "options": [
+            "The train was late",
+            "The platform had building work",
+            "The train broke down",
+            "There were no passengers"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Although Sarah had never cooked before, her first dinner party was a huge success.\" How did Sarah do?",
+          "options": [
+            "She failed completely",
+            "She was an experienced cook",
+            "She did very well despite being new to cooking",
+            "She didn't cook anything"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The library closes at 6 PM, so students need to finish their research before then.\" When must students complete their work?",
+          "options": [
+            "Before 6 PM",
+            "After 6 PM",
+            "At exactly 6 PM",
+            "The next morning"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Even though the weather forecast predicted rain, we decided to go hiking anyway.\" What did the group do?",
+          "options": [
+            "They cancelled the hike",
+            "They waited for better weather",
+            "They went hiking despite the forecast",
+            "They stayed indoors"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The new shopping center has many stores, but the parking is very limited.\" What is the disadvantage?",
+          "options": [
+            "There are too few shops",
+            "There isn't enough parking space",
+            "The stores are closed",
+            "It's too expensive"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Because the meeting was cancelled, everyone had an unexpected free afternoon.\" What happened to people's schedules?",
+          "options": [
+            "They had to work longer",
+            "They attended the meeting",
+            "They had extra time available",
+            "They were very busy"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The museum was closed for renovations, so tourists had to visit the art gallery instead.\" Where did tourists go?",
+          "options": [
+            "To the museum",
+            "To the art gallery",
+            "They went home",
+            "Nowhere"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Despite having no experience with computers, the elderly man learned to use email very quickly.\" What surprised people?",
+          "options": [
+            "He was slow to learn",
+            "He already knew about computers",
+            "He learned fast despite being a beginner",
+            "He refused to learn"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The cafe serves excellent coffee, but the sandwiches are rather disappointing.\" What is the cafe's weakness?",
+          "options": [
+            "The coffee quality",
+            "The sandwich quality",
+            "The service",
+            "The location"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Since it was her birthday, Maria's friends organized a surprise party at her favorite restaurant.\" Why did friends arrange the party?",
+          "options": [
+            "It was Maria's birthday",
+            "The restaurant was cheap",
+            "They were bored",
+            "Maria asked them to"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Although the book was recommended by many people, I found it quite boring and difficult to finish.\" What was the reader's opinion?",
+          "options": [
+            "The book was excellent",
+            "The book was popular but not enjoyable for them",
+            "Everyone disliked the book",
+            "The book was easy to read"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The conference was very informative, however, the speakers talked too quickly for international participants.\" What was the problem?",
+          "options": [
+            "The content was boring",
+            "The speakers were too slow",
+            "International participants couldn't follow the speed",
+            "There were no international participants"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Because the bus was running late, many commuters decided to walk to work instead.\" How did people get to work?",
+          "options": [
+            "By bus",
+            "On foot",
+            "By car",
+            "They stayed home"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The garden looks beautiful now, but it took months of hard work to achieve this result.\" What does this tell us about the garden?",
+          "options": [
+            "It was always beautiful",
+            "It required no effort",
+            "It needed a lot of work to look good",
+            "It looks terrible"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Even though the apartment is small, it has a wonderful view of the city center.\" What is good about the apartment?",
+          "options": [
+            "It's very large",
+            "It has a great view",
+            "It's in the suburbs",
+            "It has no windows"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The shop was offering a 50% discount, so customers formed a long queue outside.\" Why were people waiting?",
+          "options": [
+            "To get the discount",
+            "The shop was closed",
+            "They were lost",
+            "The weather was bad"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Although Tom studied hard for the exam, he was still worried about the results.\" How did Tom feel?",
+          "options": [
+            "Very confident",
+            "He didn't care",
+            "Anxious despite his preparation",
+            "He didn't study"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The new restaurant has delicious food, but the service is extremely slow.\" What is the restaurant's problem?",
+          "options": [
+            "Bad food",
+            "Poor service speed",
+            "High prices",
+            "Bad location"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Since the elevator was broken, everyone had to use the stairs to reach the upper floors.\" How did people get upstairs?",
+          "options": [
+            "By elevator",
+            "By stairs",
+            "They couldn't go up",
+            "Through the window"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Despite the terrible weather, the football match continued and the fans stayed to support their team.\" What happened?",
+          "options": [
+            "The match was cancelled",
+            "Fans went home",
+            "The game continued despite bad conditions",
+            "The weather was perfect"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The hotel room was clean and comfortable, but the noise from the street made it hard to sleep.\" What disturbed the guests?",
+          "options": [
+            "Dirty rooms",
+            "Street noise",
+            "Uncomfortable beds",
+            "Bad service"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Because the concert tickets sold out quickly, many fans were disappointed and couldn't attend.\" Why couldn't fans go to the concert?",
+          "options": [
+            "Tickets were sold out",
+            "The concert was cancelled",
+            "Tickets were too expensive",
+            "The venue was too small"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Although the presentation was well-prepared, technical problems with the computer caused several delays.\" What went wrong?",
+          "options": [
+            "Poor preparation",
+            "The speaker was late",
+            "Computer technical issues",
+            "No audience"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The course was challenging but rewarding, and most students felt satisfied with their progress.\" How did students feel about the course?",
+          "options": [
+            "It was too easy",
+            "It was difficult but worthwhile",
+            "They were disappointed",
+            "They made no progress"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Even though the price was high, the quality of the product justified the cost.\" Was the product worth buying?",
+          "options": [
+            "No, it was overpriced",
+            "Yes, the quality matched the price",
+            "It was very cheap",
+            "The quality was poor"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The park is usually crowded on weekends, so we prefer to visit on weekdays when it's quieter.\" When do they visit the park?",
+          "options": [
+            "On weekends",
+            "On weekdays",
+            "Never",
+            "Only in summer"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Although the instructions were clear, many people still made mistakes when assembling the furniture.\" What happened?",
+          "options": [
+            "Instructions were confusing",
+            "Everyone assembled correctly",
+            "People made errors despite clear instructions",
+            "No one tried to assemble"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The team worked overtime to finish the project, but they still missed the deadline by two days.\" Did they complete on time?",
+          "options": [
+            "Yes, they finished early",
+            "No, they were two days late",
+            "They finished exactly on time",
+            "They didn't work hard"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Despite being nervous about public speaking, Lisa gave an excellent presentation to the board.\" How did Lisa perform?",
+          "options": [
+            "She was very confident",
+            "She refused to speak",
+            "She performed well despite her nerves",
+            "The presentation was terrible"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The store offers great customer service, however, their prices are higher than competitors.\" What is the store's disadvantage?",
+          "options": [
+            "Poor customer service",
+            "Higher prices",
+            "Limited selection",
+            "Bad location"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Because the road was blocked due to construction, drivers had to take a longer route to reach downtown.\" What did drivers do?",
+          "options": [
+            "They waited for the road to open",
+            "They used an alternative route",
+            "They turned back home",
+            "They ignored the construction"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Although the weather was perfect for the picnic, we forgot to bring the food and had to buy lunch instead.\" What was the problem?",
+          "options": [
+            "Bad weather",
+            "No food brought",
+            "No place to sit",
+            "Too many people"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The new employee learns quickly and works hard, but she needs more time to understand the company culture.\" What does she need to develop?",
+          "options": [
+            "Work ethic",
+            "Learning speed",
+            "Understanding of company culture",
+            "Technical skills"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Even though the gym is expensive, it has excellent equipment and qualified trainers.\" What justifies the high cost?",
+          "options": [
+            "Nothing, it's overpriced",
+            "Good equipment and trainers",
+            "It's actually cheap",
+            "The location only"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The festival was cancelled due to bad weather, so organizers will reschedule it for next month.\" When will the festival happen?",
+          "options": [
+            "As originally planned",
+            "Next month",
+            "Never",
+            "Next year"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Despite having limited budget, the school managed to buy new computers for all classrooms.\" What did the school achieve?",
+          "options": [
+            "They couldn't buy anything",
+            "They bought computers despite money constraints",
+            "They had unlimited money",
+            "They only bought one computer"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The vacation was relaxing and enjoyable, but the flight home was delayed for five hours.\" What spoiled the end of the trip?",
+          "options": [
+            "Bad vacation",
+            "Flight delay",
+            "Lost luggage",
+            "Bad weather"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Although the restaurant is small, it serves authentic Italian food that attracts customers from across the city.\" Why do people travel far to eat there?",
+          "options": [
+            "It's very large",
+            "The authentic Italian food",
+            "It's very cheap",
+            "It has parking"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The marathon was difficult and exhausting, but crossing the finish line gave runners a tremendous sense of achievement.\" How did runners feel at the end?",
+          "options": [
+            "Disappointed",
+            "Very accomplished",
+            "They gave up",
+            "Angry"
+          ],
+          "correct": 1
+        }
       ]
     }
   ]

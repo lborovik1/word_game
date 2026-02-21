@@ -1,48 +1,3024 @@
 {
   "slots": [
     {
-      "slot": 18, "level": "C2", "type": "vocabulary",
+      "slot": 18,
+      "level": "C2",
+      "type": "vocabulary",
       "variants": [
-        {"question": "\"The CEO's decision was met with opprobrium from shareholders.\" What does \"opprobrium\" mean?", "options": ["enthusiastic approval","mild curiosity","harsh criticism or public disgrace","quiet indifference"], "correct": 2},
-        {"question": "\"The professor's lecture was filled with recondite references.\" What does \"recondite\" mean?", "options": ["very simple","obscure and little known","extremely funny","widely popular"], "correct": 1},
-        {"question": "\"Her perspicacious analysis revealed flaws no one else had noticed.\" What does \"perspicacious\" mean?", "options": ["careless","having keen mental perception","very slow","extremely biased"], "correct": 1},
-        {"question": "\"The politician's obsequious behavior toward donors was widely criticized.\" What does \"obsequious\" mean?", "options": ["rude and aggressive","excessively eager to please","honest and direct","calm and measured"], "correct": 1},
-        {"question": "\"The author's magnum opus took twenty years to complete.\" What does \"magnum opus\" mean?", "options": ["first attempt","greatest work","minor publication","failed project"], "correct": 1},
-        {"question": "\"His sanguine outlook persisted despite the setbacks.\" What does \"sanguine\" mean?", "options": ["pessimistic","optimistic and positive","angry","indifferent"], "correct": 1},
-        {"question": "\"The treaty was designed to ameliorate tensions between the nations.\" What does \"ameliorate\" mean?", "options": ["to worsen","to improve or make better","to ignore","to document"], "correct": 1},
-        {"question": "\"The critic described the novel as a tour de force of literary craftsmanship.\" What does \"tour de force\" mean?", "options": ["a complete failure","an exceptionally skillful performance","a simple exercise","a controversial work"], "correct": 1},
-        {"question": "\"The company's byzantine organizational structure confused new employees.\" What does \"byzantine\" mean?", "options": ["simple and clear","excessively complicated","very modern","extremely efficient"], "correct": 1},
-        {"question": "\"Her laconic response surprised everyone expecting a lengthy explanation.\" What does \"laconic\" mean?", "options": ["very wordy","using very few words","extremely emotional","highly detailed"], "correct": 1}
+        {
+          "question": "\"The CEO's decision was met with opprobrium from shareholders.\" What does \"opprobrium\" mean?",
+          "options": [
+            "enthusiastic approval",
+            "mild curiosity",
+            "harsh criticism or public disgrace",
+            "quiet indifference"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The professor's lecture was filled with recondite references.\" What does \"recondite\" mean?",
+          "options": [
+            "very simple",
+            "obscure and little known",
+            "extremely funny",
+            "widely popular"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Her perspicacious analysis revealed flaws no one else had noticed.\" What does \"perspicacious\" mean?",
+          "options": [
+            "careless",
+            "having keen mental perception",
+            "very slow",
+            "extremely biased"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The politician's obsequious behavior toward donors was widely criticized.\" What does \"obsequious\" mean?",
+          "options": [
+            "rude and aggressive",
+            "excessively eager to please",
+            "honest and direct",
+            "calm and measured"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The author's magnum opus took twenty years to complete.\" What does \"magnum opus\" mean?",
+          "options": [
+            "first attempt",
+            "greatest work",
+            "minor publication",
+            "failed project"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"His sanguine outlook persisted despite the setbacks.\" What does \"sanguine\" mean?",
+          "options": [
+            "pessimistic",
+            "optimistic and positive",
+            "angry",
+            "indifferent"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The treaty was designed to ameliorate tensions between the nations.\" What does \"ameliorate\" mean?",
+          "options": [
+            "to worsen",
+            "to improve or make better",
+            "to ignore",
+            "to document"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The critic described the novel as a tour de force of literary craftsmanship.\" What does \"tour de force\" mean?",
+          "options": [
+            "a complete failure",
+            "an exceptionally skillful performance",
+            "a simple exercise",
+            "a controversial work"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The company's byzantine organizational structure confused new employees.\" What does \"byzantine\" mean?",
+          "options": [
+            "simple and clear",
+            "excessively complicated",
+            "very modern",
+            "extremely efficient"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Her laconic response surprised everyone expecting a lengthy explanation.\" What does \"laconic\" mean?",
+          "options": [
+            "very wordy",
+            "using very few words",
+            "extremely emotional",
+            "highly detailed"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The lawyer's specious argument failed to convince the jury.\" What does \"specious\" mean?",
+          "options": [
+            "superficially plausible but actually wrong",
+            "extremely detailed and thorough",
+            "brilliantly crafted and persuasive",
+            "confusing and incomprehensible"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The diplomat's unctuous manner made everyone uncomfortable.\" What does \"unctuous\" mean?",
+          "options": [
+            "refreshingly honest",
+            "excessively smooth and ingratiating",
+            "awkward and clumsy",
+            "aggressive and confrontational"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"His truculent attitude alienated potential allies.\" What does \"truculent\" mean?",
+          "options": [
+            "cooperative and helpful",
+            "confused and disoriented",
+            "eager to fight or argue",
+            "extremely generous"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The committee reached a unanimous decision through careful deliberation.\" What does \"unanimous\" mean?",
+          "options": [
+            "reached by majority vote",
+            "completely agreed upon by all",
+            "postponed indefinitely",
+            "made without consultation"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The critic's vitriolic review destroyed the play's reputation.\" What does \"vitriolic\" mean?",
+          "options": [
+            "thoughtful and balanced",
+            "mildly disapproving",
+            "filled with bitter criticism",
+            "enthusiastically positive"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"Her ebullient personality made her popular at parties.\" What does \"ebullient\" mean?",
+          "options": [
+            "cheerful and full of energy",
+            "quiet and withdrawn",
+            "rude and offensive",
+            "serious and contemplative"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The novelist's prolific output included thirty books in twenty years.\" What does \"prolific\" mean?",
+          "options": [
+            "extremely slow and methodical",
+            "producing much or many",
+            "focused on quality over quantity",
+            "inconsistent and unreliable"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The student's mendacious excuse was easily disproven.\" What does \"mendacious\" mean?",
+          "options": [
+            "creative and imaginative",
+            "completely honest",
+            "given to lying or deception",
+            "poorly constructed"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The professor's erudite lecture impressed even his colleagues.\" What does \"erudite\" mean?",
+          "options": [
+            "having great knowledge or learning",
+            "entertaining and humorous",
+            "difficult to understand",
+            "surprisingly brief"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"His sanguine outlook helped him through difficult times.\" What does \"sanguine\" mean?",
+          "options": [
+            "pessimistic and gloomy",
+            "optimistic and confident",
+            "realistic and practical",
+            "confused and uncertain"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The politician's grandiloquent speech failed to address real issues.\" What does \"grandiloquent\" mean?",
+          "options": [
+            "brief and to the point",
+            "honest and straightforward",
+            "pompous or extravagant in language",
+            "quiet and understated"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The artist's iconoclastic approach challenged traditional methods.\" What does \"iconoclastic\" mean?",
+          "options": [
+            "attacking established beliefs or institutions",
+            "following conventional practices",
+            "extremely religious in nature",
+            "focused on historical accuracy"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"Her quixotic quest for perfection consumed her life.\" What does \"quixotic\" mean?",
+          "options": [
+            "practical and achievable",
+            "idealistic and unrealistic",
+            "selfish and materialistic",
+            "carefully planned"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The scholar's pedantic corrections annoyed his students.\" What does \"pedantic\" mean?",
+          "options": [
+            "encouraging and supportive",
+            "creative and innovative",
+            "excessively concerned with minor details",
+            "careless about accuracy"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The company's profligate spending led to bankruptcy.\" What does \"profligate\" mean?",
+          "options": [
+            "recklessly wasteful",
+            "extremely careful",
+            "strategically planned",
+            "surprisingly effective"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"His pusillanimous response disappointed his supporters.\" What does \"pusillanimous\" mean?",
+          "options": [
+            "brave and heroic",
+            "showing a lack of courage",
+            "thoughtful and measured",
+            "aggressive and bold"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The CEO's autocratic management style stifled creativity.\" What does \"autocratic\" mean?",
+          "options": [
+            "collaborative and democratic",
+            "inconsistent and unpredictable",
+            "taking no account of other people's wishes",
+            "extremely lenient"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The defendant's contumacious behavior angered the judge.\" What does \"contumacious\" mean?",
+          "options": [
+            "stubbornly disobedient to authority",
+            "respectful and cooperative",
+            "confused and disoriented",
+            "remorseful and apologetic"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"Her sagacious advice proved invaluable during the crisis.\" What does \"sagacious\" mean?",
+          "options": [
+            "poorly timed",
+            "having or showing keen mental discernment",
+            "deliberately misleading",
+            "overly complicated"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The writer's turgid prose was difficult to follow.\" What does \"turgid\" mean?",
+          "options": [
+            "clear and concise",
+            "emotionally moving",
+            "tediously pompous or bombastic",
+            "surprisingly brief"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"His parsimonious nature prevented him from enjoying life.\" What does \"parsimonious\" mean?",
+          "options": [
+            "extremely generous",
+            "frugal to the point of stinginess",
+            "recklessly extravagant",
+            "moderately careful with money"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The witness gave veracious testimony under oath.\" What does \"veracious\" mean?",
+          "options": [
+            "deliberately false",
+            "confusing and unclear",
+            "speaking or representing the truth",
+            "emotionally charged"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"Her insouciant attitude toward deadlines concerned her boss.\" What does \"insouciant\" mean?",
+          "options": [
+            "showing casual lack of concern",
+            "extremely anxious",
+            "highly organized",
+            "passionately committed"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The politician's equivocal statement satisfied no one.\" What does \"equivocal\" mean?",
+          "options": [
+            "crystal clear",
+            "open to more than one interpretation",
+            "completely false",
+            "surprisingly honest"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The critic's acerbic review left the author devastated.\" What does \"acerbic\" mean?",
+          "options": [
+            "gentle and encouraging",
+            "confusing and unclear",
+            "sharp and forthright",
+            "surprisingly positive"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"His fractious behavior disrupted the entire meeting.\" What does \"fractious\" mean?",
+          "options": [
+            "irritable and quarrelsome",
+            "calm and peaceful",
+            "extremely helpful",
+            "confused and lost"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The minister's homiletic tone bored the congregation.\" What does \"homiletic\" mean?",
+          "options": [
+            "entertaining and engaging",
+            "of the nature of a moral lecture",
+            "surprisingly brief",
+            "emotionally moving"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Her ineffable beauty left visitors speechless.\" What does \"ineffable\" mean?",
+          "options": [
+            "ordinary and common",
+            "deliberately hidden",
+            "too great to be expressed in words",
+            "artificial and manufactured"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The professor's jejune analysis disappointed his colleagues.\" What does \"jejune\" mean?",
+          "options": [
+            "naive, simplistic, and superficial",
+            "extremely sophisticated",
+            "deliberately obscure",
+            "surprisingly accurate"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"His laconic response ended the conversation abruptly.\" What does \"laconic\" mean?",
+          "options": [
+            "extremely talkative",
+            "using few words; terse",
+            "emotionally charged",
+            "deliberately confusing"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The artist's meretricious work appealed only to tourists.\" What does \"meretricious\" mean?",
+          "options": [
+            "genuinely beautiful",
+            "extremely expensive",
+            "apparently attractive but having no real value",
+            "historically significant"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"Her nefarious plan was discovered just in time.\" What does \"nefarious\" mean?",
+          "options": [
+            "extremely wicked or villainous",
+            "surprisingly clever",
+            "poorly conceived",
+            "ultimately successful"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The student's ostentatious display of wealth annoyed classmates.\" What does \"ostentatious\" mean?",
+          "options": [
+            "modest and humble",
+            "characterized by vulgar show",
+            "surprisingly generous",
+            "carefully hidden"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"His perfunctory apology failed to convince anyone.\" What does \"perfunctory\" mean?",
+          "options": [
+            "heartfelt and sincere",
+            "extremely detailed",
+            "carried out without real interest",
+            "surprisingly effective"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The candidate's quotidian concerns resonated with voters.\" What does \"quotidian\" mean?",
+          "options": [
+            "of a daily nature; ordinary",
+            "extremely unusual",
+            "politically controversial",
+            "financially motivated"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"Her recalcitrant behavior frustrated the therapist.\" What does \"recalcitrant\" mean?",
+          "options": [
+            "eager to cooperate",
+            "having an obstinately uncooperative attitude",
+            "confused and disoriented",
+            "surprisingly responsive"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The committee's supercilious attitude alienated community members.\" What does \"supercilious\" mean?",
+          "options": [
+            "humble and approachable",
+            "extremely generous",
+            "behaving as if one thinks oneself superior",
+            "surprisingly helpful"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"His temerity in challenging the board surprised everyone.\" What does \"temerity\" mean?",
+          "options": [
+            "excessive confidence or boldness",
+            "extreme caution",
+            "complete honesty",
+            "careful preparation"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The politician's unctuous promises fooled few voters.\" What does \"unctuous\" mean?",
+          "options": [
+            "refreshingly honest",
+            "excessively flattering or ingratiating",
+            "surprisingly brief",
+            "extremely detailed"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Her vacillating position on the issue confused supporters.\" What does \"vacillating\" mean?",
+          "options": [
+            "firmly committed",
+            "completely honest",
+            "wavering between different opinions",
+            "surprisingly popular"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The speaker's winsome personality charmed the audience.\" What does \"winsome\" mean?",
+          "options": [
+            "attractive or appealing in appearance",
+            "intimidating and fierce",
+            "boring and monotonous",
+            "extremely intelligent"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"His xenophobic remarks damaged his political career.\" What does \"xenophobic\" mean?",
+          "options": [
+            "welcoming to foreigners",
+            "having dislike of people from other countries",
+            "politically neutral",
+            "extremely generous"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The author's yawning narrative failed to engage readers.\" What does \"yawning\" mean in this context?",
+          "options": [
+            "surprisingly brief",
+            "extremely exciting",
+            "wide open; gaping",
+            "carefully structured"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"Her zealous advocacy for reform impressed legislators.\" What does \"zealous\" mean?",
+          "options": [
+            "showing great energy or passion",
+            "half-hearted and lukewarm",
+            "professionally detached",
+            "surprisingly ineffective"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The critic's acrimonious review sparked controversy.\" What does \"acrimonious\" mean?",
+          "options": [
+            "surprisingly positive",
+            "angry and bitter",
+            "professionally neutral",
+            "thoughtfully balanced"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"His bumptious behavior at the conference embarrassed colleagues.\" What does \"bumptious\" mean?",
+          "options": [
+            "modest and retiring",
+            "extremely helpful",
+            "self-assertive in a rude way",
+            "surprisingly quiet"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The professor's captious criticism demoralized students.\" What does \"captious\" mean?",
+          "options": [
+            "tending to find fault or raise petty objections",
+            "extremely encouraging",
+            "surprisingly accurate",
+            "carefully constructive"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"Her didactic approach to teaching bored students.\" What does \"didactic\" mean?",
+          "options": [
+            "entertaining and engaging",
+            "intended to teach or moralize",
+            "surprisingly brief",
+            "emotionally supportive"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The manager's egregious error cost the company millions.\" What does \"egregious\" mean?",
+          "options": [
+            "minor and forgivable",
+            "surprisingly beneficial",
+            "outstandingly bad; shocking",
+            "carefully calculated"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"His fatuous comments revealed his ignorance.\" What does \"fatuous\" mean?",
+          "options": [
+            "silly and pointless",
+            "surprisingly insightful",
+            "extremely detailed",
+            "carefully considered"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The dilettante's knowledge of art was impressive but superficial.\" What does \"dilettante\" mean?",
+          "options": [
+            "professional expert",
+            "passionate collector",
+            "person with superficial interest",
+            "talented artist"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"His truculent attitude made negotiations extremely difficult.\" What does \"truculent\" mean?",
+          "options": [
+            "cooperative and helpful",
+            "aggressively defiant",
+            "quietly thoughtful",
+            "professionally neutral"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The vituperative remarks damaged his reputation permanently.\" What does \"vituperative\" mean?",
+          "options": [
+            "harshly abusive",
+            "mildly critical",
+            "warmly supportive",
+            "carefully neutral"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The economist's prognostication proved remarkably accurate.\" What does \"prognostication\" mean?",
+          "options": [
+            "detailed analysis",
+            "prediction about the future",
+            "historical review",
+            "statistical calculation"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Her grandiloquent speech impressed few in the audience.\" What does \"grandiloquent\" mean?",
+          "options": [
+            "brief and concise",
+            "warmly emotional",
+            "pompously elaborate",
+            "quietly understated"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The team's pusillanimous response disappointed their supporters.\" What does \"pusillanimous\" mean?",
+          "options": [
+            "boldly courageous",
+            "showing a lack of courage",
+            "extremely aggressive",
+            "carefully calculated"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The judge's philippic against corruption lasted thirty minutes.\" What does \"philippic\" mean?",
+          "options": [
+            "bitter verbal attack",
+            "formal legal ruling",
+            "gentle warning",
+            "scholarly discussion"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"His sartorial elegance was evident in every outfit.\" What does \"sartorial\" mean?",
+          "options": [
+            "relating to food",
+            "relating to tailoring or clothing",
+            "relating to music",
+            "relating to literature"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The politician's machiavellian tactics shocked even his allies.\" What does \"machiavellian\" mean?",
+          "options": [
+            "honest and straightforward",
+            "cunningly unscrupulous",
+            "openly aggressive",
+            "passively resistant"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The company's financial chicanery was finally exposed.\" What does \"chicanery\" mean?",
+          "options": [
+            "exceptional success",
+            "careful planning",
+            "the use of trickery to achieve goals",
+            "transparent reporting"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"Her jejune comments revealed her inexperience.\" What does \"jejune\" mean?",
+          "options": [
+            "naive and simplistic",
+            "sophisticated and complex",
+            "aggressively hostile",
+            "warmly supportive"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The miscreant was finally brought to justice.\" What does \"miscreant\" mean?",
+          "options": [
+            "innocent victim",
+            "person who behaves badly",
+            "helpful witness",
+            "legal expert"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"His temerity in challenging the board surprised everyone.\" What does \"temerity\" mean?",
+          "options": [
+            "excessive boldness",
+            "careful caution",
+            "complete silence",
+            "friendly cooperation"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The writer's penchant for alliteration was evident throughout.\" What does \"penchant\" mean?",
+          "options": [
+            "strong dislike",
+            "complete indifference",
+            "strong inclination or liking",
+            "mild curiosity"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The mendacious witness was caught in multiple lies.\" What does \"mendacious\" mean?",
+          "options": [
+            "completely truthful",
+            "given to lying",
+            "extremely forgetful",
+            "highly emotional"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Her omnipresent influence shaped every decision.\" What does \"omnipresent\" mean?",
+          "options": [
+            "rarely noticed",
+            "occasionally felt",
+            "present everywhere",
+            "completely absent"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The perfunctory inspection missed several critical flaws.\" What does \"perfunctory\" mean?",
+          "options": [
+            "extremely thorough",
+            "carried out with minimal effort",
+            "professionally competent",
+            "surprisingly effective"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The manager's supercilious attitude alienated his staff.\" What does \"supercilious\" mean?",
+          "options": [
+            "behaving as if superior to others",
+            "extremely friendly",
+            "professionally competent",
+            "quietly humble"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"His quotidian concerns seemed trivial compared to global issues.\" What does \"quotidian\" mean?",
+          "options": [
+            "extraordinarily important",
+            "completely imaginary",
+            "of an ordinary everyday nature",
+            "extremely urgent"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The ubiquitous advertisements became increasingly annoying.\" What does \"ubiquitous\" mean?",
+          "options": [
+            "rarely seen",
+            "present everywhere",
+            "carefully hidden",
+            "occasionally noticed"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"Her perspicuity made complex issues seem simple.\" What does \"perspicuity\" mean?",
+          "options": [
+            "clarity of expression or thought",
+            "deliberate confusion",
+            "emotional intensity",
+            "academic pretension"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The recalcitrant student refused to follow instructions.\" What does \"recalcitrant\" mean?",
+          "options": [
+            "eager to please",
+            "stubbornly defiant",
+            "extremely intelligent",
+            "completely confused"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The meeting devolved into acrimonious debate.\" What does \"acrimonious\" mean?",
+          "options": [
+            "friendly and cooperative",
+            "professionally neutral",
+            "angry and bitter",
+            "quietly thoughtful"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"His verisimilitude in acting earned critical acclaim.\" What does \"verisimilitude\" mean?",
+          "options": [
+            "obvious artificiality",
+            "the appearance of being true or real",
+            "dramatic exaggeration",
+            "emotional distance"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The ineffable beauty of the sunset left them speechless.\" What does \"ineffable\" mean?",
+          "options": [
+            "easily described",
+            "mildly attractive",
+            "too great to be expressed in words",
+            "somewhat disappointing"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"Her compunction about lying kept her awake.\" What does \"compunction\" mean?",
+          "options": [
+            "complete satisfaction",
+            "mild curiosity",
+            "anxiety arising from guilt",
+            "peaceful contentment"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The tyro's first performance showed remarkable promise.\" What does \"tyro\" mean?",
+          "options": [
+            "experienced professional",
+            "beginner or novice",
+            "harsh critic",
+            "veteran performer"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"His cogent argument persuaded even the skeptics.\" What does \"cogent\" mean?",
+          "options": [
+            "clear and convincing",
+            "deliberately confusing",
+            "emotionally manipulative",
+            "completely illogical"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The sycophant's flattery disgusted his colleagues.\" What does \"sycophant\" mean?",
+          "options": [
+            "harsh critic",
+            "honest advisor",
+            "person who acts obsequiously",
+            "neutral observer"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"Her mellifluous voice captivated the audience.\" What does \"mellifluous\" mean?",
+          "options": [
+            "harsh and grating",
+            "sweet-sounding",
+            "barely audible",
+            "artificially amplified"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The penurious artist could barely afford supplies.\" What does \"penurious\" mean?",
+          "options": [
+            "extremely generous",
+            "moderately wealthy",
+            "extremely poor",
+            "financially comfortable"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"His fatuous remarks revealed his ignorance.\" What does \"fatuous\" mean?",
+          "options": [
+            "brilliantly insightful",
+            "deliberately misleading",
+            "silly and pointless",
+            "carefully calculated"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The garrulous neighbor talked for hours.\" What does \"garrulous\" mean?",
+          "options": [
+            "excessively talkative",
+            "unusually quiet",
+            "deliberately mysterious",
+            "professionally reserved"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"Her insouciant attitude masked deep concern.\" What does \"insouciant\" mean?",
+          "options": [
+            "deeply worried",
+            "showing casual lack of concern",
+            "extremely attentive",
+            "professionally focused"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"The company's parsimony affected employee morale.\" What does \"parsimony\" mean?",
+          "options": [
+            "generous spending",
+            "careful budgeting",
+            "extreme frugality",
+            "financial transparency"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"His obstreperous behavior disrupted the meeting.\" What does \"obstreperous\" mean?",
+          "options": [
+            "quietly cooperative",
+            "professionally neutral",
+            "noisy and difficult to control",
+            "thoughtfully engaged"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"The savant's knowledge of mathematics was extraordinary.\" What does \"savant\" mean?",
+          "options": [
+            "person with learning difficulties",
+            "learned person",
+            "casual student",
+            "harsh critic"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "\"His fractious temperament made collaboration difficult.\" What does \"fractious\" mean?",
+          "options": [
+            "easily irritated",
+            "consistently cheerful",
+            "naturally cooperative",
+            "professionally distant"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "\"The ephemeral nature of fame became clear.\" What does \"ephemeral\" mean?",
+          "options": [
+            "lasting forever",
+            "moderately durable",
+            "lasting for a very short time",
+            "gradually increasing"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "\"Her magnanimous gesture surprised her critics.\" What does \"magnanimous\" mean?",
+          "options": [
+            "petty and vindictive",
+            "generously forgiving",
+            "coldly indifferent",
+            "carefully calculated"
+          ],
+          "correct": 1
+        }
       ]
     },
     {
-      "slot": 19, "level": "C2", "type": "grammar",
+      "slot": 19,
+      "level": "C2",
+      "type": "grammar",
       "variants": [
-        {"question": "Choose the correct sentence:", "options": ["Were it not for his intervention, the project would have failed.","Was it not for his intervention, the project would have failed.","If it were not his intervention, the project would have failed.","Were not it for his intervention, the project would have failed."], "correct": 0},
-        {"question": "Choose the correct sentence:", "options": ["Had she known about the delay, she would have taken a different route.","If she had knew about the delay, she would have taken a different route.","Had she knew about the delay, she would have taken a different route.","If she would have known about the delay, she took a different route."], "correct": 0},
-        {"question": "Choose the correct sentence:", "options": ["Should you require any further assistance, please do not hesitate to contact us.","Should you will require any further assistance, please do not hesitate to contact us.","If should you require any further assistance, please do not hesitate to contact us.","Should you requiring any further assistance, please do not hesitate to contact us."], "correct": 0},
-        {"question": "Choose the correct sentence:", "options": ["Were she to accept the position, she would need to relocate.","Was she to accept the position, she would need to relocate.","If she were accept the position, she would need to relocate.","Were she accepting the position, she would need to relocate."], "correct": 0},
-        {"question": "Choose the correct sentence:", "options": ["Had it not been for the quick response of the firefighters, the building would have been destroyed.","If it had not been for the quick response of the firefighters, the building will be destroyed.","Had it not been for the quick response of the firefighters, the building will have been destroyed.","If it would not have been for the quick response, the building had been destroyed."], "correct": 0},
-        {"question": "Choose the correct sentence:", "options": ["Not until the evidence was presented did the jury change its verdict.","Not until the evidence was presented the jury changed its verdict.","Not until the evidence was presented the jury did change its verdict.","Not until the evidence was presented changed the jury its verdict."], "correct": 0},
-        {"question": "Choose the correct sentence:", "options": ["So complex was the problem that even experts struggled to find a solution.","So complex the problem was that even experts struggled to find a solution.","So complex was the problem that even experts were struggled to find a solution.","So the problem was complex that even experts struggled to find a solution."], "correct": 0},
-        {"question": "Choose the correct sentence:", "options": ["Scarcely had the meeting begun when the fire alarm went off.","Scarcely the meeting had begun when the fire alarm went off.","Scarcely had the meeting begun than the fire alarm went off.","Scarcely did the meeting begin when the fire alarm went off."], "correct": 0},
-        {"question": "Choose the correct sentence:", "options": ["Much as I appreciate your offer, I must decline.","Much as I am appreciating your offer, I must decline.","Much I appreciate your offer as, I must decline.","As much I appreciate your offer, I must decline."], "correct": 0},
-        {"question": "Choose the correct sentence:", "options": ["Only by working together can we overcome these challenges.","Only by working together we can overcome these challenges.","Only by working together can overcome we these challenges.","Only by working together we overcome can these challenges."], "correct": 0}
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Were it not for his intervention, the project would have failed.",
+            "Was it not for his intervention, the project would have failed.",
+            "If it were not his intervention, the project would have failed.",
+            "Were not it for his intervention, the project would have failed."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Had she known about the delay, she would have taken a different route.",
+            "If she had knew about the delay, she would have taken a different route.",
+            "Had she knew about the delay, she would have taken a different route.",
+            "If she would have known about the delay, she took a different route."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Should you require any further assistance, please do not hesitate to contact us.",
+            "Should you will require any further assistance, please do not hesitate to contact us.",
+            "If should you require any further assistance, please do not hesitate to contact us.",
+            "Should you requiring any further assistance, please do not hesitate to contact us."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Were she to accept the position, she would need to relocate.",
+            "Was she to accept the position, she would need to relocate.",
+            "If she were accept the position, she would need to relocate.",
+            "Were she accepting the position, she would need to relocate."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Had it not been for the quick response of the firefighters, the building would have been destroyed.",
+            "If it had not been for the quick response of the firefighters, the building will be destroyed.",
+            "Had it not been for the quick response of the firefighters, the building will have been destroyed.",
+            "If it would not have been for the quick response, the building had been destroyed."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Not until the evidence was presented did the jury change its verdict.",
+            "Not until the evidence was presented the jury changed its verdict.",
+            "Not until the evidence was presented the jury did change its verdict.",
+            "Not until the evidence was presented changed the jury its verdict."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "So complex was the problem that even experts struggled to find a solution.",
+            "So complex the problem was that even experts struggled to find a solution.",
+            "So complex was the problem that even experts were struggled to find a solution.",
+            "So the problem was complex that even experts struggled to find a solution."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Scarcely had the meeting begun when the fire alarm went off.",
+            "Scarcely the meeting had begun when the fire alarm went off.",
+            "Scarcely had the meeting begun than the fire alarm went off.",
+            "Scarcely did the meeting begin when the fire alarm went off."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Much as I appreciate your offer, I must decline.",
+            "Much as I am appreciating your offer, I must decline.",
+            "Much I appreciate your offer as, I must decline.",
+            "As much I appreciate your offer, I must decline."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Only by working together can we overcome these challenges.",
+            "Only by working together we can overcome these challenges.",
+            "Only by working together can overcome we these challenges.",
+            "Only by working together we overcome can these challenges."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Were the weather conditions more favorable, we could have reached the summit.",
+            "Should the weather conditions be more favorable, we could have reached the summit.",
+            "Were the weather conditions more favorable, we could reach the summit.",
+            "Had the weather conditions more favorable, we could reach the summit."
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Had they arrived earlier, they would catch the first train.",
+            "Had they arrived earlier, they would have caught the first train.",
+            "If they had arrive earlier, they would have caught the first train.",
+            "Had they arrive earlier, they would have caught the first train."
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Should the experiment yielding positive results, we will proceed to the next phase.",
+            "Should the experiment yields positive results, we will proceed to the next phase.",
+            "Should the experiment will yield positive results, we will proceed to the next phase.",
+            "Should the experiment yield positive results, we will proceed to the next phase."
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Were I to reconsider the offer, I would need more information.",
+            "Was I to reconsider the offer, I would need more information.",
+            "Were I reconsider the offer, I would need more information.",
+            "If I were reconsider the offer, I would need more information."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "If it would not have been for your help, I couldn't have finished.",
+            "Had it not been for your help, I will not have finished.",
+            "Were it not for your help, I couldn't have finished.",
+            "Had it not been for your help, I couldn't have finished."
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Should anyone asking for me, tell them I'm in a meeting.",
+            "Should anyone ask for me, tell them I'm in a meeting.",
+            "Should anyone will ask for me, tell them I'm in a meeting.",
+            "If should anyone ask for me, tell them I'm in a meeting."
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Were the proposal to be accepted, implementation would begin immediately.",
+            "Was the proposal to be accepted, implementation would begin immediately.",
+            "Were the proposal accepting, implementation would begin immediately.",
+            "If the proposal were accept, implementation would begin immediately."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Had she studied medicine, she will have become a doctor by now.",
+            "If she had studied medicine, she would become a doctor by now.",
+            "Had she studied medicine, she would have become a doctor by now.",
+            "Had she study medicine, she would have become a doctor by now."
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Were the company's profits declining, drastic measures would be necessary.",
+            "Should the company's profits declining, drastic measures would be necessary.",
+            "Were the company's profits to decline, drastic measures would be necessary.",
+            "If the company's profits were decline, drastic measures would be necessary."
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Should you be needing any clarification, I'll be available all afternoon.",
+            "Should you need any clarification, I'll be available all afternoon.",
+            "Should you will need any clarification, I'll be available all afternoon.",
+            "If should you need any clarification, I'll be available all afternoon."
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Had the negotiations been more successful, the merger would have proceeded.",
+            "If the negotiations had been more successful, the merger will have proceeded.",
+            "Had the negotiations being more successful, the merger would have proceeded.",
+            "If the negotiations would have been successful, the merger proceeded."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Were they knowing about the risks, they might have acted differently.",
+            "Had they know about the risks, they might have acted differently.",
+            "If they had knew about the risks, they might have acted differently.",
+            "Had they known about the risks, they might have acted differently."
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Should the committee approving the budget, work will commence next month.",
+            "Should the committee approve the budget, work will commence next month.",
+            "Should the committee will approve the budget, work will commence next month.",
+            "If should the committee approve the budget, work will commence next month."
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Were I in your position, I would seek professional advice.",
+            "Was I in your position, I would seek professional advice.",
+            "Were I being in your position, I would seek professional advice.",
+            "If I were being in your position, I would seek professional advice."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Had it not been for the technical difficulties, the launch will have been successful.",
+            "Were it not for the technical difficulties, the launch would have been successful.",
+            "Had it not been for the technical difficulties, the launch would have been successful.",
+            "If it would not have been for the technical difficulties, the launch was successful."
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Should there being any problems, contact the supervisor immediately.",
+            "Should there be any problems, contact the supervisor immediately.",
+            "Should there will be any problems, contact the supervisor immediately.",
+            "If should there be any problems, contact the supervisor immediately."
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Were the market conditions to improve, we could expand our operations.",
+            "Was the market conditions to improve, we could expand our operations.",
+            "Were the market conditions improving, we could expand our operations.",
+            "If the market conditions were improve, we could expand our operations."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Had the team prepared more thoroughly, they will have won the championship.",
+            "If the team had prepare more thoroughly, they would have won the championship.",
+            "Had the team prepare more thoroughly, they would have won the championship.",
+            "Had the team prepared more thoroughly, they would have won the championship."
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Should you encountering any difficulties, don't hesitate to ask for help.",
+            "Should you will encounter any difficulties, don't hesitate to ask for help.",
+            "Should you encounter any difficulties, don't hesitate to ask for help.",
+            "If should you encounter any difficulties, don't hesitate to ask for help."
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Were the evidence to be examined more carefully, different conclusions might be drawn.",
+            "Was the evidence to be examined more carefully, different conclusions might be drawn.",
+            "Were the evidence examining more carefully, different conclusions might be drawn.",
+            "If the evidence were examine more carefully, different conclusions might be drawn."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Had they invested in technology earlier, their profits will have increased significantly.",
+            "If they had invested in technology earlier, their profits will increase significantly.",
+            "Had they invest in technology earlier, their profits would have increased significantly.",
+            "Had they invested in technology earlier, their profits would have increased significantly."
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Should the contract requiring modifications, please inform the legal department.",
+            "Should the contract require modifications, please inform the legal department.",
+            "Should the contract will require modifications, please inform the legal department.",
+            "If should the contract require modifications, please inform the legal department."
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Were she aware of the consequences, she would never have agreed.",
+            "Was she aware of the consequences, she would never have agreed.",
+            "Were she being aware of the consequences, she would never have agreed.",
+            "If she were aware of the consequences, she would never agreed."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "If it would not have been for the storm, the flight departed on time.",
+            "Were it not for the storm, the flight would have departed on time.",
+            "Had it not been for the storm, the flight would have departed on time.",
+            "Had it not been for the storm, the flight will have departed on time."
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Should the results proving inconclusive, further research will be necessary.",
+            "Should the results will prove inconclusive, further research will be necessary.",
+            "Should the results prove inconclusive, further research will be necessary.",
+            "If should the results prove inconclusive, further research will be necessary."
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Were the deadline to be extended, more participants could apply.",
+            "Was the deadline to be extended, more participants could apply.",
+            "Were the deadline extending, more participants could apply.",
+            "If the deadline were extend, more participants could apply."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Had the instructions been clearer, fewer mistakes will have occurred.",
+            "If the instructions had been clearer, fewer mistakes will occur.",
+            "Had the instructions being clearer, fewer mistakes would have occurred.",
+            "Had the instructions been clearer, fewer mistakes would have occurred."
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Should you be requiring assistance with the installation, technical support is available.",
+            "Should you require assistance with the installation, technical support is available.",
+            "Should you will require assistance with the installation, technical support is available.",
+            "If should you require assistance with the installation, technical support is available."
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Were the proposal to gain approval, construction would begin next year.",
+            "Was the proposal to gain approval, construction would begin next year.",
+            "Were the proposal gaining approval, construction would begin next year.",
+            "If the proposal were gain approval, construction would begin next year."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Had she taken the earlier flight, she will have arrived before the meeting.",
+            "If she had took the earlier flight, she would have arrived before the meeting.",
+            "Had she take the earlier flight, she would have arrived before the meeting.",
+            "Had she taken the earlier flight, she would have arrived before the meeting."
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Should there existing any discrepancies, please report them immediately.",
+            "Should there exist any discrepancies, please report them immediately.",
+            "Should there will exist any discrepancies, please report them immediately.",
+            "If should there exist any discrepancies, please report them immediately."
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Were the terms of the agreement to be revised, all parties must consent.",
+            "Was the terms of the agreement to be revised, all parties must consent.",
+            "Were the terms of the agreement revising, all parties must consent.",
+            "If the terms of the agreement were revise, all parties must consent."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Had the economy performed better, unemployment rates will have decreased.",
+            "If the economy had perform better, unemployment rates would have decreased.",
+            "Had the economy perform better, unemployment rates would have decreased.",
+            "Had the economy performed better, unemployment rates would have decreased."
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Should you finding any errors in the document, please highlight them.",
+            "Should you find any errors in the document, please highlight them.",
+            "Should you will find any errors in the document, please highlight them.",
+            "If should you find any errors in the document, please highlight them."
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Were the funding to be secured, the project could commence immediately.",
+            "Was the funding to be secured, the project could commence immediately.",
+            "Were the funding securing, the project could commence immediately.",
+            "If the funding were secure, the project could commence immediately."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Had the warning been heeded, the accident will not have occurred.",
+            "If the warning had been heed, the accident would not have occurred.",
+            "Had the warning being heeded, the accident would not have occurred.",
+            "Had the warning been heeded, the accident would not have occurred."
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Should the weather permitting, we'll hold the event outdoors.",
+            "Should the weather permit, we'll hold the event outdoors.",
+            "Should the weather will permit, we'll hold the event outdoors.",
+            "If should the weather permit, we'll hold the event outdoors."
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Were he to reconsider his decision, many problems could be avoided.",
+            "Was he to reconsider his decision, many problems could be avoided.",
+            "Were he reconsidering his decision, many problems could be avoided.",
+            "If he were reconsider his decision, many problems could be avoided."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Had the software been updated regularly, the security breach will not have happened.",
+            "If the software had been update regularly, the security breach would not have happened.",
+            "Had the software being updated regularly, the security breach would not have happened.",
+            "Had the software been updated regularly, the security breach would not have happened."
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Should you experiencing any side effects, discontinue use immediately.",
+            "Should you experience any side effects, discontinue use immediately.",
+            "Should you will experience any side effects, discontinue use immediately.",
+            "If should you experience any side effects, discontinue use immediately."
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Were the regulations to be changed, businesses would need time to adapt.",
+            "Was the regulations to be changed, businesses would need time to adapt.",
+            "Were the regulations changing, businesses would need time to adapt.",
+            "If the regulations were change, businesses would need time to adapt."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Had they consulted experts earlier, the project will have been more successful.",
+            "If they had consult experts earlier, the project would have been more successful.",
+            "Had they consult experts earlier, the project would have been more successful.",
+            "Had they consulted experts earlier, the project would have been more successful."
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Should the situation demanding immediate action, call the emergency number.",
+            "Should the situation demand immediate action, call the emergency number.",
+            "Should the situation will demand immediate action, call the emergency number.",
+            "If should the situation demand immediate action, call the emergency number."
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Were the data to be analyzed properly, significant patterns might emerge.",
+            "Was the data to be analyzed properly, significant patterns might emerge.",
+            "Were the data analyzing properly, significant patterns might emerge.",
+            "If the data were analyze properly, significant patterns might emerge."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Had the meeting been scheduled earlier, more people will have attended.",
+            "If the meeting had been schedule earlier, more people would have attended.",
+            "Had the meeting being scheduled earlier, more people would have attended.",
+            "Had the meeting been scheduled earlier, more people would have attended."
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Should you be having any questions, feel free to contact our support team.",
+            "Should you have any questions, feel free to contact our support team.",
+            "Should you will have any questions, feel free to contact our support team.",
+            "If should you have any questions, feel free to contact our support team."
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Were the equipment to malfunction, backup systems would activate automatically.",
+            "Was the equipment to malfunction, backup systems would activate automatically.",
+            "Were the equipment malfunctioning, backup systems would activate automatically.",
+            "If the equipment were malfunction, backup systems would activate automatically."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Had the patient followed the treatment plan, recovery will have been faster.",
+            "If the patient had follow the treatment plan, recovery would have been faster.",
+            "Had the patient follow the treatment plan, recovery would have been faster.",
+            "Had the patient followed the treatment plan, recovery would have been faster."
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Should the application requiring additional documentation, we will notify you promptly.",
+            "Should the application require additional documentation, we will notify you promptly.",
+            "Should the application will require additional documentation, we will notify you promptly.",
+            "If should the application require additional documentation, we will notify you promptly."
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Were the market trends to continue, profits would increase substantially.",
+            "Was the market trends to continue, profits would increase substantially.",
+            "Were the market trends continuing, profits would increase substantially.",
+            "If the market trends were continue, profits would increase substantially."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Had the documents been filed correctly, this confusion will not have arisen.",
+            "If the documents had been file correctly, this confusion would not have arisen.",
+            "Had the documents being filed correctly, this confusion would not have arisen.",
+            "Had the documents been filed correctly, this confusion would not have arisen."
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Had they left earlier, they might have caught the train.",
+            "If they had left earlier, they might catch the train.",
+            "Had they left earlier, they might caught the train.",
+            "If they would have left earlier, they caught the train."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Should we receive any complaints, we would investigate immediately.",
+            "Should we receive any complaints, we will investigate immediately.",
+            "Should we receiving any complaints, we will investigate immediately.",
+            "If should we receive any complaints, we will investigate immediately."
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Were the weather better, we would go hiking.",
+            "Was the weather better, we would go hiking.",
+            "Were the weather better, we would go hiking.",
+            "If the weather were better, we would go hiking."
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Had he studied medicine, he will have become a doctor.",
+            "If he had studied medicine, he will become a doctor.",
+            "Had he studied medicine, he would become a doctor.",
+            "Had he studied medicine, he would have become a doctor."
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Should anyone call while I'm away, please take a message.",
+            "Should anyone calls while I'm away, please take a message.",
+            "Should anyone calling while I'm away, please take a message.",
+            "If should anyone call while I'm away, please take a message."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Were it not raining, we would have the picnic outdoors.",
+            "Were it not for the rain, we would have the picnic outdoors.",
+            "Were not it for the rain, we would have the picnic outdoors.",
+            "If it were not raining, we would have the picnic outdoors."
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Had the company invested wisely, they will have made profits.",
+            "If the company had invested wisely, they made profits.",
+            "Had the company invested wisely, they would have made profits.",
+            "Had the company invested wisely, they will make profits."
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Were he more experienced, he will get the promotion.",
+            "Was he more experienced, he would get the promotion.",
+            "Were he more experienced, he would got the promotion.",
+            "Were he more experienced, he would get the promotion."
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Should the situation deteriorate, we will evacuate immediately.",
+            "Should the situation deteriorates, we will evacuate immediately.",
+            "If should the situation deteriorate, we will evacuate immediately.",
+            "Should the situation deteriorating, we will evacuate immediately."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Had it not been for her dedication, the project will have failed.",
+            "Had it not been for her dedication, the project would have failed.",
+            "Had it not been for her dedication, the project would fail.",
+            "If it had not been for her dedication, the project will fail."
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Were the conditions different, the outcome will be better.",
+            "Was the conditions different, the outcome would be better.",
+            "Were the conditions different, the outcome would be better.",
+            "Were the condition different, the outcome would be better."
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Should you encounter any problems, please contact technical support.",
+            "Should you will encounter any problems, please contact technical support.",
+            "If should you encounter any problems, please contact technical support.",
+            "Should you encountering any problems, please contact technical support."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Had we known about the traffic, we will have left earlier.",
+            "Had we known about the traffic, we would have left earlier.",
+            "Had we knew about the traffic, we would have left earlier.",
+            "If we had knew about the traffic, we would have left earlier."
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Were she available tomorrow, she will attend the meeting.",
+            "Was she available tomorrow, she would attend the meeting.",
+            "Were she available tomorrow, she would attend the meeting.",
+            "Were she available tomorrow, she would attended the meeting."
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Should the flight be cancelled, we will make alternative arrangements.",
+            "Should the flight cancelled, we will make alternative arrangements.",
+            "Should the flight cancelling, we will make alternative arrangements.",
+            "If should the flight be cancelled, we will make alternative arrangements."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Had they prepared better, they will have won the competition.",
+            "Had they prepared better, they would have won the competition.",
+            "Had they prepared better, they would win the competition.",
+            "If they had prepared better, they will win the competition."
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Were it possible to reverse time, many people will change their decisions.",
+            "Was it possible to reverse time, many people would change their decisions.",
+            "Were it possible to reverse time, many people would change their decisions.",
+            "Were it possible to reverse time, many people would changed their decisions."
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Should the weather improve, we might go sailing this weekend.",
+            "Should the weather improves, we might go sailing this weekend.",
+            "Should the weather improving, we might go sailing this weekend.",
+            "If should the weather improve, we might go sailing this weekend."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Had the team practiced more, they will have performed better.",
+            "Had the team practiced more, they would have performed better.",
+            "Had the team practiced more, they would perform better.",
+            "If the team had practiced more, they will perform better."
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Were the deadline extended, we will complete the project successfully.",
+            "Was the deadline extended, we would complete the project successfully.",
+            "Were the deadline extended, we would complete the project successfully.",
+            "Were the deadline extend, we would complete the project successfully."
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Should you need any clarification, please feel free to ask.",
+            "Should you needs any clarification, please feel free to ask.",
+            "Should you needing any clarification, please feel free to ask.",
+            "If should you need any clarification, please feel free to ask."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Had the warning been heeded, the accident will not have occurred.",
+            "Had the warning been heeded, the accident would not have occurred.",
+            "Had the warning been heed, the accident would not have occurred.",
+            "If the warning had been heeded, the accident will not occur."
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Were he to reconsider his decision, things will be different.",
+            "Was he to reconsider his decision, things would be different.",
+            "Were he to reconsider his decision, things would be different.",
+            "Were he to reconsidering his decision, things would be different."
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Should the results prove inconclusive, we will conduct further tests.",
+            "Should the results proves inconclusive, we will conduct further tests.",
+            "Should the results proving inconclusive, we will conduct further tests.",
+            "If should the results prove inconclusive, we will conduct further tests."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Had she taken the advice, she will have avoided the mistake.",
+            "Had she taken the advice, she would have avoided the mistake.",
+            "Had she took the advice, she would have avoided the mistake.",
+            "If she had took the advice, she would have avoided the mistake."
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Were the proposal accepted, we will begin implementation next month.",
+            "Was the proposal accepted, we would begin implementation next month.",
+            "Were the proposal accepted, we would begin implementation next month.",
+            "Were the proposal accept, we would begin implementation next month."
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Should there be any changes to the schedule, we will notify you promptly.",
+            "Should there being any changes to the schedule, we will notify you promptly.",
+            "Should there are any changes to the schedule, we will notify you promptly.",
+            "If should there be any changes to the schedule, we will notify you promptly."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Had the investors been more cautious, they will not have lost money.",
+            "Had the investors been more cautious, they would not have lost money.",
+            "Had the investors being more cautious, they would not have lost money.",
+            "If the investors had being more cautious, they would not have lost money."
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Were the circumstances favorable, the merger will proceed as planned.",
+            "Was the circumstances favorable, the merger would proceed as planned.",
+            "Were the circumstances favorable, the merger would proceed as planned.",
+            "Were the circumstance favorable, the merger would proceed as planned."
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Should the client approve the design, we will begin production immediately.",
+            "Should the client approves the design, we will begin production immediately.",
+            "Should the client approving the design, we will begin production immediately.",
+            "If should the client approve the design, we will begin production immediately."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Had the experiment been conducted properly, the results will have been conclusive.",
+            "Had the experiment been conducted properly, the results would have been conclusive.",
+            "Had the experiment been conducting properly, the results would have been conclusive.",
+            "If the experiment had been conducting properly, the results would have been conclusive."
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Were she to win the scholarship, her future will be secured.",
+            "Was she to win the scholarship, her future would be secured.",
+            "Were she to win the scholarship, her future would be secured.",
+            "Were she to winning the scholarship, her future would be secured."
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Should the committee reach a consensus, the proposal will be implemented.",
+            "Should the committee reaches a consensus, the proposal will be implemented.",
+            "Should the committee reaching a consensus, the proposal will be implemented.",
+            "If should the committee reach a consensus, the proposal will be implemented."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Had the strategy been different, the outcome will have been more favorable.",
+            "Had the strategy been different, the outcome would have been more favorable.",
+            "Had the strategy being different, the outcome would have been more favorable.",
+            "If the strategy had being different, the outcome would have been more favorable."
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Were the technology available ten years ago, we will have solved many problems.",
+            "Was the technology available ten years ago, we would have solved many problems.",
+            "Were the technology available ten years ago, we would have solved many problems.",
+            "Were the technology available ten years ago, we would solve many problems."
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Should the negotiations succeed, both parties will benefit significantly.",
+            "Should the negotiations succeeds, both parties will benefit significantly.",
+            "Should the negotiations succeeding, both parties will benefit significantly.",
+            "If should the negotiations succeed, both parties will benefit significantly."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Had the regulations been followed, the incident will not have happened.",
+            "Had the regulations been followed, the incident would not have happened.",
+            "Had the regulations being followed, the incident would not have happened.",
+            "If the regulations had being followed, the incident would not have happened."
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Were the market conditions stable, investors will show more confidence.",
+            "Was the market conditions stable, investors would show more confidence.",
+            "Were the market conditions stable, investors would show more confidence.",
+            "Were the market condition stable, investors would show more confidence."
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": [
+            "Should the system malfunction, please contact the IT department immediately.",
+            "Should the system malfunctions, please contact the IT department immediately.",
+            "Should the system malfunctioning, please contact the IT department immediately.",
+            "If should the system malfunction, please contact the IT department immediately."
+          ],
+          "correct": 0
+        }
       ]
     },
     {
-      "slot": 20, "level": "C2", "type": "reading",
+      "slot": 20,
+      "level": "C2",
+      "type": "reading",
       "variants": [
-        {"question": "Read: \"The ostensible rationale for the policy shift—fiscal prudence—belied the administration's underlying motivation to consolidate executive authority under the guise of austerity measures.\" The passage implies that:", "options": ["The policy was genuinely about saving money","The stated reason for the policy was not the real reason","The administration was transparent about its goals","Austerity measures are always beneficial"], "correct": 1},
-        {"question": "Read: \"The philosopher's assertion that language constitutes rather than merely describes reality challenges the naive realist assumption that words are transparent windows onto an objective world.\" The philosopher argues that:", "options": ["language perfectly reflects reality","words have no connection to reality","language actively shapes how we understand reality","objective reality doesn't exist"], "correct": 2},
-        {"question": "Read: \"The conflation of correlation with causation in popular science reporting has engendered a public discourse rife with spurious claims about health and lifestyle.\" The problem described is:", "options": ["science reporting is always accurate","people confuse things happening together with one causing the other","correlation and causation are the same thing","health claims are always true"], "correct": 1},
-        {"question": "Read: \"The author's sardonic treatment of bourgeois pretensions, while ostensibly a critique of a particular social class, functions as a broader indictment of the human capacity for self-deception.\" The author's real target is:", "options": ["only the middle class","human self-deception in general","a specific political party","literary critics"], "correct": 1},
-        {"question": "Read: \"The epistemological implications of quantum mechanics have been appropriated by pseudoscientific movements to lend an air of legitimacy to claims that bear no resemblance to actual physics.\" The passage criticizes:", "options": ["quantum mechanics itself","the misuse of quantum physics to justify unscientific claims","all scientific research","physicists who popularize their work"], "correct": 1},
-        {"question": "Read: \"The palimpsest of cultural influences visible in the city's architecture attests to centuries of conquest, trade, and migration that have shaped its unique character.\" A \"palimpsest\" here refers to:", "options": ["a single dominant style","layers of different influences built upon each other","a complete destruction of the past","a modern renovation"], "correct": 1},
-        {"question": "Read: \"The reification of abstract economic models into prescriptive policy frameworks has led to interventions that, while theoretically sound, prove catastrophically inadequate when confronted with the complexities of lived experience.\" The problem is:", "options": ["economic models are always correct","treating theoretical models as if they perfectly apply to real life","economics is a useless field","policy should ignore theory entirely"], "correct": 1},
-        {"question": "Read: \"The interlocutor's rhetorical strategy of framing dissent as disloyalty effectively silenced opposition while maintaining a veneer of democratic deliberation.\" The strategy described:", "options": ["encouraged open debate","suppressed disagreement while appearing democratic","was completely transparent","promoted genuine democracy"], "correct": 1},
-        {"question": "Read: \"The symbiotic relationship between media sensationalism and public anxiety creates a self-perpetuating cycle in which fear generates viewership, which in turn incentivizes further alarmist coverage.\" The passage describes:", "options": ["responsible journalism","a feedback loop between scary news and public fear","media having no effect on people","declining viewership"], "correct": 1},
-        {"question": "Read: \"The aphorism that history is written by the victors, while reductive, underscores the extent to which dominant narratives marginalize alternative accounts of the past.\" The saying about history:", "options": ["is completely wrong","is oversimplified but highlights how powerful groups control historical narratives","means history is always accurate","suggests we should ignore history"], "correct": 1}
+        {
+          "question": "Read: \"The ostensible rationale for the policy shift—fiscal prudence—belied the administration's underlying motivation to consolidate executive authority under the guise of austerity measures.\" The passage implies that:",
+          "options": [
+            "The policy was genuinely about saving money",
+            "The stated reason for the policy was not the real reason",
+            "The administration was transparent about its goals",
+            "Austerity measures are always beneficial"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The philosopher's assertion that language constitutes rather than merely describes reality challenges the naive realist assumption that words are transparent windows onto an objective world.\" The philosopher argues that:",
+          "options": [
+            "language perfectly reflects reality",
+            "words have no connection to reality",
+            "language actively shapes how we understand reality",
+            "objective reality doesn't exist"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The conflation of correlation with causation in popular science reporting has engendered a public discourse rife with spurious claims about health and lifestyle.\" The problem described is:",
+          "options": [
+            "science reporting is always accurate",
+            "people confuse things happening together with one causing the other",
+            "correlation and causation are the same thing",
+            "health claims are always true"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The author's sardonic treatment of bourgeois pretensions, while ostensibly a critique of a particular social class, functions as a broader indictment of the human capacity for self-deception.\" The author's real target is:",
+          "options": [
+            "only the middle class",
+            "human self-deception in general",
+            "a specific political party",
+            "literary critics"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The epistemological implications of quantum mechanics have been appropriated by pseudoscientific movements to lend an air of legitimacy to claims that bear no resemblance to actual physics.\" The passage criticizes:",
+          "options": [
+            "quantum mechanics itself",
+            "the misuse of quantum physics to justify unscientific claims",
+            "all scientific research",
+            "physicists who popularize their work"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The palimpsest of cultural influences visible in the city's architecture attests to centuries of conquest, trade, and migration that have shaped its unique character.\" A \"palimpsest\" here refers to:",
+          "options": [
+            "a single dominant style",
+            "layers of different influences built upon each other",
+            "a complete destruction of the past",
+            "a modern renovation"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The reification of abstract economic models into prescriptive policy frameworks has led to interventions that, while theoretically sound, prove catastrophically inadequate when confronted with the complexities of lived experience.\" The problem is:",
+          "options": [
+            "economic models are always correct",
+            "treating theoretical models as if they perfectly apply to real life",
+            "economics is a useless field",
+            "policy should ignore theory entirely"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The interlocutor's rhetorical strategy of framing dissent as disloyalty effectively silenced opposition while maintaining a veneer of democratic deliberation.\" The strategy described:",
+          "options": [
+            "encouraged open debate",
+            "suppressed disagreement while appearing democratic",
+            "was completely transparent",
+            "promoted genuine democracy"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The symbiotic relationship between media sensationalism and public anxiety creates a self-perpetuating cycle in which fear generates viewership, which in turn incentivizes further alarmist coverage.\" The passage describes:",
+          "options": [
+            "responsible journalism",
+            "a feedback loop between scary news and public fear",
+            "media having no effect on people",
+            "declining viewership"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The aphorism that history is written by the victors, while reductive, underscores the extent to which dominant narratives marginalize alternative accounts of the past.\" The saying about history:",
+          "options": [
+            "is completely wrong",
+            "is oversimplified but highlights how powerful groups control historical narratives",
+            "means history is always accurate",
+            "suggests we should ignore history"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The protagonist's vacillation between moral rectitude and pragmatic expediency reveals the author's preoccupation with the intractable nature of ethical decision-making in an amoral universe.\" The author is primarily concerned with:",
+          "options": [
+            "the difficulty of making ethical choices when morality seems absent",
+            "the superiority of practical decisions over moral ones",
+            "the protagonist's indecisiveness as a character flaw",
+            "proving that the universe is fundamentally evil"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"The historian's meticulous documentation of quotidian practices serves not merely as ethnographic record but as a tacit rebuke to grand narratives that elide the lived experiences of ordinary people.\" The historian's approach:",
+          "options": [
+            "focuses only on famous historical figures",
+            "supports traditional ways of writing history",
+            "challenges history that ignores everyday people's experiences",
+            "dismisses the importance of daily life"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The critic's invocation of intertextuality as an analytical framework obscures rather than illuminates the work's inherent meaning, substituting erudite obfuscation for genuine insight.\" The passage suggests that:",
+          "options": [
+            "intertextuality is always a useful analytical tool",
+            "the critic's approach clarifies the work's meaning",
+            "scholarly complexity can sometimes hide a lack of real understanding",
+            "the work has no inherent meaning"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The company's ostensible commitment to environmental stewardship, manifested through cosmetic initiatives and green-washing campaigns, serves to obfuscate its deleterious impact on local ecosystems.\" The company is accused of:",
+          "options": [
+            "genuine environmental protection",
+            "being transparent about its environmental impact",
+            "making meaningful changes to protect nature",
+            "using superficial measures to hide environmental damage"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Read: \"The novelist's penchant for digressive narratives and labyrinthine plot structures reflects a deliberate subversion of conventional storytelling that privileges closure and resolution.\" The novelist:",
+          "options": [
+            "writes traditional stories with clear endings",
+            "intentionally avoids conventional narrative structures",
+            "focuses on simple, straightforward plots",
+            "fails to understand proper storytelling techniques"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The philosopher's propensity to couch empirical claims in metaphysical language renders his arguments impervious to falsification and thus epistemologically suspect.\" The criticism is that the philosopher:",
+          "options": [
+            "makes his arguments impossible to disprove scientifically",
+            "uses too much scientific evidence",
+            "writes in language that is too simple",
+            "provides clear testable hypotheses"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"The politician's rhetorical strategy of conflating patriotism with acquiescence to policy decisions represents a pernicious attempt to delegitimize dissent through appeals to national solidarity.\" The politician is trying to:",
+          "options": [
+            "encourage healthy political debate",
+            "separate patriotism from policy agreement",
+            "make disagreement seem unpatriotic",
+            "promote genuine national unity"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The anthropologist's ethnographic study reveals how purportedly universal human emotions are in fact culturally contingent constructions that vary dramatically across different societies.\" The study demonstrates that:",
+          "options": [
+            "all human emotions are identical across cultures",
+            "emotions thought to be universal are actually shaped by culture",
+            "anthropological research is unreliable",
+            "some cultures lack emotional expression entirely"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The architect's predilection for brutalist aesthetics, while consonant with modernist principles, has proven antithetical to the community's aspirations for convivial public spaces.\" The problem is that:",
+          "options": [
+            "the architect ignored modernist principles",
+            "the community rejected all modern architecture",
+            "the architectural style conflicts with community desires for welcoming spaces",
+            "brutalist design is inherently flawed"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The economist's prognostications about market volatility, couched in the language of scientific certainty, belie the inherently stochastic nature of financial systems.\" The economist is criticized for:",
+          "options": [
+            "acknowledging uncertainty in financial markets",
+            "using scientific methods inappropriately",
+            "presenting unpredictable systems as if they were predictable",
+            "being too cautious in market predictions"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The curator's decision to juxtapose contemporary installations with classical sculptures creates a dialectical tension that interrogates conventional boundaries between high and low culture.\" The curatorial approach:",
+          "options": [
+            "reinforces traditional cultural hierarchies",
+            "separates different types of art completely",
+            "challenges established distinctions between cultural forms",
+            "dismisses the value of classical art"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The linguist's assertion that linguistic competence is innate rather than acquired has profound implications for pedagogical practices that presuppose language learning as a process of cultural transmission.\" This theory suggests:",
+          "options": [
+            "language teaching methods may need fundamental reconsideration",
+            "cultural transmission is the primary way humans learn language",
+            "all current language teaching methods are perfect",
+            "linguistics has no practical applications"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"The government's promulgation of transparency initiatives while simultaneously expanding surveillance capabilities represents a paradoxical approach to democratic accountability.\" The paradox lies in:",
+          "options": [
+            "complete government openness",
+            "the simultaneous pursuit of openness and secrecy",
+            "the rejection of all surveillance methods",
+            "the abandonment of democratic principles"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The scientist's reluctance to extrapolate beyond the immediate data reflects an epistemological humility that stands in stark contrast to the grandiose claims of popular science communication.\" The scientist is praised for:",
+          "options": [
+            "making bold claims about scientific discoveries",
+            "refusing to acknowledge the limits of research",
+            "being appropriately cautious about drawing broad conclusions",
+            "dismissing all scientific communication efforts"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The author's deployment of unreliable narration serves not merely as a literary device but as an epistemological meditation on the provisional nature of truth itself.\" The narrative technique:",
+          "options": [
+            "simply creates confusion for readers",
+            "explores deeper questions about the nature of truth",
+            "demonstrates poor storytelling skills",
+            "avoids all philosophical implications"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The corporation's assiduous cultivation of a progressive brand image through strategic philanthropy masks its perpetuation of exploitative labor practices in developing markets.\" The corporation is accused of:",
+          "options": [
+            "genuine commitment to progressive values",
+            "transparency about its global practices",
+            "using charitable giving to hide unethical business practices",
+            "focusing too much on worker welfare"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The psychologist's reification of cognitive categories into discrete neurological entities reflects a reductionist bias that fails to account for the emergent properties of consciousness.\" The criticism concerns:",
+          "options": [
+            "oversimplifying complex mental phenomena by reducing them to brain parts",
+            "ignoring neurological research entirely",
+            "being too holistic in approach",
+            "focusing exclusively on consciousness studies"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"The diplomat's penchant for circumlocution, while frustrating to direct communicators, serves the pragmatic function of preserving negotiating space through strategic ambiguity.\" The diplomatic style:",
+          "options": [
+            "is simply poor communication",
+            "prevents all meaningful negotiation",
+            "deliberately uses vague language for strategic purposes",
+            "demonstrates lack of intelligence"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The artist's rejection of mimetic representation in favor of abstract expressionism constitutes an implicit critique of the bourgeois valorization of technical virtuosity over emotional authenticity.\" The artist believes:",
+          "options": [
+            "technical skill is more important than emotion",
+            "realistic art is superior to abstract art",
+            "middle-class values emphasize technique over genuine feeling",
+            "all art should be representational"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The scholar's insistence on theoretical parsimony, while methodologically sound, risks eliding the multifarious complexities that characterize real-world phenomena.\" The concern is that:",
+          "options": [
+            "simple theories may overlook important complexities",
+            "theoretical approaches are always flawed",
+            "complex theories are inherently better",
+            "real-world phenomena are always simple"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"The journalist's predisposition to sensationalize quotidian events reflects the commercial imperatives of contemporary media rather than any commitment to informational accuracy.\" The problem stems from:",
+          "options": [
+            "journalists' personal preferences for drama",
+            "the public's complete disinterest in news",
+            "business pressures that prioritize attention over accuracy",
+            "excessive government regulation of media"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The philosopher's apotheosis of rational discourse as the sole arbiter of truth neglects the epistemic value of intuitive and experiential ways of knowing.\" The philosopher is criticized for:",
+          "options": [
+            "rejecting all forms of logical thinking",
+            "overvaluing reason while dismissing other sources of knowledge",
+            "being too open to non-rational approaches",
+            "focusing exclusively on personal experience"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The historian's tendency to impose contemporary moral frameworks on historical actors represents a form of chronological chauvinism that distorts our understanding of the past.\" The historian's error involves:",
+          "options": [
+            "judging historical figures by today's moral standards",
+            "refusing to make any moral judgments",
+            "being too sympathetic to historical figures",
+            "focusing only on recent history"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"The novelist's proclivity for metafictional devices, while intellectually stimulating, threatens to subordinate narrative engagement to cerebral experimentation.\" The concern is that:",
+          "options": [
+            "the novels are too emotionally engaging",
+            "intellectual elements may overshadow storytelling appeal",
+            "metafiction is inherently inferior to traditional narrative",
+            "readers prefer simple, straightforward stories"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The critic's excoriation of popular culture as inherently debased reveals an elitist prejudice that fails to acknowledge the sophisticated cultural work performed by supposedly lowbrow forms.\" The critic is accused of:",
+          "options": [
+            "being too appreciative of popular culture",
+            "understanding the complexity of mass media",
+            "dismissing popular culture based on snobbish assumptions",
+            "analyzing culture without any theoretical framework"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The scientist's adherence to methodological orthodoxy, while ensuring replicability, may inadvertently preclude the serendipitous discoveries that emerge from experimental improvisation.\" The potential problem with strict methodology is:",
+          "options": [
+            "it guarantees unexpected discoveries",
+            "it makes research impossible to replicate",
+            "it might prevent accidental breakthroughs",
+            "it leads to careless experimental design"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The politician's rhetoric of fiscal responsibility serves as a euphemistic veil for austerity measures that disproportionately impact society's most vulnerable populations.\" The politician is accused of:",
+          "options": [
+            "genuinely caring about government spending",
+            "being completely transparent about policy goals",
+            "using pleasant language to disguise harmful policies",
+            "focusing too much on helping vulnerable people"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The architect's commitment to sustainable design principles, while environmentally laudable, has resulted in structures that prioritize ecological considerations over human comfort and functionality.\" The criticism suggests:",
+          "options": [
+            "environmental concerns are unimportant in architecture",
+            "the architect ignores sustainability completely",
+            "ecological priorities may sometimes conflict with human needs",
+            "sustainable buildings are always more comfortable"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The composer's predilection for atonal structures challenges listeners' expectations while simultaneously alienating audiences accustomed to tonal conventions.\" The composer faces the dilemma of:",
+          "options": [
+            "pleasing everyone with conventional music",
+            "balancing artistic innovation with audience accessibility",
+            "avoiding all traditional musical elements",
+            "writing music that is too simple"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The anthropologist's emphasis on cultural relativism, though methodologically defensible, risks moral quietism when confronted with practices that violate fundamental human rights.\" The concern is that:",
+          "options": [
+            "cultural relativism is methodologically unsound",
+            "respecting cultural differences might prevent criticism of harmful practices",
+            "human rights are culturally relative concepts",
+            "anthropologists should impose their values on other cultures"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The curator's decision to decontextualize artifacts from their cultural origins, while facilitating comparative analysis, perpetuates colonial paradigms of cultural appropriation.\" The curatorial approach is problematic because:",
+          "options": [
+            "it makes comparison impossible",
+            "it respects cultural origins too much",
+            "it continues patterns of taking culture out of context like colonizers did",
+            "it focuses only on one culture at a time"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The economist's mathematical models, despite their predictive limitations, provide a heuristic framework that enables systematic analysis of otherwise intractably complex phenomena.\" The models are valuable because:",
+          "options": [
+            "they predict economic events with perfect accuracy",
+            "they offer useful tools for understanding complex systems",
+            "they eliminate all uncertainty from economic analysis",
+            "they are completely accurate representations of reality"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The philosopher's deconstruction of binary oppositions reveals the extent to which supposedly natural categories are actually contingent products of historical and cultural forces.\" The philosopher demonstrates that:",
+          "options": [
+            "binary oppositions are natural and unchanging",
+            "categories we think are natural are actually culturally constructed",
+            "historical forces have no impact on how we think",
+            "all philosophical analysis is meaningless"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The novelist's exploration of liminal spaces—both geographical and psychological—serves as a metaphor for the transitional nature of contemporary identity formation.\" The author uses borderland settings to represent:",
+          "options": [
+            "the unchanging nature of personal identity",
+            "the fluid, changing process of how people develop identity today",
+            "the superiority of traditional identity concepts",
+            "the irrelevance of geographical location"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The scientist's reluctance to engage with the ethical implications of her research, while understandable given disciplinary boundaries, reflects a troubling abdication of moral responsibility.\" The scientist is criticized for:",
+          "options": [
+            "being too concerned with ethical issues",
+            "avoiding moral questions raised by her work",
+            "working outside her field of expertise",
+            "focusing exclusively on practical applications"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The critic's valorization of difficulty in artistic works reveals an aesthetic ideology that conflates complexity with quality and accessibility with mediocrity.\" The critic wrongly assumes that:",
+          "options": [
+            "simple art is always superior to complex art",
+            "difficulty and quality are unrelated in art",
+            "complex art is automatically better than accessible art",
+            "all art should be equally difficult to understand"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The historian's periodization of cultural movements, though pedagogically useful, imposes artificial boundaries on phenomena that were actually characterized by gradual transformation and overlap.\" The problem with historical periods is that:",
+          "options": [
+            "they are completely accurate representations of the past",
+            "they help students understand history too well",
+            "they create false separations in naturally continuous processes",
+            "they focus too much on gradual change"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The linguist's insistence on descriptive rather than prescriptive analysis, while methodologically rigorous, may inadvertently legitimize linguistic practices that perpetuate social inequalities.\" The concern is that:",
+          "options": [
+            "prescriptive analysis is always more accurate",
+            "describing language use without judgment might reinforce unfair social patterns",
+            "linguistic methodology is inherently flawed",
+            "social inequalities are unrelated to language use"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The politician's deployment of populist rhetoric, ostensibly to champion democratic participation, actually serves to circumvent established institutional channels of political deliberation.\" The politician uses populist language to:",
+          "options": [
+            "strengthen democratic institutions",
+            "encourage thoughtful political discussion",
+            "bypass normal political processes while claiming to support democracy",
+            "reduce public participation in politics"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The artist's commodification of transgressive imagery for commercial consumption represents a paradoxical domestication of subversive artistic impulses.\" The paradox involves:",
+          "options": [
+            "making rebellious art safe and profitable",
+            "keeping art completely separate from commerce",
+            "maintaining the subversive power of transgressive imagery",
+            "avoiding all commercial considerations in art"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"The psychologist's reductionist approach to consciousness, while scientifically tractable, fails to account for the phenomenological richness that characterizes subjective experience.\" The limitation of this approach is:",
+          "options": [
+            "it is too focused on subjective experience",
+            "it cannot be studied scientifically",
+            "it oversimplifies the complex nature of conscious experience",
+            "it pays too much attention to individual differences"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The diplomat's strategic use of diplomatic immunity to shield questionable practices from scrutiny exemplifies the tension between international cooperation and domestic accountability.\" This situation illustrates:",
+          "options": [
+            "the perfect harmony between international and domestic law",
+            "the conflict between global cooperation and local oversight",
+            "the irrelevance of diplomatic immunity",
+            "the superiority of international law over domestic law"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The scholar's theoretical framework, while intellectually coherent, demonstrates a troubling insularity that ignores empirical evidence contradicting its foundational assumptions.\" The scholar's problem is:",
+          "options": [
+            "paying too much attention to contradictory evidence",
+            "lacking intellectual coherence in theoretical work",
+            "remaining closed to evidence that challenges core beliefs",
+            "focusing exclusively on empirical research"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The journalist's commitment to objectivity, though professionally mandated, may inadvertently perpetuate false equivalencies that distort public understanding of complex issues.\" The risk of strict objectivity is:",
+          "options": [
+            "it always leads to accurate reporting",
+            "it might treat unequal viewpoints as equally valid",
+            "it prevents all bias in news reporting",
+            "it makes journalism too subjective"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The novelist's experimental narrative techniques, while formally innovative, risk sacrificing emotional resonance for intellectual sophistication.\" The potential trade-off involves:",
+          "options": [
+            "gaining both innovation and emotional impact",
+            "losing intellectual depth for emotional appeal",
+            "possibly reducing emotional connection in favor of formal experimentation",
+            "maintaining perfect balance between form and feeling"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The curator's thematic organization of the exhibition, despite its interpretive clarity, imposes a retrospective coherence that may not reflect the chaotic reality of the historical period depicted.\" The curatorial approach risks:",
+          "options": [
+            "making the exhibition too confusing for visitors",
+            "accurately reflecting historical chaos",
+            "creating false order in actually disordered historical events",
+            "providing insufficient interpretive guidance"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The economist's advocacy for market solutions to social problems, while theoretically elegant, fails to acknowledge the distributional inequities that unfettered markets tend to perpetuate.\" The economist overlooks:",
+          "options": [
+            "the theoretical beauty of market mechanisms",
+            "how free markets can increase inequality",
+            "all social problems requiring government intervention",
+            "the efficiency of market-based solutions"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The philosopher's systematic doubt, though epistemologically foundational, threatens to devolve into a corrosive skepticism that undermines the possibility of knowledge itself.\" The danger of systematic doubt is:",
+          "options": [
+            "it provides too much certainty about knowledge",
+            "it might lead to destructive questioning that makes knowledge impossible",
+            "it accepts all claims without questioning",
+            "it focuses only on practical applications"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The scientist's interdisciplinary methodology, while potentially illuminating, risks diluting disciplinary rigor through the superficial integration of disparate theoretical frameworks.\" The concern with interdisciplinary work is:",
+          "options": [
+            "it maintains too much focus on single disciplines",
+            "it might compromise depth by shallowly combining different fields",
+            "it always produces more rigorous results",
+            "it prevents any meaningful theoretical integration"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The critic's deconstructionist reading, though theoretically sophisticated, may paradoxically reinforce the very power structures it purports to dismantle through its esoteric discourse.\" The irony is that:",
+          "options": [
+            "deconstructionist theory is theoretically unsophisticated",
+            "the complex language might actually support the systems it claims to critique",
+            "the reading successfully dismantles all power structures",
+            "esoteric discourse is always politically effective"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The researcher's meticulous methodology notwithstanding, her conclusions were vitiated by the inherent bias in her sample selection, rendering the entire study's validity questionable.\" The study's problem was:",
+          "options": [
+            "the methodology was too careful",
+            "the conclusions were too detailed",
+            "biased sample selection undermined the results",
+            "the research took too long to complete"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The critic's excoriation of contemporary art, while superficially appearing as aesthetic judgment, reveals more about his own ossified sensibilities than about the works themselves.\" The passage suggests:",
+          "options": [
+            "the critic's harsh criticism reflects his outdated views rather than the art's quality",
+            "contemporary art is genuinely inferior",
+            "the critic is completely objective",
+            "aesthetic judgment is impossible"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"The politician's rhetoric, suffused with populist appeals and devoid of substantive policy proposals, exemplifies the pernicious tendency to privilege emotional resonance over rational discourse.\" The criticism focuses on:",
+          "options": [
+            "the politician's personal character",
+            "specific policy disagreements",
+            "prioritizing emotional appeal over reasoned argument",
+            "the politician's speaking style"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The company's ostensible commitment to environmental stewardship was belied by its simultaneous lobbying against stricter emissions standards.\" This indicates:",
+          "options": [
+            "the company genuinely cares about the environment",
+            "lobbying and environmental concern are compatible",
+            "the company's public environmental stance was contradicted by its private actions",
+            "emissions standards are unnecessary"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The novelist's penchant for circumlocutory prose, while demonstrating considerable erudition, ultimately obfuscates rather than illuminates her central themes.\" The novelist's writing style:",
+          "options": [
+            "clearly explains her main ideas",
+            "shows learning but makes themes harder to understand",
+            "lacks intellectual depth",
+            "is perfectly balanced"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The historian's revisionist account, though methodologically sound, has been excoriated by traditionalists who conflate established narrative with immutable truth.\" The traditionalists:",
+          "options": [
+            "accept new interpretations readily",
+            "question the historian's methods",
+            "mistakenly treat accepted stories as unchangeable facts",
+            "support all revisionist history"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The symposium's purported aim of fostering interdisciplinary dialogue was subverted by the participants' inability to transcend their respective disciplinary parochialism.\" The symposium failed because:",
+          "options": [
+            "there weren't enough participants",
+            "the venue was inappropriate",
+            "participants couldn't move beyond their narrow academic perspectives",
+            "interdisciplinary dialogue is impossible"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The CEO's contention that automation would augment rather than supplant human workers proved chimerical as factory closures proliferated throughout the region.\" The CEO's claim was:",
+          "options": [
+            "proven correct by events",
+            "illusory, as job losses actually increased",
+            "partially accurate",
+            "never properly tested"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The scholar's magnum opus, while demonstrating prodigious research, suffers from a fundamental lacuna in its theoretical framework.\" The work's weakness is:",
+          "options": [
+            "insufficient research",
+            "poor writing quality",
+            "a significant gap in its theoretical foundation",
+            "excessive complexity"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The artist's oeuvre, characterized by its iconoclastic rejection of conventional aesthetics, paradoxically became the very paradigm it originally sought to subvert.\" The irony is that:",
+          "options": [
+            "the artist abandoned their original vision",
+            "the rebellious art became the new standard it once opposed",
+            "conventional aesthetics proved superior",
+            "the artist was never truly innovative"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The government's sanguine projections regarding economic recovery were predicated on assumptions that subsequent events rendered risibly optimistic.\" The projections were:",
+          "options": [
+            "accurately pessimistic",
+            "based on realistic assumptions",
+            "laughably over-optimistic given what actually happened",
+            "deliberately conservative"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The committee's obfuscation of key findings through euphemistic language served to attenuate public outrage while preserving institutional credibility.\" The committee:",
+          "options": [
+            "presented findings clearly and directly",
+            "used vague language to reduce public anger",
+            "ignored institutional concerns",
+            "failed to control public reaction"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The philosopher's argument, though internally consistent, rests upon premises so rarefied as to render it practically nugatory.\" The argument's problem is:",
+          "options": [
+            "it contains logical contradictions",
+            "it's too simple to be useful",
+            "its assumptions are so abstract it becomes practically worthless",
+            "it lacks philosophical depth"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The critic's encomium to the director's latest film stands in marked contrast to her previous excoriation of his earlier works.\" The critic has:",
+          "options": [
+            "maintained consistent disapproval",
+            "moved from harsh criticism to high praise",
+            "remained neutral throughout",
+            "focused only on technical aspects"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The scholar's interpolation of contemporary concerns into historical analysis, while enhancing relevance, risks anachronistic distortion of past events.\" The danger lies in:",
+          "options": [
+            "making history too relevant",
+            "imposing modern perspectives inappropriately on the past",
+            "ignoring contemporary issues",
+            "focusing too much on facts"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The corporation's philanthropic endeavors, however laudable in intention, cannot expiate the environmental depredations of its core business practices.\" The passage suggests:",
+          "options": [
+            "charitable work fully compensates for environmental damage",
+            "the corporation has no environmental impact",
+            "good intentions don't excuse harmful business practices",
+            "philanthropy is meaningless"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The politician's rhetorical strategy of conflating patriotism with acquiescence to government policy represents a pernicious erosion of democratic discourse.\" The problem identified is:",
+          "options": [
+            "too much patriotism in politics",
+            "insufficient government authority",
+            "equating love of country with blind obedience to officials",
+            "excessive democratic participation"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The author's propensity for digressive tangents, while occasionally illuminating, ultimately vitiated the coherence of her central argument.\" The author's digressions:",
+          "options": [
+            "consistently strengthened her argument",
+            "were completely irrelevant",
+            "sometimes provided insight but weakened overall coherence",
+            "were perfectly integrated into the text"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The economist's prognostications, though buttressed by sophisticated modeling, failed to account for the psychological factors that ultimately precipitated the market collapse.\" The predictions failed because:",
+          "options": [
+            "the modeling was too simple",
+            "they ignored human psychological elements",
+            "market collapses are impossible to predict",
+            "the economist lacked experience"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The documentary's tendentious portrayal of historical events, while emotionally compelling, subordinates factual accuracy to ideological agenda.\" The documentary:",
+          "options": [
+            "maintains perfect objectivity",
+            "balances emotion and facts equally",
+            "sacrifices truth for political purpose",
+            "lacks emotional impact"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The architect's innovative design, though aesthetically arresting, proved functionally deficient in ways that became manifest only after occupancy.\" The building's problems:",
+          "options": [
+            "were immediately obvious",
+            "were purely aesthetic",
+            "only became apparent when people used the building",
+            "were easily corrected"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The researcher's methodology, while ostensibly rigorous, was vitiated by confirmation bias that skewed data interpretation toward predetermined conclusions.\" The research was flawed by:",
+          "options": [
+            "insufficient data collection",
+            "interpreting results to support existing beliefs",
+            "using outdated techniques",
+            "lacking clear conclusions"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The novelist's exploration of moral ambiguity, though intellectually stimulating, is undermined by characterizations so schematic as to preclude genuine psychological complexity.\" The characters are:",
+          "options": [
+            "psychologically realistic",
+            "morally unambiguous",
+            "too simplified to be believably complex",
+            "intellectually sophisticated"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The committee's dilatory approach to addressing the crisis, ostensibly cautious, actually exacerbated the very problems they purported to solve.\" The committee's delays:",
+          "options": [
+            "successfully resolved the crisis",
+            "made the problems worse despite claims of helping",
+            "showed appropriate caution",
+            "had no effect on the situation"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The critic's fulmination against modern technology, though articulated with considerable eloquence, betrays a nostalgic romanticism that ignores technology's demonstrable benefits.\" The critic:",
+          "options": [
+            "provides balanced analysis of technology",
+            "focuses only on technology's benefits",
+            "lets romantic nostalgia blind them to technology's advantages",
+            "lacks eloquence in their arguments"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The scholar's erudite commentary, while displaying impressive breadth of knowledge, suffers from a pedantic tendency that obscures rather than clarifies the subject matter.\" The scholar's expertise:",
+          "options": [
+            "perfectly illuminates the topic",
+            "is marred by overly academic presentation that confuses the subject",
+            "lacks sufficient depth",
+            "focuses too much on practical applications"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The government's promulgation of new regulations, though procedurally correct, failed to address the substantive concerns that precipitated the need for reform.\" The regulations:",
+          "options": [
+            "were procedurally flawed",
+            "addressed all substantive issues",
+            "followed proper procedure but missed the real problems",
+            "were unnecessary from the start"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The artist's avant-garde installation, while challenging conventional perceptions, risks devolving into mere provocation devoid of substantive artistic merit.\" The concern is that the work:",
+          "options": [
+            "is too conventional",
+            "lacks any challenging elements",
+            "might become shock value without real artistic worth",
+            "has too much substantive content"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The historian's revisionist interpretation, though meticulously researched, has been dismissed by colleagues as heterodox speculation rather than legitimate scholarship.\" The colleagues view the work as:",
+          "options": [
+            "poorly researched",
+            "unorthodox theorizing rather than proper academic work",
+            "completely conventional",
+            "methodologically sound throughout"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The philosopher's recondite arguments, while intellectually rigorous, remain largely inaccessible to practitioners seeking pragmatic solutions to ethical dilemmas.\" The arguments are:",
+          "options": [
+            "easily understood by everyone",
+            "too abstract for people needing practical ethical guidance",
+            "insufficiently intellectual",
+            "purely pragmatic in focus"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The corporation's ostentatious display of corporate social responsibility, while garnering public acclaim, functions primarily as a palliative measure to deflect attention from more systemic issues.\" The display serves to:",
+          "options": [
+            "genuinely address systemic problems",
+            "soothe concerns while avoiding deeper issues",
+            "eliminate all corporate problems",
+            "reduce public attention entirely"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The author's magisterial survey of literary modernism, though comprehensive in scope, is marred by a tendency toward hagiographic treatment of certain canonical figures.\" The survey's weakness is:",
+          "options": [
+            "insufficient scope",
+            "lack of comprehensive coverage",
+            "overly reverential portrayal of some important writers",
+            "complete objectivity throughout"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The economist's sanguine assessment of market conditions, while buoyed by recent positive indicators, fails to account for underlying structural vulnerabilities.\" The assessment:",
+          "options": [
+            "is overly pessimistic",
+            "accounts for all structural issues",
+            "is optimistic but ignores fundamental weaknesses",
+            "focuses only on negative indicators"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The politician's grandiloquent rhetoric, though emotionally stirring, was ultimately vitiated by its disconnection from substantive policy proposals.\" The rhetoric was weakened by:",
+          "options": [
+            "lack of emotional appeal",
+            "too much focus on specific policies",
+            "absence of concrete policy substance",
+            "overly technical language"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The researcher's innovative methodology, while theoretically sound, proved impracticable when subjected to the constraints of real-world application.\" The methodology:",
+          "options": [
+            "was both theoretically and practically flawed",
+            "worked perfectly in all situations",
+            "was theoretically valid but practically unworkable",
+            "lacked theoretical foundation"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The curator's curatorial vision, though intellectually coherent, was undermined by logistical constraints that rendered the exhibition's execution perfunctory.\" The exhibition suffered from:",
+          "options": [
+            "lack of intellectual coherence",
+            "practical limitations that made the final result superficial",
+            "excessive attention to detail",
+            "overly ambitious intellectual goals"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The scholar's taxonomic approach to literary analysis, while methodologically rigorous, tends to ossify the very dynamism that characterizes great literature.\" The approach:",
+          "options": [
+            "lacks methodological rigor",
+            "perfectly captures literary dynamism",
+            "makes rigid what should remain fluid and alive",
+            "focuses too much on individual works"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The committee's consensus-building efforts, though laudable in intention, resulted in recommendations so anodyne as to preclude meaningful reform.\" The recommendations were:",
+          "options": [
+            "too radical for implementation",
+            "so bland they prevented real change",
+            "perfectly balanced for reform",
+            "clearly focused on specific changes"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The critic's perspicacious analysis of contemporary culture, while illuminating surface phenomena, fails to penetrate the deeper structural forces that shape social reality.\" The analysis:",
+          "options": [
+            "completely ignores surface phenomena",
+            "provides insight into obvious aspects but misses underlying causes",
+            "focuses only on structural forces",
+            "lacks any illuminating qualities"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The philosopher's attempt to reconcile empiricism with rationalism, though intellectually ambitious, results in a synthesis so attenuated as to satisfy neither epistemological tradition.\" The synthesis:",
+          "options": [
+            "perfectly satisfies both traditions",
+            "is so weakened it pleases neither philosophical approach",
+            "lacks intellectual ambition",
+            "strongly favors empiricism over rationalism"
+          ],
+          "correct": 1
+        }
       ]
     }
   ]

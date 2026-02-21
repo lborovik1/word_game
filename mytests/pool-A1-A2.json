@@ -1,78 +1,5038 @@
 {
   "slots": [
     {
-      "slot": 1, "level": "A1", "type": "vocabulary",
+      "slot": 1,
+      "level": "A1",
+      "type": "vocabulary",
       "variants": [
-        {"question": "What is the opposite of \"big\"?", "options": ["tall","small","fast","old"], "correct": 1},
-        {"question": "What is the opposite of \"hot\"?", "options": ["warm","cold","new","wet"], "correct": 1},
-        {"question": "What is the opposite of \"happy\"?", "options": ["angry","sad","tired","hungry"], "correct": 1},
-        {"question": "What color is the sky on a clear day?", "options": ["green","blue","red","yellow"], "correct": 1},
-        {"question": "Which animal says \"moo\"?", "options": ["dog","cow","cat","bird"], "correct": 1},
-        {"question": "What is the opposite of \"new\"?", "options": ["young","old","big","fast"], "correct": 1},
-        {"question": "Which is a fruit?", "options": ["bread","apple","cheese","rice"], "correct": 1},
-        {"question": "What do you drink in the morning?", "options": ["soup","coffee","salad","cake"], "correct": 1},
-        {"question": "What is the opposite of \"open\"?", "options": ["big","closed","long","high"], "correct": 1},
-        {"question": "Which one is a body part?", "options": ["table","hand","book","chair"], "correct": 1}
+        {
+          "question": "What is the opposite of \"big\"?",
+          "options": [
+            "tall",
+            "small",
+            "fast",
+            "old"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What is the opposite of \"hot\"?",
+          "options": [
+            "warm",
+            "cold",
+            "new",
+            "wet"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What is the opposite of \"happy\"?",
+          "options": [
+            "angry",
+            "sad",
+            "tired",
+            "hungry"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What color is the sky on a clear day?",
+          "options": [
+            "green",
+            "blue",
+            "red",
+            "yellow"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which animal says \"moo\"?",
+          "options": [
+            "dog",
+            "cow",
+            "cat",
+            "bird"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What is the opposite of \"new\"?",
+          "options": [
+            "young",
+            "old",
+            "big",
+            "fast"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which is a fruit?",
+          "options": [
+            "bread",
+            "apple",
+            "cheese",
+            "rice"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What do you drink in the morning?",
+          "options": [
+            "soup",
+            "coffee",
+            "salad",
+            "cake"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What is the opposite of \"open\"?",
+          "options": [
+            "big",
+            "closed",
+            "long",
+            "high"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which one is a body part?",
+          "options": [
+            "table",
+            "hand",
+            "book",
+            "chair"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What is the opposite of \"old\"?",
+          "options": [
+            "young",
+            "big",
+            "slow",
+            "dark"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "What is the opposite of \"fast\"?",
+          "options": [
+            "quick",
+            "slow",
+            "loud",
+            "clean"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What is the opposite of \"good\"?",
+          "options": [
+            "nice",
+            "great",
+            "bad",
+            "fine"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What is the opposite of \"short\"?",
+          "options": [
+            "small",
+            "thin",
+            "wide",
+            "tall"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "What color is an apple usually?",
+          "options": [
+            "red",
+            "blue",
+            "purple",
+            "black"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "What color is grass?",
+          "options": [
+            "yellow",
+            "green",
+            "orange",
+            "pink"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What color is the sun?",
+          "options": [
+            "blue",
+            "purple",
+            "yellow",
+            "brown"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What color is snow?",
+          "options": [
+            "gray",
+            "red",
+            "green",
+            "white"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Which animal says \"woof\"?",
+          "options": [
+            "dog",
+            "cat",
+            "horse",
+            "pig"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Which animal says \"meow\"?",
+          "options": [
+            "duck",
+            "cat",
+            "sheep",
+            "fish"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which animal lives in water?",
+          "options": [
+            "bird",
+            "cow",
+            "fish",
+            "rabbit"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which animal can fly?",
+          "options": [
+            "mouse",
+            "frog",
+            "snake",
+            "bird"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "What do you use to eat soup?",
+          "options": [
+            "spoon",
+            "knife",
+            "plate",
+            "cup"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "What do you wear on your feet?",
+          "options": [
+            "hat",
+            "shoes",
+            "shirt",
+            "pants"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What do you sleep in?",
+          "options": [
+            "chair",
+            "table",
+            "bed",
+            "door"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What do you use to write?",
+          "options": [
+            "book",
+            "paper",
+            "ruler",
+            "pen"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Where do you buy food?",
+          "options": [
+            "store",
+            "park",
+            "school",
+            "hospital"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Where do you go to learn?",
+          "options": [
+            "restaurant",
+            "school",
+            "beach",
+            "cinema"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Where do you see a doctor?",
+          "options": [
+            "library",
+            "bank",
+            "hospital",
+            "hotel"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Where do you watch movies?",
+          "options": [
+            "office",
+            "garage",
+            "kitchen",
+            "cinema"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "What meal do you eat in the morning?",
+          "options": [
+            "breakfast",
+            "lunch",
+            "dinner",
+            "snack"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "What meal do you eat at noon?",
+          "options": [
+            "breakfast",
+            "lunch",
+            "dinner",
+            "tea"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What meal do you eat in the evening?",
+          "options": [
+            "breakfast",
+            "lunch",
+            "dinner",
+            "coffee"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What do you drink when you are thirsty?",
+          "options": [
+            "bread",
+            "meat",
+            "cheese",
+            "water"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "How many days are in a week?",
+          "options": [
+            "seven",
+            "five",
+            "ten",
+            "twelve"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "How many months are in a year?",
+          "options": [
+            "ten",
+            "twelve",
+            "eight",
+            "fifteen"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What comes after Monday?",
+          "options": [
+            "Sunday",
+            "Wednesday",
+            "Tuesday",
+            "Friday"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What comes before Sunday?",
+          "options": [
+            "Monday",
+            "Tuesday",
+            "Thursday",
+            "Saturday"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "What season comes after winter?",
+          "options": [
+            "spring",
+            "summer",
+            "autumn",
+            "fall"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "What season is very hot?",
+          "options": [
+            "winter",
+            "summer",
+            "spring",
+            "autumn"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What season do leaves fall?",
+          "options": [
+            "spring",
+            "summer",
+            "autumn",
+            "winter"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What season is very cold?",
+          "options": [
+            "spring",
+            "summer",
+            "autumn",
+            "winter"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "What is your mother's mother?",
+          "options": [
+            "grandmother",
+            "aunt",
+            "sister",
+            "cousin"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "What is your father's son?",
+          "options": [
+            "uncle",
+            "brother",
+            "cousin",
+            "nephew"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What is your mother's sister?",
+          "options": [
+            "grandmother",
+            "mother",
+            "aunt",
+            "niece"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What is your brother's daughter?",
+          "options": [
+            "sister",
+            "mother",
+            "aunt",
+            "niece"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "What part of your body do you use to see?",
+          "options": [
+            "eyes",
+            "ears",
+            "nose",
+            "mouth"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "What part of your body do you use to hear?",
+          "options": [
+            "eyes",
+            "ears",
+            "hands",
+            "feet"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What part of your body do you use to smell?",
+          "options": [
+            "mouth",
+            "ears",
+            "nose",
+            "hair"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What part of your body do you use to walk?",
+          "options": [
+            "arms",
+            "head",
+            "back",
+            "feet"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "What do you use to open a door?",
+          "options": [
+            "key",
+            "book",
+            "phone",
+            "bag"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "What do you use to tell time?",
+          "options": [
+            "camera",
+            "watch",
+            "mirror",
+            "lamp"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What do you use to call someone?",
+          "options": [
+            "computer",
+            "television",
+            "phone",
+            "radio"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What do you use to carry things?",
+          "options": [
+            "window",
+            "wall",
+            "floor",
+            "bag"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "What fruit is yellow?",
+          "options": [
+            "banana",
+            "grape",
+            "strawberry",
+            "cherry"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "What fruit is orange?",
+          "options": [
+            "apple",
+            "orange",
+            "lemon",
+            "pear"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What vegetable is orange?",
+          "options": [
+            "lettuce",
+            "tomato",
+            "carrot",
+            "onion"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What vegetable is green?",
+          "options": [
+            "potato",
+            "corn",
+            "pepper",
+            "lettuce"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "What do you do when you are tired?",
+          "options": [
+            "sleep",
+            "run",
+            "dance",
+            "jump"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "What do you do when you are hungry?",
+          "options": [
+            "drink",
+            "eat",
+            "sing",
+            "read"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What do you do with a book?",
+          "options": [
+            "eat",
+            "drink",
+            "read",
+            "wear"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What is the opposite of \"old\"?",
+          "options": [
+            "young",
+            "tall",
+            "heavy",
+            "slow"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "What is the opposite of \"clean\"?",
+          "options": [
+            "white",
+            "dirty",
+            "soft",
+            "round"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What is the opposite of \"slow\"?",
+          "options": [
+            "quiet",
+            "light",
+            "fast",
+            "short"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What is the opposite of \"thin\"?",
+          "options": [
+            "long",
+            "dark",
+            "smooth",
+            "thick"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "What color is an apple usually?",
+          "options": [
+            "red",
+            "purple",
+            "black",
+            "orange"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "What color is grass?",
+          "options": [
+            "blue",
+            "green",
+            "pink",
+            "brown"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What color is the sun?",
+          "options": [
+            "white",
+            "gray",
+            "yellow",
+            "red"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What color is snow?",
+          "options": [
+            "gray",
+            "blue",
+            "green",
+            "white"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Which animal says \"woof\"?",
+          "options": [
+            "dog",
+            "cat",
+            "pig",
+            "horse"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Which animal says \"meow\"?",
+          "options": [
+            "sheep",
+            "cat",
+            "duck",
+            "cow"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which animal says \"oink\"?",
+          "options": [
+            "chicken",
+            "goat",
+            "pig",
+            "dog"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which animal says \"quack\"?",
+          "options": [
+            "bird",
+            "fish",
+            "mouse",
+            "duck"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "What do you wear on your feet?",
+          "options": [
+            "shoes",
+            "hat",
+            "gloves",
+            "scarf"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "What do you wear on your head?",
+          "options": [
+            "socks",
+            "hat",
+            "shirt",
+            "pants"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What do you wear on your hands when it's cold?",
+          "options": [
+            "shoes",
+            "coat",
+            "gloves",
+            "dress"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What do you wear around your neck when it's cold?",
+          "options": [
+            "boots",
+            "jacket",
+            "belt",
+            "scarf"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Where do you sleep?",
+          "options": [
+            "bed",
+            "table",
+            "chair",
+            "window"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Where do you cook food?",
+          "options": [
+            "bathroom",
+            "kitchen",
+            "bedroom",
+            "garden"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Where do you wash your hands?",
+          "options": [
+            "living room",
+            "closet",
+            "bathroom",
+            "garage"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Where do you park a car?",
+          "options": [
+            "kitchen",
+            "bedroom",
+            "bathroom",
+            "garage"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "What do you use to write?",
+          "options": [
+            "pen",
+            "cup",
+            "plate",
+            "spoon"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "What do you use to cut paper?",
+          "options": [
+            "fork",
+            "scissors",
+            "book",
+            "ruler"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What do you use to tell time?",
+          "options": [
+            "mirror",
+            "lamp",
+            "clock",
+            "picture"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What do you use to call someone?",
+          "options": [
+            "computer",
+            "television",
+            "radio",
+            "phone"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "What meal do you eat in the morning?",
+          "options": [
+            "breakfast",
+            "lunch",
+            "dinner",
+            "snack"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "What meal do you eat in the middle of the day?",
+          "options": [
+            "breakfast",
+            "lunch",
+            "dinner",
+            "dessert"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What meal do you eat in the evening?",
+          "options": [
+            "breakfast",
+            "lunch",
+            "dinner",
+            "tea"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What sweet food do you eat after a meal?",
+          "options": [
+            "soup",
+            "salad",
+            "bread",
+            "dessert"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "What part of your body do you use to see?",
+          "options": [
+            "eyes",
+            "ears",
+            "nose",
+            "mouth"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "What part of your body do you use to hear?",
+          "options": [
+            "feet",
+            "ears",
+            "hands",
+            "legs"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What part of your body do you use to smell?",
+          "options": [
+            "fingers",
+            "teeth",
+            "nose",
+            "hair"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What part of your body do you use to walk?",
+          "options": [
+            "arms",
+            "shoulders",
+            "head",
+            "legs"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "How many days are in a week?",
+          "options": [
+            "seven",
+            "ten",
+            "five",
+            "twelve"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "How many months are in a year?",
+          "options": [
+            "ten",
+            "twelve",
+            "eight",
+            "fifteen"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "How many minutes are in an hour?",
+          "options": [
+            "thirty",
+            "forty",
+            "sixty",
+            "fifty"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "How many hours are in a day?",
+          "options": [
+            "twenty",
+            "eighteen",
+            "sixteen",
+            "twenty-four"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "What season comes after winter?",
+          "options": [
+            "spring",
+            "summer",
+            "fall",
+            "autumn"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "What season comes after spring?",
+          "options": [
+            "winter",
+            "summer",
+            "fall",
+            "spring"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "What season comes after summer?",
+          "options": [
+            "spring",
+            "winter",
+            "fall",
+            "summer"
+          ],
+          "correct": 2
+        }
       ]
     },
     {
-      "slot": 2, "level": "A1", "type": "grammar",
+      "slot": 2,
+      "level": "A1",
+      "type": "grammar",
       "variants": [
-        {"question": "She ___ a student.", "options": ["am","is","are","be"], "correct": 1},
-        {"question": "They ___ from Spain.", "options": ["is","am","are","be"], "correct": 2},
-        {"question": "I ___ hungry.", "options": ["is","are","am","be"], "correct": 2},
-        {"question": "He ___ a teacher.", "options": ["are","am","is","be"], "correct": 2},
-        {"question": "We ___ happy today.", "options": ["is","am","are","be"], "correct": 2},
-        {"question": "The cat ___ on the table.", "options": ["am","are","is","be"], "correct": 2},
-        {"question": "My name ___ Anna.", "options": ["are","am","is","be"], "correct": 2},
-        {"question": "You ___ very kind.", "options": ["is","am","are","be"], "correct": 2},
-        {"question": "It ___ cold today.", "options": ["am","are","is","be"], "correct": 2},
-        {"question": "This ___ my book.", "options": ["am","are","is","be"], "correct": 2}
+        {
+          "question": "She ___ a student.",
+          "options": [
+            "am",
+            "is",
+            "are",
+            "be"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "They ___ from Spain.",
+          "options": [
+            "is",
+            "am",
+            "are",
+            "be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "I ___ hungry.",
+          "options": [
+            "is",
+            "are",
+            "am",
+            "be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "He ___ a teacher.",
+          "options": [
+            "are",
+            "am",
+            "is",
+            "be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "We ___ happy today.",
+          "options": [
+            "is",
+            "am",
+            "are",
+            "be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The cat ___ on the table.",
+          "options": [
+            "am",
+            "are",
+            "is",
+            "be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "My name ___ Anna.",
+          "options": [
+            "are",
+            "am",
+            "is",
+            "be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "You ___ very kind.",
+          "options": [
+            "is",
+            "am",
+            "are",
+            "be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "It ___ cold today.",
+          "options": [
+            "am",
+            "are",
+            "is",
+            "be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "This ___ my book.",
+          "options": [
+            "am",
+            "are",
+            "is",
+            "be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "You ___ my friend.",
+          "options": [
+            "am",
+            "are",
+            "is",
+            "be"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The cat ___ sleeping.",
+          "options": [
+            "are",
+            "am",
+            "is",
+            "be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "My parents ___ at home.",
+          "options": [
+            "is",
+            "are",
+            "am",
+            "be"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "It ___ cold today.",
+          "options": [
+            "are",
+            "am",
+            "be",
+            "is"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The books ___ on the table.",
+          "options": [
+            "is",
+            "am",
+            "are",
+            "be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "I ___ tired.",
+          "options": [
+            "is",
+            "are",
+            "be",
+            "am"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "She ___ very kind.",
+          "options": [
+            "am",
+            "are",
+            "be",
+            "is"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The dog ___ brown.",
+          "options": [
+            "are",
+            "is",
+            "am",
+            "be"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "We ___ in the garden.",
+          "options": [
+            "is",
+            "am",
+            "be",
+            "are"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "He ___ late.",
+          "options": [
+            "am",
+            "are",
+            "is",
+            "be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The children ___ playing.",
+          "options": [
+            "is",
+            "are",
+            "am",
+            "be"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "I ___ from Italy.",
+          "options": [
+            "are",
+            "is",
+            "be",
+            "am"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "This ___ my car.",
+          "options": [
+            "am",
+            "are",
+            "is",
+            "be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "You ___ very tall.",
+          "options": [
+            "is",
+            "are",
+            "am",
+            "be"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The flowers ___ beautiful.",
+          "options": [
+            "is",
+            "am",
+            "be",
+            "are"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "She ___ at work.",
+          "options": [
+            "are",
+            "am",
+            "is",
+            "be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "My sister ___ a doctor.",
+          "options": [
+            "am",
+            "is",
+            "are",
+            "be"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "They ___ very busy.",
+          "options": [
+            "is",
+            "am",
+            "are",
+            "be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "I ___ ready.",
+          "options": [
+            "are",
+            "is",
+            "be",
+            "am"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The house ___ big.",
+          "options": [
+            "am",
+            "are",
+            "is",
+            "be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "We ___ students.",
+          "options": [
+            "is",
+            "are",
+            "am",
+            "be"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "He ___ my brother.",
+          "options": [
+            "are",
+            "am",
+            "be",
+            "is"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The weather ___ nice.",
+          "options": [
+            "am",
+            "is",
+            "are",
+            "be"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "You ___ welcome.",
+          "options": [
+            "is",
+            "am",
+            "are",
+            "be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "My friends ___ here.",
+          "options": [
+            "am",
+            "is",
+            "be",
+            "are"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "I ___ happy.",
+          "options": [
+            "are",
+            "is",
+            "am",
+            "be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The chair ___ comfortable.",
+          "options": [
+            "am",
+            "are",
+            "is",
+            "be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "She ___ hungry.",
+          "options": [
+            "is",
+            "are",
+            "am",
+            "be"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "We ___ from France.",
+          "options": [
+            "am",
+            "is",
+            "be",
+            "are"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The computer ___ new.",
+          "options": [
+            "are",
+            "am",
+            "is",
+            "be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "They ___ teachers.",
+          "options": [
+            "is",
+            "are",
+            "am",
+            "be"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "I ___ thirsty.",
+          "options": [
+            "is",
+            "are",
+            "be",
+            "am"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "He ___ busy today.",
+          "options": [
+            "am",
+            "are",
+            "is",
+            "be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The shoes ___ expensive.",
+          "options": [
+            "is",
+            "are",
+            "am",
+            "be"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "You ___ right.",
+          "options": [
+            "am",
+            "is",
+            "be",
+            "are"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "My mother ___ cooking.",
+          "options": [
+            "are",
+            "am",
+            "is",
+            "be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The apples ___ red.",
+          "options": [
+            "am",
+            "is",
+            "are",
+            "be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "I ___ sleepy.",
+          "options": [
+            "are",
+            "is",
+            "be",
+            "am"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "She ___ pretty.",
+          "options": [
+            "am",
+            "are",
+            "is",
+            "be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The room ___ clean.",
+          "options": [
+            "is",
+            "are",
+            "am",
+            "be"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "We ___ excited.",
+          "options": [
+            "is",
+            "am",
+            "are",
+            "be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "He ___ sick.",
+          "options": [
+            "are",
+            "am",
+            "be",
+            "is"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The windows ___ open.",
+          "options": [
+            "am",
+            "are",
+            "is",
+            "be"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "You ___ smart.",
+          "options": [
+            "is",
+            "am",
+            "are",
+            "be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "My father ___ working.",
+          "options": [
+            "are",
+            "am",
+            "be",
+            "is"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The milk ___ cold.",
+          "options": [
+            "am",
+            "is",
+            "are",
+            "be"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "I ___ confused.",
+          "options": [
+            "is",
+            "are",
+            "am",
+            "be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "They ___ my neighbors.",
+          "options": [
+            "is",
+            "am",
+            "be",
+            "are"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "She ___ angry.",
+          "options": [
+            "are",
+            "am",
+            "is",
+            "be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The test ___ difficult.",
+          "options": [
+            "am",
+            "are",
+            "is",
+            "be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "You ___ my friend.",
+          "options": [
+            "am",
+            "are",
+            "is",
+            "be"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The cat ___ black.",
+          "options": [
+            "are",
+            "is",
+            "am",
+            "be"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "My parents ___ at home.",
+          "options": [
+            "is",
+            "be",
+            "am",
+            "are"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "I ___ seventeen years old.",
+          "options": [
+            "am",
+            "is",
+            "are",
+            "be"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The book ___ on the table.",
+          "options": [
+            "are",
+            "am",
+            "be",
+            "is"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "We ___ in the classroom.",
+          "options": [
+            "is",
+            "are",
+            "am",
+            "be"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "She ___ very tall.",
+          "options": [
+            "am",
+            "are",
+            "is",
+            "be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The dogs ___ in the garden.",
+          "options": [
+            "are",
+            "is",
+            "am",
+            "be"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "It ___ a sunny day.",
+          "options": [
+            "am",
+            "be",
+            "are",
+            "is"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "I ___ tired today.",
+          "options": [
+            "is",
+            "am",
+            "are",
+            "be"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "You ___ a good student.",
+          "options": [
+            "be",
+            "is",
+            "are",
+            "am"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The flowers ___ beautiful.",
+          "options": [
+            "is",
+            "are",
+            "am",
+            "be"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "He ___ my brother.",
+          "options": [
+            "is",
+            "are",
+            "am",
+            "be"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "We ___ ready for the test.",
+          "options": [
+            "am",
+            "is",
+            "be",
+            "are"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The door ___ open.",
+          "options": [
+            "are",
+            "am",
+            "is",
+            "be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "I ___ from England.",
+          "options": [
+            "be",
+            "am",
+            "is",
+            "are"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "They ___ very kind.",
+          "options": [
+            "is",
+            "am",
+            "are",
+            "be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The apple ___ red.",
+          "options": [
+            "am",
+            "are",
+            "be",
+            "is"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "You ___ late for class.",
+          "options": [
+            "are",
+            "is",
+            "am",
+            "be"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "She ___ in the kitchen.",
+          "options": [
+            "am",
+            "is",
+            "are",
+            "be"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The children ___ at school.",
+          "options": [
+            "is",
+            "be",
+            "are",
+            "am"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "I ___ happy to see you.",
+          "options": [
+            "am",
+            "is",
+            "are",
+            "be"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The window ___ clean.",
+          "options": [
+            "are",
+            "am",
+            "be",
+            "is"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "We ___ students at this school.",
+          "options": [
+            "is",
+            "are",
+            "am",
+            "be"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "He ___ very smart.",
+          "options": [
+            "are",
+            "am",
+            "is",
+            "be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The cars ___ in the parking lot.",
+          "options": [
+            "are",
+            "is",
+            "am",
+            "be"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "It ___ cold outside.",
+          "options": [
+            "am",
+            "is",
+            "are",
+            "be"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "I ___ a doctor.",
+          "options": [
+            "is",
+            "be",
+            "am",
+            "are"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "You ___ my best friend.",
+          "options": [
+            "am",
+            "is",
+            "be",
+            "are"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The pizza ___ delicious.",
+          "options": [
+            "are",
+            "is",
+            "am",
+            "be"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "They ___ from Japan.",
+          "options": [
+            "is",
+            "am",
+            "are",
+            "be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "She ___ twenty-five years old.",
+          "options": [
+            "is",
+            "are",
+            "am",
+            "be"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "We ___ excited about the trip.",
+          "options": [
+            "am",
+            "is",
+            "be",
+            "are"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The store ___ closed today.",
+          "options": [
+            "are",
+            "am",
+            "is",
+            "be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "I ___ busy right now.",
+          "options": [
+            "be",
+            "am",
+            "is",
+            "are"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "You ___ welcome here.",
+          "options": [
+            "is",
+            "am",
+            "are",
+            "be"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The music ___ loud.",
+          "options": [
+            "am",
+            "are",
+            "be",
+            "is"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "He ___ at the library.",
+          "options": [
+            "are",
+            "is",
+            "am",
+            "be"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The plates ___ dirty.",
+          "options": [
+            "is",
+            "be",
+            "are",
+            "am"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "I ___ confused about this.",
+          "options": [
+            "am",
+            "is",
+            "are",
+            "be"
+          ],
+          "correct": 0
+        }
       ]
     },
     {
-      "slot": 3, "level": "A2", "type": "vocabulary",
+      "slot": 3,
+      "level": "A2",
+      "type": "vocabulary",
       "variants": [
-        {"question": "Which word means \"a place where you can buy medicine\"?", "options": ["library","pharmacy","bakery","gallery"], "correct": 1},
-        {"question": "Which word means \"a person who flies an airplane\"?", "options": ["driver","pilot","sailor","waiter"], "correct": 1},
-        {"question": "Which word means \"the brother of your mother\"?", "options": ["cousin","uncle","nephew","grandfather"], "correct": 1},
-        {"question": "Which word means \"a room where you cook food\"?", "options": ["bedroom","kitchen","bathroom","garden"], "correct": 1},
-        {"question": "Which word means \"money you pay for a bus or train\"?", "options": ["ticket","fare","bill","receipt"], "correct": 1},
-        {"question": "Which word means \"a person who helps sick people\"?", "options": ["teacher","doctor","lawyer","engineer"], "correct": 1},
-        {"question": "Which word means \"the day after today\"?", "options": ["yesterday","tomorrow","tonight","today"], "correct": 1},
-        {"question": "Which word means \"a place where you can borrow books\"?", "options": ["museum","library","cinema","hospital"], "correct": 1},
-        {"question": "Which word means \"not expensive\"?", "options": ["rich","cheap","heavy","empty"], "correct": 1},
-        {"question": "Which word means \"a meal you eat in the evening\"?", "options": ["breakfast","dinner","lunch","snack"], "correct": 1}
+        {
+          "question": "Which word means \"a place where you can buy medicine\"?",
+          "options": [
+            "library",
+            "pharmacy",
+            "bakery",
+            "gallery"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which word means \"a person who flies an airplane\"?",
+          "options": [
+            "driver",
+            "pilot",
+            "sailor",
+            "waiter"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which word means \"the brother of your mother\"?",
+          "options": [
+            "cousin",
+            "uncle",
+            "nephew",
+            "grandfather"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which word means \"a room where you cook food\"?",
+          "options": [
+            "bedroom",
+            "kitchen",
+            "bathroom",
+            "garden"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which word means \"money you pay for a bus or train\"?",
+          "options": [
+            "ticket",
+            "fare",
+            "bill",
+            "receipt"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which word means \"a person who helps sick people\"?",
+          "options": [
+            "teacher",
+            "doctor",
+            "lawyer",
+            "engineer"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which word means \"the day after today\"?",
+          "options": [
+            "yesterday",
+            "tomorrow",
+            "tonight",
+            "today"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which word means \"a place where you can borrow books\"?",
+          "options": [
+            "museum",
+            "library",
+            "cinema",
+            "hospital"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which word means \"not expensive\"?",
+          "options": [
+            "rich",
+            "cheap",
+            "heavy",
+            "empty"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which word means \"a meal you eat in the evening\"?",
+          "options": [
+            "breakfast",
+            "dinner",
+            "lunch",
+            "snack"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which word means \"a person who teaches students\"?",
+          "options": [
+            "teacher",
+            "doctor",
+            "lawyer",
+            "engineer"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Which word means \"a place where you sleep\"?",
+          "options": [
+            "living room",
+            "bedroom",
+            "office",
+            "garage"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which word means \"the meal you eat in the morning\"?",
+          "options": [
+            "lunch",
+            "dinner",
+            "breakfast",
+            "snack"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which word means \"a vehicle with two wheels\"?",
+          "options": [
+            "car",
+            "bus",
+            "train",
+            "bicycle"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Which word means \"the sister of your father\"?",
+          "options": [
+            "aunt",
+            "mother",
+            "cousin",
+            "grandmother"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Which word means \"a place where you can borrow books\"?",
+          "options": [
+            "bookstore",
+            "library",
+            "museum",
+            "cinema"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which word means \"the fourth day of the week\"?",
+          "options": [
+            "Tuesday",
+            "Friday",
+            "Thursday",
+            "Monday"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which word means \"a person who sells bread\"?",
+          "options": [
+            "teacher",
+            "doctor",
+            "farmer",
+            "baker"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Which word means \"the season when leaves fall\"?",
+          "options": [
+            "autumn",
+            "spring",
+            "summer",
+            "winter"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Which word means \"a place where you wash your body\"?",
+          "options": [
+            "kitchen",
+            "bathroom",
+            "bedroom",
+            "balcony"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which word means \"the color of grass\"?",
+          "options": [
+            "blue",
+            "red",
+            "green",
+            "yellow"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which word means \"an animal that gives milk\"?",
+          "options": [
+            "chicken",
+            "pig",
+            "horse",
+            "cow"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Which word means \"the son of your brother\"?",
+          "options": [
+            "nephew",
+            "cousin",
+            "uncle",
+            "father"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Which word means \"a place where you buy food\"?",
+          "options": [
+            "hospital",
+            "supermarket",
+            "school",
+            "bank"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which word means \"the opposite of hot\"?",
+          "options": [
+            "warm",
+            "cool",
+            "cold",
+            "wet"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which word means \"a person who fixes cars\"?",
+          "options": [
+            "painter",
+            "cook",
+            "cleaner",
+            "mechanic"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Which word means \"the meal you eat at midday\"?",
+          "options": [
+            "lunch",
+            "breakfast",
+            "dinner",
+            "tea"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Which word means \"a place where you see movies\"?",
+          "options": [
+            "theater",
+            "cinema",
+            "restaurant",
+            "cafe"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which word means \"the part of your body you use to see\"?",
+          "options": [
+            "nose",
+            "mouth",
+            "eye",
+            "ear"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which word means \"the opposite of big\"?",
+          "options": [
+            "large",
+            "huge",
+            "tall",
+            "small"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Which word means \"the first month of the year\"?",
+          "options": [
+            "January",
+            "February",
+            "March",
+            "December"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Which word means \"a person who works in a hospital\"?",
+          "options": [
+            "farmer",
+            "nurse",
+            "driver",
+            "artist"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which word means \"the opposite of old\"?",
+          "options": [
+            "big",
+            "tall",
+            "new",
+            "fast"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which word means \"an animal that barks\"?",
+          "options": [
+            "cat",
+            "bird",
+            "fish",
+            "dog"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Which word means \"the last day of the week\"?",
+          "options": [
+            "Sunday",
+            "Monday",
+            "Saturday",
+            "Friday"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Which word means \"a place where you keep your car\"?",
+          "options": [
+            "kitchen",
+            "garage",
+            "garden",
+            "office"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which word means \"the part of your body you use to walk\"?",
+          "options": [
+            "hand",
+            "arm",
+            "foot",
+            "head"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which word means \"a person who grows food\"?",
+          "options": [
+            "teacher",
+            "doctor",
+            "lawyer",
+            "farmer"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Which word means \"the opposite of dirty\"?",
+          "options": [
+            "clean",
+            "old",
+            "broken",
+            "cheap"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Which word means \"a place where you go to learn\"?",
+          "options": [
+            "hospital",
+            "school",
+            "shop",
+            "park"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which word means \"the season when it's very hot\"?",
+          "options": [
+            "winter",
+            "spring",
+            "summer",
+            "autumn"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which word means \"something you wear on your head\"?",
+          "options": [
+            "shoe",
+            "shirt",
+            "pants",
+            "hat"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Which word means \"the daughter of your sister\"?",
+          "options": [
+            "niece",
+            "aunt",
+            "mother",
+            "cousin"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Which word means \"a place where you can eat\"?",
+          "options": [
+            "bank",
+            "restaurant",
+            "library",
+            "hospital"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which word means \"the opposite of slow\"?",
+          "options": [
+            "big",
+            "heavy",
+            "fast",
+            "long"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which word means \"an animal that meows\"?",
+          "options": [
+            "dog",
+            "bird",
+            "fish",
+            "cat"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Which word means \"the part of your body you use to think\"?",
+          "options": [
+            "brain",
+            "heart",
+            "stomach",
+            "lung"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Which word means \"a place where you can buy clothes\"?",
+          "options": [
+            "bakery",
+            "shop",
+            "park",
+            "office"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which word means \"the opposite of happy\"?",
+          "options": [
+            "angry",
+            "tired",
+            "sad",
+            "hungry"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which word means \"something you use to write\"?",
+          "options": [
+            "book",
+            "paper",
+            "table",
+            "pen"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Which word means \"the coldest season\"?",
+          "options": [
+            "winter",
+            "summer",
+            "spring",
+            "autumn"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Which word means \"a person who cuts hair\"?",
+          "options": [
+            "dentist",
+            "hairdresser",
+            "painter",
+            "driver"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which word means \"the part of your body you use to hear\"?",
+          "options": [
+            "nose",
+            "mouth",
+            "ear",
+            "eye"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which word means \"something you wear on your feet\"?",
+          "options": [
+            "hat",
+            "shirt",
+            "jacket",
+            "shoe"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Which word means \"the opposite of empty\"?",
+          "options": [
+            "full",
+            "big",
+            "heavy",
+            "long"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Which word means \"a place where you can swim\"?",
+          "options": [
+            "library",
+            "pool",
+            "shop",
+            "office"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which word means \"the meal you eat in the evening\"?",
+          "options": [
+            "breakfast",
+            "lunch",
+            "dinner",
+            "snack"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which word means \"a person who drives a taxi\"?",
+          "options": [
+            "pilot",
+            "sailor",
+            "cook",
+            "taxi driver"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Which word means \"the opposite of light\"?",
+          "options": [
+            "dark",
+            "bright",
+            "clear",
+            "white"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Which word means \"a place where you can see animals\"?",
+          "options": [
+            "museum",
+            "zoo",
+            "cinema",
+            "theater"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which word means \"the part of your body you use to smell\"?",
+          "options": [
+            "ear",
+            "eye",
+            "nose",
+            "mouth"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which word means \"a person who cuts and styles hair\"?",
+          "options": [
+            "hairdresser",
+            "dentist",
+            "teacher",
+            "mechanic"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Which word means \"a place where you can borrow books\"?",
+          "options": [
+            "museum",
+            "library",
+            "cinema",
+            "restaurant"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which word means \"the daughter of your sister\"?",
+          "options": [
+            "aunt",
+            "cousin",
+            "niece",
+            "grandmother"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which word means \"a piece of furniture you sleep on\"?",
+          "options": [
+            "chair",
+            "table",
+            "sofa",
+            "bed"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Which word means \"a person who serves food in a restaurant\"?",
+          "options": [
+            "waiter",
+            "nurse",
+            "cashier",
+            "manager"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Which word means \"a building where people work in offices\"?",
+          "options": [
+            "factory",
+            "office building",
+            "warehouse",
+            "garage"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which word means \"clothes you wear when you sleep\"?",
+          "options": [
+            "uniform",
+            "costume",
+            "pajamas",
+            "swimsuit"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which word means \"a small bag for carrying money\"?",
+          "options": [
+            "suitcase",
+            "backpack",
+            "briefcase",
+            "wallet"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Which word means \"a person who fixes cars\"?",
+          "options": [
+            "mechanic",
+            "electrician",
+            "plumber",
+            "painter"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Which word means \"a place where you can watch movies\"?",
+          "options": [
+            "theater",
+            "cinema",
+            "stadium",
+            "gallery"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which word means \"the son of your brother\"?",
+          "options": [
+            "cousin",
+            "uncle",
+            "nephew",
+            "grandson"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which word means \"a room where you wash yourself\"?",
+          "options": [
+            "living room",
+            "dining room",
+            "study room",
+            "bathroom"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Which word means \"a person who teaches students\"?",
+          "options": [
+            "teacher",
+            "student",
+            "principal",
+            "librarian"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Which word means \"a place where you can buy fresh bread\"?",
+          "options": [
+            "butcher shop",
+            "bakery",
+            "grocery store",
+            "flower shop"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which word means \"something you wear on your feet\"?",
+          "options": [
+            "hat",
+            "gloves",
+            "shoes",
+            "scarf"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which word means \"a vehicle that travels on water\"?",
+          "options": [
+            "car",
+            "airplane",
+            "train",
+            "boat"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Which word means \"a person who takes care of sick people\"?",
+          "options": [
+            "nurse",
+            "chef",
+            "lawyer",
+            "artist"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Which word means \"a place where animals are kept for people to see\"?",
+          "options": [
+            "park",
+            "zoo",
+            "farm",
+            "forest"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which word means \"the mother of your father\"?",
+          "options": [
+            "aunt",
+            "sister",
+            "grandmother",
+            "mother-in-law"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which word means \"a piece of paper that shows you paid for something\"?",
+          "options": [
+            "menu",
+            "magazine",
+            "newspaper",
+            "receipt"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Which word means \"a person who drives a taxi\"?",
+          "options": [
+            "taxi driver",
+            "bus driver",
+            "train conductor",
+            "flight attendant"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Which word means \"a place where you can send letters and packages\"?",
+          "options": [
+            "bank",
+            "post office",
+            "police station",
+            "hospital"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which word means \"something you use to clean your teeth\"?",
+          "options": [
+            "comb",
+            "mirror",
+            "toothbrush",
+            "towel"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which word means \"a meal you eat in the evening\"?",
+          "options": [
+            "breakfast",
+            "lunch",
+            "snack",
+            "dinner"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Which word means \"a person who sells things in a shop\"?",
+          "options": [
+            "shop assistant",
+            "customer",
+            "manager",
+            "security guard"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Which word means \"a place where you can get money from your bank account\"?",
+          "options": [
+            "supermarket",
+            "ATM",
+            "pharmacy",
+            "gas station"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which word means \"something you wear to keep warm\"?",
+          "options": [
+            "shorts",
+            "sandals",
+            "jacket",
+            "t-shirt"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which word means \"a place where you can buy food and groceries\"?",
+          "options": [
+            "bookstore",
+            "clothing store",
+            "toy store",
+            "supermarket"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Which word means \"a person who grows food on land\"?",
+          "options": [
+            "farmer",
+            "fisherman",
+            "hunter",
+            "gardener"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Which word means \"a place where you can exercise and keep fit\"?",
+          "options": [
+            "hospital",
+            "gym",
+            "office",
+            "school"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which word means \"something you use to call people\"?",
+          "options": [
+            "computer",
+            "television",
+            "phone",
+            "radio"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which word means \"a hot drink made from beans\"?",
+          "options": [
+            "tea",
+            "juice",
+            "water",
+            "coffee"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Which word means \"a person who fixes problems with water pipes\"?",
+          "options": [
+            "plumber",
+            "carpenter",
+            "electrician",
+            "cleaner"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Which word means \"a place where you can stay when traveling\"?",
+          "options": [
+            "airport",
+            "hotel",
+            "train station",
+            "bus stop"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which word means \"something you read to get news\"?",
+          "options": [
+            "dictionary",
+            "cookbook",
+            "newspaper",
+            "notebook"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which word means \"the first meal of the day\"?",
+          "options": [
+            "dinner",
+            "lunch",
+            "supper",
+            "breakfast"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Which word means \"a person who cuts and sells meat\"?",
+          "options": [
+            "butcher",
+            "baker",
+            "fishmonger",
+            "grocer"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Which word means \"a place where you can buy flowers\"?",
+          "options": [
+            "pet shop",
+            "flower shop",
+            "shoe shop",
+            "gift shop"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which word means \"something you wear on your head\"?",
+          "options": [
+            "necklace",
+            "bracelet",
+            "hat",
+            "ring"
+          ],
+          "correct": 2
+        }
       ]
     },
     {
-      "slot": 4, "level": "A2", "type": "grammar",
+      "slot": 4,
+      "level": "A2",
+      "type": "grammar",
       "variants": [
-        {"question": "I ___ to the cinema last night.", "options": ["go","goes","went","going"], "correct": 2},
-        {"question": "She ___ a new car yesterday.", "options": ["buy","buys","bought","buying"], "correct": 2},
-        {"question": "We ___ football last weekend.", "options": ["play","plays","played","playing"], "correct": 2},
-        {"question": "He ___ his homework before dinner.", "options": ["do","does","did","doing"], "correct": 2},
-        {"question": "They ___ to Paris last summer.", "options": ["travel","travels","travelled","travelling"], "correct": 2},
-        {"question": "I ___ a letter to my friend yesterday.", "options": ["write","writes","wrote","writing"], "correct": 2},
-        {"question": "She ___ the bus this morning.", "options": ["miss","misses","missed","missing"], "correct": 2},
-        {"question": "We ___ a great time at the party.", "options": ["have","has","had","having"], "correct": 2},
-        {"question": "He ___ very fast in the race.", "options": ["run","runs","ran","running"], "correct": 2},
-        {"question": "They ___ the movie last Friday.", "options": ["see","sees","saw","seeing"], "correct": 2}
+        {
+          "question": "I ___ to the cinema last night.",
+          "options": [
+            "go",
+            "goes",
+            "went",
+            "going"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "She ___ a new car yesterday.",
+          "options": [
+            "buy",
+            "buys",
+            "bought",
+            "buying"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "We ___ football last weekend.",
+          "options": [
+            "play",
+            "plays",
+            "played",
+            "playing"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "He ___ his homework before dinner.",
+          "options": [
+            "do",
+            "does",
+            "did",
+            "doing"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "They ___ to Paris last summer.",
+          "options": [
+            "travel",
+            "travels",
+            "travelled",
+            "travelling"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "I ___ a letter to my friend yesterday.",
+          "options": [
+            "write",
+            "writes",
+            "wrote",
+            "writing"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "She ___ the bus this morning.",
+          "options": [
+            "miss",
+            "misses",
+            "missed",
+            "missing"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "We ___ a great time at the party.",
+          "options": [
+            "have",
+            "has",
+            "had",
+            "having"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "He ___ very fast in the race.",
+          "options": [
+            "run",
+            "runs",
+            "ran",
+            "running"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "They ___ the movie last Friday.",
+          "options": [
+            "see",
+            "sees",
+            "saw",
+            "seeing"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "My sister ___ a letter to her friend yesterday.",
+          "options": [
+            "write",
+            "wrote",
+            "writes",
+            "writing"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The children ___ in the park this morning.",
+          "options": [
+            "ran",
+            "run",
+            "runs",
+            "running"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "I ___ a delicious pizza for lunch.",
+          "options": [
+            "eat",
+            "eating",
+            "eats",
+            "ate"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Tom ___ his keys at home last Monday.",
+          "options": [
+            "forget",
+            "forgets",
+            "forgot",
+            "forgetting"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "We ___ our friends at the restaurant.",
+          "options": [
+            "met",
+            "meet",
+            "meets",
+            "meeting"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "She ___ English at university two years ago.",
+          "options": [
+            "study",
+            "studied",
+            "studies",
+            "studying"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The dog ___ loudly when the postman came.",
+          "options": [
+            "bark",
+            "barking",
+            "barks",
+            "barked"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "My parents ___ a new house last year.",
+          "options": [
+            "bought",
+            "buy",
+            "buys",
+            "buying"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "John ___ his grandmother on Sunday.",
+          "options": [
+            "visit",
+            "visited",
+            "visits",
+            "visiting"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The students ___ for the exam all night.",
+          "options": [
+            "work",
+            "working",
+            "works",
+            "worked"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "I ___ my wallet in the taxi yesterday.",
+          "options": [
+            "left",
+            "leave",
+            "leaves",
+            "leaving"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The baby ___ for two hours this afternoon.",
+          "options": [
+            "sleep",
+            "slept",
+            "sleeps",
+            "sleeping"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "We ___ to music at the concert hall.",
+          "options": [
+            "listen",
+            "listening",
+            "listens",
+            "listened"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Sarah ___ her bicycle to work yesterday.",
+          "options": [
+            "rode",
+            "ride",
+            "rides",
+            "riding"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The teacher ___ the lesson very clearly.",
+          "options": [
+            "explain",
+            "explained",
+            "explains",
+            "explaining"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "My brother ___ a beautiful song at the party.",
+          "options": [
+            "sing",
+            "singing",
+            "sings",
+            "sang"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The cat ___ under the bed when it heard thunder.",
+          "options": [
+            "hid",
+            "hide",
+            "hides",
+            "hiding"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "We ___ a movie at the cinema last Friday.",
+          "options": [
+            "watch",
+            "watched",
+            "watches",
+            "watching"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The flowers ___ beautifully in spring.",
+          "options": [
+            "grow",
+            "growing",
+            "grows",
+            "grew"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Lisa ___ her coffee this morning before work.",
+          "options": [
+            "drank",
+            "drink",
+            "drinks",
+            "drinking"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The birds ___ south for the winter.",
+          "options": [
+            "fly",
+            "flew",
+            "flies",
+            "flying"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "I ___ my old friend at the shopping center.",
+          "options": [
+            "see",
+            "seeing",
+            "sees",
+            "saw"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The children ___ their toys after playing.",
+          "options": [
+            "cleaned",
+            "clean",
+            "cleans",
+            "cleaning"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "He ___ the newspaper every morning last week.",
+          "options": [
+            "read",
+            "read",
+            "reads",
+            "reading"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The car ___ at the red traffic light.",
+          "options": [
+            "stop",
+            "stopping",
+            "stops",
+            "stopped"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "My mother ___ a cake for my birthday.",
+          "options": [
+            "made",
+            "make",
+            "makes",
+            "making"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The sun ___ brightly yesterday afternoon.",
+          "options": [
+            "shine",
+            "shone",
+            "shines",
+            "shining"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "We ___ the dishes after dinner last night.",
+          "options": [
+            "wash",
+            "washing",
+            "washes",
+            "washed"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The man ___ his coat because it was cold.",
+          "options": [
+            "wore",
+            "wear",
+            "wears",
+            "wearing"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The students ___ their books on the table.",
+          "options": [
+            "put",
+            "put",
+            "puts",
+            "putting"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "I ___ a text message to my friend.",
+          "options": [
+            "send",
+            "sending",
+            "sends",
+            "sent"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The old lady ___ slowly across the street.",
+          "options": [
+            "walked",
+            "walk",
+            "walks",
+            "walking"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "My father ___ the car in the garage yesterday.",
+          "options": [
+            "park",
+            "parked",
+            "parks",
+            "parking"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The phone ___ while I was cooking dinner.",
+          "options": [
+            "ring",
+            "ringing",
+            "rings",
+            "rang"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "She ___ her hair before going to the party.",
+          "options": [
+            "brushed",
+            "brush",
+            "brushes",
+            "brushing"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The team ___ the match last Saturday.",
+          "options": [
+            "win",
+            "won",
+            "wins",
+            "winning"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "I ___ my favorite book again last month.",
+          "options": [
+            "read",
+            "reading",
+            "reads",
+            "read"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The waiter ___ our order very quickly.",
+          "options": [
+            "brought",
+            "bring",
+            "brings",
+            "bringing"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "My grandmother ___ me a sweater for Christmas.",
+          "options": [
+            "give",
+            "gave",
+            "gives",
+            "giving"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The door ___ when the wind blew.",
+          "options": [
+            "close",
+            "closing",
+            "closes",
+            "closed"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "We ___ our lunch in the park yesterday.",
+          "options": [
+            "had",
+            "have",
+            "has",
+            "having"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The boy ___ his bicycle very fast down the hill.",
+          "options": [
+            "ride",
+            "rode",
+            "rides",
+            "riding"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "My sister ___ a beautiful dress for the wedding.",
+          "options": [
+            "choose",
+            "choosing",
+            "chooses",
+            "chose"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The workers ___ the building in six months.",
+          "options": [
+            "built",
+            "build",
+            "builds",
+            "building"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "I ___ my cousin at the airport this morning.",
+          "options": [
+            "pick up",
+            "picked up",
+            "picks up",
+            "picking up"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The rain ___ for three hours yesterday evening.",
+          "options": [
+            "fall",
+            "falling",
+            "falls",
+            "fell"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "She ___ her keys in her bag before leaving.",
+          "options": [
+            "found",
+            "find",
+            "finds",
+            "finding"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "The children ___ happy songs at the school concert.",
+          "options": [
+            "sing",
+            "sang",
+            "sings",
+            "singing"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "My uncle ___ us a postcard from Italy.",
+          "options": [
+            "send",
+            "sending",
+            "sends",
+            "sent"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The glass ___ when it hit the floor.",
+          "options": [
+            "broke",
+            "break",
+            "breaks",
+            "breaking"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "My brother ___ his keys yesterday morning.",
+          "options": [
+            "lose",
+            "lost",
+            "loses",
+            "losing"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "We ___ pizza for lunch last Friday.",
+          "options": [
+            "had",
+            "have",
+            "has",
+            "having"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "She ___ her grandmother last month.",
+          "options": [
+            "visit",
+            "visits",
+            "visiting",
+            "visited"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The children ___ in the park yesterday afternoon.",
+          "options": [
+            "playing",
+            "played",
+            "play",
+            "plays"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "I ___ a delicious cake for my birthday.",
+          "options": [
+            "make",
+            "makes",
+            "made",
+            "making"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "They ___ the museum last Tuesday.",
+          "options": [
+            "visiting",
+            "visit",
+            "visits",
+            "visited"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "He ___ his bicycle to work yesterday.",
+          "options": [
+            "rode",
+            "ride",
+            "rides",
+            "riding"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "We ___ our friends at the restaurant last night.",
+          "options": [
+            "meet",
+            "met",
+            "meets",
+            "meeting"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "She ___ a beautiful dress at the party.",
+          "options": [
+            "wear",
+            "wears",
+            "wearing",
+            "wore"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The students ___ hard for their exam last week.",
+          "options": [
+            "studied",
+            "study",
+            "studies",
+            "studying"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "My father ___ the newspaper this morning.",
+          "options": [
+            "reading",
+            "read",
+            "reads",
+            "read"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "We ___ our vacation in Italy last year.",
+          "options": [
+            "spend",
+            "spends",
+            "spent",
+            "spending"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "She ___ her hair before the party yesterday.",
+          "options": [
+            "wash",
+            "washes",
+            "washing",
+            "washed"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "They ___ a new house last month.",
+          "options": [
+            "bought",
+            "buy",
+            "buys",
+            "buying"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "I ___ my teeth before bed last night.",
+          "options": [
+            "brush",
+            "brushed",
+            "brushes",
+            "brushing"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "He ___ to music while cooking dinner.",
+          "options": [
+            "listen",
+            "listens",
+            "listened",
+            "listening"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The dog ___ in the garden yesterday morning.",
+          "options": [
+            "run",
+            "runs",
+            "running",
+            "ran"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "We ___ coffee at the new café last week.",
+          "options": [
+            "drank",
+            "drink",
+            "drinks",
+            "drinking"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "She ___ her room on Saturday morning.",
+          "options": [
+            "clean",
+            "cleaned",
+            "cleans",
+            "cleaning"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "My friends ___ me a surprise party last month.",
+          "options": [
+            "give",
+            "gives",
+            "gave",
+            "giving"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "He ___ his coat because it was cold.",
+          "options": [
+            "wear",
+            "wears",
+            "wearing",
+            "wore"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "I ___ my phone at home yesterday.",
+          "options": [
+            "forgot",
+            "forget",
+            "forgets",
+            "forgetting"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "They ___ tennis every Sunday last summer.",
+          "options": [
+            "play",
+            "played",
+            "plays",
+            "playing"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "She ___ a letter to her friend last week.",
+          "options": [
+            "write",
+            "writes",
+            "wrote",
+            "writing"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "We ___ early this morning for our trip.",
+          "options": [
+            "wake",
+            "wakes",
+            "waking",
+            "woke"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "The children ___ their toys after playing.",
+          "options": [
+            "put away",
+            "put",
+            "puts",
+            "putting"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "He ___ his lunch at school yesterday.",
+          "options": [
+            "eat",
+            "ate",
+            "eats",
+            "eating"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "My mother ___ a beautiful garden last spring.",
+          "options": [
+            "plant",
+            "plants",
+            "planted",
+            "planting"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "We ___ our favorite TV show last night.",
+          "options": [
+            "watch",
+            "watches",
+            "watching",
+            "watched"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "She ___ her sister at the airport yesterday.",
+          "options": [
+            "picked up",
+            "pick up",
+            "picks up",
+            "picking up"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "I ___ a good book during my vacation.",
+          "options": [
+            "read",
+            "read",
+            "reads",
+            "reading"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "The teacher ___ the lesson very clearly yesterday.",
+          "options": [
+            "explain",
+            "explains",
+            "explained",
+            "explaining"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "They ___ swimming at the beach last weekend.",
+          "options": [
+            "go",
+            "goes",
+            "going",
+            "went"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "He ___ his grandparents last Sunday.",
+          "options": [
+            "called",
+            "call",
+            "calls",
+            "calling"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "We ___ dinner at a nice restaurant yesterday.",
+          "options": [
+            "have",
+            "had",
+            "has",
+            "having"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "She ___ her homework after dinner last night.",
+          "options": [
+            "finish",
+            "finishes",
+            "finished",
+            "finishing"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "The bus ___ late this morning because of traffic.",
+          "options": [
+            "arrive",
+            "arrives",
+            "arriving",
+            "arrived"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "I ___ my favorite song on the radio yesterday.",
+          "options": [
+            "heard",
+            "hear",
+            "hears",
+            "hearing"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "They ___ their new apartment last month.",
+          "options": [
+            "move",
+            "moved",
+            "moves",
+            "moving"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "My cat ___ under the bed during the storm.",
+          "options": [
+            "hide",
+            "hides",
+            "hid",
+            "hiding"
+          ],
+          "correct": 2
+        }
       ]
     },
     {
-      "slot": 5, "level": "A2", "type": "reading",
+      "slot": 5,
+      "level": "A2",
+      "type": "reading",
       "variants": [
-        {"question": "Read: \"The shop closes at 6 PM on weekdays and 4 PM on Saturdays.\" When does the shop close on Saturday?", "options": ["6 PM","4 PM","5 PM","It doesn't open"], "correct": 1},
-        {"question": "Read: \"The train to London leaves at 9:15 AM from platform 3.\" What platform does the train leave from?", "options": ["Platform 1","Platform 3","Platform 9","Platform 15"], "correct": 1},
-        {"question": "Read: \"The museum is free on Sundays but costs $10 on other days.\" How much is the museum on Sunday?", "options": ["$5","Free","$10","$15"], "correct": 1},
-        {"question": "Read: \"Please bring your passport and two photos for the application.\" What do you need to bring?", "options": ["Only a passport","Passport and two photos","Only photos","Money and passport"], "correct": 1},
-        {"question": "Read: \"The swimming pool is open from 7 AM to 9 PM every day except Monday.\" When is the pool closed?", "options": ["Sunday","Monday","Saturday","Tuesday"], "correct": 1},
-        {"question": "Read: \"Children under 5 eat free at our restaurant.\" A 4-year-old child will pay:", "options": ["$5","Nothing","Half price","$10"], "correct": 1},
-        {"question": "Read: \"The library is on the second floor, next to the cafeteria.\" Where is the library?", "options": ["First floor","Second floor","Third floor","Basement"], "correct": 1},
-        {"question": "Read: \"Tom works from Monday to Friday and rests on weekends.\" When does Tom rest?", "options": ["Monday","Friday","Weekends","Every day"], "correct": 2},
-        {"question": "Read: \"The bus comes every 15 minutes.\" If a bus came at 3:00, when is the next one?", "options": ["3:10","3:15","3:30","3:45"], "correct": 1},
-        {"question": "Read: \"Maria is from Brazil. She speaks Portuguese and English.\" How many languages does Maria speak?", "options": ["One","Two","Three","Four"], "correct": 1}
+        {
+          "question": "Read: \"The shop closes at 6 PM on weekdays and 4 PM on Saturdays.\" When does the shop close on Saturday?",
+          "options": [
+            "6 PM",
+            "4 PM",
+            "5 PM",
+            "It doesn't open"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The train to London leaves at 9:15 AM from platform 3.\" What platform does the train leave from?",
+          "options": [
+            "Platform 1",
+            "Platform 3",
+            "Platform 9",
+            "Platform 15"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The museum is free on Sundays but costs $10 on other days.\" How much is the museum on Sunday?",
+          "options": [
+            "$5",
+            "Free",
+            "$10",
+            "$15"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Please bring your passport and two photos for the application.\" What do you need to bring?",
+          "options": [
+            "Only a passport",
+            "Passport and two photos",
+            "Only photos",
+            "Money and passport"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The swimming pool is open from 7 AM to 9 PM every day except Monday.\" When is the pool closed?",
+          "options": [
+            "Sunday",
+            "Monday",
+            "Saturday",
+            "Tuesday"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Children under 5 eat free at our restaurant.\" A 4-year-old child will pay:",
+          "options": [
+            "$5",
+            "Nothing",
+            "Half price",
+            "$10"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The library is on the second floor, next to the cafeteria.\" Where is the library?",
+          "options": [
+            "First floor",
+            "Second floor",
+            "Third floor",
+            "Basement"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Tom works from Monday to Friday and rests on weekends.\" When does Tom rest?",
+          "options": [
+            "Monday",
+            "Friday",
+            "Weekends",
+            "Every day"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"The bus comes every 15 minutes.\" If a bus came at 3:00, when is the next one?",
+          "options": [
+            "3:10",
+            "3:15",
+            "3:30",
+            "3:45"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Maria is from Brazil. She speaks Portuguese and English.\" How many languages does Maria speak?",
+          "options": [
+            "One",
+            "Two",
+            "Three",
+            "Four"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The library opens at 8 AM and closes at 7 PM Monday to Friday.\" What time does the library open?",
+          "options": [
+            "8 AM",
+            "7 PM",
+            "9 AM",
+            "6 AM"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Bus number 42 goes to the airport every 30 minutes.\" Which bus goes to the airport?",
+          "options": [
+            "Bus 30",
+            "Bus 42",
+            "Bus 24",
+            "Bus 52"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The restaurant serves lunch from 12 PM to 3 PM daily.\" When does lunch end?",
+          "options": [
+            "2 PM",
+            "12 PM",
+            "3 PM",
+            "4 PM"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Children under 12 years old can enter the park for free.\" Who gets free entry?",
+          "options": [
+            "Everyone",
+            "Adults only",
+            "Students only",
+            "Children under 12"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Read: \"The post office is closed on Sundays and public holidays.\" When is the post office closed?",
+          "options": [
+            "Sundays and public holidays",
+            "Only Sundays",
+            "Only public holidays",
+            "Never closed"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Room 205 is on the second floor next to the elevator.\" Where is room 205?",
+          "options": [
+            "First floor",
+            "Second floor",
+            "Third floor",
+            "Ground floor"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The concert starts at 8 PM and tickets cost $25 each.\" How much is one ticket?",
+          "options": [
+            "$20",
+            "$30",
+            "$25",
+            "$15"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Please wait in the blue chairs near the reception desk.\" Where should you wait?",
+          "options": [
+            "Red chairs",
+            "Green chairs",
+            "Yellow chairs",
+            "Blue chairs"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Read: \"The bank is open from 9 AM to 4 PM, Monday to Thursday.\" What day is the bank closed?",
+          "options": [
+            "Friday",
+            "Monday",
+            "Tuesday",
+            "Wednesday"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Take bus route 15 to get to the shopping center.\" Which route goes to the shopping center?",
+          "options": [
+            "Route 12",
+            "Route 15",
+            "Route 18",
+            "Route 51"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The pharmacy closes for lunch between 1 PM and 2 PM.\" When is the pharmacy closed for lunch?",
+          "options": [
+            "12 PM to 1 PM",
+            "2 PM to 3 PM",
+            "1 PM to 2 PM",
+            "11 AM to 12 PM"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Students must show their ID card to enter the building.\" What do students need to show?",
+          "options": [
+            "Library card",
+            "Driver's license",
+            "Passport",
+            "ID card"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Read: \"The café serves breakfast until 11 AM every day.\" Until when is breakfast served?",
+          "options": [
+            "11 AM",
+            "10 AM",
+            "12 PM",
+            "9 AM"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Meeting room B is available from 2 PM to 5 PM today.\" Which room is available?",
+          "options": [
+            "Room A",
+            "Meeting room B",
+            "Room C",
+            "Conference room"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The gym membership costs $40 per month for adults.\" How much is the monthly membership?",
+          "options": [
+            "$30",
+            "$50",
+            "$40",
+            "$35"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Please park your car in the yellow zone only.\" Where should you park?",
+          "options": [
+            "Red zone",
+            "Blue zone",
+            "Green zone",
+            "Yellow zone"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Read: \"The dentist appointment is scheduled for Tuesday at 3 PM.\" What day is the appointment?",
+          "options": [
+            "Tuesday",
+            "Monday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Take elevator number 2 to reach floors 10 to 20.\" Which elevator goes to floor 15?",
+          "options": [
+            "Elevator 1",
+            "Elevator 2",
+            "Elevator 3",
+            "Any elevator"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The movie theater offers student discounts on weekdays only.\" When do students get discounts?",
+          "options": [
+            "Weekends",
+            "Every day",
+            "Weekdays only",
+            "Never"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Visitors must register at the front desk before entering.\" What must visitors do first?",
+          "options": [
+            "Pay a fee",
+            "Show passport",
+            "Wait in line",
+            "Register at front desk"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Read: \"The computer lab is open 24 hours on weekends.\" When is the lab open all day?",
+          "options": [
+            "Weekends",
+            "Weekdays",
+            "Mondays only",
+            "Never"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Gate 12 is for flights to Paris and Rome.\" Which gate is for European flights?",
+          "options": [
+            "Gate 10",
+            "Gate 12",
+            "Gate 14",
+            "Gate 21"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The swimming lesson starts at 6 PM and lasts 45 minutes.\" How long is the lesson?",
+          "options": [
+            "30 minutes",
+            "60 minutes",
+            "45 minutes",
+            "90 minutes"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Please bring a pen and notebook to the English class.\" What should you bring?",
+          "options": [
+            "Only a pen",
+            "Only a notebook",
+            "A book",
+            "Pen and notebook"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Read: \"The supermarket is closed on Christmas Day and New Year's Day.\" When is the supermarket closed?",
+          "options": [
+            "Christmas and New Year's Day",
+            "Only Christmas",
+            "Only New Year's",
+            "Every Sunday"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Platform 7 is for trains going north to Manchester.\" Which platform goes to Manchester?",
+          "options": [
+            "Platform 6",
+            "Platform 7",
+            "Platform 8",
+            "Platform 17"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The office hours are 9 AM to 5 PM with lunch break at 1 PM.\" What time is lunch break?",
+          "options": [
+            "12 PM",
+            "2 PM",
+            "1 PM",
+            "1:30 PM"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"All patients must complete the health form before seeing the doctor.\" What must patients do first?",
+          "options": [
+            "Pay the bill",
+            "Wait in line",
+            "Show insurance",
+            "Complete health form"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Read: \"The bookstore gives 10% discount to university students.\" What discount do students get?",
+          "options": [
+            "10%",
+            "15%",
+            "5%",
+            "20%"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Exit through door number 3 in case of emergency.\" Which door should you use in emergency?",
+          "options": [
+            "Door 1",
+            "Door 3",
+            "Door 2",
+            "Any door"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The hotel check-in time is 2 PM and check-out is 11 AM.\" What time is check-out?",
+          "options": [
+            "2 PM",
+            "12 PM",
+            "11 AM",
+            "10 AM"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Free Wi-Fi password is 'welcome123' for all guests.\" What is the Wi-Fi password?",
+          "options": [
+            "guest123",
+            "hotel123",
+            "free123",
+            "welcome123"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Read: \"The course starts on Monday, September 5th at 9 AM.\" What day does the course start?",
+          "options": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Friday"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Bus stop C is for city center buses only.\" What buses use stop C?",
+          "options": [
+            "Airport buses",
+            "City center buses",
+            "School buses",
+            "Night buses"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The parking fee is $2 per hour from 8 AM to 6 PM.\" How much is parking per hour?",
+          "options": [
+            "$1",
+            "$3",
+            "$2",
+            "$4"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Please use the stairs during elevator maintenance on Thursday.\" What should you use on Thursday?",
+          "options": [
+            "Elevator",
+            "Side entrance",
+            "Main door",
+            "Stairs"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Read: \"The art gallery is free for children under 16 years old.\" Who gets free admission?",
+          "options": [
+            "Children under 16",
+            "Students",
+            "Adults",
+            "Everyone"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Room service is available 24 hours on floor 5 and above.\" Which floors have 24-hour room service?",
+          "options": [
+            "All floors",
+            "Floor 5 and above",
+            "Only floor 5",
+            "Floors 1-4"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The conference call will start at 3 PM and end at 4:30 PM.\" When does the call end?",
+          "options": [
+            "3:30 PM",
+            "4 PM",
+            "4:30 PM",
+            "5 PM"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Staff members must wear name badges at all times.\" What must staff wear?",
+          "options": [
+            "Uniforms",
+            "Hats",
+            "Gloves",
+            "Name badges"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Read: \"The clinic is closed on Saturdays but open on Sunday mornings.\" When is the clinic open on weekends?",
+          "options": [
+            "Sunday mornings",
+            "Saturday afternoons",
+            "All weekend",
+            "Never"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Take line 4 of the subway to reach the airport terminal.\" Which subway line goes to the airport?",
+          "options": [
+            "Line 3",
+            "Line 4",
+            "Line 5",
+            "Line 14"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The workshop lasts 3 hours including a 15-minute break.\" How long is the workshop?",
+          "options": [
+            "2 hours",
+            "2.5 hours",
+            "3 hours",
+            "3.5 hours"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Emergency exit is located behind the red door on each floor.\" Where is the emergency exit?",
+          "options": [
+            "Blue door",
+            "Green door",
+            "Yellow door",
+            "Red door"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Read: \"The swimming pool is heated and open year-round.\" When is the pool open?",
+          "options": [
+            "Year-round",
+            "Summer only",
+            "Winter only",
+            "Weekends only"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Parking space 15 is reserved for the manager only.\" Who can use parking space 15?",
+          "options": [
+            "Anyone",
+            "The manager",
+            "Visitors",
+            "Employees"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The test will be held on Friday from 10 AM to 12 PM.\" How long is the test?",
+          "options": [
+            "1 hour",
+            "3 hours",
+            "2 hours",
+            "90 minutes"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Please submit your application form to the secretary's office.\" Where should you submit the form?",
+          "options": [
+            "Reception desk",
+            "Manager's office",
+            "Main office",
+            "Secretary's office"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Read: \"The store offers free delivery for orders over $50.\" When do you get free delivery?",
+          "options": [
+            "Orders over $50",
+            "All orders",
+            "Orders over $30",
+            "No free delivery"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Table 8 is reserved for the Johnson family at 7 PM.\" Which table is reserved?",
+          "options": [
+            "Table 6",
+            "Table 8",
+            "Table 10",
+            "Table 18"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The library is open Monday to Friday from 9 AM to 5 PM.\" What day is the library closed?",
+          "options": [
+            "Saturday",
+            "Monday",
+            "Friday",
+            "Wednesday"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Bus number 42 arrives every 15 minutes at this stop.\" How often does the bus come?",
+          "options": [
+            "Every 10 minutes",
+            "Every 15 minutes",
+            "Every 20 minutes",
+            "Every 30 minutes"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The parking fee is $2 per hour with a maximum of $12 per day.\" What is the maximum daily cost?",
+          "options": [
+            "$2",
+            "$10",
+            "$12",
+            "$15"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Children under 12 eat free with paying adult.\" Who eats for free?",
+          "options": [
+            "All children",
+            "Adults",
+            "Everyone",
+            "Children under 12"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Read: \"The post office opens at 8:30 AM and closes at 4:00 PM on weekdays.\" When does it open?",
+          "options": [
+            "8:30 AM",
+            "9:00 AM",
+            "8:00 AM",
+            "4:00 PM"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"All students must wear school uniform on Monday, Wednesday, and Friday.\" When do students wear uniform?",
+          "options": [
+            "Every day",
+            "Monday, Wednesday, Friday",
+            "Only Monday",
+            "Tuesday and Thursday"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The cinema ticket costs $8 for adults and $5 for children.\" How much is a child ticket?",
+          "options": [
+            "$8",
+            "$3",
+            "$5",
+            "$10"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Dogs must be on a leash in the park at all times.\" What must dogs have in the park?",
+          "options": [
+            "Food",
+            "Water",
+            "Owner",
+            "Leash"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Read: \"The restaurant serves lunch from 12 PM to 3 PM daily.\" What time does lunch start?",
+          "options": [
+            "12 PM",
+            "11 AM",
+            "1 PM",
+            "3 PM"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Visitors can park for free for the first 2 hours.\" How long is free parking?",
+          "options": [
+            "1 hour",
+            "2 hours",
+            "3 hours",
+            "All day"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The gym membership costs $30 per month or $300 per year.\" What is the yearly price?",
+          "options": [
+            "$30",
+            "$250",
+            "$300",
+            "$360"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Please turn off mobile phones during the exam.\" What should you do with your phone?",
+          "options": [
+            "Use it quietly",
+            "Put it away",
+            "Give it to teacher",
+            "Turn it off"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Read: \"The supermarket is closed on Christmas Day and New Year's Day.\" When is the supermarket closed?",
+          "options": [
+            "Christmas and New Year's Day",
+            "Every Sunday",
+            "Only Christmas",
+            "All holidays"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Take bus 15 or 23 to reach the shopping center.\" Which buses go to the shopping center?",
+          "options": [
+            "Only bus 15",
+            "Bus 15 or 23",
+            "Bus 13 or 25",
+            "Any bus"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The hotel breakfast is served between 7 AM and 10 AM.\" When does breakfast end?",
+          "options": [
+            "9 AM",
+            "7 AM",
+            "10 AM",
+            "11 AM"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Students need a student ID card to use the computer lab.\" What do students need for the computer lab?",
+          "options": [
+            "Money",
+            "Books",
+            "Password",
+            "Student ID card"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Read: \"The bank is open until 6 PM on Fridays but closes at 4 PM other weekdays.\" When does the bank close on Friday?",
+          "options": [
+            "6 PM",
+            "4 PM",
+            "5 PM",
+            "7 PM"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Smoking is not allowed anywhere in the building.\" Where can you smoke?",
+          "options": [
+            "In the bathroom",
+            "Nowhere in the building",
+            "In special rooms",
+            "On the first floor"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The swimming lesson costs $15 per class or $120 for 10 classes.\" How much are 10 classes?",
+          "options": [
+            "$15",
+            "$100",
+            "$120",
+            "$150"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Pets are welcome but must be kept on the ground floor only.\" Where can pets go?",
+          "options": [
+            "Anywhere",
+            "Second floor",
+            "Outside only",
+            "Ground floor only"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Read: \"The doctor's office opens at 9 AM and appointments end at 5 PM.\" When do appointments finish?",
+          "options": [
+            "5 PM",
+            "6 PM",
+            "4 PM",
+            "9 AM"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Free WiFi password is 'welcome123' for all guests.\" What is the WiFi password?",
+          "options": [
+            "guest123",
+            "welcome123",
+            "free123",
+            "hotel123"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The course starts on March 15th and lasts for 8 weeks.\" How long is the course?",
+          "options": [
+            "6 weeks",
+            "10 weeks",
+            "8 weeks",
+            "12 weeks"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Please bring exact change as we cannot give change for parking meters.\" What should you bring for parking?",
+          "options": [
+            "Credit card",
+            "Large bills",
+            "Receipt",
+            "Exact change"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Read: \"The pharmacy is closed for lunch between 1 PM and 2 PM.\" When is the pharmacy closed?",
+          "options": [
+            "1 PM to 2 PM",
+            "12 PM to 1 PM",
+            "2 PM to 3 PM",
+            "All afternoon"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Room service is available 24 hours but charges $5 extra after 10 PM.\" When is there an extra charge?",
+          "options": [
+            "Before 10 PM",
+            "After 10 PM",
+            "All day",
+            "Never"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The meeting room can be booked for $25 per hour with a 2-hour minimum.\" What is the minimum booking time?",
+          "options": [
+            "1 hour",
+            "3 hours",
+            "2 hours",
+            "4 hours"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"All visitors must sign in at reception before entering the building.\" Where must visitors sign in?",
+          "options": [
+            "Security office",
+            "Main entrance",
+            "Elevator",
+            "Reception"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Read: \"The café serves hot meals until 3 PM and only sandwiches after that.\" What is served after 3 PM?",
+          "options": [
+            "Only sandwiches",
+            "Hot meals",
+            "Everything",
+            "Nothing"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Late return of library books costs 50 cents per day.\" How much is the daily late fee?",
+          "options": [
+            "25 cents",
+            "50 cents",
+            "$1",
+            "Free"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The concert starts at 8 PM sharp and doors open at 7:30 PM.\" When do doors open?",
+          "options": [
+            "8 PM",
+            "7 PM",
+            "7:30 PM",
+            "8:30 PM"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Maximum 3 people allowed in the elevator at one time.\" How many people can use the elevator?",
+          "options": [
+            "2 people",
+            "4 people",
+            "5 people",
+            "3 people"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Read: \"The store offers free delivery for orders over $50 within the city.\" When is delivery free?",
+          "options": [
+            "Orders over $50",
+            "All orders",
+            "Orders over $30",
+            "Outside city only"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"Classes are cancelled when temperature is below -20°C.\" When are classes cancelled?",
+          "options": [
+            "Above -20°C",
+            "Below -20°C",
+            "At -10°C",
+            "Never"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"The tennis court can be rented for $20 per hour on weekdays and $30 on weekends.\" How much is weekend rental?",
+          "options": [
+            "$20",
+            "$25",
+            "$30",
+            "$35"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Please keep noise levels low after 10 PM for other guests.\" When should guests be quiet?",
+          "options": [
+            "All day",
+            "Before 10 PM",
+            "During meals",
+            "After 10 PM"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Read: \"The dentist appointment must be cancelled 24 hours in advance or you will be charged.\" How much notice is needed to cancel?",
+          "options": [
+            "24 hours",
+            "12 hours",
+            "48 hours",
+            "1 week"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Read: \"The washing machine takes 45 minutes per load and costs $2.\" How long does washing take?",
+          "options": [
+            "30 minutes",
+            "45 minutes",
+            "1 hour",
+            "90 minutes"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Read: \"Group discounts are available for parties of 10 or more people.\" How many people needed for group discount?",
+          "options": [
+            "8 people",
+            "5 people",
+            "10 or more people",
+            "15 people"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Read: \"Emergency exits are located at the front and back of each floor.\" Where are the emergency exits?",
+          "options": [
+            "Only at front",
+            "Only at back",
+            "In the middle",
+            "Front and back of each floor"
+          ],
+          "correct": 3
+        }
       ]
     }
   ]

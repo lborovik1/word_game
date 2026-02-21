@@ -304,6 +304,12 @@
             line-height: 1.45;
             margin-bottom: 14px;
             font-weight: 600;
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+        }
+        .test-question-text .speak-btn-test {
+            flex-shrink: 0;
         }
         .test-options {
             display: flex;
@@ -322,6 +328,31 @@
             text-align: left;
             color: #333;
             line-height: 1.35;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .test-option .opt-text {
+            flex: 1;
+        }
+        /* Speak buttons for test */
+        .speak-btn-test {
+            background: #e9ecef;
+            border: none;
+            font-size: 0.9em;
+            cursor: pointer;
+            padding: 4px 8px;
+            border-radius: 6px;
+            transition: all 0.2s ease;
+            flex-shrink: 0;
+            line-height: 1;
+        }
+        .speak-btn-test:hover {
+            background: #dee2e6;
+            transform: scale(1.1);
+        }
+        .speak-btn-test.speaking {
+            animation: pulse-speak 0.8s ease-in-out infinite;
         }
         .test-option:hover {
             border-color: #8e44ad;
@@ -579,9 +610,13 @@
     </style>
 </head>
 <body>
-    <!-- Load registries -->
-    <script src="games/games-registry.js"></script>
-    <script src="mytests/tests-registry.js"></script>
+    <!-- Load registries (cache-busted dynamically) -->
+    <script>
+        // Cache-busting: append timestamp to registry scripts
+        var cb = Date.now();
+        document.write('<script src="games/games-registry.js?v=' + cb + '"><\/script>');
+        document.write('<script src="mytests/tests-registry.js?v=' + cb + '"><\/script>');
+    </script>
 
     <div class="container">
         <!-- LANDING PAGE: Choose Game or Test -->
@@ -609,7 +644,7 @@
         <!-- GAME SECTION -->
         <div id="gameSection" class="hidden">
         <header>
-            <h1>Word Learning Game</h1>
+            <h1 id="gameTitle">Word Learning Game</h1>
             <button id="restartBtn" class="restart-btn">🔄 Restart</button>
         </header>
 
@@ -671,6 +706,25 @@
                     <span id="testProgressText" class="test-progress-text">1 / 20</span>
                 </div>
 
+                <div class="stats" id="testStats">
+                    <div class="stat-item">
+                        <div class="stat-label">Correct</div>
+                        <div id="testCorrect" class="stat-value" style="color:#27ae60">0</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Wrong</div>
+                        <div id="testWrong" class="stat-value" style="color:#e74c3c">0</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Accuracy</div>
+                        <div id="testAccuracy" class="stat-value" style="color:#8e44ad">—</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Est. Level</div>
+                        <div id="testEstLevel" class="stat-value" style="color:#8e44ad">—</div>
+                    </div>
+                </div>
+
                 <div id="testQuestionMeta" class="test-question-meta"></div>
                 <div id="testQuestionText" class="test-question-text"></div>
                 <div id="testOptions" class="test-options"></div>
@@ -707,7 +761,7 @@
             utterance.rate = 0.9; // Slightly slower for learning
 
             // Find the speak button that triggered this and animate it
-            const speakBtns = document.querySelectorAll('.speak-btn');
+            const speakBtns = document.querySelectorAll('.speak-btn, .speak-btn-test');
             utterance.onstart = () => {
                 speakBtns.forEach(btn => {
                     if (btn.dataset.text === text) btn.classList.add('speaking');
@@ -784,6 +838,10 @@
                 }
 
                 this.newPool = Object.keys(this.allWords);
+                // Show the selected game name in the title
+                const select = document.getElementById('gameFileSelect');
+                const gameName = select.options[select.selectedIndex].text;
+                document.getElementById('gameTitle').textContent = gameName;
                 document.getElementById('fileSelector').classList.add('hidden');
                 document.getElementById('gameContainer').classList.remove('hidden');
                 this.startNewLevel();
@@ -995,6 +1053,7 @@
                 document.getElementById('gameOver').classList.add('hidden');
                 document.querySelector('.game-board').style.display = 'flex';
                 document.getElementById('gameFileSelect').value = '';
+                document.getElementById('gameTitle').textContent = 'Word Learning Game';
                 document.getElementById('fileSelector').classList.remove('hidden');
                 document.getElementById('gameContainer').classList.add('hidden');
             }
@@ -1058,6 +1117,11 @@
                 this.currentIndex = 0;
                 this.answers = [];
                 this.answered = false;
+                // Reset stats display
+                document.getElementById('testCorrect').textContent = '0';
+                document.getElementById('testWrong').textContent = '0';
+                document.getElementById('testAccuracy').textContent = '—';
+                document.getElementById('testEstLevel').textContent = '—';
                 document.getElementById('testQuestionArea').classList.remove('hidden');
                 document.getElementById('testResults').classList.add('hidden');
                 this.renderQuestion();
@@ -1076,7 +1140,21 @@
                 meta.innerHTML = '<span class="test-badge badge-level">' + q.level + '</span>' +
                     '<span class="test-badge ' + typeBadge + '">' + q.type + '</span>';
 
-                document.getElementById('testQuestionText').textContent = q.question;
+                // Question text with speak button
+                const qDiv = document.getElementById('testQuestionText');
+                qDiv.innerHTML = '';
+                const qSpeak = document.createElement('button');
+                qSpeak.className = 'speak-btn-test';
+                qSpeak.textContent = '🔊';
+                qSpeak.dataset.text = q.question;
+                qSpeak.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    speak(q.question, 'en-US');
+                });
+                const qText = document.createElement('span');
+                qText.textContent = q.question;
+                qDiv.appendChild(qSpeak);
+                qDiv.appendChild(qText);
 
                 const optDiv = document.getElementById('testOptions');
                 optDiv.innerHTML = '';
@@ -1086,7 +1164,22 @@
                 q.options.forEach((opt, i) => {
                     const btn = document.createElement('button');
                     btn.className = 'test-option';
-                    btn.textContent = opt;
+
+                    const spk = document.createElement('button');
+                    spk.className = 'speak-btn-test';
+                    spk.textContent = '🔊';
+                    spk.dataset.text = opt;
+                    spk.addEventListener('click', (e) => {
+                        e.stopPropagation();
+                        speak(opt, 'en-US');
+                    });
+
+                    const optText = document.createElement('span');
+                    optText.className = 'opt-text';
+                    optText.textContent = opt;
+
+                    btn.appendChild(spk);
+                    btn.appendChild(optText);
                     btn.addEventListener('click', () => this.selectAnswer(i, btn));
                     optDiv.appendChild(btn);
                 });
@@ -1111,6 +1204,36 @@
                     allBtns[q.correct].classList.add('reveal-correct');
                 }
                 document.getElementById('testNextBtn').disabled = false;
+                this.updateTestStats();
+            }
+
+            updateTestStats() {
+                const correct = this.answers.filter(a => a.selected === a.correct).length;
+                const wrong = this.answers.length - correct;
+                const total = this.answers.length;
+                const acc = total > 0 ? Math.round((correct / total) * 100) : 0;
+
+                document.getElementById('testCorrect').textContent = correct;
+                document.getElementById('testWrong').textContent = wrong;
+                document.getElementById('testAccuracy').textContent = total > 0 ? acc + '%' : '—';
+
+                // Estimate level from weighted score so far
+                const levelWeights = { A1: 1, A2: 2, B1: 3, B2: 4, C1: 5, C2: 6 };
+                let ws = 0, mw = 0;
+                this.answers.forEach(a => {
+                    const w = levelWeights[a.level] || 1;
+                    mw += w;
+                    if (a.selected === a.correct) ws += w;
+                });
+                const r = mw > 0 ? ws / mw : 0;
+                let est;
+                if (r >= 0.85) est = 'C2';
+                else if (r >= 0.70) est = 'C1';
+                else if (r >= 0.55) est = 'B2';
+                else if (r >= 0.40) est = 'B1';
+                else if (r >= 0.25) est = 'A2';
+                else est = 'A1';
+                document.getElementById('testEstLevel').textContent = est;
             }
 
             nextQuestion() {
