@@ -26,15 +26,23 @@
             width: 100%;
         }
         header { text-align: center; margin-bottom: 15px; }
-        h1 { color: #333; font-size: 1.3em; margin-bottom: 8px; }
+        h1 { color: #333; font-size: 1.3em; margin-bottom: 8px; font-family: 'Source Sans 3', sans-serif; font-weight: 700; }
         .restart-btn {
-            background: #2c3e50;
+            background: linear-gradient(135deg, #6366f1, #4f46e5);
             color: white;
             border: none;
-            padding: 6px 12px;
-            border-radius: 6px;
+            padding: 8px 16px;
+            border-radius: 8px;
             cursor: pointer;
-            font-size: 0.85em;
+            font-size: 0.9em;
+            font-weight: 600;
+            font-family: 'Source Sans 3', sans-serif;
+            transition: all 0.2s ease;
+            box-shadow: 0 2px 8px rgba(99,102,241,0.3);
+        }
+        .restart-btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(99,102,241,0.4);
         }
         .file-selector {
             text-align: center;
@@ -42,7 +50,7 @@
             background: #f8f9fa;
             border-radius: 10px;
         }
-        .file-selector h2 { margin-bottom: 12px; font-size: 1.1em; }
+        .file-selector h2 { margin-bottom: 12px; font-size: 1.1em; font-family: 'Source Sans 3', sans-serif; font-weight: 700; }
         .file-select {
             width: 100%;
             padding: 10px;
@@ -170,8 +178,9 @@
         }
         .landing-sub {
             font-family: 'Source Sans 3', sans-serif;
-            color: #666;
-            font-size: 0.85em;
+            color: #1a1a2e;
+            font-size: 1.3em;
+            font-weight: 700;
             margin-bottom: 20px;
         }
         .landing-cards {
@@ -243,8 +252,9 @@
             margin-bottom: 12px;
         }
         .test-header h2 {
-            font-family: 'DM Serif Display', Georgia, serif;
+            font-family: 'Source Sans 3', sans-serif;
             font-size: 1.2em;
+            font-weight: 700;
             color: #1a1a2e;
             margin-bottom: 4px;
         }
@@ -558,7 +568,7 @@
         }
         .test-home-btn {
             font-family: 'Source Sans 3', sans-serif;
-            background: #2c3e50;
+            background: linear-gradient(135deg, #6366f1, #4f46e5);
             color: white;
             border: none;
             padding: 10px 28px;
@@ -566,6 +576,12 @@
             font-size: 0.9em;
             font-weight: 600;
             cursor: pointer;
+            transition: all 0.2s ease;
+            box-shadow: 0 2px 8px rgba(99,102,241,0.3);
+        }
+        .test-home-btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(99,102,241,0.4);
         }
         /* Within-level progress */
         .result-within-level {
@@ -621,8 +637,9 @@
             margin-bottom: 12px;
         }
         .grammar-header h2 {
-            font-family: 'DM Serif Display', Georgia, serif;
+            font-family: 'Source Sans 3', sans-serif;
             font-size: 1.2em;
+            font-weight: 700;
             color: #1a1a2e;
             margin-bottom: 4px;
         }
@@ -703,8 +720,9 @@
             padding: 10px 0;
         }
         .grammar-results h2 {
-            font-family: 'DM Serif Display', Georgia, serif;
+            font-family: 'Source Sans 3', sans-serif;
             font-size: 1.2em;
+            font-weight: 700;
             color: #1a1a2e;
             margin-bottom: 10px;
         }
@@ -762,7 +780,7 @@
         }
         .grammar-home-btn {
             font-family: 'Source Sans 3', sans-serif;
-            background: #2c3e50;
+            background: linear-gradient(135deg, #6366f1, #4f46e5);
             color: white;
             border: none;
             padding: 10px 28px;
@@ -770,6 +788,12 @@
             font-size: 0.9em;
             font-weight: 600;
             cursor: pointer;
+            transition: all 0.2s ease;
+            box-shadow: 0 2px 8px rgba(99,102,241,0.3);
+        }
+        .grammar-home-btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(99,102,241,0.4);
         }
         .grammar-pick-btn {
             font-family: 'Source Sans 3', sans-serif;
@@ -798,21 +822,13 @@
     <div class="container">
         <!-- LANDING PAGE: Choose Game or Test -->
         <div id="landingPage" class="landing">
-            <h1 class="landing-title">📚 Word Learning</h1>
-            <p class="landing-sub">Learn vocabulary or test your English level</p>
+            <p class="landing-sub">Learn English — and Test Your Level</p>
             <div class="landing-cards">
                 <div class="landing-card game-card" id="goToGameBtn">
                     <div class="card-icon">🎮</div>
                     <div class="card-text">
                         <h3>Word Matching Game</h3>
                         <p>Match words with translations to build your vocabulary</p>
-                    </div>
-                </div>
-                <div class="landing-card test-card" id="goToTestBtn">
-                    <div class="card-icon">📝</div>
-                    <div class="card-text">
-                        <h3>English Level Test</h3>
-                        <p>20 questions · Vocabulary, Grammar &amp; Reading · Get your CEFR level (A1–C2)</p>
                     </div>
                 </div>
                 <div class="landing-card grammar-card" id="goToGrammarBtn">
@@ -822,6 +838,13 @@
                         <p>Multiple choice grammar exercises · A1–C2 levels · Learn rules by practice</p>
                     </div>
                 </div>
+                <div class="landing-card test-card" id="goToTestBtn">
+                    <div class="card-icon">📝</div>
+                    <div class="card-text">
+                        <h3>English Level Test</h3>
+                        <p>20 questions · Vocabulary, Grammar &amp; Reading · Get your CEFR level (A1–C2)</p>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -829,7 +852,7 @@
         <div id="gameSection" class="hidden">
         <header>
             <h1 id="gameTitle">Word Learning Game</h1>
-            <button id="restartBtn" class="restart-btn">🔄 Restart</button>
+            <button id="restartBtn" class="restart-btn">🏠 Home</button>
         </header>
 
         <div id="fileSelector" class="file-selector">
@@ -919,7 +942,7 @@
             </div>
 
             <div id="testResults" class="test-results hidden">
-                <h2 style="font-family:'DM Serif Display',Georgia,serif;font-size:1.1em;color:#1a1a2e;margin-bottom:6px;">Your English Level</h2>
+                <h2 style="font-family:'Source Sans 3',sans-serif;font-size:1.1em;font-weight:700;color:#1a1a2e;margin-bottom:6px;">Your English Level</h2>
                 <div class="cefr-scale" id="cefrScale"></div>
                 <div id="resultLevel" class="result-level"></div>
                 <div id="resultName" class="result-name"></div>
@@ -939,7 +962,7 @@
         <div id="grammarSection" class="hidden">
             <div class="grammar-header">
                 <h2>📖 Grammar Practice</h2>
-                <button id="grammarRestartBtn" class="restart-btn">🔄 Restart</button>
+                <button id="grammarRestartBtn" class="restart-btn">🏠 Home</button>
             </div>
 
             <div id="grammarSelector" class="grammar-selector">
