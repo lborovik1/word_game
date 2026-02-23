@@ -1021,6 +1021,86 @@
     </div>
 
     <script>
+        // ===== HISTORY API HELPERS =====
+        const HistoryAPI = {
+            async recordAttempt(gameType, gameFile, itemId, correct) {
+                try {
+                    const resp = await fetch('/api/history', {
+                        method: 'POST',
+                        headers: {'Content-Type': 'application/json'},
+                        body: JSON.stringify({
+                            game_type: gameType,
+                            game_file: gameFile,
+                            item_id: String(itemId),
+                            correct: correct
+                        })
+                    });
+                    return await resp.json();
+                } catch (e) {
+                    console.warn('History API unavailable:', e);
+                    return null;
+                }
+            },
+
+            async getHistory(gameType, gameFile) {
+                try {
+                    const resp = await fetch(
+                        '/api/history?game_type=' + encodeURIComponent(gameType) +
+                        '&game_file=' + encodeURIComponent(gameFile)
+                    );
+                    return await resp.json();
+                } catch (e) {
+                    console.warn('History API unavailable:', e);
+                    return {};
+                }
+            },
+
+            async getNextBatch(gameType, gameFile, allItems, count) {
+                try {
+                    const resp = await fetch(
+                        '/api/history/next-batch?game_type=' + encodeURIComponent(gameType) +
+                        '&game_file=' + encodeURIComponent(gameFile) +
+                        '&count=' + count +
+                        '&all_items=' + encodeURIComponent(JSON.stringify(allItems))
+                    );
+                    return await resp.json();
+                } catch (e) {
+                    console.warn('History API unavailable:', e);
+                    return null;
+                }
+            },
+
+            async getStats(gameType, gameFile) {
+                try {
+                    const resp = await fetch(
+                        '/api/history/stats?game_type=' + encodeURIComponent(gameType) +
+                        '&game_file=' + encodeURIComponent(gameFile)
+                    );
+                    return await resp.json();
+                } catch (e) {
+                    console.warn('History API unavailable:', e);
+                    return {unknown: 0, learning: 0, solid: 0};
+                }
+            },
+
+            async resetHistory(gameType, gameFile) {
+                try {
+                    const resp = await fetch('/api/history/reset', {
+                        method: 'POST',
+                        headers: {'Content-Type': 'application/json'},
+                        body: JSON.stringify({
+                            game_type: gameType,
+                            game_file: gameFile
+                        })
+                    });
+                    return await resp.json();
+                } catch (e) {
+                    console.warn('History API unavailable:', e);
+                    return null;
+                }
+            }
+        };
+
         // Text-to-Speech using Web Speech API
         function speak(text, lang) {
             speechSynthesis.cancel(); // Stop any current speech
@@ -1048,9 +1128,7 @@
         class WordGame {
             constructor() {
                 this.allWords = {};
-                this.newPool = [];
-                this.correctPool = [];
-                this.incorrectPool = [];
+                this.currentFile = '';
                 this.currentPairs = [];
                 this.selectedKey = null;
                 this.selectedValue = null;
@@ -1092,6 +1170,7 @@
                     alert('Please select a word set first!');
                     return;
                 }
+                this.currentFile = selectedFile;
 
                 try {
                     const response = await fetch(`games/${selectedFile}`);
@@ -1105,7 +1184,6 @@
                     return;
                 }
 
-                this.newPool = Object.keys(this.allWords);
                 // Show the selected game name in the title
                 const select = document.getElementById('gameFileSelect');
                 const gameName = select.options[select.selectedIndex].text;
@@ -1115,37 +1193,22 @@
                 this.startNewLevel();
             }
 
-            selectKeysForLevel() {
-                const selected = [];
-                const numToSelect = 4;
-
-                if (this.incorrectPool.length > 0) {
-                    const idx = Math.floor(Math.random() * this.incorrectPool.length);
-                    selected.push(this.incorrectPool[idx]);
+            async selectKeysForLevel() {
+                const allKeys = Object.keys(this.allWords);
+                // Try smart selection from server
+                const batch = await HistoryAPI.getNextBatch(
+                    'word', this.currentFile, allKeys, 4
+                );
+                if (batch && batch.selected && batch.selected.length > 0) {
+                    return batch.selected;
                 }
-
-                const remaining = numToSelect - selected.length;
-                for (let i = 0; i < remaining && this.newPool.length > 0; i++) {
-                    const idx = Math.floor(Math.random() * this.newPool.length);
-                    selected.push(this.newPool.splice(idx, 1)[0]);
-                }
-
-                while (selected.length < numToSelect && this.incorrectPool.length > 0) {
-                    const idx = Math.floor(Math.random() * this.incorrectPool.length);
-                    const word = this.incorrectPool[idx];
-                    if (!selected.includes(word)) selected.push(word);
-                }
-
-                return selected;
+                // Fallback: random selection
+                const shuffled = [...allKeys].sort(() => Math.random() - 0.5);
+                return shuffled.slice(0, 4);
             }
 
-            startNewLevel() {
-                if (this.newPool.length === 0 && this.incorrectPool.length === 0) {
-                    this.showGameOver();
-                    return;
-                }
-
-                const selectedKeys = this.selectKeysForLevel();
+            async startNewLevel() {
+                const selectedKeys = await this.selectKeysForLevel();
                 if (selectedKeys.length === 0) {
                     this.showGameOver();
                     return;
@@ -1253,12 +1316,12 @@
             handleCorrectMatch() {
                 this.showMessage('🎉 Correct!', 'success');
 
-                const pair = this.currentPairs.find(p => p.key === this.selectedKey);
+                const matchedKey = this.selectedKey;
+                const pair = this.currentPairs.find(p => p.key === matchedKey);
                 if (pair) pair.matched = true;
 
-                const idx = this.incorrectPool.indexOf(this.selectedKey);
-                if (idx > -1) this.incorrectPool.splice(idx, 1);
-                if (!this.correctPool.includes(this.selectedKey)) this.correctPool.push(this.selectedKey);
+                // Record correct attempt to history API
+                HistoryAPI.recordAttempt('word', this.currentFile, matchedKey, true);
 
                 this.selectedKey = null;
                 this.selectedValue = null;
@@ -1272,9 +1335,9 @@
             handleIncorrectMatch() {
                 this.showMessage('❌ Try again!', 'error');
 
-                if (!this.incorrectPool.includes(this.selectedKey)) {
-                    this.incorrectPool.push(this.selectedKey);
-                }
+                const matchedKey = this.selectedKey;
+                // Record incorrect attempt to history API
+                HistoryAPI.recordAttempt('word', this.currentFile, matchedKey, false);
 
                 setTimeout(() => {
                     document.querySelectorAll('.word-btn').forEach(btn => btn.classList.remove('selected'));
@@ -1307,9 +1370,6 @@
             }
 
             restart() {
-                this.newPool = [];
-                this.correctPool = [];
-                this.incorrectPool = [];
                 this.currentPairs = [];
                 this.selectedKey = null;
                 this.selectedValue = null;
@@ -1317,6 +1377,7 @@
                 this.correctCount = 0;
                 this.incorrectCount = 0;
                 this.allWords = {};
+                this.currentFile = '';
 
                 document.getElementById('gameOver').classList.add('hidden');
                 document.querySelector('.game-board').style.display = 'flex';
@@ -1677,8 +1738,8 @@
                 try {
                     const resp = await fetch('grammar_games/' + file);
                     this.gameData = await resp.json();
-                    // Shuffle questions
-                    this.questions = [...this.gameData.questions].sort(() => Math.random() - 0.5);
+                    // Smart ordering: prioritize unknown/learning questions
+                    await this.smartSortQuestions();
                 } catch (e) {
                     alert('Failed to load grammar game. Use a web server.');
                     console.error(e);
@@ -1745,16 +1806,37 @@
                 document.getElementById('grammarNextBtn').textContent = isLast ? 'See Results' : 'Next →';
             }
 
+            async smartSortQuestions() {
+                const allIds = this.gameData.questions.map(q => String(q.id));
+                const history = await HistoryAPI.getHistory('grammar', this.currentFile);
+                const unknown = [];
+                const learning = [];
+                const solid = [];
+                this.gameData.questions.forEach(q => {
+                    const sid = String(q.id);
+                    if (!history[sid]) { unknown.push(q); }
+                    else if (history[sid].status === 'solid') { solid.push(q); }
+                    else { learning.push(q); }
+                });
+                // Shuffle within each group
+                const shuffle = arr => arr.sort(() => Math.random() - 0.5);
+                this.questions = [...shuffle(learning), ...shuffle(unknown), ...shuffle(solid)];
+            }
+
             selectAnswer(idx, btn) {
                 if (this.answered) return;
                 this.answered = true;
                 const q = this.questions[this.currentIndex];
+                const isCorrect = idx === q.correct;
                 this.answers.push({ selected: idx, correct: q.correct, level: q.level, topic: q.topic });
+
+                // Record attempt to history API
+                HistoryAPI.recordAttempt('grammar', this.currentFile, String(q.id), isCorrect);
 
                 const allBtns = document.querySelectorAll('#grammarOptions .test-option');
                 allBtns.forEach(b => { b.style.pointerEvents = 'none'; });
 
-                if (idx === q.correct) {
+                if (isCorrect) {
                     btn.classList.add('correct');
                 } else {
                     btn.classList.add('wrong');

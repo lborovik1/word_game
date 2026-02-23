@@ -1,3 +1,8 @@
+# SQLite database (auto-created by server)
+word_game.db
+word_game.db-wal
+word_game.db-shm
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

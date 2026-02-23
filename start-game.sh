@@ -18,5 +18,5 @@ else
     xdg-open http://localhost:8000 2>/dev/null || sensible-browser http://localhost:8000 2>/dev/null &
 fi
 
-# Start Python HTTP server
-python3 -m http.server 8000 2>/dev/null || python -m http.server 8000
+# Start Python server with SQLite history
+python3 server.py 2>/dev/null || python server.py

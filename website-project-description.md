@@ -30,7 +30,9 @@ No frameworks or build tools required.
 - Text-to-speech audio for pronunciation
 - Progress tracking (level, correct, wrong,
   accuracy)
-- Spaced repetition for incorrect words
+- **Smart word selection** using SQLite history:
+  prioritizes unknown and incorrectly-answered
+  words over mastered ones
 
 ### 3. English Level Test (CEFR)
 - 20 multiple-choice questions
@@ -57,7 +59,9 @@ No frameworks or build tools required.
     conditionals, subjunctive, cleft sentences,
     advanced passive, formal structures)
 - 30 questions per level
-- Shuffled question order each session
+- **Smart question ordering** using SQLite
+  history: shows learning/unknown questions
+  first, mastered questions last
 - Instant feedback (correct/wrong)
 - Score tracking with accuracy percentage
 - Results page with:
@@ -67,13 +71,41 @@ No frameworks or build tools required.
 - Options to retry, pick another level,
   or return home
 
+### 5. Learning History & Smart Selection
+- SQLite database tracks all answer attempts
+- Each word/question has a status:
+  - **unknown**: never attempted
+  - **learning**: attempted but not yet mastered
+  - **solid**: answered correctly 3 times in a
+    row (mastered)
+- Word games prioritize unknown and learning
+  words; solid words are shown only when
+  nothing else remains
+- Grammar games order questions with learning
+  and unknown items first
+- History persists across sessions in a local
+  `word_game.db` file
+- API endpoints for history management:
+  - `GET /api/history` — get item statuses
+  - `POST /api/history` — record an attempt
+  - `GET /api/history/next-batch` — smart
+    selection of next items
+  - `GET /api/history/stats` — summary stats
+  - `POST /api/history/reset` — reset history
+
 ## File Structure
 
 ```
 word_game/
 ├── index.html
-├── start-game.bat          # Windows launcher
-├── start-game.sh           # Mac/Linux launcher
+├── server.py               # Python server with
+│                            # SQLite history API
+├── word_game.db             # SQLite database
+│                            # (auto-created)
+├── start-game.bat           # Windows launcher
+├── start-game.sh            # Mac/Linux launcher
+├── kill-game.bat            # Windows kill script
+├── kill-game.sh             # Mac/Linux kill script
 ├── README.md
 ├── website-project-description.md
 ├── games/
@@ -102,8 +134,65 @@ word_game/
     ├── build_dictionary.py
     ├── generate_games.py
     ├── download_dictionary.py
+    ├── cleanup_dictionary.py
+    ├── generate_test_questions.py
     └── master_dictionary.json
 ```
+
+## Server Architecture
+
+The application uses a custom Python HTTP
+server (`server.py`) that:
+
+1. **Serves static files** — HTML, CSS, JS,
+   JSON files just like `python -m http.server`
+2. **Provides REST API** — endpoints for
+   recording and retrieving learning history
+3. **Uses SQLite** — built-in Python module,
+   no external dependencies needed
+4. **Cross-platform** — works on Mac, Linux,
+   and Windows with Python 3
+
+### Database Schema
+
+```sql
+-- Each answer attempt is recorded
+CREATE TABLE attempts (
+    id        INTEGER PRIMARY KEY,
+    game_type TEXT,    -- 'word' or 'grammar'
+    game_file TEXT,    -- e.g. 'English-Russian-200.json'
+    item_id   TEXT,    -- word key or question id
+    correct   INTEGER, -- 1=correct, 0=wrong
+    timestamp TEXT     -- ISO datetime
+);
+
+-- Computed status per item
+CREATE TABLE item_status (
+    game_type     TEXT,
+    game_file     TEXT,
+    item_id       TEXT,
+    status        TEXT,    -- unknown/learning/solid
+    last_3        TEXT,    -- JSON array of last 3
+    total_correct INTEGER,
+    total_wrong   INTEGER,
+    last_seen     TEXT,
+    PRIMARY KEY (game_type, game_file, item_id)
+);
+```
+
+### Smart Selection Algorithm
+
+For word games, the server selects 4 words
+per round with this priority:
+1. At least 1 "learning" word (if available)
+2. Fill remaining with "unknown" words
+3. If not enough, add more "learning" words
+4. Only use "solid" words as last resort
+
+For grammar games, questions are sorted:
+1. "learning" questions first (shuffled)
+2. "unknown" questions next (shuffled)
+3. "solid" questions last (shuffled)
 
 ## Game Files
 
@@ -135,26 +224,6 @@ pairs with multiple-choice format:
 | grammar-B1-B2.json    | 30        | B1, B2 |
 | grammar-C1-C2.json    | 30        | C1, C2 |
 
-Grammar topics covered:
-- A1: to be, articles, simple present,
-  pronouns, prepositions, questions
-- A2: simple past, comparatives, superlatives,
-  present continuous, countable/uncountable,
-  future (going to), modals, conjunctions
-- B1: present perfect (for/since), first
-  conditional, modals, relative clauses,
-  past continuous, used to, connectors
-- B2: second conditional, passive voice,
-  reported speech, wish, past perfect,
-  causative, gerund vs infinitive,
-  third conditional, modals of deduction
-- C1: inversion, mixed conditionals, cleft
-  sentences, advanced passive, participle
-  clauses, wish/regret, advanced modals
-- C2: subjunctive, advanced inversion,
-  formal structures, advanced tenses,
-  ellipsis, concession, nominal clauses
-
 ## Scripts
 
 - `build_dictionary.py` - Downloads English
@@ -165,6 +234,10 @@ Grammar topics covered:
   and generates 6 level-based JSON game files.
 - `download_dictionary.py` - Alternative
   dictionary builder (unused).
+- `cleanup_dictionary.py` - Cleans up
+  dictionary entries.
+- `generate_test_questions.py` - Generates
+  test question pools.
 
 ## CEFR Levels Reference
 
@@ -180,7 +253,7 @@ Grammar topics covered:
 ## Technical Details
 
 - Pure HTML/CSS/JavaScript (no frameworks)
-- Works via local web server (Python)
+- Custom Python HTTP server with SQLite API
 - Google Fonts: DM Serif Display, Source Sans 3
 - Web Speech API for text-to-speech
 - JSON-based data files for games, tests,
@@ -189,3 +262,6 @@ Grammar topics covered:
 - Cache-busting on registry script loads
 - Launcher scripts auto-cd to project dir
   (works from Finder/Explorer double-click)
+- Zero external Python dependencies
+  (uses only stdlib: http.server, sqlite3,
+  json, urllib)

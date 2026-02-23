@@ -7,7 +7,7 @@ cd "$(dirname "$0")"
 echo "Stopping Word Learning Game server..."
 echo ""
 
-# Find and kill Python HTTP server on port 8000
+# Find and kill server.py or python http server on port 8000
 PIDS=$(lsof -ti:8000 2>/dev/null)
 
 if [ -z "$PIDS" ]; then
