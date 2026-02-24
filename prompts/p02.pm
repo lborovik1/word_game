@@ -28,5 +28,16 @@ Please add same type of history support
 to the grammar game
 
 ======================================================
+Previous start-game.bat is now renamed as start-game_no_python.bat
+
+The new version is start-game.bat
+
+When running on Windows (double-clicking on start-game.bat),
+a black terminal window starts and shows message:
+
+    ERROR: Python is required to run this game.
+    Please install Python from https://python.org
+
+How to install python on Windows ?
 ======================================================
 ======================================================

@@ -51,6 +51,9 @@ every test attempt is unique.
    - **Mac/Linux:** Double-click `start-game.sh`
      or run `./start-game.sh`
    - **Windows:** Double-click `start-game.bat`
+   - **Windows (no Python):** Double-click
+     `start-game_no_python.bat` (uses PowerShell,
+     but no learning history tracking)
 
 2. Choose "Word Matching Game" or "English Level
    Test" from the landing page
@@ -73,9 +76,30 @@ every test attempt is unique.
 
 ### Installing Python on Windows
 
-1. Download from https://www.python.org/downloads/
-2. Check "Add Python to PATH" during installation
-3. Restart your computer after installation
+**Option A — From python.org (recommended):**
+
+1. Go to https://www.python.org/downloads/
+2. Click the big "Download Python 3.x.x" button
+3. Run the downloaded installer (.exe)
+4. **IMPORTANT:** Check the box at the bottom:
+   ☑ "Add Python to PATH"
+5. Click "Install Now"
+6. When done, restart your computer
+7. Double-click `start-game.bat` to play
+
+**Option B — From Microsoft Store:**
+
+1. Open the Microsoft Store app
+2. Search for "Python 3"
+3. Click "Get" or "Install"
+4. Python is automatically added to PATH
+5. Double-click `start-game.bat` to play
+
+**Option C — No Python needed:**
+
+Use `start-game_no_python.bat` instead.
+This uses PowerShell to serve files, but
+learning history tracking will not work.
 
 ## Game Files
 
@@ -118,7 +142,8 @@ to Russian using Claude AI.
 word_game/
 ├── index.html              # Main app (single page)
 ├── start-game.sh           # Mac/Linux launcher
-├── start-game.bat          # Windows launcher
+├── start-game.bat          # Windows launcher (Python)
+├── start-game_no_python.bat # Windows (no Python)
 ├── kill-game.sh            # Mac/Linux stop server
 ├── kill-game.bat           # Windows stop server
 ├── README.md

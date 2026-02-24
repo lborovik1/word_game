@@ -103,6 +103,9 @@ word_game/
 ├── word_game.db             # SQLite database
 │                            # (auto-created)
 ├── start-game.bat           # Windows launcher
+│                            # (requires Python)
+├── start-game_no_python.bat # Windows launcher
+│                            # (PowerShell, no Python)
 ├── start-game.sh            # Mac/Linux launcher
 ├── kill-game.bat            # Windows kill script
 ├── kill-game.sh             # Mac/Linux kill script
