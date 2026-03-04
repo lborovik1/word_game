@@ -1685,6 +1685,91 @@
                         '<div class="breakdown-pct">' + b.pct + '%</div>';
                     bdDiv.appendChild(row);
                 });
+
+                // === Grammar Gap Analysis ===
+                this.renderGrammarGapAnalysis(level, typeScores);
+            }
+
+            renderGrammarGapAnalysis(level, typeScores) {
+                const grammarAnswers = this.answers.filter(a => a.type === 'grammar');
+                if (grammarAnswers.length === 0) return;
+
+                // Analyze grammar performance by level
+                const grammarByLevel = {};
+                grammarAnswers.forEach(a => {
+                    if (!grammarByLevel[a.level]) grammarByLevel[a.level] = { correct: 0, total: 0 };
+                    grammarByLevel[a.level].total++;
+                    if (a.selected === a.correct) grammarByLevel[a.level].correct++;
+                });
+
+                // Identify grammar topics tested at each level from the questions
+                const levelTopics = {
+                    A1: 'Verb "to be" (am/is/are)',
+                    A2: 'Past Simple tense',
+                    B1: 'First Conditional (if + present, will) & For/Since with Present Perfect',
+                    B2: 'Wish + Past tenses & Past Perfect Passive',
+                    C1: 'Inverted conditionals & Negative inversion',
+                    C2: 'Advanced conditionals (Were/Had/Should inversions)'
+                };
+
+                // Find weak areas (wrong answers or not tested)
+                const levelOrder = ['A1','A2','B1','B2','C1','C2'];
+                const weakAreas = [];
+                const strongAreas = [];
+
+                levelOrder.forEach(lv => {
+                    const data = grammarByLevel[lv];
+                    if (!data) return;
+                    const pct = Math.round((data.correct / data.total) * 100);
+                    const topic = levelTopics[lv] || 'Grammar';
+                    if (pct < 100) {
+                        weakAreas.push({ level: lv, topic: topic, pct: pct });
+                    } else {
+                        strongAreas.push({ level: lv, topic: topic, pct: pct });
+                    }
+                });
+
+                // Build the gap analysis section
+                const gapDiv = document.createElement('div');
+                gapDiv.style.cssText = 'text-align:left;margin-bottom:14px;background:#fff8f0;padding:12px;border-radius:10px;border-left:3px solid #e67e22;';
+
+                let html = '<h4 style="font-family:\'Source Sans 3\',sans-serif;font-size:0.85em;font-weight:700;color:#e67e22;margin-bottom:8px;">📋 Grammar Focus Areas</h4>';
+
+                if (weakAreas.length > 0) {
+                    html += '<p style="font-family:\'Source Sans 3\',sans-serif;font-size:0.78em;color:#555;margin-bottom:8px;line-height:1.5;">Based on your answers, here are grammar topics to practice more:</p>';
+                    weakAreas.forEach(w => {
+                        const icon = w.pct === 0 ? '🔴' : '🟡';
+                        html += '<div style="font-family:\'Source Sans 3\',sans-serif;font-size:0.78em;color:#333;margin-bottom:5px;padding:4px 0;">' +
+                            icon + ' <strong>' + w.level + '</strong>: ' + w.topic +
+                            ' <span style="color:#888;">(' + w.pct + '% correct)</span></div>';
+                    });
+                }
+
+                if (strongAreas.length > 0) {
+                    html += '<p style="font-family:\'Source Sans 3\',sans-serif;font-size:0.78em;color:#555;margin-bottom:4px;margin-top:8px;">✅ Grammar topics you got right:</p>';
+                    strongAreas.forEach(s => {
+                        html += '<div style="font-family:\'Source Sans 3\',sans-serif;font-size:0.78em;color:#27ae60;margin-bottom:3px;padding:2px 0;">' +
+                            '🟢 <strong>' + s.level + '</strong>: ' + s.topic + '</div>';
+                    });
+                }
+
+                // Recommendation
+                html += '<div style="font-family:\'Source Sans 3\',sans-serif;font-size:0.78em;color:#555;margin-top:10px;padding-top:8px;border-top:1px solid #f0e0d0;line-height:1.5;">';
+                if (weakAreas.length > 0) {
+                    const focusLevel = weakAreas[0].level;
+                    const recLevel = (focusLevel === 'A1' || focusLevel === 'A2') ? 'A1–A2' :
+                                     (focusLevel === 'B1' || focusLevel === 'B2') ? 'B1–B2' : 'C1–C2';
+                    html += '💡 <strong>Recommendation:</strong> Practice the <em>Grammar ' + recLevel + '</em> exercises from the home page to strengthen your weak areas!';
+                } else {
+                    html += '🏆 <strong>Excellent!</strong> You answered all grammar questions correctly! Keep challenging yourself with higher-level grammar practice.';
+                }
+                html += '</div>';
+
+                gapDiv.innerHTML = html;
+
+                // Insert after the breakdown section
+                const bdDiv = document.getElementById('resultBreakdown');
+                bdDiv.parentNode.insertBefore(gapDiv, bdDiv.nextSibling);
             }
         }
 

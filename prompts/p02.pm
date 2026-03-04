@@ -40,4 +40,8 @@ a black terminal window starts and shows message:
 
 How to install python on Windows ?
 ======================================================
+Please add explanation at the end of
+the "English Level Test" 
+telling the student what he needs to focus on
+(where he still has gaps in grammar practice)
 ======================================================
